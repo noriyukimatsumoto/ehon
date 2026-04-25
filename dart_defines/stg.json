@@ -1,0 +1,8 @@
+{
+  "flavor": "staging",
+  "app_name": "ehon (stg)",
+  "app_bundle_id": "jp.co.example.ehon.stg",
+  "android_app_id": "jp.co.example.ehon.stg",
+  "is_debug": "false",
+  "api_base_url": "https://stg.example.com"
+}

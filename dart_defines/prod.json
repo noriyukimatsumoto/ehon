@@ -1,0 +1,8 @@
+{
+  "flavor": "production",
+  "app_name": "ehon",
+  "app_bundle_id": "jp.co.example.ehon",
+  "android_app_id": "jp.co.example.ehon",
+  "is_debug": "false",
+  "api_base_url": "https://api.example.com"
+}

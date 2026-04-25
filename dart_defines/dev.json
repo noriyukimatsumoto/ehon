@@ -1,0 +1,8 @@
+{
+  "flavor": "development",
+  "app_name": "ehon (dev)",
+  "app_bundle_id": "jp.co.example.ehon.dev",
+  "android_app_id": "jp.co.example.ehon.dev",
+  "is_debug": "true",
+  "api_base_url": "https://dev.example.com"
+}
