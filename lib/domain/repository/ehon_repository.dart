@@ -1,5 +1,5 @@
-import '../entity/book_page.dart';
+import '../entity/ehon_data.dart';
 
 abstract interface class EhonRepository {
-  Future<List<BookPage>> fetchPages(String xmlPath);
+  Future<EhonData> fetchEhon(String xmlPath, String languageCode);
 }

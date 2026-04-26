@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
+
 class CountdownText extends StatelessWidget {
   const CountdownText({super.key, required this.remaining});
 
@@ -8,7 +10,7 @@ class CountdownText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      '残り $remaining秒',
+      AppLocalizations.of(context).remainingSeconds(remaining),
       style: const TextStyle(color: Colors.grey, fontSize: 14),
     );
   }

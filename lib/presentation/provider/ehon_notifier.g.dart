@@ -6,7 +6,7 @@ part of 'ehon_notifier.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$ehonNotifierHash() => r'8bde18cdf1f6b47e09c5c8c2d453aece8b5ac6e2';
+String _$ehonNotifierHash() => r'08b813dc3cf029accc37adbd1a8e165dc84797f7';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -32,8 +32,9 @@ class _SystemHash {
 abstract class _$EhonNotifier
     extends BuildlessAutoDisposeAsyncNotifier<EhonReadingState> {
   late final String xmlPath;
+  late final String languageCode;
 
-  FutureOr<EhonReadingState> build(String xmlPath);
+  FutureOr<EhonReadingState> build(String xmlPath, String languageCode);
 }
 
 /// See also [EhonNotifier].
@@ -46,15 +47,15 @@ class EhonNotifierFamily extends Family<AsyncValue<EhonReadingState>> {
   const EhonNotifierFamily();
 
   /// See also [EhonNotifier].
-  EhonNotifierProvider call(String xmlPath) {
-    return EhonNotifierProvider(xmlPath);
+  EhonNotifierProvider call(String xmlPath, String languageCode) {
+    return EhonNotifierProvider(xmlPath, languageCode);
   }
 
   @override
   EhonNotifierProvider getProviderOverride(
     covariant EhonNotifierProvider provider,
   ) {
-    return call(provider.xmlPath);
+    return call(provider.xmlPath, provider.languageCode);
   }
 
   static const Iterable<ProviderOrFamily>? _dependencies = null;
@@ -77,9 +78,11 @@ class EhonNotifierProvider
     extends
         AutoDisposeAsyncNotifierProviderImpl<EhonNotifier, EhonReadingState> {
   /// See also [EhonNotifier].
-  EhonNotifierProvider(String xmlPath)
+  EhonNotifierProvider(String xmlPath, String languageCode)
     : this._internal(
-        () => EhonNotifier()..xmlPath = xmlPath,
+        () => EhonNotifier()
+          ..xmlPath = xmlPath
+          ..languageCode = languageCode,
         from: ehonNotifierProvider,
         name: r'ehonNotifierProvider',
         debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
@@ -89,6 +92,7 @@ class EhonNotifierProvider
         allTransitiveDependencies:
             EhonNotifierFamily._allTransitiveDependencies,
         xmlPath: xmlPath,
+        languageCode: languageCode,
       );
 
   EhonNotifierProvider._internal(
@@ -99,13 +103,15 @@ class EhonNotifierProvider
     required super.debugGetCreateSourceHash,
     required super.from,
     required this.xmlPath,
+    required this.languageCode,
   }) : super.internal();
 
   final String xmlPath;
+  final String languageCode;
 
   @override
   FutureOr<EhonReadingState> runNotifierBuild(covariant EhonNotifier notifier) {
-    return notifier.build(xmlPath);
+    return notifier.build(xmlPath, languageCode);
   }
 
   @override
@@ -113,13 +119,16 @@ class EhonNotifierProvider
     return ProviderOverride(
       origin: this,
       override: EhonNotifierProvider._internal(
-        () => create()..xmlPath = xmlPath,
+        () => create()
+          ..xmlPath = xmlPath
+          ..languageCode = languageCode,
         from: from,
         name: null,
         dependencies: null,
         allTransitiveDependencies: null,
         debugGetCreateSourceHash: null,
         xmlPath: xmlPath,
+        languageCode: languageCode,
       ),
     );
   }
@@ -132,13 +141,16 @@ class EhonNotifierProvider
 
   @override
   bool operator ==(Object other) {
-    return other is EhonNotifierProvider && other.xmlPath == xmlPath;
+    return other is EhonNotifierProvider &&
+        other.xmlPath == xmlPath &&
+        other.languageCode == languageCode;
   }
 
   @override
   int get hashCode {
     var hash = _SystemHash.combine(0, runtimeType.hashCode);
     hash = _SystemHash.combine(hash, xmlPath.hashCode);
+    hash = _SystemHash.combine(hash, languageCode.hashCode);
 
     return _SystemHash.finish(hash);
   }
@@ -149,6 +161,9 @@ class EhonNotifierProvider
 mixin EhonNotifierRef on AutoDisposeAsyncNotifierProviderRef<EhonReadingState> {
   /// The parameter `xmlPath` of this provider.
   String get xmlPath;
+
+  /// The parameter `languageCode` of this provider.
+  String get languageCode;
 }
 
 class _EhonNotifierProviderElement
@@ -159,6 +174,8 @@ class _EhonNotifierProviderElement
 
   @override
   String get xmlPath => (origin as EhonNotifierProvider).xmlPath;
+  @override
+  String get languageCode => (origin as EhonNotifierProvider).languageCode;
 }
 
 // ignore_for_file: type=lint

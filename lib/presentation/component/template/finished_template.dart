@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../l10n/app_localizations.dart';
+
 class FinishedTemplate extends StatelessWidget {
   const FinishedTemplate({
     super.key,
@@ -12,15 +14,16 @@ class FinishedTemplate extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       backgroundColor: Colors.amber[50],
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text(
-              'おわり',
-              style: TextStyle(fontSize: 56, fontWeight: FontWeight.bold),
+            Text(
+              l10n.finished,
+              style: const TextStyle(fontSize: 56, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 32),
             Row(
@@ -34,7 +37,7 @@ class FinishedTemplate extends StatelessWidget {
                       vertical: 14,
                     ),
                   ),
-                  child: const Text('もう一度よむ', style: TextStyle(fontSize: 18)),
+                  child: Text(l10n.readAgain, style: const TextStyle(fontSize: 18)),
                 ),
                 const SizedBox(width: 24),
                 OutlinedButton(
@@ -45,7 +48,7 @@ class FinishedTemplate extends StatelessWidget {
                       vertical: 14,
                     ),
                   ),
-                  child: const Text('本をえらぶ', style: TextStyle(fontSize: 18)),
+                  child: Text(l10n.selectBook, style: const TextStyle(fontSize: 18)),
                 ),
               ],
             ),

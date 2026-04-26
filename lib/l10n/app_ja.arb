@@ -1,0 +1,28 @@
+{
+  "@@locale": "ja",
+  "appTitle": "絵本",
+  "error": "エラー: {message}",
+  "@error": {
+    "placeholders": {
+      "message": {"type": "Object"}
+    }
+  },
+  "finished": "おわり",
+  "readAgain": "もう一度よむ",
+  "selectBook": "本をえらぶ",
+  "remainingSeconds": "残り {remaining}秒",
+  "@remainingSeconds": {
+    "placeholders": {
+      "remaining": {"type": "int"}
+    }
+  },
+  "quizQuestion": "もんだい",
+  "quizAnswer": "こたえ",
+  "bookSelectionTitle": "えほんを えらぼう",
+  "settings": "せってい",
+  "settingsLanguage": "言語",
+  "settingsLanguageSystem": "システム",
+  "settingsLanguageJapanese": "日本語",
+  "settingsLanguageEnglish": "英語",
+  "settingsQuizEnabled": "読み終わりにクイズを出題する"
+}

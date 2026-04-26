@@ -52,6 +52,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/scene6.png
   AssetGenImage get scene6 => const AssetGenImage('assets/images/scene6.png');
 
+  /// File path: assets/images/title.png
+  AssetGenImage get title => const AssetGenImage('assets/images/title.png');
+
   /// List of all assets
   List<AssetGenImage> get values => [
     coverAkazukin,
@@ -65,6 +68,7 @@ class $AssetsImagesGen {
     scene4,
     scene5,
     scene6,
+    title,
   ];
 }
 

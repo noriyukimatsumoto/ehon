@@ -1,4 +1,4 @@
-import '../../domain/entity/book_page.dart';
+import '../../domain/entity/ehon_data.dart';
 import '../../domain/repository/ehon_repository.dart';
 
 class LoadEhonUseCase {
@@ -6,6 +6,6 @@ class LoadEhonUseCase {
 
   final EhonRepository _repository;
 
-  Future<List<BookPage>> execute(String xmlPath) =>
-      _repository.fetchPages(xmlPath);
+  Future<EhonData> execute(String xmlPath, String languageCode) =>
+      _repository.fetchEhon(xmlPath, languageCode);
 }
