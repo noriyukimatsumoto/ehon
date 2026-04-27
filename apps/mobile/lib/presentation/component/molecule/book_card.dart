@@ -13,6 +13,7 @@ class BookCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final languageCode = Localizations.localeOf(context).languageCode;
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -28,7 +29,7 @@ class BookCard extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 6),
-            BookTitleText(title: book.title),
+            BookTitleText(title: book.localizedTitle(languageCode)),
           ],
         ),
       ),

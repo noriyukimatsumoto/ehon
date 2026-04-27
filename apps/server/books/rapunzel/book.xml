@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehon>
+  <page>
+    <text duration="3">
+      <ja>むかしむかし、たかい とうに</ja>
+      <en>Once upon a time, a beautiful girl</en>
+    </text>
+    <text duration="3">
+      <ja>うつくしい 女の子が とじこめられていました。</ja>
+      <en>was locked away in a tall tower.</en>
+    </text>
+    <image>scene1.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>ラプンツェルは とても ながい</ja>
+      <en>Rapunzel had very long</en>
+    </text>
+    <text duration="3">
+      <ja>きんいろの かみの毛を もっていました。</ja>
+      <en>golden hair that reached the ground.</en>
+    </text>
+    <image>scene2.png</image>
+  </page>
+  <page>
+    <text duration="2">
+      <ja>まじょは とうの したから</ja>
+      <en>The witch called out from below,</en>
+    </text>
+    <text duration="3">
+      <ja>「ラプンツェル、かみを おろして」と よびました。</ja>
+      <en>"Rapunzel, let down your hair!"</en>
+    </text>
+    <image>scene3.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>ある日、わかい おうじさまが とうを みつけました。</ja>
+      <en>One day, a young prince discovered the tower</en>
+    </text>
+    <text duration="3">
+      <ja>そして まじょの まねを して よびかけました。</ja>
+      <en>and called up just as the witch had done.</en>
+    </text>
+    <image>scene4.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>おうじさまは ラプンツェルの かみを つたって</ja>
+      <en>The prince climbed up to the tower</en>
+    </text>
+    <text duration="3">
+      <ja>とうへ のぼりました。</ja>
+      <en>by holding onto Rapunzel's long hair.</en>
+    </text>
+    <image>scene5.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>ふたりは ちからを あわせて まじょに かち、</ja>
+      <en>Together they outwitted the witch,</en>
+    </text>
+    <text duration="2">
+      <ja>しあわせに くらしました。</ja>
+      <en>and lived happily ever after.</en>
+    </text>
+    <image>scene6.png</image>
+  </page>
+
+  <questions>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>ラプンツェルは どこに とじこめられていましたか？</ja>
+        <en>Where was Rapunzel locked away?</en>
+      </text>
+      <image>scene1.png</image>
+      <choices>
+        <choice>
+          <ja>ちかろう</ja>
+          <en>Underground dungeon</en>
+        </choice>
+        <choice correct="true">
+          <ja>たかいとう</ja>
+          <en>Tall tower</en>
+        </choice>
+        <choice>
+          <ja>しろ</ja>
+          <en>Castle</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>ラプンツェルの かみの毛は なにいろですか？</ja>
+        <en>What color is Rapunzel's hair?</en>
+      </text>
+      <image>scene2.png</image>
+      <choices>
+        <choice>
+          <ja>くろ</ja>
+          <en>Black</en>
+        </choice>
+        <choice>
+          <ja>ちゃいろ</ja>
+          <en>Brown</en>
+        </choice>
+        <choice correct="true">
+          <ja>きんいろ</ja>
+          <en>Golden</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>まじょは なんと よんで とうに あがりましたか？</ja>
+        <en>What did the witch call out to climb the tower?</en>
+      </text>
+      <image>scene3.png</image>
+      <choices>
+        <choice>
+          <ja>ラプンツェル、とびおりて</ja>
+          <en>Rapunzel, jump down</en>
+        </choice>
+        <choice correct="true">
+          <ja>ラプンツェル、かみを おろして</ja>
+          <en>Rapunzel, let down your hair</en>
+        </choice>
+        <choice>
+          <ja>ラプンツェル、ドアを あけて</ja>
+          <en>Rapunzel, open the door</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>おうじさまは とうに どうやって のぼりましたか？</ja>
+        <en>How did the prince climb up to the tower?</en>
+      </text>
+      <image>scene5.png</image>
+      <choices>
+        <choice>
+          <ja>はしごで のぼった</ja>
+          <en>Climbed a ladder</en>
+        </choice>
+        <choice>
+          <ja>とんで あがった</ja>
+          <en>Flew up</en>
+        </choice>
+        <choice correct="true">
+          <ja>かみの毛を つたって のぼった</ja>
+          <en>Climbed up using the hair</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>ラプンツェルを とうに とじこめたのは だれですか？</ja>
+        <en>Who locked Rapunzel in the tower?</en>
+      </text>
+      <image>scene1.png</image>
+      <choices>
+        <choice>
+          <ja>おうじさま</ja>
+          <en>Prince</en>
+        </choice>
+        <choice>
+          <ja>おかあさん</ja>
+          <en>Mother</en>
+        </choice>
+        <choice correct="true">
+          <ja>まじょ</ja>
+          <en>Witch</en>
+        </choice>
+      </choices>
+    </question>
+  </questions>
+</ehon>

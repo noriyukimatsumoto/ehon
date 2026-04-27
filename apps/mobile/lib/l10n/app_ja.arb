@@ -32,5 +32,7 @@
   "downloadedBooks": "ダウンロード済みの本",
   "deleteBook": "削除",
   "storeEmpty": "利用可能な本はありません",
-  "downloadError": "ダウンロードに失敗しました"
+  "downloadError": "ダウンロードに失敗しました",
+  "library": "本棚",
+  "noDownloadedBooks": "ダウンロードした本がありません"
 }

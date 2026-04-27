@@ -1,0 +1,13 @@
+{
+  "id": "snowwhite",
+  "version": "1.0.0",
+  "title": {
+    "ja": "白雪姫",
+    "en": "Snow White"
+  },
+  "categoryId": "grimm",
+  "categoryName": {
+    "ja": "グリム童話",
+    "en": "Grimm's Fairy Tales"
+  }
+}

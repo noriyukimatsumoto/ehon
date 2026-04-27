@@ -32,5 +32,7 @@
   "downloadedBooks": "Downloaded Books",
   "deleteBook": "Delete",
   "storeEmpty": "No books available",
-  "downloadError": "Download failed"
+  "downloadError": "Download failed",
+  "library": "Library",
+  "noDownloadedBooks": "No downloaded books yet"
 }

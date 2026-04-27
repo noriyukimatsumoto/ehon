@@ -80,4 +80,10 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get downloadError => 'ダウンロードに失敗しました';
+
+  @override
+  String get library => '本棚';
+
+  @override
+  String get noDownloadedBooks => 'ダウンロードした本がありません';
 }

@@ -14,19 +14,19 @@ class StaticBookRepository implements BookRepository {
         books: [
           Book(
             id: 'momotaro',
-            title: '桃太郎',
+            titles: {'ja': '桃太郎', 'en': 'Momotaro'},
             xmlPath: 'assets/momotaro.xml',
             coverImagePath: 'assets/images/cover_momotaro.png',
           ),
           Book(
             id: 'urashima',
-            title: '浦島太郎',
+            titles: {'ja': '浦島太郎', 'en': 'Urashima Taro'},
             xmlPath: 'assets/momotaro.xml',
             coverImagePath: 'assets/images/cover_urashima.png',
           ),
           Book(
             id: 'issun',
-            title: '一寸法師',
+            titles: {'ja': '一寸法師', 'en': 'Issun-boshi'},
             xmlPath: 'assets/momotaro.xml',
             coverImagePath: 'assets/images/cover_issun.png',
           ),
@@ -38,13 +38,13 @@ class StaticBookRepository implements BookRepository {
         books: [
           Book(
             id: 'akazukin',
-            title: '赤ずきん',
+            titles: {'ja': '赤ずきん', 'en': 'Little Red Riding Hood'},
             xmlPath: 'assets/momotaro.xml',
             coverImagePath: 'assets/images/cover_akazukin.png',
           ),
           Book(
             id: 'cinderella',
-            title: 'シンデレラ',
+            titles: {'ja': 'シンデレラ', 'en': 'Cinderella'},
             xmlPath: 'assets/momotaro.xml',
             coverImagePath: 'assets/images/cover_cinderella.png',
           ),

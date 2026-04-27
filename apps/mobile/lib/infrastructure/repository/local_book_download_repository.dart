@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
@@ -9,11 +8,13 @@ import 'package:xml/xml.dart';
 import '../../domain/entity/book.dart';
 import '../../domain/entity/remote_book.dart';
 import '../../domain/repository/book_download_repository.dart';
+import '../database/book_database.dart';
 
 class LocalBookDownloadRepository implements BookDownloadRepository {
   const LocalBookDownloadRepository(this._dio);
 
   final Dio _dio;
+  BookDatabase get _db => BookDatabase.instance;
 
   Future<Directory> _bookDir(String bookId) async {
     final docs = await getApplicationDocumentsDirectory();
@@ -21,10 +22,7 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
   }
 
   @override
-  Future<bool> isDownloaded(String bookId) async {
-    final dir = await _bookDir(bookId);
-    return Future.value(File(p.join(dir.path, 'book.xml')).existsSync());
-  }
+  Future<bool> isDownloaded(String bookId) => _db.isDownloaded(bookId);
 
   @override
   Stream<double> downloadBook(RemoteBook book) async* {
@@ -44,15 +42,12 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
         .toSet()
         .toList();
 
-    // 全ダウンロード数: cover + imageFilenames
     final total = 1 + imageFilenames.length;
     var done = 0;
 
     // 3. カバー画像
-    await _dio.download(
-      book.coverImageUrl,
-      p.join(dir.path, 'cover.png'),
-    );
+    final coverPath = p.join(dir.path, 'cover.png');
+    await _dio.download(book.coverImageUrl, coverPath);
     done++;
     yield done / total;
 
@@ -66,59 +61,24 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
       yield done / total;
     }
 
-    // 5. メタデータ保存
-    await File(p.join(dir.path, 'meta.json')).writeAsString(
-      jsonEncode({
-        'id': book.id,
-        'version': book.version,
-        'title': book.title,
-        'categoryId': book.categoryId,
-        'categoryName': book.categoryName,
-      }),
-    );
+    // 5. SQLite に保存
+    await _db.upsert(book, xmlPath: xmlPath, coverImagePath: coverPath);
   }
 
   @override
   Future<Book> getLocalBook(String bookId) async {
-    final dir = await _bookDir(bookId);
-    final meta = jsonDecode(
-      await File(p.join(dir.path, 'meta.json')).readAsString(),
-    ) as Map<String, dynamic>;
-
-    return Book(
-      id: bookId,
-      title: (meta['title'] as Map<String, dynamic>)['ja'] as String? ?? bookId,
-      xmlPath: p.join(dir.path, 'book.xml'),
-      coverImagePath: p.join(dir.path, 'cover.png'),
-    );
+    final book = await _db.find(bookId);
+    if (book == null) throw StateError('Book $bookId not found in database');
+    return book;
   }
 
   @override
-  Future<List<Book>> getAllLocalBooks() async {
-    final docs = await getApplicationDocumentsDirectory();
-    final root = Directory(p.join(docs.path, 'ehon_books'));
-    if (!root.existsSync()) return [];
-
-    final books = <Book>[];
-    for (final entry in root.listSync().whereType<Directory>()) {
-      final metaFile = File(p.join(entry.path, 'meta.json'));
-      final xmlFile = File(p.join(entry.path, 'book.xml'));
-      if (!metaFile.existsSync() || !xmlFile.existsSync()) continue;
-
-      final meta = jsonDecode(metaFile.readAsStringSync()) as Map<String, dynamic>;
-      books.add(Book(
-        id: p.basename(entry.path),
-        title: (meta['title'] as Map<String, dynamic>)['ja'] as String? ?? '',
-        xmlPath: xmlFile.path,
-        coverImagePath: p.join(entry.path, 'cover.png'),
-      ));
-    }
-    return books;
-  }
+  Future<List<Book>> getAllLocalBooks() => _db.getAll();
 
   @override
   Future<void> deleteBook(String bookId) async {
     final dir = await _bookDir(bookId);
     if (dir.existsSync()) await dir.delete(recursive: true);
+    await _db.delete(bookId);
   }
 }

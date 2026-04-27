@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehon>
+  <page>
+    <text duration="3">
+      <ja>むかしむかし、ふかい うみのそこに</ja>
+      <en>Once upon a time, deep beneath the sea,</en>
+    </text>
+    <text duration="3">
+      <ja>うつくしい 人魚の おうこくが ありました。</ja>
+      <en>there was a beautiful mermaid kingdom.</en>
+    </text>
+    <image>scene1.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>おうこくで いちばん うつくしい 人魚姫は、</ja>
+      <en>The most beautiful mermaid princess in the kingdom</en>
+    </text>
+    <text duration="2">
+      <ja>ある日 あらしで おぼれかけた</ja>
+      <en>one day saved a prince</en>
+    </text>
+    <text duration="3">
+      <ja>おうじを たすけました。</ja>
+      <en>who was nearly drowned in a storm.</en>
+    </text>
+    <image>scene2.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>おうじに こいをした 人魚姫は、</ja>
+      <en>The mermaid princess fell in love with the prince</en>
+    </text>
+    <text duration="2">
+      <ja>うみのまじょの ところへ いき、</ja>
+      <en>and went to the sea witch,</en>
+    </text>
+    <text duration="3">
+      <ja>こえと ひきかえに にんげんの あしを もらいました。</ja>
+      <en>trading her voice for a pair of human legs.</en>
+    </text>
+    <image>scene3.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>にんげんに なった 人魚姫は おうじの おしろへ いきました。</ja>
+      <en>Transformed into a human, the mermaid went to the prince's castle.</en>
+    </text>
+    <text duration="2">
+      <ja>あるくと あしが いたかったけれど、</ja>
+      <en>Walking hurt her feet,</en>
+    </text>
+    <text duration="3">
+      <ja>おうじの そばに いられて しあわせでした。</ja>
+      <en>but she was happy to be near the prince.</en>
+    </text>
+    <image>scene4.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>しかし おうじは べつの おひめさまと けっこんして しまいました。</ja>
+      <en>But the prince married another princess.</en>
+    </text>
+    <text duration="3">
+      <ja>人魚姫の こころは くだけそうでしたが、</ja>
+      <en>The mermaid's heart was breaking,</en>
+    </text>
+    <text duration="2">
+      <ja>おうじの しあわせを ねがいました。</ja>
+      <en>yet she wished for the prince's happiness.</en>
+    </text>
+    <image>scene5.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>人魚姫は あわと なって うみへ かえっていきました。</ja>
+      <en>The mermaid princess dissolved into sea foam and returned to the sea.</en>
+    </text>
+    <text duration="3">
+      <ja>かなしい おわりでしたが、その こころの やさしさは</ja>
+      <en>Though the ending was sad, her kind and loving heart</en>
+    </text>
+    <text duration="2">
+      <ja>みんなの こころに のこりました。</ja>
+      <en>remained in everyone's hearts forever.</en>
+    </text>
+    <image>scene6.png</image>
+  </page>
+
+  <questions>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>人魚姫は どこに すんでいましたか？</ja>
+        <en>Where did the mermaid princess live?</en>
+      </text>
+      <image>scene1.png</image>
+      <choices>
+        <choice>
+          <ja>やまのなか</ja>
+          <en>In the mountains</en>
+        </choice>
+        <choice correct="true">
+          <ja>うみのそこ</ja>
+          <en>At the bottom of the sea</en>
+        </choice>
+        <choice>
+          <ja>そらのうえ</ja>
+          <en>Up in the sky</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>人魚姫は おうじを どうやって たすけましたか？</ja>
+        <en>How did the mermaid princess save the prince?</en>
+      </text>
+      <image>scene2.png</image>
+      <choices>
+        <choice correct="true">
+          <ja>おぼれかけた おうじを たすけた</ja>
+          <en>She saved him from drowning</en>
+        </choice>
+        <choice>
+          <ja>おうじに りょうりを つくった</ja>
+          <en>She cooked food for him</en>
+        </choice>
+        <choice>
+          <ja>おうじに うたを うたった</ja>
+          <en>She sang a song for him</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>人魚姫は うみのまじょに なにを わたしましたか？</ja>
+        <en>What did the mermaid princess give to the sea witch?</en>
+      </text>
+      <image>scene3.png</image>
+      <choices>
+        <choice>
+          <ja>おかね</ja>
+          <en>Money</en>
+        </choice>
+        <choice>
+          <ja>かみのけ</ja>
+          <en>Her hair</en>
+        </choice>
+        <choice correct="true">
+          <ja>こえ</ja>
+          <en>Her voice</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>人魚姫は まじょと こうかんに なにを もらいましたか？</ja>
+        <en>What did the mermaid princess receive from the witch in exchange?</en>
+      </text>
+      <image>scene3.png</image>
+      <choices>
+        <choice>
+          <ja>つばさ</ja>
+          <en>Wings</en>
+        </choice>
+        <choice correct="true">
+          <ja>にんげんの あし</ja>
+          <en>Human legs</en>
+        </choice>
+        <choice>
+          <ja>まほうの こうもり</ja>
+          <en>A magic mirror</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>さいごに 人魚姫は どうなりましたか？</ja>
+        <en>What happened to the mermaid princess in the end?</en>
+      </text>
+      <image>scene6.png</image>
+      <choices>
+        <choice>
+          <ja>おうじと けっこんした</ja>
+          <en>She married the prince</en>
+        </choice>
+        <choice>
+          <ja>うみのそこに もどった</ja>
+          <en>She returned to the sea floor</en>
+        </choice>
+        <choice correct="true">
+          <ja>あわに なった</ja>
+          <en>She became sea foam</en>
+        </choice>
+      </choices>
+    </question>
+  </questions>
+</ehon>

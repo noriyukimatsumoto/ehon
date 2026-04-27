@@ -80,4 +80,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get downloadError => 'Download failed';
+
+  @override
+  String get library => 'Library';
+
+  @override
+  String get noDownloadedBooks => 'No downloaded books yet';
 }

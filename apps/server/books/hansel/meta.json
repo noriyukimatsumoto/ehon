@@ -1,0 +1,13 @@
+{
+  "id": "hansel",
+  "version": "1.0.0",
+  "title": {
+    "ja": "ヘンゼルとグレーテル",
+    "en": "Hansel and Gretel"
+  },
+  "categoryId": "grimm",
+  "categoryName": {
+    "ja": "グリム童話",
+    "en": "Grimm's Fairy Tales"
+  }
+}

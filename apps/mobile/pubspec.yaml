@@ -37,6 +37,7 @@ dependencies:
   roggle: ^0.4.2+1
   shared_preferences: ^2.5.4
   skeletonizer: ^2.1.2
+  sqflite: ^2.4.1
   url_launcher: ^6.3.2
   xml: ^6.5.0
 

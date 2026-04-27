@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehon>
+  <page>
+    <text duration="3">
+      <ja>むかしむかし、やさしい 女の子が いました。</ja>
+      <en>Once upon a time, there was a kind and gentle girl.</en>
+    </text>
+    <text duration="3">
+      <ja>みんなは その子を 「シンデレラ」と よんでいました。</ja>
+      <en>Everyone called her "Cinderella."</en>
+    </text>
+    <image>scene1.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>シンデレラは まま母と 義姉たちに</ja>
+      <en>Cinderella was made to do all the housework</en>
+    </text>
+    <text duration="3">
+      <ja>いえじゅうの おそうじを させられていました。</ja>
+      <en>by her stepmother and stepsisters.</en>
+    </text>
+    <image>scene2.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>まほうつかいが あらわれて、かぼちゃを</ja>
+      <en>A fairy godmother appeared and turned</en>
+    </text>
+    <text duration="3">
+      <ja>きれいな ばしゃに かえてくれました。</ja>
+      <en>a pumpkin into a beautiful carriage.</en>
+    </text>
+    <image>scene3.png</image>
+  </page>
+  <page>
+    <text duration="2">
+      <ja>シンデレラは ぶとうかいで</ja>
+      <en>At the royal ball,</en>
+    </text>
+    <text duration="3">
+      <ja>おうじさまと いっしょに おどりました。</ja>
+      <en>Cinderella danced with the prince.</en>
+    </text>
+    <image>scene4.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>じゅうにじの かねが なり、シンデレラは</ja>
+      <en>When the clock struck midnight, Cinderella ran away,</en>
+    </text>
+    <text duration="3">
+      <ja>ガラスの くつを のこして にげました。</ja>
+      <en>leaving behind one glass slipper.</en>
+    </text>
+    <image>scene5.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>おうじさまは ガラスの くつで シンデレラを みつけ、</ja>
+      <en>The prince found Cinderella with the glass slipper</en>
+    </text>
+    <text duration="2">
+      <ja>ふたりは けっこんして しあわせに くらしました。</ja>
+      <en>and they married and lived happily ever after.</en>
+    </text>
+    <image>scene6.png</image>
+  </page>
+
+  <questions>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>まほうつかいは なにを ばしゃに かえましたか？</ja>
+        <en>What did the fairy godmother turn into a carriage?</en>
+      </text>
+      <image>scene3.png</image>
+      <choices>
+        <choice>
+          <ja>りんご</ja>
+          <en>Apple</en>
+        </choice>
+        <choice correct="true">
+          <ja>かぼちゃ</ja>
+          <en>Pumpkin</en>
+        </choice>
+        <choice>
+          <ja>にんじん</ja>
+          <en>Carrot</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>シンデレラが のこしていったものは なんですか？</ja>
+        <en>What did Cinderella leave behind?</en>
+      </text>
+      <image>scene5.png</image>
+      <choices>
+        <choice correct="true">
+          <ja>ガラスのくつ</ja>
+          <en>Glass slipper</en>
+        </choice>
+        <choice>
+          <ja>ガラスのドレス</ja>
+          <en>Glass dress</en>
+        </choice>
+        <choice>
+          <ja>ガラスのかがみ</ja>
+          <en>Glass mirror</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>シンデレラは だれと おどりましたか？</ja>
+        <en>Who did Cinderella dance with?</en>
+      </text>
+      <image>scene4.png</image>
+      <choices>
+        <choice>
+          <ja>まほうつかい</ja>
+          <en>Fairy godmother</en>
+        </choice>
+        <choice>
+          <ja>義姉</ja>
+          <en>Stepsister</en>
+        </choice>
+        <choice correct="true">
+          <ja>おうじさま</ja>
+          <en>Prince</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>シンデレラに そうじを させたのは だれですか？</ja>
+        <en>Who made Cinderella do all the housework?</en>
+      </text>
+      <image>scene2.png</image>
+      <choices>
+        <choice>
+          <ja>おうじさま</ja>
+          <en>Prince</en>
+        </choice>
+        <choice correct="true">
+          <ja>まま母と義姉たち</ja>
+          <en>Stepmother and stepsisters</en>
+        </choice>
+        <choice>
+          <ja>まほうつかい</ja>
+          <en>Fairy godmother</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>かねが なったのは なんじですか？</ja>
+        <en>What time did the clock strike?</en>
+      </text>
+      <image>scene5.png</image>
+      <choices>
+        <choice>
+          <ja>じゅうじ</ja>
+          <en>Ten o'clock</en>
+        </choice>
+        <choice>
+          <ja>じゅういちじ</ja>
+          <en>Eleven o'clock</en>
+        </choice>
+        <choice correct="true">
+          <ja>じゅうにじ</ja>
+          <en>Twelve o'clock</en>
+        </choice>
+      </choices>
+    </question>
+  </questions>
+</ehon>

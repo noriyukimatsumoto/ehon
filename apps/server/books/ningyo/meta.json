@@ -1,0 +1,13 @@
+{
+  "id": "ningyo",
+  "version": "1.0.0",
+  "title": {
+    "ja": "人魚姫",
+    "en": "The Little Mermaid"
+  },
+  "categoryId": "fairytale",
+  "categoryName": {
+    "ja": "おとぎ話",
+    "en": "Fairy Tales"
+  }
+}

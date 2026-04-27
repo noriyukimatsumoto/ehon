@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehon>
+  <page>
+    <text duration="3">
+      <ja>むかしむかし、あしがらやまに</ja>
+      <en>Once upon a time, on Mount Ashigara,</en>
+    </text>
+    <text duration="3">
+      <ja>金太郎という 元気な 男の子が いました。</ja>
+      <en>there lived a lively boy named Kintaro.</en>
+    </text>
+    <image>scene1.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>金太郎は とても ちからもちで、</ja>
+      <en>Kintaro was incredibly strong.</en>
+    </text>
+    <text duration="2">
+      <ja>おおきな くまと すもうを とって</ja>
+      <en>He would wrestle with big bears</en>
+    </text>
+    <text duration="2">
+      <ja>まいにち あそんでいました。</ja>
+      <en>and play with them every day.</en>
+    </text>
+    <image>scene2.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>やまの どうぶつたちは みんな</ja>
+      <en>All the animals of the mountain</en>
+    </text>
+    <text duration="3">
+      <ja>金太郎の なかまでした。</ja>
+      <en>were Kintaro's friends.</en>
+    </text>
+    <text duration="2">
+      <ja>いっしょに かけっこや きりたおしを して あそびました。</ja>
+      <en>They ran races and chopped trees together.</en>
+    </text>
+    <image>scene3.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>ある日、きこりの やまうばと いっしょに</ja>
+      <en>One day, a woodcutter came to the mountain</en>
+    </text>
+    <text duration="2">
+      <ja>みなもとの よりみつという ひとが やってきました。</ja>
+      <en>with the warrior Minamoto no Yorimitsu.</en>
+    </text>
+    <text duration="3">
+      <ja>よりみつは 金太郎の ちからを みて おどろきました。</ja>
+      <en>Yorimitsu was amazed by Kintaro's strength.</en>
+    </text>
+    <image>scene4.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>「おまえは すばらしい。わたしの けらいに なれ」</ja>
+      <en>"You are remarkable. Come serve under me,"</en>
+    </text>
+    <text duration="2">
+      <ja>と よりみつは いいました。</ja>
+      <en>said Yorimitsu.</en>
+    </text>
+    <text duration="3">
+      <ja>金太郎は やまを おりて さむらいのみちへ すすみました。</ja>
+      <en>Kintaro descended the mountain and began his path as a samurai.</en>
+    </text>
+    <image>scene5.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>金太郎は やがて「さかたの きんとき」と なまえを かえて、</ja>
+      <en>Kintaro later took the name "Sakata no Kintoki"</en>
+    </text>
+    <text duration="2">
+      <ja>りっぱな ぶしに なりました。</ja>
+      <en>and became a great warrior.</en>
+    </text>
+    <text duration="2">
+      <ja>めでたし　めでたし。</ja>
+      <en>And they all lived happily ever after.</en>
+    </text>
+    <image>scene6.png</image>
+  </page>
+
+  <questions>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>金太郎は どこに すんでいましたか？</ja>
+        <en>Where did Kintaro live?</en>
+      </text>
+      <image>scene1.png</image>
+      <choices>
+        <choice>
+          <ja>うみのちかく</ja>
+          <en>Near the sea</en>
+        </choice>
+        <choice correct="true">
+          <ja>あしがらやま</ja>
+          <en>Mount Ashigara</en>
+        </choice>
+        <choice>
+          <ja>まちのなか</ja>
+          <en>In the town</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>金太郎は どんな どうぶつと すもうを しましたか？</ja>
+        <en>With which animal did Kintaro wrestle?</en>
+      </text>
+      <image>scene2.png</image>
+      <choices>
+        <choice>
+          <ja>とら</ja>
+          <en>Tiger</en>
+        </choice>
+        <choice correct="true">
+          <ja>くま</ja>
+          <en>Bear</en>
+        </choice>
+        <choice>
+          <ja>しし</ja>
+          <en>Lion</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>金太郎は どんな 男の子でしたか？</ja>
+        <en>What kind of boy was Kintaro?</en>
+      </text>
+      <image>scene1.png</image>
+      <choices>
+        <choice>
+          <ja>かしこい</ja>
+          <en>Clever</en>
+        </choice>
+        <choice>
+          <ja>おとなしい</ja>
+          <en>Quiet</en>
+        </choice>
+        <choice correct="true">
+          <ja>ちからもち</ja>
+          <en>Very strong</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>金太郎に さむらいに なるよう すすめた ひとは だれですか？</ja>
+        <en>Who invited Kintaro to become a samurai?</en>
+      </text>
+      <image>scene4.png</image>
+      <choices>
+        <choice correct="true">
+          <ja>みなもとの よりみつ</ja>
+          <en>Minamoto no Yorimitsu</en>
+        </choice>
+        <choice>
+          <ja>おじいさん</ja>
+          <en>An old man</en>
+        </choice>
+        <choice>
+          <ja>おうさま</ja>
+          <en>A king</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>金太郎は のちに どんな ひとに なりましたか？</ja>
+        <en>What did Kintaro become later in life?</en>
+      </text>
+      <image>scene6.png</image>
+      <choices>
+        <choice>
+          <ja>きこり</ja>
+          <en>A woodcutter</en>
+        </choice>
+        <choice>
+          <ja>りょうし</ja>
+          <en>A hunter</en>
+        </choice>
+        <choice correct="true">
+          <ja>りっぱな ぶし</ja>
+          <en>A great warrior</en>
+        </choice>
+      </choices>
+    </question>
+  </questions>
+</ehon>

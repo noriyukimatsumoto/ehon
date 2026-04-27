@@ -235,6 +235,18 @@ abstract class AppLocalizations {
   /// In ja, this message translates to:
   /// **'ダウンロードに失敗しました'**
   String get downloadError;
+
+  /// No description provided for @library.
+  ///
+  /// In ja, this message translates to:
+  /// **'本棚'**
+  String get library;
+
+  /// No description provided for @noDownloadedBooks.
+  ///
+  /// In ja, this message translates to:
+  /// **'ダウンロードした本がありません'**
+  String get noDownloadedBooks;
 }
 
 class _AppLocalizationsDelegate

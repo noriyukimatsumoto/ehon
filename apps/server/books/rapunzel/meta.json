@@ -1,0 +1,13 @@
+{
+  "id": "rapunzel",
+  "version": "1.0.0",
+  "title": {
+    "ja": "ラプンツェル",
+    "en": "Rapunzel"
+  },
+  "categoryId": "grimm",
+  "categoryName": {
+    "ja": "グリム童話",
+    "en": "Grimm's Fairy Tales"
+  }
+}

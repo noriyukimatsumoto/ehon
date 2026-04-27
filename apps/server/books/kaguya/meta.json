@@ -1,0 +1,13 @@
+{
+  "id": "kaguya",
+  "version": "1.0.0",
+  "title": {
+    "ja": "かぐや姫",
+    "en": "The Tale of the Bamboo Cutter"
+  },
+  "categoryId": "folktale",
+  "categoryName": {
+    "ja": "昔話",
+    "en": "Folktales"
+  }
+}
