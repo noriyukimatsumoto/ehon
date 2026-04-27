@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
+import { AppConfigService } from '../config/app-config.service';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -17,10 +17,10 @@ const catalogData = JSON.parse(
 
 @Injectable()
 export class CatalogService {
-  constructor(private readonly config: ConfigService) {}
+  constructor(private readonly config: AppConfigService) {}
 
   getCatalog() {
-    const gcsBaseUrl = this.config.get<string>('GCS_BASE_URL', '');
+    const gcsBaseUrl = this.config.gcsBaseUrl;
     const books = catalogData.map((meta) => ({
       id: meta.id,
       version: meta.version,
