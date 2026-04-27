@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehon>
+  <page>
+    <text duration="3">
+      <ja>むかしむかし、あるところに</ja>
+      <en>Once upon a time,</en>
+    </text>
+    <text duration="3">
+      <ja>おじいさんと おばあさんが いました。</ja>
+      <en>there lived an old man and an old woman.</en>
+    </text>
+    <image>scene1.png</image>
+  </page>
+  <page>
+    <text duration="2">
+      <ja>おばあさんが 川で せんたくを していると、</ja>
+      <en>While the old woman was washing by the river,</en>
+    </text>
+    <text duration="3">
+      <ja>大きな もも が どんぶらこ どんぶらこ と</ja>
+      <en>a giant peach came floating</en>
+    </text>
+    <text duration="2">
+      <ja>ながれてきました。</ja>
+      <en>down the river.</en>
+    </text>
+    <image>scene2.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>もものなかから 元気な 男の子が うまれました。</ja>
+      <en>From inside the peach, a lively baby boy was born.</en>
+    </text>
+    <text duration="2">
+      <ja>ふたりは この子を</ja>
+      <en>The couple named him</en>
+    </text>
+    <text duration="2">
+      <ja>「桃太郎」と なまえを つけました。</ja>
+      <en>"Momotaro."</en>
+    </text>
+    <image>scene3.png</image>
+  </page>
+  <page>
+    <text duration="2">
+      <ja>桃太郎は 大きく なると、</ja>
+      <en>When Momotaro grew up,</en>
+    </text>
+    <text duration="2">
+      <ja>おにがしまへ おにたいじに</ja>
+      <en>he set off to Onigashima</en>
+    </text>
+    <text duration="2">
+      <ja>いくことに なりました。</ja>
+      <en>to defeat the demons.</en>
+    </text>
+    <image>scene4.png</image>
+  </page>
+  <page>
+    <text duration="2">
+      <ja>とちゅうで いぬ、さる、きじと</ja>
+      <en>Along the way, a dog, a monkey, and a pheasant</en>
+    </text>
+    <text duration="2">
+      <ja>なかまに なりました。</ja>
+      <en>joined him as companions.</en>
+    </text>
+    <text duration="2">
+      <ja>みんなで おにがしまへ すすみます。</ja>
+      <en>Together they headed to Onigashima.</en>
+    </text>
+    <image>scene5.png</image>
+  </page>
+  <page>
+    <text duration="3">
+      <ja>桃太郎は なかまと いっしょに おにを たいじして、</ja>
+      <en>Momotaro and his friends defeated the demons</en>
+    </text>
+    <text duration="2">
+      <ja>たからものを もって かえりました。</ja>
+      <en>and brought home great treasures.</en>
+    </text>
+    <text duration="2">
+      <ja>めでたし　めでたし。</ja>
+      <en>And they all lived happily ever after.</en>
+    </text>
+    <image>scene6.png</image>
+  </page>
+
+  <questions>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>おばあさんはどこで せんたくをしていましたか？</ja>
+        <en>Where was the old woman doing laundry?</en>
+      </text>
+      <image>scene2.png</image>
+      <choices>
+        <choice>
+          <ja>うみ</ja>
+          <en>Sea</en>
+        </choice>
+        <choice correct="true">
+          <ja>かわ</ja>
+          <en>River</en>
+        </choice>
+        <choice>
+          <ja>いけ</ja>
+          <en>Pond</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>もものなかから うまれた 子のなまえは？</ja>
+        <en>What was the name of the boy born from the peach?</en>
+      </text>
+      <image>scene3.png</image>
+      <choices>
+        <choice correct="true">
+          <ja>桃太郎</ja>
+          <en>Momotaro</en>
+        </choice>
+        <choice>
+          <ja>金太郎</ja>
+          <en>Kintaro</en>
+        </choice>
+        <choice>
+          <ja>浦島太郎</ja>
+          <en>Urashima Taro</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>桃太郎はどこへ おにたいじに いきましたか？</ja>
+        <en>Where did Momotaro go to defeat the demons?</en>
+      </text>
+      <image>scene4.png</image>
+      <choices>
+        <choice>
+          <ja>かぐやじま</ja>
+          <en>Kaguyajima</en>
+        </choice>
+        <choice correct="true">
+          <ja>おにがしま</ja>
+          <en>Onigashima</en>
+        </choice>
+        <choice>
+          <ja>たからじま</ja>
+          <en>Takarajima</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>桃太郎のなかまに なった どうぶつは どれですか？</ja>
+        <en>Which animal became Momotaro's companion?</en>
+      </text>
+      <image>scene5.png</image>
+      <choices>
+        <choice>
+          <ja>うさぎ</ja>
+          <en>Rabbit</en>
+        </choice>
+        <choice>
+          <ja>たぬき</ja>
+          <en>Raccoon dog</en>
+        </choice>
+        <choice correct="true">
+          <ja>きじ</ja>
+          <en>Pheasant</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="6" answer_duration="3">
+      <text>
+        <ja>桃太郎たちが もってかえった ものは なんですか？</ja>
+        <en>What did Momotaro and friends bring back?</en>
+      </text>
+      <image>scene6.png</image>
+      <choices>
+        <choice correct="true">
+          <ja>たからもの</ja>
+          <en>Treasure</en>
+        </choice>
+        <choice>
+          <ja>おかし</ja>
+          <en>Sweets</en>
+        </choice>
+        <choice>
+          <ja>くだもの</ja>
+          <en>Fruit</en>
+        </choice>
+      </choices>
+    </question>
+  </questions>
+</ehon>

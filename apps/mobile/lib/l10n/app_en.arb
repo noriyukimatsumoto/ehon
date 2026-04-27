@@ -1,0 +1,36 @@
+{
+  "@@locale": "en",
+  "appTitle": "Picture Book",
+  "error": "Error: {message}",
+  "@error": {
+    "placeholders": {
+      "message": {"type": "Object"}
+    }
+  },
+  "finished": "The End",
+  "readAgain": "Read Again",
+  "selectBook": "Choose a Book",
+  "remainingSeconds": "{remaining}s left",
+  "@remainingSeconds": {
+    "placeholders": {
+      "remaining": {"type": "int"}
+    }
+  },
+  "quizQuestion": "Question",
+  "quizAnswer": "Answer",
+  "bookSelectionTitle": "Choose a Book",
+  "settings": "Settings",
+  "settingsLanguage": "Language",
+  "settingsLanguageSystem": "System",
+  "settingsLanguageJapanese": "Japanese",
+  "settingsLanguageEnglish": "English",
+  "settingsQuizEnabled": "Show quiz after reading",
+  "store": "Store",
+  "download": "Download",
+  "downloading": "Downloading",
+  "downloaded": "Downloaded",
+  "downloadedBooks": "Downloaded Books",
+  "deleteBook": "Delete",
+  "storeEmpty": "No books available",
+  "downloadError": "Download failed"
+}
