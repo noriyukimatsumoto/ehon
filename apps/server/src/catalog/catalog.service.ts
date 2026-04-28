@@ -27,10 +27,8 @@ export class CatalogService {
       title: meta.title,
       categoryId: meta.categoryId,
       categoryName: meta.categoryName,
-      xmlUrl: `${gcsBaseUrl}/${meta.id}/book.xml`,
-      coverImageUrl: `${gcsBaseUrl}/${meta.id}/images/cover.jpg`,
-      imageBaseUrl: `${gcsBaseUrl}/${meta.id}/images/`,
-      audioBaseUrl: `${gcsBaseUrl}/${meta.id}/audios/`,
+      zipUrl: `${gcsBaseUrl}/${meta.id}/data.zip`,
+      coverImageUrl: `${gcsBaseUrl}/${meta.id}/cover.jpg`,
     }));
 
     return { books };

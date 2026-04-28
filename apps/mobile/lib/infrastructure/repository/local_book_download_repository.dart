@@ -1,9 +1,10 @@
+import 'dart:async';
 import 'dart:io';
 
+import 'package:archive/archive_io.dart';
 import 'package:dio/dio.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
-import 'package:xml/xml.dart';
 
 import '../../domain/entity/book.dart';
 import '../../domain/entity/remote_book.dart';
@@ -27,71 +28,48 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
   @override
   Stream<double> downloadBook(RemoteBook book) async* {
     final dir = await _bookDir(book.id);
-    await Directory(p.join(dir.path, 'images')).create(recursive: true);
-    await Directory(p.join(dir.path, 'audios')).create(recursive: true);
+    await dir.create(recursive: true);
 
-    // 1. XML をダウンロード
+    final zipPath = p.join(dir.path, '${book.id}.zip');
+
+    // 1. zip をダウンロード（進捗 0.0〜0.9）
+    final progressController = StreamController<double>();
+    final downloadFuture = _dio
+        .download(
+          book.zipUrl,
+          zipPath,
+          onReceiveProgress: (received, total) {
+            if (total > 0 && !progressController.isClosed) {
+              progressController.add(received / total * 0.9);
+            }
+          },
+        )
+        .whenComplete(progressController.close);
+
+    yield* progressController.stream;
+    await downloadFuture;
+    yield 0.9;
+
+    // 2. 展開
+    final bytes = await File(zipPath).readAsBytes();
+    final archive = ZipDecoder().decodeBytes(bytes);
+    for (final entry in archive) {
+      final entryPath = p.join(dir.path, entry.name);
+      if (entry.isFile) {
+        await File(entryPath).create(recursive: true);
+        await File(entryPath).writeAsBytes(entry.content as List<int>);
+      } else {
+        await Directory(entryPath).create(recursive: true);
+      }
+    }
+    await File(zipPath).delete();
+    yield 0.95;
+
+    // 3. SQLite に保存
     final xmlPath = p.join(dir.path, 'book.xml');
-    await _dio.download(book.xmlUrl, xmlPath);
-
-    // 2. XML をパースしてファイル名を取得
-    final xmlString = await File(xmlPath).readAsString();
-    final document = XmlDocument.parse(xmlString);
-
-    final imageFilenames = document
-        .findAllElements('image')
-        .map((n) => n.innerText.trim())
-        .toSet()
-        .toList();
-
-    final audioBasenames = [
-      ...document.findAllElements('text').map((n) => n.getAttribute('audio')),
-      ...document.findAllElements('question').map((n) => n.getAttribute('audio')),
-      ...document.findAllElements('choice').map((n) => n.getAttribute('audio')),
-    ].whereType<String>().toSet().toList();
-
-    const langs = ['ja', 'en'];
-    final audioFilenames = [
-      for (final base in audioBasenames)
-        for (final lang in langs) '${base}_$lang.mp3',
-    ];
-
-    final total = 1 + imageFilenames.length + audioFilenames.length;
-    var done = 0;
-
-    // 3. カバー画像
-    final coverPath = p.join(dir.path, 'cover.png');
-    await _downloadIfAbsent(book.coverImageUrl, coverPath);
-    done++;
-    yield done / total;
-
-    // 4. 挿絵
-    for (final filename in imageFilenames) {
-      await _downloadIfAbsent(
-        '${book.imageBaseUrl}$filename',
-        p.join(dir.path, 'images', filename),
-      );
-      done++;
-      yield done / total;
-    }
-
-    // 5. 音声
-    for (final filename in audioFilenames) {
-      await _downloadIfAbsent(
-        '${book.audioBaseUrl}$filename',
-        p.join(dir.path, 'audios', filename),
-      );
-      done++;
-      yield done / total;
-    }
-
-    // 6. SQLite に保存
+    final coverPath = p.join(dir.path, 'cover.jpg');
     await _db.upsert(book, xmlPath: xmlPath, coverImagePath: coverPath);
-  }
-
-  Future<void> _downloadIfAbsent(String url, String savePath) async {
-    if (File(savePath).existsSync()) return;
-    await _dio.download(url, savePath);
+    yield 1.0;
   }
 
   @override

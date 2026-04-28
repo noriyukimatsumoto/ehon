@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { Storage } from '@google-cloud/storage';
+import archiver from 'archiver';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -10,40 +11,39 @@ const BOOKS_DIR = path.resolve(process.env.BOOKS_DIR ?? path.join(__dirname, '..
 const storage = new Storage();
 const bucket = storage.bucket(BUCKET_NAME);
 
-function walkFiles(dir: string): string[] {
-  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
-    const fullPath = path.join(dir, entry.name);
-    return entry.isDirectory() ? walkFiles(fullPath) : [fullPath];
-  });
+async function uploadFile(localPath: string, destination: string, contentType: string): Promise<void> {
+  await bucket.upload(localPath, { destination, metadata: { contentType } });
+  console.log(`  uploaded: ${destination}`);
 }
 
-const CONTENT_TYPES: Record<string, string> = {
-  '.xml': 'application/xml',
-  '.jpg': 'image/jpeg',
-  '.jpeg': 'image/jpeg',
-  '.png': 'image/png',
-  '.webp': 'image/webp',
-};
+async function uploadZip(bookDir: string, destination: string): Promise<void> {
+  const file = bucket.file(destination);
+  const writeStream = file.createWriteStream({ metadata: { contentType: 'application/zip' } });
+  const archive = archiver('zip', { zlib: { level: 9 } });
 
-function contentTypeOf(filePath: string): string {
-  return CONTENT_TYPES[path.extname(filePath).toLowerCase()] ?? 'application/octet-stream';
+  await new Promise<void>((resolve, reject) => {
+    writeStream.on('finish', resolve);
+    writeStream.on('error', reject);
+    archive.on('error', reject);
+    archive.pipe(writeStream);
+    archive.directory(bookDir, false);
+    archive.finalize();
+  });
+
+  console.log(`  uploaded: ${destination}`);
 }
 
 async function uploadBook(bookId: string): Promise<void> {
   const bookDir = path.join(BOOKS_DIR, bookId);
-  const files = walkFiles(bookDir);
 
-  for (const filePath of files) {
-    const relative = path.relative(bookDir, filePath).replace(/\\/g, '/');
-    const destination = `${GCS_PREFIX}/${bookId}/${relative}`;
-
-    await bucket.upload(filePath, {
-      destination,
-      metadata: { contentType: contentTypeOf(filePath) },
-    });
-
-    console.log(`  uploaded: ${destination}`);
+  // cover.jpg を個別アップロード（カタログ表示用）
+  const coverPath = path.join(bookDir, 'cover.jpg');
+  if (fs.existsSync(coverPath)) {
+    await uploadFile(coverPath, `${GCS_PREFIX}/${bookId}/cover.jpg`, 'image/jpeg');
   }
+
+  // 書籍コンテンツ全体を zip にまとめてアップロード
+  await uploadZip(bookDir, `${GCS_PREFIX}/${bookId}/data.zip`);
 }
 
 async function main(): Promise<void> {

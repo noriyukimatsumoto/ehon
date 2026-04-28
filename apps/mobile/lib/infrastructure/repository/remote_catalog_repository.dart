@@ -25,10 +25,8 @@ class RemoteCatalogRepository implements CatalogRepository {
       title: Map<String, String>.from(map['title'] as Map),
       categoryId: map['categoryId'] as String,
       categoryName: Map<String, String>.from(map['categoryName'] as Map),
-      xmlUrl: map['xmlUrl'] as String,
+      zipUrl: map['zipUrl'] as String,
       coverImageUrl: map['coverImageUrl'] as String,
-      imageBaseUrl: map['imageBaseUrl'] as String,
-      audioBaseUrl: map['audioBaseUrl'] as String,
     );
   }
 }
