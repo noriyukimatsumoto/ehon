@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'app.dart';
+import 'infrastructure/database/book_database.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -10,5 +11,6 @@ void main() async {
     DeviceOrientation.landscapeLeft,
     DeviceOrientation.landscapeRight,
   ]);
+  await BookDatabase.instance.removeStaleRecords();
   runApp(const ProviderScope(child: App()));
 }

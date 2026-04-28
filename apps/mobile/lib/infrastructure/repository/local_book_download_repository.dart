@@ -61,13 +61,13 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
 
     // 3. カバー画像
     final coverPath = p.join(dir.path, 'cover.png');
-    await _dio.download(book.coverImageUrl, coverPath);
+    await _downloadIfAbsent(book.coverImageUrl, coverPath);
     done++;
     yield done / total;
 
     // 4. 挿絵
     for (final filename in imageFilenames) {
-      await _dio.download(
+      await _downloadIfAbsent(
         '${book.imageBaseUrl}$filename',
         p.join(dir.path, 'images', filename),
       );
@@ -77,7 +77,7 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
 
     // 5. 音声
     for (final filename in audioFilenames) {
-      await _dio.download(
+      await _downloadIfAbsent(
         '${book.audioBaseUrl}$filename',
         p.join(dir.path, 'audios', filename),
       );
@@ -87,6 +87,11 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
 
     // 6. SQLite に保存
     await _db.upsert(book, xmlPath: xmlPath, coverImagePath: coverPath);
+  }
+
+  Future<void> _downloadIfAbsent(String url, String savePath) async {
+    if (File(savePath).existsSync()) return;
+    await _dio.download(url, savePath);
   }
 
   @override

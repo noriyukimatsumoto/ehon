@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
@@ -95,6 +97,17 @@ class BookDatabase {
   Future<void> delete(String bookId) async {
     final db = await _database;
     await db.delete('books', where: 'id = ?', whereArgs: [bookId]);
+  }
+
+  Future<void> removeStaleRecords() async {
+    final db = await _database;
+    final rows = await db.query('books', columns: ['id', 'xml_path']);
+    for (final row in rows) {
+      final xmlPath = row['xml_path'] as String;
+      if (!File(xmlPath).existsSync()) {
+        await db.delete('books', where: 'id = ?', whereArgs: [row['id']]);
+      }
+    }
   }
 
   Book _fromRow(Map<String, Object?> row) => Book(
