@@ -28,6 +28,7 @@ class RemoteCatalogRepository implements CatalogRepository {
       xmlUrl: map['xmlUrl'] as String,
       coverImageUrl: map['coverImageUrl'] as String,
       imageBaseUrl: map['imageBaseUrl'] as String,
+      audioBaseUrl: map['audioBaseUrl'] as String,
     );
   }
 }

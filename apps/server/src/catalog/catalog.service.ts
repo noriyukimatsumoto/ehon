@@ -30,6 +30,7 @@ export class CatalogService {
       xmlUrl: `${gcsBaseUrl}/${meta.id}/book.xml`,
       coverImageUrl: `${gcsBaseUrl}/${meta.id}/images/cover.jpg`,
       imageBaseUrl: `${gcsBaseUrl}/${meta.id}/images/`,
+      audioBaseUrl: `${gcsBaseUrl}/${meta.id}/audios/`,
     }));
 
     return { books };

@@ -39,6 +39,7 @@ dependencies:
   skeletonizer: ^2.1.2
   sqflite: ^2.4.1
   url_launcher: ^6.3.2
+  just_audio: ^0.9.46
   xml: ^6.5.0
 
 dev_dependencies:

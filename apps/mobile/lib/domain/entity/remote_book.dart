@@ -8,6 +8,7 @@ class RemoteBook {
     required this.xmlUrl,
     required this.coverImageUrl,
     required this.imageBaseUrl,
+    required this.audioBaseUrl,
   });
 
   final String id;
@@ -18,6 +19,7 @@ class RemoteBook {
   final String xmlUrl;
   final String coverImageUrl;
   final String imageBaseUrl;
+  final String audioBaseUrl;
 
   String localizedTitle(String languageCode) =>
       title[languageCode] ?? title['ja'] ?? '';

@@ -28,21 +28,35 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
   Stream<double> downloadBook(RemoteBook book) async* {
     final dir = await _bookDir(book.id);
     await Directory(p.join(dir.path, 'images')).create(recursive: true);
+    await Directory(p.join(dir.path, 'audios')).create(recursive: true);
 
     // 1. XML をダウンロード
     final xmlPath = p.join(dir.path, 'book.xml');
     await _dio.download(book.xmlUrl, xmlPath);
 
-    // 2. XML をパースして画像ファイル名を取得
+    // 2. XML をパースしてファイル名を取得
     final xmlString = await File(xmlPath).readAsString();
     final document = XmlDocument.parse(xmlString);
+
     final imageFilenames = document
         .findAllElements('image')
         .map((n) => n.innerText.trim())
         .toSet()
         .toList();
 
-    final total = 1 + imageFilenames.length;
+    final audioBasenames = [
+      ...document.findAllElements('text').map((n) => n.getAttribute('audio')),
+      ...document.findAllElements('question').map((n) => n.getAttribute('audio')),
+      ...document.findAllElements('choice').map((n) => n.getAttribute('audio')),
+    ].whereType<String>().toSet().toList();
+
+    const langs = ['ja', 'en'];
+    final audioFilenames = [
+      for (final base in audioBasenames)
+        for (final lang in langs) '${base}_$lang.mp3',
+    ];
+
+    final total = 1 + imageFilenames.length + audioFilenames.length;
     var done = 0;
 
     // 3. カバー画像
@@ -61,7 +75,17 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
       yield done / total;
     }
 
-    // 5. SQLite に保存
+    // 5. 音声
+    for (final filename in audioFilenames) {
+      await _dio.download(
+        '${book.audioBaseUrl}$filename',
+        p.join(dir.path, 'audios', filename),
+      );
+      done++;
+      yield done / total;
+    }
+
+    // 6. SQLite に保存
     await _db.upsert(book, xmlPath: xmlPath, coverImagePath: coverPath);
   }
 

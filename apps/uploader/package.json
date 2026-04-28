@@ -1,0 +1,20 @@
+{
+  "name": "uploader",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "upload": "ts-node src/index.ts",
+    "generate-audio": "ts-node src/generate-audio.ts"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "@google-cloud/text-to-speech": "^5.7.0",
+    "dotenv": "^16.5.0",
+    "fast-xml-parser": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
