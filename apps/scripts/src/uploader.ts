@@ -26,6 +26,9 @@ async function uploadFile(
   console.log(`  uploaded: ${destination}`);
 }
 
+// zip に含めるファイル・ディレクトリ（bookDir からの相対パス）
+const ZIP_INCLUDES = ["book.xml", "images", "audios"];
+
 async function uploadZip(bookDir: string, destination: string): Promise<void> {
   const bucket = storage.bucket(BUCKET_NAME);
   const file = bucket.file(destination);
@@ -39,7 +42,17 @@ async function uploadZip(bookDir: string, destination: string): Promise<void> {
     writeStream.on("error", reject);
     archive.on("error", reject);
     archive.pipe(writeStream);
-    archive.directory(bookDir, false);
+
+    for (const entry of ZIP_INCLUDES) {
+      const fullPath = path.join(bookDir, entry);
+      if (!fs.existsSync(fullPath)) continue;
+      if (fs.statSync(fullPath).isDirectory()) {
+        archive.directory(fullPath, entry);
+      } else {
+        archive.file(fullPath, { name: entry });
+      }
+    }
+
     archive.finalize();
   });
 

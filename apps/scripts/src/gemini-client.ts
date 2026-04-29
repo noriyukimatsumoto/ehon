@@ -1,6 +1,11 @@
 import "dotenv/config";
 import { GoogleGenAI, Type } from "@google/genai";
-import type { BookData, SceneData, ImagePrompts, AudioPromptsData } from "./book-parser";
+import type {
+  BookData,
+  SceneData,
+  ImagePrompts,
+  AudioPromptsData,
+} from "./book-parser";
 
 const AUDIO_PROMPTS_SCHEMA = {
   type: Type.OBJECT,
@@ -10,9 +15,9 @@ const AUDIO_PROMPTS_SCHEMA = {
       items: {
         type: Type.OBJECT,
         properties: {
-          audio:  { type: Type.STRING },
-          lang:   { type: Type.STRING },
-          text:   { type: Type.STRING },
+          audio: { type: Type.STRING },
+          lang: { type: Type.STRING },
+          text: { type: Type.STRING },
           prompt: { type: Type.STRING },
         },
         required: ["audio", "lang", "text", "prompt"],
@@ -166,7 +171,7 @@ ${story}`;
     const prompt = `「${title}」を3〜6歳の子ども向けの絵本として語り直してください。
 ひらがなとカタカナを中心に書いてください。漢字は使わないでください。
 やさしい言葉づかいで、テンポよく読み聞かせられる文体にしてください。
-登場人物・出来事・結末をすべて含め、4000文字程度の物語文にしてください。
+登場人物・出来事・結末をすべて含め、500文字程度の物語文にしてください。
 物語文のみを出力してください。`;
 
     const result = await this.genAI.models.generateContent({
@@ -273,7 +278,10 @@ ${JSON.stringify(bookData, null, 2)}
 - audio は book.json の audio フィールドに "_ja" または "_en" を付けた値（例: "page1_text1_ja"）
 - lang は "ja" または "en"
 - text は実際に読み上げるテキスト
-- prompt は物語の文脈に合った読み上げ指示を自然な日本語で記述する（例: 「温かく親しみやすい口調で、ゆっくり読み上げてください。」「緊張感を持たせながら、少し早口で読み上げてください。」）`;
+- prompt は物語の文脈に合ったスタイルをブラケットタグ形式の英語で記述する
+  - 形式: "[tag1, tag2]" のように複数指定可能
+  - 使用できるタグ例: slowly, quickly, warmly, gently, excitedly, sadly, fearfully, cheerfully, whispering, dramatically, calmly, tenderly
+  - 例: "[slowly, warmly]", "[excitedly, quickly]", "[sadly, gently]"`;
 
     const result = await this.genAI.models.generateContent({
       model: this.model,

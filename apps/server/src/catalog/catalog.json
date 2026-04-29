@@ -1,5 +1,12 @@
 [
   {
+    "id": "akazukin",
+    "version": "1.0.0",
+    "title": { "ja": "赤ずきん", "en": "Little Red Riding Hood" },
+    "categoryId": "grimm",
+    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
+  },
+  {
     "id": "momotaro",
     "version": "1.0.0",
     "title": { "ja": "桃太郎", "en": "Momotaro" },

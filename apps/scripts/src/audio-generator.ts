@@ -1,31 +1,84 @@
 import "dotenv/config";
-import * as tts from "@google-cloud/text-to-speech";
+import { GoogleGenAI } from "@google/genai";
 import * as fs from "fs";
 import * as path from "path";
 import type { AudioPromptEntry, AudioPromptsData } from "./book-parser";
 
+const TTS_MODEL = "gemini-3.1-flash-tts-preview";
+
+function pcmToWav(
+  pcm: Buffer,
+  sampleRate = 24000,
+  channels = 1,
+  bitDepth = 16,
+): Buffer {
+  const byteRate = sampleRate * channels * (bitDepth / 8);
+  const blockAlign = channels * (bitDepth / 8);
+  const header = Buffer.allocUnsafe(44);
+  header.write("RIFF", 0);
+  header.writeUInt32LE(36 + pcm.length, 4);
+  header.write("WAVE", 8);
+  header.write("fmt ", 12);
+  header.writeUInt32LE(16, 16);
+  header.writeUInt16LE(1, 20);
+  header.writeUInt16LE(channels, 22);
+  header.writeUInt32LE(sampleRate, 24);
+  header.writeUInt32LE(byteRate, 28);
+  header.writeUInt16LE(blockAlign, 32);
+  header.writeUInt16LE(bitDepth, 34);
+  header.write("data", 36);
+  header.writeUInt32LE(pcm.length, 40);
+  return Buffer.concat([header, pcm]);
+}
+
 export class AudioGenerator {
-  private readonly client = new tts.TextToSpeechClient();
+  private readonly genAI: GoogleGenAI;
 
-  private readonly voiceConfig: Record<
-    string,
-    { languageCode: string; name: string }
-  > = {
-    ja: { languageCode: "ja-JP", name: "ja-JP-Wavenet-B" },
-    en: { languageCode: "en-US", name: "en-US-Wavenet-C" },
-  };
+  constructor() {
+    const apiKey =
+      process.env.GEMINI_API_KEY ??
+      (() => {
+        throw new Error("GEMINI_API_KEY is required");
+      })();
+    this.genAI = new GoogleGenAI({ apiKey });
+  }
 
-  private async synthesize(entry: AudioPromptEntry): Promise<Buffer> {
-    const voice = this.voiceConfig[entry.lang];
-    const [response] = await this.client.synthesizeSpeech({
-      input: { text: entry.text },
-      voice,
-      audioConfig: { audioEncoding: "MP3" },
-    });
-    if (!response.audioContent) {
-      throw new Error(`No audio content for: ${entry.audio}`);
+  private async synthesize(
+    entry: AudioPromptEntry,
+    retries = 5,
+  ): Promise<Buffer> {
+    for (let attempt = 0; attempt <= retries; attempt++) {
+      try {
+        const response = await this.genAI.models.generateContent({
+          model: TTS_MODEL,
+          contents: [{ parts: [{ text: `${entry.prompt}\n${entry.text}` }] }],
+          config: {
+            responseModalities: ["AUDIO"],
+            speechConfig: {
+              voiceConfig: {
+                prebuiltVoiceConfig: { voiceName: "Achernar" },
+              },
+            },
+          },
+        });
+
+        const data =
+          response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+        if (!data) throw new Error(`No audio data for: ${entry.audio}`);
+
+        return pcmToWav(Buffer.from(data, "base64"));
+      } catch (err: unknown) {
+        const isQuotaError =
+          err instanceof Error && err.message.includes("429");
+        if (!isQuotaError || attempt === retries) throw err;
+        const waitSec = Math.pow(2, attempt + 1) * 15;
+        console.log(
+          `  Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/${retries}...`,
+        );
+        await new Promise((r) => setTimeout(r, waitSec * 1000));
+      }
     }
-    return Buffer.from(response.audioContent as Uint8Array);
+    throw new Error("unreachable");
   }
 
   async generateForBook(bookDir: string): Promise<void> {
@@ -42,7 +95,12 @@ export class AudioGenerator {
     fs.mkdirSync(audiosDir, { recursive: true });
 
     for (const entry of entries) {
-      const file = path.join(audiosDir, `${entry.audio}.mp3`);
+      const file = path.join(audiosDir, `${entry.audio}.wav`);
+
+      if (fs.existsSync(file)) {
+        console.log(`  ${entry.audio}: skip (already exists)`);
+        continue;
+      }
       console.log(
         `  ${entry.audio}: "${entry.text.slice(0, 30)}" — ${entry.prompt}`,
       );

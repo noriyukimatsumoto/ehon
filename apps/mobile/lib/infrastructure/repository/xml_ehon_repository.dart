@@ -54,9 +54,13 @@ class XmlEhonRepository implements EhonRepository {
     return node.innerText.trim();
   }
 
-  String? _audioUrl(String? audioBase, String audioBasePath, String languageCode) {
+  String? _audioUrl(
+    String? audioBase,
+    String audioBasePath,
+    String languageCode,
+  ) {
     if (audioBase == null) return null;
-    return '$audioBasePath${audioBase}_$languageCode.mp3';
+    return '$audioBasePath${audioBase}_$languageCode.wav';
   }
 
   BookPage _parsePage(
@@ -110,11 +114,17 @@ class XmlEhonRepository implements EhonRepository {
     final filename = node.findElements('image').first.innerText.trim();
     final choices = node
         .findAllElements('choice')
-        .map((c) => QuizChoice(
-              text: _localizedText(c, languageCode),
-              isCorrect: c.getAttribute('correct') == 'true',
-              audioUrl: _audioUrl(c.getAttribute('audio'), audioBasePath, languageCode),
-            ))
+        .map(
+          (c) => QuizChoice(
+            text: _localizedText(c, languageCode),
+            isCorrect: c.getAttribute('correct') == 'true',
+            audioUrl: _audioUrl(
+              c.getAttribute('audio'),
+              audioBasePath,
+              languageCode,
+            ),
+          ),
+        )
         .toList();
 
     return QuizQuestion(
