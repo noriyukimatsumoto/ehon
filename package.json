@@ -3,12 +3,12 @@
   "private": true,
   "workspaces": [
     "apps/server",
-    "apps/uploader"
+    "apps/scripts"
   ],
   "scripts": {
     "server": "npm run start:dev --workspace=apps/server",
     "server:build": "npm run build --workspace=apps/server",
     "server:start": "npm run start:prod --workspace=apps/server",
-    "upload": "npm run upload --workspace=apps/uploader"
+    "cli": "npm run cli --workspace=apps/scripts"
   }
 }

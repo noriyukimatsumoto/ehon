@@ -1,3 +1,14 @@
+export interface AudioPromptEntry {
+  audio: string;
+  lang: "ja" | "en";
+  text: string;
+  prompt: string;
+}
+
+export interface AudioPromptsData {
+  entries: AudioPromptEntry[];
+}
+
 export interface SceneData {
   scene: number;
   text: string;
@@ -44,6 +55,7 @@ export interface QuestionData {
 }
 
 export interface BookData {
+  title: string;
   pages: PageData[];
   questions: QuestionData[];
 }

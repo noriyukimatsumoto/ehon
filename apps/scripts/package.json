@@ -1,10 +1,9 @@
 {
-  "name": "uploader",
+  "name": "scripts",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "upload": "ts-node src/index.ts",
-    "generate": "ts-node src/generate-book.ts"
+    "cli": "ts-node src/cli.ts"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",

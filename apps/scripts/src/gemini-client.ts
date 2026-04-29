@@ -1,6 +1,26 @@
 import "dotenv/config";
 import { GoogleGenAI, Type } from "@google/genai";
-import type { BookData, SceneData, ImagePrompts } from "./book-parser";
+import type { BookData, SceneData, ImagePrompts, AudioPromptsData } from "./book-parser";
+
+const AUDIO_PROMPTS_SCHEMA = {
+  type: Type.OBJECT,
+  properties: {
+    entries: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          audio:  { type: Type.STRING },
+          lang:   { type: Type.STRING },
+          text:   { type: Type.STRING },
+          prompt: { type: Type.STRING },
+        },
+        required: ["audio", "lang", "text", "prompt"],
+      },
+    },
+  },
+  required: ["entries"],
+};
 
 const IMAGE_PROMPTS_SCHEMA = {
   type: Type.OBJECT,
@@ -240,5 +260,30 @@ ${scenesText}`;
     });
 
     return JSON.parse(result.text ?? "{}") as ImagePrompts;
+  }
+
+  async generateAudioPrompts(bookData: BookData): Promise<AudioPromptsData> {
+    const prompt = `以下の絵本データをもとに、各テキストの音声読み上げ設定を生成してください。
+
+【絵本データ】
+${JSON.stringify(bookData, null, 2)}
+
+ルール：
+- pages の texts（ja/en）、questions の本文（ja/en）、questions の choices（ja/en）をすべて entries に含める
+- audio は book.json の audio フィールドに "_ja" または "_en" を付けた値（例: "page1_text1_ja"）
+- lang は "ja" または "en"
+- text は実際に読み上げるテキスト
+- prompt は物語の文脈に合った読み上げ指示を自然な日本語で記述する（例: 「温かく親しみやすい口調で、ゆっくり読み上げてください。」「緊張感を持たせながら、少し早口で読み上げてください。」）`;
+
+    const result = await this.genAI.models.generateContent({
+      model: this.model,
+      contents: prompt,
+      config: {
+        responseMimeType: "application/json",
+        responseSchema: AUDIO_PROMPTS_SCHEMA,
+      },
+    });
+
+    return JSON.parse(result.text ?? "{}") as AudioPromptsData;
   }
 }
