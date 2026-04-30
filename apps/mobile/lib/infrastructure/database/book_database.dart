@@ -108,6 +108,7 @@ class BookDatabase {
 
   Book _fromRow(Map<String, Object?> row) => Book(
     id: row['id']! as String,
+    version: row['version']! as String,
     titles: {
       'ja': row['title_ja']! as String,
       'en': row['title_en']! as String,

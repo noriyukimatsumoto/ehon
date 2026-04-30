@@ -89,11 +89,14 @@ class _CatalogBookCardState extends ConsumerState<_CatalogBookCard> {
     final notifier = ref.read(downloadNotifierProvider(widget.book.id).notifier);
 
     ref.listen(downloadNotifierProvider(widget.book.id), (prev, next) {
-      if (_openAfterDownload &&
-          prev?.valueOrNull is DownloadInProgress &&
+      if (!_openAfterDownload) return;
+      if (prev?.valueOrNull is DownloadInProgress &&
           next.valueOrNull is DownloadDone) {
         _openAfterDownload = false;
         unawaited(_openBook(context));
+      } else if (next.valueOrNull is DownloadError) {
+        _openAfterDownload = false;
+        unawaited(_openLocalBook(context));
       }
     });
 
@@ -189,9 +192,28 @@ class _CatalogBookCardState extends ConsumerState<_CatalogBookCard> {
     );
   }
 
+  Future<void> _openLocalBook(BuildContext context) async {
+    final repo = ref.read(bookDownloadRepositoryProvider);
+    final localBook = await repo.getLocalBook(widget.book.id);
+    if (context.mounted) {
+      unawaited(context.push('/read', extra: localBook.jsonPath));
+    }
+  }
+
   Future<void> _openBook(BuildContext context) async {
     final repo = ref.read(bookDownloadRepositoryProvider);
     final localBook = await repo.getLocalBook(widget.book.id);
+
+    if (localBook.version != widget.book.version) {
+      _openAfterDownload = true;
+      unawaited(
+        ref
+            .read(downloadNotifierProvider(widget.book.id).notifier)
+            .download(widget.book),
+      );
+      return;
+    }
+
     if (context.mounted) {
       unawaited(context.push('/read', extra: localBook.jsonPath));
     }

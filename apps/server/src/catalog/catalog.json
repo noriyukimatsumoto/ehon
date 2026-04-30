@@ -1,71 +1,8 @@
 [
   {
     "id": "akazukin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "title": { "ja": "赤ずきん", "en": "Little Red Riding Hood" },
-    "categoryId": "grimm",
-    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
-  },
-  {
-    "id": "momotaro",
-    "version": "1.0.0",
-    "title": { "ja": "桃太郎", "en": "Momotaro" },
-    "categoryId": "folktale",
-    "categoryName": { "ja": "昔話", "en": "Folktales" }
-  },
-  {
-    "id": "kaguya",
-    "version": "1.0.0",
-    "title": { "ja": "かぐや姫", "en": "The Tale of the Bamboo Cutter" },
-    "categoryId": "folktale",
-    "categoryName": { "ja": "昔話", "en": "Folktales" }
-  },
-  {
-    "id": "kintaro",
-    "version": "1.0.0",
-    "title": { "ja": "金太郎", "en": "Kintaro" },
-    "categoryId": "folktale",
-    "categoryName": { "ja": "昔話", "en": "Folktales" }
-  },
-  {
-    "id": "ningyo",
-    "version": "1.0.0",
-    "title": { "ja": "人魚姫", "en": "The Little Mermaid" },
-    "categoryId": "fairytale",
-    "categoryName": { "ja": "おとぎ話", "en": "Fairy Tales" }
-  },
-  {
-    "id": "cinderella",
-    "version": "1.0.0",
-    "title": { "ja": "シンデレラ", "en": "Cinderella" },
-    "categoryId": "grimm",
-    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
-  },
-  {
-    "id": "hansel",
-    "version": "1.0.0",
-    "title": { "ja": "ヘンゼルとグレーテル", "en": "Hansel and Gretel" },
-    "categoryId": "grimm",
-    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
-  },
-  {
-    "id": "rapunzel",
-    "version": "1.0.0",
-    "title": { "ja": "ラプンツェル", "en": "Rapunzel" },
-    "categoryId": "grimm",
-    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
-  },
-  {
-    "id": "redhood",
-    "version": "1.0.0",
-    "title": { "ja": "赤ずきん", "en": "Little Red Riding Hood" },
-    "categoryId": "grimm",
-    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
-  },
-  {
-    "id": "snowwhite",
-    "version": "1.0.0",
-    "title": { "ja": "白雪姫", "en": "Snow White" },
     "categoryId": "grimm",
     "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
   }
