@@ -21,7 +21,6 @@ export class BookGenerator {
   private readonly imagen = new ImagenClient();
   private readonly audio = new AudioGenerator();
 
-  // step1~4: title → story.txt → story_reviewed.txt → scenes.json → book.json
   async generateStory(
     bookId: string,
     title: string,
@@ -31,47 +30,52 @@ export class BookGenerator {
     fs.mkdirSync(bookDir, { recursive: true });
 
     console.log("\n[1/4] title → story.txt");
-    await this.step1_summarize(title, bookDir, hint);
+    const storyPath = await this.summarize(title, hint, bookDir);
     console.log("  Done.");
 
     console.log("\n[2/4] story.txt → story_reviewed.txt");
-    await this.step2_reviewStory(bookDir);
+    const reviewedPath = await this.reviewStory(storyPath);
     console.log("  Done.");
 
     console.log("\n[3/4] story_reviewed.txt → scenes.json");
-    await this.step3_splitScenes(bookDir);
+    const scenesPath = await this.splitScenes(reviewedPath);
     console.log("  Done.");
 
     console.log("\n[4/4] scenes.json → book.json");
-    await this.step4_generateJson(bookDir, title);
+    await this.buildBookJson(scenesPath, title);
     console.log("  Done.");
   }
 
-  // step6~7: scenes.json → image_prompts.json → cover.jpg + images/scene*.jpg
   async generateImages(bookId: string, imageStyle: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(path.join(bookDir, "images"), { recursive: true });
 
+    const bookPath = path.join(bookDir, "book.json");
     const { title } = JSON.parse(
-      fs.readFileSync(path.join(bookDir, "book.json"), "utf-8"),
+      fs.readFileSync(bookPath, "utf-8"),
     ) as BookData;
 
     console.log("\n[1/2] scenes.json → image_prompts.json");
-    await this.step6_generateImagePrompts(title, bookDir, imageStyle);
+    const scenesPath = path.join(bookDir, "scenes.json");
+    const promptsPath = await this.buildImagePrompts(
+      scenesPath,
+      title,
+      imageStyle,
+    );
     console.log("  Done.");
 
     console.log("\n[2/2] image_prompts.json → cover.jpg + images/scene*.jpg");
-    await this.step7_generateImages(bookDir);
+    await this.renderImages(promptsPath);
     console.log("  Done.");
   }
 
-  // step8a+8b: book.json → audio_prompts.json → audios/
   async generateAudio(bookId: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(path.join(bookDir, "audios"), { recursive: true });
 
     console.log("\n[1/2] book.json → audio_prompts.json");
-    await this.step8a_generateAudioPrompts(bookDir);
+    const bookPath = path.join(bookDir, "book.json");
+    await this.buildAudioPrompts(bookPath);
     console.log("  Done.");
 
     console.log("\n[2/2] audio_prompts.json → audios/");
@@ -79,94 +83,76 @@ export class BookGenerator {
     console.log("  Done.");
   }
 
-  private async step8a_generateAudioPrompts(bookDir: string): Promise<void> {
-    const bookData = JSON.parse(
-      fs.readFileSync(path.join(bookDir, "book.json"), "utf-8"),
-    ) as BookData;
-    const audioPrompts: AudioPromptsData =
-      await this.gemini.generateAudioPrompts(bookData);
-    fs.writeFileSync(
-      path.join(bookDir, "audio_prompts.json"),
-      JSON.stringify(audioPrompts, null, 2),
-      "utf-8",
-    );
-  }
-
   private bookDir(bookId: string): string {
     return path.join(BOOKS_DIR, bookId);
   }
 
-  private async step1_summarize(
+  private async summarize(
     title: string,
-    bookDir: string,
     hint: string,
-  ): Promise<void> {
+    outputDir: string,
+  ): Promise<string> {
     const story = await this.gemini.summarizeByTitle(title, hint);
-    fs.writeFileSync(path.join(bookDir, "story.txt"), story, "utf-8");
+    const outputPath = path.join(outputDir, "story.txt");
+    fs.writeFileSync(outputPath, story, "utf-8");
+    return outputPath;
   }
 
-  private async step2_reviewStory(bookDir: string): Promise<void> {
-    const story = fs.readFileSync(path.join(bookDir, "story.txt"), "utf-8");
+  private async reviewStory(storyPath: string): Promise<string> {
+    const story = fs.readFileSync(storyPath, "utf-8");
     const reviewed = await this.gemini.reviewStory(story);
-    fs.writeFileSync(
-      path.join(bookDir, "story_reviewed.txt"),
-      reviewed,
-      "utf-8",
-    );
+    const outputPath = path.join(path.dirname(storyPath), "story_reviewed.txt");
+    fs.writeFileSync(outputPath, reviewed, "utf-8");
+    return outputPath;
   }
 
-  private async step3_splitScenes(bookDir: string): Promise<void> {
-    const story = fs.readFileSync(
-      path.join(bookDir, "story_reviewed.txt"),
-      "utf-8",
-    );
+  private async splitScenes(storyPath: string): Promise<string> {
+    const story = fs.readFileSync(storyPath, "utf-8");
     const scenes = await this.gemini.splitIntoScenes(story);
-    fs.writeFileSync(
-      path.join(bookDir, "scenes.json"),
-      JSON.stringify(scenes, null, 2),
-      "utf-8",
-    );
+    const outputPath = path.join(path.dirname(storyPath), "scenes.json");
+    fs.writeFileSync(outputPath, JSON.stringify(scenes, null, 2), "utf-8");
+    return outputPath;
   }
 
-  private async step4_generateJson(
-    bookDir: string,
+  private async buildBookJson(
+    scenesPath: string,
     title: string,
-  ): Promise<void> {
+  ): Promise<string> {
     const scenes = JSON.parse(
-      fs.readFileSync(path.join(bookDir, "scenes.json"), "utf-8"),
+      fs.readFileSync(scenesPath, "utf-8"),
     ) as SceneData[];
     const bookData = await this.gemini.generateBookJson(scenes);
     bookData.title = title;
-    fs.writeFileSync(
-      path.join(bookDir, "book.json"),
-      JSON.stringify(bookData, null, 2),
-      "utf-8",
-    );
+    const outputPath = path.join(path.dirname(scenesPath), "book.json");
+    fs.writeFileSync(outputPath, JSON.stringify(bookData, null, 2), "utf-8");
+    return outputPath;
   }
 
-  private async step6_generateImagePrompts(
+  private async buildImagePrompts(
+    scenesPath: string,
     title: string,
-    bookDir: string,
     imageStyle: string,
-  ): Promise<void> {
+  ): Promise<string> {
     const scenes = JSON.parse(
-      fs.readFileSync(path.join(bookDir, "scenes.json"), "utf-8"),
+      fs.readFileSync(scenesPath, "utf-8"),
     ) as SceneData[];
     const prompts: ImagePrompts = await this.gemini.generateImagePrompts(
       title,
       scenes,
       imageStyle,
     );
-    fs.writeFileSync(
-      path.join(bookDir, "image_prompts.json"),
-      JSON.stringify(prompts, null, 2),
-      "utf-8",
+    const outputPath = path.join(
+      path.dirname(scenesPath),
+      "image_prompts.json",
     );
+    fs.writeFileSync(outputPath, JSON.stringify(prompts, null, 2), "utf-8");
+    return outputPath;
   }
 
-  private async step7_generateImages(bookDir: string): Promise<void> {
+  private async renderImages(promptsPath: string): Promise<void> {
+    const bookDir = path.dirname(promptsPath);
     const prompts = JSON.parse(
-      fs.readFileSync(path.join(bookDir, "image_prompts.json"), "utf-8"),
+      fs.readFileSync(promptsPath, "utf-8"),
     ) as ImagePrompts;
 
     console.log("  cover.jpg");
@@ -187,5 +173,18 @@ export class BookGenerator {
       );
       history.push(...sceneParts);
     }
+  }
+
+  private async buildAudioPrompts(bookPath: string): Promise<string> {
+    const bookData = JSON.parse(fs.readFileSync(bookPath, "utf-8")) as BookData;
+    const audioPrompts: AudioPromptsData =
+      await this.gemini.generateAudioPrompts(bookData);
+    const outputPath = path.join(path.dirname(bookPath), "audio_prompts.json");
+    fs.writeFileSync(
+      outputPath,
+      JSON.stringify(audioPrompts, null, 2),
+      "utf-8",
+    );
+    return outputPath;
   }
 }
