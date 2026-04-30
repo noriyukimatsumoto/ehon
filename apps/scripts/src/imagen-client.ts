@@ -50,7 +50,11 @@ export class ImagenClient {
           },
         });
 
-        const modelParts = response.candidates?.[0]?.content?.parts ?? [];
+        const candidate = response.candidates?.[0];
+        if (candidate?.finishReason === "IMAGE_SAFETY") {
+          throw new Error("IMAGE_SAFETY");
+        }
+        const modelParts = candidate?.content?.parts ?? [];
         const imagePart = modelParts.find((p) =>
           p.inlineData?.mimeType?.startsWith("image/"),
         );
@@ -65,7 +69,9 @@ export class ImagenClient {
         console.error(`  Error (attempt ${attempt + 1}/${retries + 1}):`, err);
         const isQuotaError =
           err instanceof Error && err.message.includes("429");
-        if (!isQuotaError || attempt === retries) throw err;
+        const isSafetyError =
+          err instanceof Error && err.message === "IMAGE_SAFETY";
+        if ((!isQuotaError && !isSafetyError) || attempt === retries) throw err;
         const waitSec = Math.pow(2, attempt + 1) * 15;
         console.log(
           `  Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/${retries}...`,
