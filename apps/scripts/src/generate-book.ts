@@ -22,12 +22,16 @@ export class BookGenerator {
   private readonly audio = new AudioGenerator();
 
   // step1~4: title → story.txt → story_reviewed.txt → scenes.json → book.json
-  async generateStory(bookId: string, title: string): Promise<void> {
+  async generateStory(
+    bookId: string,
+    title: string,
+    hint: string,
+  ): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(bookDir, { recursive: true });
 
     console.log("\n[1/4] title → story.txt");
-    await this.step1_summarize(title, bookDir);
+    await this.step1_summarize(title, bookDir, hint);
     console.log("  Done.");
 
     console.log("\n[2/4] story.txt → story_reviewed.txt");
@@ -92,8 +96,12 @@ export class BookGenerator {
     return path.join(BOOKS_DIR, bookId);
   }
 
-  private async step1_summarize(title: string, bookDir: string): Promise<void> {
-    const story = await this.gemini.summarizeByTitle(title);
+  private async step1_summarize(
+    title: string,
+    bookDir: string,
+    hint: string,
+  ): Promise<void> {
+    const story = await this.gemini.summarizeByTitle(title, hint);
     fs.writeFileSync(path.join(bookDir, "story.txt"), story, "utf-8");
   }
 

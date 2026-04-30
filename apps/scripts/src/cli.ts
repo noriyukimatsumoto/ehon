@@ -1,4 +1,5 @@
 import "dotenv/config";
+import * as fs from "fs";
 import { BookGenerator } from "./generate-book";
 import { upload } from "./uploader";
 
@@ -9,54 +10,109 @@ function usage(): void {
 使い方: ts-node src/cli.ts <command> [options]
 
 Commands:
-  upload [bookId]           ファイルをGCSにアップロードする（bookId省略時は全冊）
-  story  <bookId> <title>   物語テキスト・JSON・XMLを生成する (step1~5)
-  images <bookId>           画像プロンプトと画像を生成する (step6~7)
-  audio  <bookId>           音声ファイルを生成する (step8)
+  upload [inputFile]   ファイルをGCSにアップロードする（inputFile省略時は全冊）
+  story  <inputFile>   物語テキスト・JSON・XMLを生成する (step1~5)
+  images <inputFile>   画像プロンプトと画像を生成する (step6~7)
+  audio  <inputFile>   音声ファイルを生成する (step8)
+
+inputFile (YML形式):
+  id: kaeru-no-osama
+  title: カエルの王様
+  hint:
+    - グリム童話の「カエルの王様」
+    - 魔法でカエルにされた王子の物語
 
 例:
-  ts-node src/cli.ts story  kaeru-no-osama "カエルの王様"
-  ts-node src/cli.ts images kaeru-no-osama
-  ts-node src/cli.ts audio  kaeru-no-osama
-  ts-node src/cli.ts upload kaeru-no-osama
+  ts-node src/cli.ts story  story.yml
+  ts-node src/cli.ts images story.yml
+  ts-node src/cli.ts audio  story.yml
+  ts-node src/cli.ts upload story.yml
   ts-node src/cli.ts upload
 `);
   process.exit(1);
 }
 
+function parseInputYml(filePath: string): {
+  id: string;
+  title: string;
+  hint: string;
+} {
+  const lines = fs.readFileSync(filePath, "utf-8").split("\n");
+  const scalars: Record<string, string> = {};
+  const lists: Record<string, string[]> = {};
+  let currentListKey: string | null = null;
+
+  for (const line of lines) {
+    const keyMatch = line.match(/^(\w+):\s*(.*)$/);
+    if (keyMatch) {
+      currentListKey = null;
+      const key = keyMatch[1];
+      const value = keyMatch[2].trim();
+      if (value) {
+        scalars[key] = value;
+      } else {
+        lists[key] = [];
+        currentListKey = key;
+      }
+      continue;
+    }
+    const itemMatch = line.match(/^\s+-\s*(.+)$/);
+    if (itemMatch && currentListKey) {
+      lists[currentListKey].push(itemMatch[1].trim());
+    }
+  }
+
+  const id = scalars.id;
+  if (!id) throw new Error(`inputFile に id が見つかりません: ${filePath}`);
+  const title = scalars.title;
+  if (!title) throw new Error(`inputFile に title が見つかりません: ${filePath}`);
+
+  let hint = "";
+  if (scalars.hint) {
+    hint = scalars.hint;
+  } else if (lists.hint?.length) {
+    hint = lists.hint.map((item) => `- ${item}`).join("\n");
+  }
+
+  return { id, title, hint };
+}
+
 async function main(): Promise<void> {
   switch (command) {
     case "upload": {
-      const bookId = args[0];
+      const [inputFile] = args;
+      const bookId = inputFile ? parseInputYml(inputFile).id : undefined;
       await upload(bookId);
       break;
     }
     case "story": {
-      const [bookId, ...titleParts] = args;
-      const title = titleParts.join(" ");
-      if (!bookId || !title) {
-        console.error("エラー: story コマンドには bookId と title が必要です");
+      const [inputFile] = args;
+      if (!inputFile) {
+        console.error("エラー: story コマンドには inputFile が必要です");
         usage();
       }
-      await new BookGenerator().generateStory(bookId, title);
+      const { id, title, hint } = parseInputYml(inputFile);
+      await new BookGenerator().generateStory(id, title, hint);
       break;
     }
     case "images": {
-      const [bookId] = args;
-      if (!bookId) {
-        console.error("エラー: images コマンドには bookId が必要です");
+      const [inputFile] = args;
+      if (!inputFile) {
+        console.error("エラー: images コマンドには inputFile が必要です");
         usage();
       }
-      await new BookGenerator().generateImages(bookId);
+      const { id } = parseInputYml(inputFile);
+      await new BookGenerator().generateImages(id);
       break;
     }
     case "audio": {
-      const [bookId] = args;
-      if (!bookId) {
-        console.error("エラー: audio コマンドには bookId が必要です");
+      const [inputFile] = args;
+      if (!inputFile) {
+        console.error("エラー: audio コマンドには inputFile が必要です");
         usage();
       }
-      await new BookGenerator().generateAudio(bookId);
+      const { id } = parseInputYml(inputFile);
+      await new BookGenerator().generateAudio(id);
       break;
     }
     default:
