@@ -1,5 +1,6 @@
 import "dotenv/config";
 import * as fs from "fs";
+import { parse as parseYaml } from "yaml";
 import { BookGenerator } from "./generate-book";
 import { upload } from "./uploader";
 
@@ -11,20 +12,22 @@ function usage(): void {
 
 Commands:
   upload [inputFile]   ファイルをGCSにアップロードする（inputFile省略時は全冊）
-  story  <inputFile>   物語テキスト・JSON・XMLを生成する (step1~5)
-  images <inputFile>   画像プロンプトと画像を生成する (step6~7)
-  audio  <inputFile>   音声ファイルを生成する (step8)
+  story  <inputFile>   物語テキストを生成する (step1~2: story.txt, story_reviewed.txt)
+  scenes <inputFile>   シーン分割・JSONを生成する (step3~4: scenes.json, book.json)
+  images <inputFile>   画像プロンプトと画像を生成する (step5~6)
+  audio  <inputFile>   音声ファイルを生成する (step7)
 
 inputFile (YML形式):
   id: kaeru-no-osama
   title: カエルの王様
   imageStyle: 水彩画タッチの子ども向けイラスト
-  hint:
+  description:
     - グリム童話の「カエルの王様」
     - 魔法でカエルにされた王子の物語
 
 例:
   ts-node src/cli.ts story  story.yml
+  ts-node src/cli.ts scenes story.yml
   ts-node src/cli.ts images story.yml
   ts-node src/cli.ts audio  story.yml
   ts-node src/cli.ts upload story.yml
@@ -36,50 +39,24 @@ inputFile (YML形式):
 function parseInputYml(filePath: string): {
   id: string;
   title: string;
-  hint: string;
+  description: string;
   imageStyle: string;
 } {
-  const lines = fs.readFileSync(filePath, "utf-8").split("\n");
-  const scalars: Record<string, string> = {};
-  const lists: Record<string, string[]> = {};
-  let currentListKey: string | null = null;
+  const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as Record<string, unknown>;
 
-  for (const line of lines) {
-    const keyMatch = line.match(/^(\w+):\s*(.*)$/);
-    if (keyMatch) {
-      currentListKey = null;
-      const key = keyMatch[1];
-      const value = keyMatch[2].trim();
-      if (value) {
-        scalars[key] = value;
-      } else {
-        lists[key] = [];
-        currentListKey = key;
-      }
-      continue;
-    }
-    const itemMatch = line.match(/^\s+-\s*(.+)$/);
-    if (itemMatch && currentListKey) {
-      lists[currentListKey].push(itemMatch[1].trim());
-    }
-  }
-
-  const id = scalars.id;
+  const id = raw.id as string;
   if (!id) throw new Error(`inputFile に id が見つかりません: ${filePath}`);
-  const title = scalars.title;
+  const title = raw.title as string;
   if (!title) throw new Error(`inputFile に title が見つかりません: ${filePath}`);
 
-  let hint = "";
-  if (scalars.hint) {
-    hint = scalars.hint;
-  } else if (lists.hint?.length) {
-    hint = lists.hint.map((item) => `- ${item}`).join("\n");
-  }
+  const toStr = (v: unknown): string => {
+    if (!v) return "";
+    if (typeof v === "string") return v.trim();
+    if (Array.isArray(v)) return v.map((item) => `- ${item}`).join("\n");
+    return String(v);
+  };
 
-  const imageStyle = scalars.imageStyle;
-  if (!imageStyle) throw new Error(`inputFile に imageStyle が見つかりません: ${filePath}`);
-
-  return { id, title, hint, imageStyle };
+  return { id, title, description: toStr(raw.description), imageStyle: toStr(raw.imageStyle) };
 }
 
 async function main(): Promise<void> {
@@ -96,8 +73,18 @@ async function main(): Promise<void> {
         console.error("エラー: story コマンドには inputFile が必要です");
         usage();
       }
-      const { id, title, hint } = parseInputYml(inputFile);
-      await new BookGenerator().generateStory(id, title, hint);
+      const { id, description } = parseInputYml(inputFile);
+      await new BookGenerator().generateStory(id, description);
+      break;
+    }
+    case "scenes": {
+      const [inputFile] = args;
+      if (!inputFile) {
+        console.error("エラー: scenes コマンドには inputFile が必要です");
+        usage();
+      }
+      const { id, title } = parseInputYml(inputFile);
+      await new BookGenerator().generateScenes(id, title);
       break;
     }
     case "images": {

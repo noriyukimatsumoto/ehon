@@ -21,27 +21,24 @@ export class BookGenerator {
   private readonly imagen = new ImagenClient();
   private readonly audio = new AudioGenerator();
 
-  async generateStory(
-    bookId: string,
-    title: string,
-    hint: string,
-  ): Promise<void> {
+  async generateStory(bookId: string, description: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(bookDir, { recursive: true });
 
-    console.log("\n[1/4] title → story.txt");
-    const storyPath = await this.summarize(title, hint, bookDir);
+    console.log("\n[1/2] description → story.txt");
+    await this.summarize(description, bookDir);
+    console.log("  Done.");
+  }
+
+  async generateScenes(bookId: string, title: string): Promise<void> {
+    const bookDir = this.bookDir(bookId);
+    const storyPath = path.join(bookDir, "story.txt");
+
+    console.log("\n[1/2] story.txt → scenes.json");
+    const scenesPath = await this.splitScenes(storyPath);
     console.log("  Done.");
 
-    console.log("\n[2/4] story.txt → story_reviewed.txt");
-    const reviewedPath = await this.reviewStory(storyPath);
-    console.log("  Done.");
-
-    console.log("\n[3/4] story_reviewed.txt → scenes.json");
-    const scenesPath = await this.splitScenes(reviewedPath);
-    console.log("  Done.");
-
-    console.log("\n[4/4] scenes.json → book.json");
+    console.log("\n[2/2] scenes.json → book.json");
     await this.buildBookJson(scenesPath, title);
     console.log("  Done.");
   }
@@ -88,21 +85,12 @@ export class BookGenerator {
   }
 
   private async summarize(
-    title: string,
-    hint: string,
+    description: string,
     outputDir: string,
   ): Promise<string> {
-    const story = await this.gemini.summarizeByTitle(title, hint);
+    const story = await this.gemini.summarize(description);
     const outputPath = path.join(outputDir, "story.txt");
     fs.writeFileSync(outputPath, story, "utf-8");
-    return outputPath;
-  }
-
-  private async reviewStory(storyPath: string): Promise<string> {
-    const story = fs.readFileSync(storyPath, "utf-8");
-    const reviewed = await this.gemini.reviewStory(story);
-    const outputPath = path.join(path.dirname(storyPath), "story_reviewed.txt");
-    fs.writeFileSync(outputPath, reviewed, "utf-8");
     return outputPath;
   }
 

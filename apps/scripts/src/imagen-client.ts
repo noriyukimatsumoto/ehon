@@ -38,9 +38,10 @@ export class ImagenClient {
           config: {
             systemInstruction: `
 【ルール】
-  - イラスト内には文字・セリフを入れないでください。
+  - 画像には文字・セリフを入れないでください。
   - プロンプト内の登場人物以外が写り込まないようにしてください。
   - 登場人物はそれぞれ違う特徴で描いてください。
+  - 登場人物や物は一貫して同じ見た目で描いてください。
             `,
             responseModalities: ["IMAGE"],
             imageConfig: {
@@ -53,6 +54,9 @@ export class ImagenClient {
         const candidate = response.candidates?.[0];
         if (candidate?.finishReason === "IMAGE_SAFETY") {
           throw new Error("IMAGE_SAFETY");
+        }
+        if (candidate?.finishReason === "IMAGE_RECITATION") {
+          throw new Error("IMAGE_RECITATION");
         }
         const modelParts = candidate?.content?.parts ?? [];
         const imagePart = modelParts.find((p) =>
@@ -70,7 +74,8 @@ export class ImagenClient {
         const isQuotaError =
           err instanceof Error && err.message.includes("429");
         const isSafetyError =
-          err instanceof Error && err.message === "IMAGE_SAFETY";
+          err instanceof Error &&
+          (err.message === "IMAGE_SAFETY" || err.message === "IMAGE_RECITATION");
         if ((!isQuotaError && !isSafetyError) || attempt === retries) throw err;
         const waitSec = Math.pow(2, attempt + 1) * 15;
         console.log(

@@ -140,49 +140,10 @@ export class GeminiClient {
     this.genAI = new GoogleGenAI({ vertexai: true, project, location });
   }
 
-  async reviewStory(story: string): Promise<string> {
-    const prompt = `以下の物語文を一文ずつ丁寧に校正してください。
-
-【校正観点】
-1. 意味が通っているか（最重要）
-   - 文節・フレーズの意味が日本語として成立しているか
-   - 意味が曖昧・不明瞭・矛盾している箇所は文脈から推測して自然な表現に直す
-   - 例：「こころがおおきくだけだったので」→「こころがいっぱいだったので」
-   - 例：「なくことがはじめました」→「なきはじめました」
-2. 助詞・助動詞・動詞活用が正しいか
-   - 「〜することがはじめました」「〜のことがしました」などのパターンは誤り
-3. ひらがな・カタカナのみで書かれているか（漢字はひらがな・カタカナに直す）
-4. 3〜6歳の子どもが理解できる言葉かどうか（むずかしい言葉は言い換える）
-5. 声に出して読んだときにテンポよく聞こえるか
-
-修正後の物語文のみを出力してください。
-
-【物語文】
-${story}`;
-
+  async summarize(description: string): Promise<string> {
     const result = await this.genAI.models.generateContent({
       model: this.model,
-      contents: prompt,
-    });
-    return result.text ?? story;
-  }
-
-  async summarizeByTitle(title: string, hint: string): Promise<string> {
-    const prompt = `「${title}」を3〜6歳の子ども向けの絵本として語り直してください。
-
-物語「${title}」の内容に関しては、以下を参考にしてください。
-
-${hint}
-
-ルール：
-- ひらがなとカタカナを中心に書いてください。漢字は使わないでください。
-- やさしい言葉づかいで、テンポよく読み聞かせられる文体にしてください。
-- 登場人物・出来事・結末をすべて含め、500文字程度の物語文にしてください。
-- 物語文のみを出力してください。`;
-
-    const result = await this.genAI.models.generateContent({
-      model: this.model,
-      contents: prompt,
+      contents: description,
     });
     return result.text ?? "";
   }
@@ -220,7 +181,7 @@ ${story}`;
 - pages はシーンの数と同じにしてください（scene{N}.jpg は各シーンに対応）
 - 各ページの text は、シーン内の文章を区切るために使用されます。適切な位置で文章を区切り、ja は25文字程度の日本語、en は英語訳にしてください。シーン内の全ての文章を含めるようにtextを作成してください。
 - image の値は scene{N}.jpg（N = 1〜、シーン番号に対応）
-- questions は5問以上作成する
+- questions は3~5問作成する
 - 各 question の choices はちょうど3つ、correct:true は1つのみ
 - audio の値は page{N}_text{M} / question{N} / question{N}_choice{M} の命名規則に従う
 
@@ -254,18 +215,20 @@ ${scenesText}
 
 プロンプトで指定する、画像のスタイルは以下のようにしてください。
 
-${imageStyle}
+
 
 
 - cover：物語「${title}」の表紙にふさわしいプロンプト。文字の記載がない。登場人物や背景の特徴を具体的に描写してください。
 - scenes：各シーンの内容を的確に表現する日本語プロンプト。filename は scene{N}.jpg（Nはシーン番号）。
   - 以下の順でプロンプトを構成してください。
-    1. 主題: プロンプトについて最初に考えるべきなのは主題、すなわち画像の主体となる物体、人物、動物、風景などです。
-    2. コンテキストと背景: その主題が配置される背景やコンテキストも同様に重要です。主題をさまざまな背景に置いてみてください。たとえば、スタジオの白い背景、屋外、屋内の環境などです。
-    3. スタイルとムード: 画像のスタイルやムードもプロンプトに含めるべき重要な要素です。たとえば、明るくカラフルなスタイル、暗くて陰鬱なムード、子ども向けのかわいらしいスタイルなどです。
+    1. 主題: 画像の主体となる物体、人物、動物、風景などです。
+    2. コンテキストと背景: たとえば、スタジオの白い背景、屋外、屋内の環境などです。
+    3. スタイルとムード: 画像スタイルは、${imageStyle} また画像の全体的ムードを指定してください。
     4. 登場人物: シーンに登場する人物や動物がいる場合は、それらをプロンプトに含めてください。登場人物の特徴や表情、ポーズなども具体的に描写してください。
 
   - 例 scene1.jpg のプロンプト：「男の子が大きな心を抱えている様子。夜空の下、星が輝いている。男の子は笑顔で、周りには小さな動物たちが集まっている。全体的に温かみのある色合いで、子ども向けのイラストスタイル。【登場人物】男の子・小さな動物たち」
+
+
 ${scenesText}`;
 
     const result = await this.genAI.models.generateContent({
