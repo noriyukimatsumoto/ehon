@@ -18,6 +18,7 @@ Commands:
 inputFile (YML形式):
   id: kaeru-no-osama
   title: カエルの王様
+  imageStyle: 水彩画タッチの子ども向けイラスト
   hint:
     - グリム童話の「カエルの王様」
     - 魔法でカエルにされた王子の物語
@@ -36,6 +37,7 @@ function parseInputYml(filePath: string): {
   id: string;
   title: string;
   hint: string;
+  imageStyle: string;
 } {
   const lines = fs.readFileSync(filePath, "utf-8").split("\n");
   const scalars: Record<string, string> = {};
@@ -74,7 +76,10 @@ function parseInputYml(filePath: string): {
     hint = lists.hint.map((item) => `- ${item}`).join("\n");
   }
 
-  return { id, title, hint };
+  const imageStyle = scalars.imageStyle;
+  if (!imageStyle) throw new Error(`inputFile に imageStyle が見つかりません: ${filePath}`);
+
+  return { id, title, hint, imageStyle };
 }
 
 async function main(): Promise<void> {
@@ -101,8 +106,8 @@ async function main(): Promise<void> {
         console.error("エラー: images コマンドには inputFile が必要です");
         usage();
       }
-      const { id } = parseInputYml(inputFile);
-      await new BookGenerator().generateImages(id);
+      const { id, imageStyle } = parseInputYml(inputFile);
+      await new BookGenerator().generateImages(id, imageStyle);
       break;
     }
     case "audio": {

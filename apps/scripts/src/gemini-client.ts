@@ -243,6 +243,7 @@ ${scenesText}
   async generateImagePrompts(
     title: string,
     scenes: SceneData[],
+    imageStyle: string,
   ): Promise<ImagePrompts> {
     const scenesText = scenes
       .map((s) => `【シーン${s.scene}】\n${s.text}`)
@@ -250,8 +251,14 @@ ${scenesText}
 
     const prompt = `以下のシーン構成をもとに、画像生成AIへ渡すための日本語プロンプトを作成してください。
 次に表紙（cover）と各シーン（scenes）それぞれにプロンプトを作成してください。
-- cover：物語「${title}」の表紙にふさわしいプロンプト。文字の記載がない、子ども向けのイラストを想定してください。登場人物や背景の特徴を具体的に描写してください。
-- scenes：各シーンの内容を的確に表現する日本語プロンプト。filename は scene{N}.jpg（Nはシーン番号）。子ども向けのイラストを想定してください。
+
+プロンプトで指定する、画像のスタイルは以下のようにしてください。
+
+${imageStyle}
+
+
+- cover：物語「${title}」の表紙にふさわしいプロンプト。文字の記載がない。登場人物や背景の特徴を具体的に描写してください。
+- scenes：各シーンの内容を的確に表現する日本語プロンプト。filename は scene{N}.jpg（Nはシーン番号）。
   - 以下の順でプロンプトを構成してください。
     1. 主題: プロンプトについて最初に考えるべきなのは主題、すなわち画像の主体となる物体、人物、動物、風景などです。
     2. コンテキストと背景: その主題が配置される背景やコンテキストも同様に重要です。主題をさまざまな背景に置いてみてください。たとえば、スタジオの白い背景、屋外、屋内の環境などです。
@@ -283,7 +290,7 @@ ${JSON.stringify(bookData, null, 2)}
 - pages の texts（ja/en）、questions の本文（ja/en）、questions の choices（ja/en）をすべて entries に含める
 - audio は book.json の audio フィールドに "_ja" または "_en" を付けた値（例: "page1_text1_ja"）
 - lang は "ja" または "en"
-- text は実際に読み上げるテキスト。変更しないこと。
+- text は実際に読み上げるテキスト。データを変更しないこと。
 - prompt は物語の文脈に合ったスタイルをブラケットタグ形式の英語で記述する
   - 形式: "[tag1, tag2]" のように複数指定可能
   - 使用できるタグ例: slowly, quickly, warmly, gently, excitedly, sadly, fearfully, cheerfully, whispering, dramatically, calmly, tenderly

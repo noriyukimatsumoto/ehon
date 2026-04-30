@@ -48,7 +48,7 @@ export class BookGenerator {
   }
 
   // step6~7: scenes.json → image_prompts.json → cover.jpg + images/scene*.jpg
-  async generateImages(bookId: string): Promise<void> {
+  async generateImages(bookId: string, imageStyle: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(path.join(bookDir, "images"), { recursive: true });
 
@@ -57,7 +57,7 @@ export class BookGenerator {
     ) as BookData;
 
     console.log("\n[1/2] scenes.json → image_prompts.json");
-    await this.step6_generateImagePrompts(title, bookDir);
+    await this.step6_generateImagePrompts(title, bookDir, imageStyle);
     console.log("  Done.");
 
     console.log("\n[2/2] image_prompts.json → cover.jpg + images/scene*.jpg");
@@ -147,6 +147,7 @@ export class BookGenerator {
   private async step6_generateImagePrompts(
     title: string,
     bookDir: string,
+    imageStyle: string,
   ): Promise<void> {
     const scenes = JSON.parse(
       fs.readFileSync(path.join(bookDir, "scenes.json"), "utf-8"),
@@ -154,6 +155,7 @@ export class BookGenerator {
     const prompts: ImagePrompts = await this.gemini.generateImagePrompts(
       title,
       scenes,
+      imageStyle,
     );
     fs.writeFileSync(
       path.join(bookDir, "image_prompts.json"),

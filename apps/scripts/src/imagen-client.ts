@@ -36,7 +36,7 @@ export class ImagenClient {
           model: IMAGEN_MODEL,
           contents,
           config: {
-            systemInstruction: `あなたはプロのイラストレーターです。以下のプロンプトをもとに、子ども向け絵本のイラストを生成してください。
+            systemInstruction: `
 【ルール】
   - イラスト内には文字・セリフを入れないでください。
   - プロンプト内の登場人物以外が写り込まないようにしてください。
