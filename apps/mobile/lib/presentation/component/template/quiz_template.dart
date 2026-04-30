@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../../../domain/entity/quiz_question.dart';
 import '../../../l10n/app_localizations.dart';
+import '../../theme/app_text_theme.dart';
 import '../atom/countdown_text.dart';
 import '../organism/illustration_section.dart';
 
@@ -179,6 +180,8 @@ class _QuestionBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final fontSize = AppTextTheme.of(context).quizQuestion(context);
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       decoration: BoxDecoration(
@@ -187,9 +190,9 @@ class _QuestionBox extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: const TextStyle(
+        style: TextStyle(
           color: Colors.white,
-          fontSize: 20,
+          fontSize: fontSize,
           fontWeight: FontWeight.bold,
           height: 1.5,
         ),
@@ -206,6 +209,8 @@ class _ChoiceTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final fontSize = AppTextTheme.of(context).quizChoice(context);
+
     Color bgColor;
     Color textColor;
 
@@ -237,7 +242,7 @@ class _ChoiceTile extends StatelessWidget {
             choice.text,
             style: TextStyle(
               color: textColor,
-              fontSize: 18,
+              fontSize: fontSize,
               fontWeight: choice.isCorrect && revealAnswer
                   ? FontWeight.bold
                   : FontWeight.normal,

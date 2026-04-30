@@ -8,6 +8,7 @@ import '../../../domain/entity/remote_book.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../provider/catalog_provider.dart';
 import '../../provider/download_notifier.dart';
+import '../atom/book_title_text.dart';
 
 class CatalogTab extends ConsumerWidget {
   const CatalogTab({super.key});
@@ -182,12 +183,7 @@ class _CatalogBookCardState extends ConsumerState<_CatalogBookCard> {
             ),
           ),
           const SizedBox(height: 4),
-          Text(
-            widget.book.localizedTitle(languageCode),
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold),
-          ),
+          BookTitleText(title: widget.book.localizedTitle(languageCode)),
         ],
       ),
     );

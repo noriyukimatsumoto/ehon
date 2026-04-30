@@ -12,7 +12,7 @@ class StorySection extends StatelessWidget {
     final textColor =
         DefaultTextStyle.of(context).style.color ?? Colors.black;
     final bgColor = Color.from(
-      alpha: 0.3,
+      alpha: 0.7,
       red: 1.0 - textColor.r,
       green: 1.0 - textColor.g,
       blue: 1.0 - textColor.b,

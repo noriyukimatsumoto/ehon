@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'l10n/app_localizations.dart';
 import 'presentation/provider/settings_notifier.dart';
+import 'presentation/theme/app_text_theme.dart';
 import 'router/app_router.dart';
 
 class App extends ConsumerWidget {
@@ -21,6 +22,7 @@ class App extends ConsumerWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
+        extensions: const [AppTextTheme()],
       ),
       routerConfig: appRouter,
       locale: languageCode != null ? Locale(languageCode) : null,

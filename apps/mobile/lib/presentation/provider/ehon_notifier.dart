@@ -36,7 +36,7 @@ class EhonNotifier extends _$EhonNotifier {
         ? _pickQuestions(data.questions)
         : <QuizQuestion>[];
     final firstClause = data.pages.first.texts.first;
-    _playOrCountdown(firstClause);
+    _playOrCountdown(firstClause, delay: const Duration(seconds: 1));
     return EhonReadingState(
       pages: data.pages,
       currentIndex: 0,
@@ -53,8 +53,16 @@ class EhonNotifier extends _$EhonNotifier {
     return shuffled.take(_quizCount).toList();
   }
 
-  void _playOrCountdown(TextClause clause) {
+  void _playOrCountdown(TextClause clause, {Duration delay = Duration.zero}) {
     _cancelPlayback();
+    if (delay == Duration.zero) {
+      _startPlayback(clause);
+    } else {
+      _timer = Timer(delay, () => _startPlayback(clause));
+    }
+  }
+
+  void _startPlayback(TextClause clause) {
     if (clause.audioUrl != null) {
       _playAudio(clause.audioUrl!, clause.duration);
     } else {
@@ -135,7 +143,7 @@ class EhonNotifier extends _$EhonNotifier {
           remaining: nextClause.duration,
         ),
       );
-      _playOrCountdown(nextClause);
+      _playOrCountdown(nextClause, delay: const Duration(milliseconds: 500));
     } else if (current.currentIndex < current.pages.length - 1) {
       final nextPageIndex = current.currentIndex + 1;
       final firstClause = current.pages[nextPageIndex].texts.first;
@@ -146,7 +154,7 @@ class EhonNotifier extends _$EhonNotifier {
           remaining: firstClause.duration,
         ),
       );
-      _playOrCountdown(firstClause);
+      _playOrCountdown(firstClause, delay: const Duration(seconds: 1));
     } else if (current.quizQuestions.isNotEmpty) {
       final duration = current.quizQuestions.first.questionDuration;
       state = AsyncData(
@@ -201,7 +209,7 @@ class EhonNotifier extends _$EhonNotifier {
           remaining: firstClause.duration,
         ),
       );
-      _playOrCountdown(firstClause);
+      _playOrCountdown(firstClause, delay: const Duration(seconds: 1));
     } else {
       _advanceReading(
         current.copyWith(
@@ -225,7 +233,7 @@ class EhonNotifier extends _$EhonNotifier {
         remaining: firstClause.duration,
       ),
     );
-    _playOrCountdown(firstClause);
+    _playOrCountdown(firstClause, delay: const Duration(seconds: 1));
   }
 
   void restart() {
@@ -245,6 +253,6 @@ class EhonNotifier extends _$EhonNotifier {
         currentQuizIndex: 0,
       ),
     );
-    _playOrCountdown(firstClause);
+    _playOrCountdown(firstClause, delay: const Duration(seconds: 1));
   }
 }

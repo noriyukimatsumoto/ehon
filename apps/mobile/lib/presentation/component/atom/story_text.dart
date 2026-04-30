@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../theme/app_text_theme.dart';
+
 class StoryText extends StatelessWidget {
   const StoryText({super.key, required this.text});
 
@@ -7,10 +9,12 @@ class StoryText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final fontSize = AppTextTheme.of(context).story(context);
+
     return Text(
       text,
-      style: const TextStyle(
-        fontSize: 22,
+      style: TextStyle(
+        fontSize: fontSize,
         height: 1.9,
         fontWeight: FontWeight.w500,
       ),

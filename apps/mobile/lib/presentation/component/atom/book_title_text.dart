@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../theme/app_text_theme.dart';
+
 class BookTitleText extends StatelessWidget {
   const BookTitleText({super.key, required this.title});
 
@@ -7,9 +9,11 @@ class BookTitleText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final fontSize = AppTextTheme.of(context).bookTitle(context);
+
     return Text(
       title,
-      style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
+      style: TextStyle(fontSize: fontSize, fontWeight: FontWeight.w600),
       textAlign: TextAlign.center,
       maxLines: 2,
       overflow: TextOverflow.ellipsis,

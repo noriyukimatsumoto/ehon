@@ -81,21 +81,17 @@ class _ReadingTemplateState extends State<ReadingTemplate> {
         child: Stack(
           children: [
             Positioned.fill(
-              child: IllustrationSection(
-                imagePath: widget.page.imagePath,
-              ),
+              child: IllustrationSection(imagePath: widget.page.imagePath),
             ),
             Positioned(
-              top: 0,
-              left: 0,
+              top: 16,
+              right: 16,
               child: SafeArea(
                 bottom: false,
                 child: IconButton(
                   onPressed: widget.onBack,
                   icon: const Icon(Icons.home, color: Colors.white),
-                  style: IconButton.styleFrom(
-                    backgroundColor: Colors.black38,
-                  ),
+                  style: IconButton.styleFrom(backgroundColor: Colors.black38),
                 ),
               ),
             ),

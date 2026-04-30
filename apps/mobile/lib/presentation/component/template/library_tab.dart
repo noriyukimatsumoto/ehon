@@ -8,6 +8,7 @@ import '../../../domain/entity/book.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../provider/catalog_provider.dart';
 import '../../provider/download_notifier.dart';
+import '../atom/book_title_text.dart';
 
 class LibraryTab extends ConsumerWidget {
   const LibraryTab({super.key});
@@ -139,12 +140,7 @@ class _LibraryBookCard extends ConsumerWidget {
             ),
           ),
           const SizedBox(height: 4),
-          Text(
-            book.localizedTitle(languageCode),
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold),
-          ),
+          BookTitleText(title: book.localizedTitle(languageCode)),
         ],
       ),
     );
