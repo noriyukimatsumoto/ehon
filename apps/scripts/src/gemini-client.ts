@@ -274,16 +274,16 @@ ${scenesText}`;
   }
 
   async generateAudioPrompts(bookData: BookData): Promise<AudioPromptsData> {
-    const prompt = `以下の絵本データをもとに、各テキストの音声読み上げ設定を生成してください。
+    const prompt = `以下のデータをもとに、各テキストの音声読み上げ設定を生成してください。
 
-【絵本データ】
+【データ】
 ${JSON.stringify(bookData, null, 2)}
 
 ルール：
 - pages の texts（ja/en）、questions の本文（ja/en）、questions の choices（ja/en）をすべて entries に含める
 - audio は book.json の audio フィールドに "_ja" または "_en" を付けた値（例: "page1_text1_ja"）
 - lang は "ja" または "en"
-- text は実際に読み上げるテキスト
+- text は実際に読み上げるテキスト。変更しないこと。
 - prompt は物語の文脈に合ったスタイルをブラケットタグ形式の英語で記述する
   - 形式: "[tag1, tag2]" のように複数指定可能
   - 使用できるタグ例: slowly, quickly, warmly, gently, excitedly, sadly, fearfully, cheerfully, whispering, dramatically, calmly, tenderly

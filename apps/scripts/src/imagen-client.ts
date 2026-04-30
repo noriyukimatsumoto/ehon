@@ -6,9 +6,6 @@ import {
   type Part,
 } from "@google/genai";
 import * as fs from "fs";
-import sharp from "sharp";
-
-const REFERENCE_IMAGE_WIDTH = 512;
 
 const IMAGEN_MODEL = "gemini-3.1-flash-image-preview";
 
