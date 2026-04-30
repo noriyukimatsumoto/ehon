@@ -6,6 +6,6 @@ class LoadEhonUseCase {
 
   final EhonRepository _repository;
 
-  Future<EhonData> execute(String xmlPath, String languageCode) =>
-      _repository.fetchEhon(xmlPath, languageCode);
+  Future<EhonData> execute(String jsonPath, String languageCode) =>
+      _repository.fetchEhon(jsonPath, languageCode);
 }

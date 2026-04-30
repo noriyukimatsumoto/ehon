@@ -93,7 +93,7 @@ class _LibraryBookCard extends ConsumerWidget {
     final notifier = ref.read(downloadNotifierProvider(book.id).notifier);
 
     return GestureDetector(
-      onTap: () => context.push('/read', extra: book.xmlPath),
+      onTap: () => context.push('/read', extra: book.jsonPath),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [

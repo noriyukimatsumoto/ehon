@@ -10,14 +10,14 @@ import '../template/quiz_template.dart';
 import '../template/reading_template.dart';
 
 class EhonPage extends ConsumerWidget {
-  const EhonPage({super.key, required this.xmlPath});
+  const EhonPage({super.key, required this.jsonPath});
 
-  final String xmlPath;
+  final String jsonPath;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final languageCode = Localizations.localeOf(context).languageCode;
-    final ehonAsync = ref.watch(ehonNotifierProvider(xmlPath, languageCode));
+    final ehonAsync = ref.watch(ehonNotifierProvider(jsonPath, languageCode));
 
     return ehonAsync.when(
       loading: () => const Scaffold(
@@ -28,7 +28,7 @@ class EhonPage extends ConsumerWidget {
       ),
       data: (state) {
         final notifier =
-            ref.read(ehonNotifierProvider(xmlPath, languageCode).notifier);
+            ref.read(ehonNotifierProvider(jsonPath, languageCode).notifier);
 
         if (state.phase == ReadingPhase.finished) {
           return FinishedTemplate(

@@ -66,9 +66,9 @@ class LocalBookDownloadRepository implements BookDownloadRepository {
     yield 0.95;
 
     // 3. SQLite に保存
-    final xmlPath = p.join(dir.path, 'book.xml');
+    final jsonPath = p.join(dir.path, 'book.json');
     final coverPath = p.join(dir.path, 'cover.jpg');
-    await _db.upsert(book, xmlPath: xmlPath, coverImagePath: coverPath);
+    await _db.upsert(book, jsonPath: jsonPath, coverImagePath: coverPath);
     yield 1.0;
   }
 

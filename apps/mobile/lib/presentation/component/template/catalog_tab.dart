@@ -193,7 +193,7 @@ class _CatalogBookCardState extends ConsumerState<_CatalogBookCard> {
     final repo = ref.read(bookDownloadRepositoryProvider);
     final localBook = await repo.getLocalBook(widget.book.id);
     if (context.mounted) {
-      unawaited(context.push('/read', extra: localBook.xmlPath));
+      unawaited(context.push('/read', extra: localBook.jsonPath));
     }
   }
 }

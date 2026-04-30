@@ -33,7 +33,7 @@ class BookDatabase {
           category_id TEXT NOT NULL,
           category_name_ja TEXT NOT NULL,
           category_name_en TEXT NOT NULL,
-          xml_path TEXT NOT NULL,
+          json_path TEXT NOT NULL,
           cover_image_path TEXT NOT NULL,
           downloaded_at INTEGER NOT NULL
         )
@@ -43,26 +43,22 @@ class BookDatabase {
 
   Future<void> upsert(
     RemoteBook remote, {
-    required String xmlPath,
+    required String jsonPath,
     required String coverImagePath,
   }) async {
     final db = await _database;
-    await db.insert(
-      'books',
-      {
-        'id': remote.id,
-        'version': remote.version,
-        'title_ja': remote.title['ja'] ?? '',
-        'title_en': remote.title['en'] ?? '',
-        'category_id': remote.categoryId,
-        'category_name_ja': remote.categoryName['ja'] ?? '',
-        'category_name_en': remote.categoryName['en'] ?? '',
-        'xml_path': xmlPath,
-        'cover_image_path': coverImagePath,
-        'downloaded_at': DateTime.now().millisecondsSinceEpoch,
-      },
-      conflictAlgorithm: ConflictAlgorithm.replace,
-    );
+    await db.insert('books', {
+      'id': remote.id,
+      'version': remote.version,
+      'title_ja': remote.title['ja'] ?? '',
+      'title_en': remote.title['en'] ?? '',
+      'category_id': remote.categoryId,
+      'category_name_ja': remote.categoryName['ja'] ?? '',
+      'category_name_en': remote.categoryName['en'] ?? '',
+      'json_path': jsonPath,
+      'cover_image_path': coverImagePath,
+      'downloaded_at': DateTime.now().millisecondsSinceEpoch,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
   }
 
   Future<bool> isDownloaded(String bookId) async {
@@ -101,10 +97,10 @@ class BookDatabase {
 
   Future<void> removeStaleRecords() async {
     final db = await _database;
-    final rows = await db.query('books', columns: ['id', 'xml_path']);
+    final rows = await db.query('books', columns: ['id', 'json_path']);
     for (final row in rows) {
-      final xmlPath = row['xml_path'] as String;
-      if (!File(xmlPath).existsSync()) {
+      final jsonPath = row['json_path']! as String;
+      if (!File(jsonPath).existsSync()) {
         await db.delete('books', where: 'id = ?', whereArgs: [row['id']]);
       }
     }
@@ -116,7 +112,7 @@ class BookDatabase {
       'ja': row['title_ja']! as String,
       'en': row['title_en']! as String,
     },
-    xmlPath: row['xml_path']! as String,
+    jsonPath: row['json_path']! as String,
     coverImagePath: row['cover_image_path']! as String,
   );
 }

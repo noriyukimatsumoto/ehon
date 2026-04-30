@@ -27,7 +27,7 @@ async function uploadFile(
 }
 
 // zip に含めるファイル・ディレクトリ（bookDir からの相対パス）
-const ZIP_INCLUDES = ["book.xml", "cover.jpg", "images", "audios"];
+const ZIP_INCLUDES = ["book.json", "cover.jpg", "images", "audios"];
 
 async function uploadZip(bookDir: string, destination: string): Promise<void> {
   const bucket = storage.bucket(BUCKET_NAME);

@@ -13,8 +13,8 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/read',
       builder: (context, state) {
-        final xmlPath = state.extra! as String;
-        return EhonPage(xmlPath: xmlPath);
+        final jsonPath = state.extra! as String;
+        return EhonPage(jsonPath: jsonPath);
       },
     ),
     GoRoute(

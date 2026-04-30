@@ -21,7 +21,7 @@ class EhonNotifier extends _$EhonNotifier {
   StreamSubscription<ProcessingState>? _playerSub;
 
   @override
-  Future<EhonReadingState> build(String xmlPath, String languageCode) async {
+  Future<EhonReadingState> build(String jsonPath, String languageCode) async {
     ref.onDispose(() {
       _timer?.cancel();
       _playerSub?.cancel();
@@ -31,7 +31,7 @@ class EhonNotifier extends _$EhonNotifier {
     final settings = await ref.read(settingsNotifierProvider.future);
     final data = await ref
         .read(loadEhonUseCaseProvider)
-        .execute(xmlPath, languageCode);
+        .execute(jsonPath, languageCode);
     final quizQuestions = settings.quizEnabled
         ? _pickQuestions(data.questions)
         : <QuizQuestion>[];

@@ -4,7 +4,6 @@ import * as path from "path";
 import { GeminiClient } from "./gemini-client";
 import { ImagenClient } from "./imagen-client";
 import {
-  BookParser,
   BookData,
   SceneData,
   ImagePrompts,
@@ -20,32 +19,27 @@ const BOOKS_DIR = path.resolve(
 export class BookGenerator {
   private readonly gemini = new GeminiClient();
   private readonly imagen = new ImagenClient();
-  private readonly parser = new BookParser();
   private readonly audio = new AudioGenerator();
 
-  // step1~5: title → story.txt → story_reviewed.txt → scenes.json → book.json → book.xml
+  // step1~4: title → story.txt → story_reviewed.txt → scenes.json → book.json
   async generateStory(bookId: string, title: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(bookDir, { recursive: true });
 
-    console.log("\n[1/5] title → story.txt");
+    console.log("\n[1/4] title → story.txt");
     await this.step1_summarize(title, bookDir);
     console.log("  Done.");
 
-    console.log("\n[2/5] story.txt → story_reviewed.txt");
+    console.log("\n[2/4] story.txt → story_reviewed.txt");
     await this.step2_reviewStory(bookDir);
     console.log("  Done.");
 
-    console.log("\n[3/5] story_reviewed.txt → scenes.json");
+    console.log("\n[3/4] story_reviewed.txt → scenes.json");
     await this.step3_splitScenes(bookDir);
     console.log("  Done.");
 
-    console.log("\n[4/5] scenes.json → book.json");
+    console.log("\n[4/4] scenes.json → book.json");
     await this.step4_generateJson(bookDir, title);
-    console.log("  Done.");
-
-    console.log("\n[5/5] book.json → book.xml");
-    this.step5_convertToXml(bookDir);
     console.log("  Done.");
   }
 
@@ -138,17 +132,6 @@ export class BookGenerator {
     fs.writeFileSync(
       path.join(bookDir, "book.json"),
       JSON.stringify(bookData, null, 2),
-      "utf-8",
-    );
-  }
-
-  private step5_convertToXml(bookDir: string): void {
-    const bookData = JSON.parse(
-      fs.readFileSync(path.join(bookDir, "book.json"), "utf-8"),
-    ) as BookData;
-    fs.writeFileSync(
-      path.join(bookDir, "book.xml"),
-      this.parser.toXml(bookData),
       "utf-8",
     );
   }
