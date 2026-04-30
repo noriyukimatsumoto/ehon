@@ -63,10 +63,14 @@ class EhonNotifier extends _$EhonNotifier {
   }
 
   void _startPlayback(TextClause clause) {
-    if (clause.audioUrl != null) {
-      _playAudio(clause.audioUrl!, clause.duration);
+    _playAudioOrCountdown(clause.audioUrl, clause.duration);
+  }
+
+  void _playAudioOrCountdown(String? audioUrl, int duration) {
+    if (audioUrl != null) {
+      _playAudio(audioUrl, duration);
     } else {
-      _startCountdown(clause.duration);
+      _startCountdown(duration);
     }
   }
 
@@ -156,7 +160,8 @@ class EhonNotifier extends _$EhonNotifier {
       );
       _playOrCountdown(firstClause, delay: const Duration(seconds: 1));
     } else if (current.quizQuestions.isNotEmpty) {
-      final duration = current.quizQuestions.first.questionDuration;
+      final question = current.quizQuestions.first;
+      final duration = question.questionDuration;
       state = AsyncData(
         current.copyWith(
           phase: ReadingPhase.quizQuestion,
@@ -164,24 +169,29 @@ class EhonNotifier extends _$EhonNotifier {
           remaining: duration,
         ),
       );
-      _startCountdown(duration);
+      _playAudioOrCountdown(question.audioUrl, duration);
     } else {
       state = AsyncData(current.copyWith(phase: ReadingPhase.finished));
     }
   }
 
   void _showAnswer(EhonReadingState current) {
-    final duration = current.currentQuestion.answerDuration;
-    state = AsyncData(
-      current.copyWith(phase: ReadingPhase.quizAnswer, remaining: duration),
-    );
-    _startCountdown(duration);
+    _cancelPlayback();
+    _timer = Timer(const Duration(seconds: 1), () {
+      final question = current.currentQuestion;
+      final duration = question.answerDuration;
+      state = AsyncData(
+        current.copyWith(phase: ReadingPhase.quizAnswer, remaining: duration),
+      );
+      _playAudioOrCountdown(question.correctChoice.audioUrl, duration);
+    });
   }
 
   void _advanceQuiz(EhonReadingState current) {
     final nextIndex = current.currentQuizIndex + 1;
     if (nextIndex < current.quizQuestions.length) {
-      final duration = current.quizQuestions[nextIndex].questionDuration;
+      final question = current.quizQuestions[nextIndex];
+      final duration = question.questionDuration;
       state = AsyncData(
         current.copyWith(
           phase: ReadingPhase.quizQuestion,
@@ -189,7 +199,7 @@ class EhonNotifier extends _$EhonNotifier {
           remaining: duration,
         ),
       );
-      _startCountdown(duration);
+      _playAudioOrCountdown(question.audioUrl, duration);
     } else {
       state = AsyncData(current.copyWith(phase: ReadingPhase.finished));
     }
