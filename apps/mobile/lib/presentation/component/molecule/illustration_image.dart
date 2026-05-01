@@ -9,19 +9,16 @@ class IllustrationImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (imagePath.startsWith('/')) {
-      return Image.file(
-        File(imagePath),
-        fit: BoxFit.cover,
-        width: double.infinity,
-        height: double.infinity,
-      );
-    }
-    return Image.asset(
-      imagePath,
-      fit: BoxFit.cover,
+    final screenWidth = MediaQuery.of(context).size.width;
+    final dpr = MediaQuery.of(context).devicePixelRatio;
+    final cacheWidth = (screenWidth * dpr).toInt();
+
+    return Image.file(
+      File(imagePath),
+      fit: BoxFit.contain,
       width: double.infinity,
       height: double.infinity,
+      cacheWidth: cacheWidth,
     );
   }
 }

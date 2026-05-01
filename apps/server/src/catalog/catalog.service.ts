@@ -28,7 +28,7 @@ export class CatalogService {
       categoryId: meta.categoryId,
       categoryName: meta.categoryName,
       zipUrl: `${gcsBaseUrl}/${meta.id}/data.zip`,
-      coverImageUrl: `${gcsBaseUrl}/${meta.id}/cover.jpg`,
+      coverImageUrl: `${gcsBaseUrl}/${meta.id}/cover.png`,
     }));
 
     return { books };

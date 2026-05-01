@@ -5,5 +5,12 @@
     "title": { "ja": "赤ずきん", "en": "Little Red Riding Hood" },
     "categoryId": "grimm",
     "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
+  },
+  {
+    "id": "grimms_001_kaeru_no_osama",
+    "version": "1.0.0",
+    "title": { "ja": "かえるの王さま", "en": "The Frog King" },
+    "categoryId": "grimm",
+    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
   }
 ]

@@ -61,7 +61,7 @@ export class BookGenerator {
     );
     console.log("  Done.");
 
-    console.log("\n[2/2] image_prompts.json → cover.jpg + images/scene*.jpg");
+    console.log("\n[2/2] image_prompts.json → cover.png + images/scene*.png");
     await this.renderImages(promptsPath);
     console.log("  Done.");
   }
@@ -143,10 +143,10 @@ export class BookGenerator {
       fs.readFileSync(promptsPath, "utf-8"),
     ) as ImagePrompts;
 
-    console.log("  cover.jpg");
+    console.log("  cover.png");
     const coverParts = await this.imagen.generateImage(
       prompts.cover,
-      path.join(bookDir, "cover.jpg"),
+      path.join(bookDir, "cover.png"),
     );
 
     const history: Part[] = [];

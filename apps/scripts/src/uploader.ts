@@ -27,7 +27,7 @@ async function uploadFile(
 }
 
 // zip に含めるファイル・ディレクトリ（bookDir からの相対パス）
-const ZIP_INCLUDES = ["book.json", "cover.jpg", "images", "audios"];
+const ZIP_INCLUDES = ["book.json", "cover.png", "images", "audios"];
 
 async function uploadZip(bookDir: string, destination: string): Promise<void> {
   const bucket = storage.bucket(BUCKET_NAME);
@@ -63,12 +63,12 @@ async function uploadOne(bookId: string): Promise<void> {
   const bookDir = path.join(BOOKS_DIR, bookId);
   console.log(`[${bookId}]`);
 
-  const coverPath = path.join(bookDir, "cover.jpg");
+  const coverPath = path.join(bookDir, "cover.png");
   if (fs.existsSync(coverPath)) {
     await uploadFile(
       coverPath,
-      `${GCS_PREFIX}/${bookId}/cover.jpg`,
-      "image/jpeg",
+      `${GCS_PREFIX}/${bookId}/cover.png`,
+      "image/png",
     );
   }
 
