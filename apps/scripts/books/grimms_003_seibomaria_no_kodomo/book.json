@@ -1,0 +1,803 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、森の近くに",
+          "en": "Once upon a time, near a large forest,",
+          "duration": 3,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "きこりのおじさんとおかみさんが住んでいました。",
+          "en": "lived a woodcutter and his wife.",
+          "duration": 4,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "ふたりには、3歳の可愛いおんなのこが",
+          "en": "They had only one lovely daughter,",
+          "duration": 5,
+          "audio": "page1_text3"
+        },
+        {
+          "ja": "ひとりだけいましたが、とても貧乏でした。",
+          "en": "who was three years old, but they were very poor.",
+          "duration": 5,
+          "audio": "page1_text4"
+        },
+        {
+          "ja": "毎日のパンもなくなりそうで、困っていました。",
+          "en": "They were worried they would run out of bread to eat each day.",
+          "duration": 6,
+          "audio": "page1_text5"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ある朝、おじさんは悲しい気持ちで森へ",
+          "en": "One morning, the woodcutter went to the forest with a heavy heart.",
+          "duration": 5,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "仕事に行きました。木を切っていると、",
+          "en": "As he was cutting a tree, suddenly a beautiful woman appeared,",
+          "duration": 6,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "突然、頭にキラキラ光る星の冠をつけた、",
+          "en": "wearing a sparkling star crown on her head.",
+          "duration": 6,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "美しいおんなの人が現れました。",
+          "en": "\"I am the Virgin Mary, the mother of Jesus Christ.",
+          "duration": 5,
+          "audio": "page2_text4"
+        },
+        {
+          "ja": "「わたしは聖母マリア、イエス・キリストの母です。",
+          "en": "Send your child to me. I will take care of her and raise her happily.\"",
+          "duration": 7,
+          "audio": "page2_text5"
+        },
+        {
+          "ja": "あなたが思う、子供を私のところに",
+          "en": "",
+          "duration": 3,
+          "audio": "page2_text6"
+        },
+        {
+          "ja": "つかわしなさい。わたしが預かり、",
+          "en": "",
+          "duration": 4,
+          "audio": "page2_text7"
+        },
+        {
+          "ja": "幸せに育てましょう。」",
+          "en": "",
+          "duration": 3,
+          "audio": "page2_text8"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おじさんは、そのとおりにして、",
+          "en": "The woodcutter did as he was told and handed his daughter over to the Virgin Mary.",
+          "duration": 5,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "おんなのこを聖母マリアに渡しました。",
+          "en": "The Virgin Mary took the girl to heaven.",
+          "duration": 5,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "聖母マリアは、おんなのこを天国へ",
+          "en": "There, the girl lived happily.",
+          "duration": 5,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "連れていきました。",
+          "en": "She ate sweet candies, drank delicious milk, wore golden clothes,",
+          "duration": 4,
+          "audio": "page3_text4"
+        },
+        {
+          "ja": "天国では、おんなのこは幸せに",
+          "en": "and played with the angels.",
+          "duration": 5,
+          "audio": "page3_text5"
+        },
+        {
+          "ja": "暮らせました。",
+          "en": "",
+          "duration": 2,
+          "audio": "page3_text6"
+        },
+        {
+          "ja": "甘いお菓子を食べ、美味しいミルクを飲み、",
+          "en": "",
+          "duration": 4,
+          "audio": "page3_text7"
+        },
+        {
+          "ja": "金色（きんいろ）の服を着て、天使たちと遊びました。",
+          "en": "",
+          "duration": 6,
+          "audio": "page3_text8"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おんなのこが14歳になったある日、",
+          "en": "One day, when the girl turned fourteen,",
+          "duration": 5,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "聖母マリアは言いました。",
+          "en": "the Virgin Mary said,",
+          "duration": 4,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "「子よ、私は長い旅に出かけます。",
+          "en": "\"Child, I am going on a long journey.",
+          "duration": 5,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "だから、あなたに天国の13個の",
+          "en": "So I will entrust you with the keys to the thirteen gates of heaven.",
+          "duration": 6,
+          "audio": "page4_text4"
+        },
+        {
+          "ja": "扉（と）のかぎを預けましょう。",
+          "en": "You may open twelve of the gates,",
+          "duration": 5,
+          "audio": "page4_text5"
+        },
+        {
+          "ja": "12個の扉は開けてもいいけれど、",
+          "en": "but you must never open the thirteenth gate.",
+          "duration": 6,
+          "audio": "page4_text6"
+        },
+        {
+          "ja": "13番目の扉は、絶対に開けてはいけません。",
+          "en": "There is a small key. If you open it, misfortune will befall you.\"",
+          "duration": 7,
+          "audio": "page4_text7"
+        },
+        {
+          "ja": "開けると、不幸が訪れます。」",
+          "en": "",
+          "duration": 4,
+          "audio": "page4_text8"
+        },
+        {
+          "ja": "おんなのこは、絶対に開けないと約束しました。",
+          "en": "The girl promised she would never open it.",
+          "duration": 6,
+          "audio": "page4_text9"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "聖母マリアがいなくなったあと、",
+          "en": "After the Virgin Mary left,",
+          "duration": 5,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "おんなのこは天国の部屋を見て回りました。",
+          "en": "the girl looked around the rooms of heaven.",
+          "duration": 6,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "12個の部屋を見て、どの部屋も",
+          "en": "She looked at the twelve rooms and felt happy,",
+          "duration": 6,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "とてもキラキラしていて、幸せな気持ちになりました。",
+          "en": "as each room was very dazzling.",
+          "duration": 7,
+          "audio": "page5_text4"
+        },
+        {
+          "ja": "でも、残った13番目の扉が、",
+          "en": "But the remaining thirteenth gate bothered her.",
+          "duration": 6,
+          "audio": "page5_text5"
+        },
+        {
+          "ja": "気になって仕方ありません。",
+          "en": "\"I'll just peek a little bit.\"",
+          "duration": 5,
+          "audio": "page5_text6"
+        },
+        {
+          "ja": "「ほんの少しだけ、覗いてみよう。」",
+          "en": "she thought.",
+          "duration": 5,
+          "audio": "page5_text7"
+        },
+        {
+          "ja": "おんなのこはそう思いました。",
+          "en": "The angels said, \"No, that would be a sin.\"",
+          "duration": 5,
+          "audio": "page5_text8"
+        },
+        {
+          "ja": "天使たちは「だめですよ。それは罪になります。」",
+          "en": "But the girl did not listen.",
+          "duration": 6,
+          "audio": "page5_text9"
+        },
+        {
+          "ja": "と言いましたが、おんなのこは聞きませんでした。",
+          "en": "",
+          "duration": 5,
+          "audio": "page5_text10"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "かぎを開けて、扉を少し開けると、",
+          "en": "She opened the lock and slightly opened the gate.",
+          "duration": 5,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "まぶしい光の中に、三つの髪が",
+          "en": "In the dazzling light, three gods were sitting.",
+          "duration": 6,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "座っていました。",
+          "en": "The girl was surprised.",
+          "duration": 4,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "おんなのこはびっくりして、",
+          "en": "When she touched the light with her finger,",
+          "duration": 5,
+          "audio": "page6_text4"
+        },
+        {
+          "ja": "光に指を触れると、指が金色に",
+          "en": "her finger turned golden!",
+          "duration": 5,
+          "audio": "page6_text5"
+        },
+        {
+          "ja": "なってしまいました！",
+          "en": "Frightened, the girl quickly closed the gate and fled.",
+          "duration": 5,
+          "audio": "page6_text6"
+        },
+        {
+          "ja": "怖くなって、おんなのこは扉をけして逃げました。",
+          "en": "",
+          "duration": 6,
+          "audio": "page6_text7"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "しばらくして、聖母マリアが帰ってきました。",
+          "en": "After a while, the Virgin Mary returned.",
+          "duration": 5,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "「13番目の扉を開けましたか？」",
+          "en": "\"Did you open the thirteenth gate?\" asked the Virgin Mary.",
+          "duration": 6,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "と聖母マリアは聞きました。",
+          "en": "The girl said no, but the Virgin Mary knew she was lying,",
+          "duration": 5,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "おんなのこは、いいえ、とうそを言いました。",
+          "en": "by touching the girl's pounding heart.",
+          "duration": 6,
+          "audio": "page7_text4"
+        },
+        {
+          "ja": "でも、聖母マリアは、おんなのこ",
+          "en": "And seeing the golden finger, she finally knew the truth.",
+          "duration": 6,
+          "audio": "page7_text5"
+        },
+        {
+          "ja": "のドキドキする心臓（こころ）を触って、",
+          "en": "\"You lied. You are no longer worthy of being in heaven.\"",
+          "duration": 7,
+          "audio": "page7_text6"
+        },
+        {
+          "ja": "うそだとわかりました。",
+          "en": "",
+          "duration": 4,
+          "audio": "page7_text7"
+        },
+        {
+          "ja": "そして、金色になった指を見て、",
+          "en": "",
+          "duration": 4,
+          "audio": "page7_text8"
+        },
+        {
+          "ja": "ついに真実を知りました。",
+          "en": "",
+          "duration": 4,
+          "audio": "page7_text9"
+        },
+        {
+          "ja": "「あなたはうそをつきましたね。",
+          "en": "",
+          "duration": 4,
+          "audio": "page7_text10"
+        },
+        {
+          "ja": "もう天国にいる資格はありません。」",
+          "en": "",
+          "duration": 5,
+          "audio": "page7_text11"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おんなのこが目を覚ますと、",
+          "en": "When the girl woke up, she was in the middle of a wilderness.",
+          "duration": 5,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "そこは荒野（こうや）の真ん中でした。",
+          "en": "She could not utter a sound and was blocked by thorny hedges,",
+          "duration": 6,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "声も出せず、いばらの垣根にさえぎられ、",
+          "en": "unable to escape anywhere.",
+          "duration": 6,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "どこにも逃げられません。",
+          "en": "She lived miserably in a hollow tree,",
+          "duration": 5,
+          "audio": "page8_text4"
+        },
+        {
+          "ja": "木の窪みをすみかに、木のの実や",
+          "en": "eating berries and wild strawberries.",
+          "duration": 6,
+          "audio": "page8_text5"
+        },
+        {
+          "ja": "野性のいちごを食べて、寂しく暮らしました。",
+          "en": "",
+          "duration": 6,
+          "audio": "page8_text6"
+        }
+      ],
+      "image": "scene8.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ある日、その国の王様が森で狩をしていました。",
+          "en": "One day, the king of that land was hunting in the forest.",
+          "duration": 7,
+          "audio": "page9_text1"
+        },
+        {
+          "ja": "王様は、おんなのこ の美しさにびっくりして、",
+          "en": "The king was surprised by the girl's beauty,",
+          "duration": 6,
+          "audio": "page9_text2"
+        },
+        {
+          "ja": "お城に連れて帰り、素敵な服を着せました。",
+          "en": "took her to the castle, and dressed her in beautiful clothes.",
+          "duration": 7,
+          "audio": "page9_text3"
+        },
+        {
+          "ja": "おんなのこは声を出せませんでしたが、",
+          "en": "The girl could not speak,",
+          "duration": 5,
+          "audio": "page9_text4"
+        },
+        {
+          "ja": "王様は、おんなのこを心から愛し、",
+          "en": "but the king loved her dearly from the bottom of his heart,",
+          "duration": 6,
+          "audio": "page9_text5"
+        },
+        {
+          "ja": "結婚しました。",
+          "en": "and they got married.",
+          "duration": 3,
+          "audio": "page9_text6"
+        }
+      ],
+      "image": "scene9.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "やがて、おんなのこは男の子の赤ちゃんを産みました。",
+          "en": "Soon, the girl gave birth to a baby boy.",
+          "duration": 6,
+          "audio": "page10_text1"
+        },
+        {
+          "ja": "その夜、聖母マリアが現れて言いました。",
+          "en": "That night, the Virgin Mary appeared and said,",
+          "duration": 6,
+          "audio": "page10_text2"
+        },
+        {
+          "ja": "「もし、あなたが扉を開けたことを",
+          "en": "\"If you honestly tell me that you opened the gate,",
+          "duration": 6,
+          "audio": "page10_text3"
+        },
+        {
+          "ja": "真実（しんじつ）に言うなら、声を出せるように",
+          "en": "I will let you speak again. But if you continue to lie,",
+          "duration": 7,
+          "audio": "page10_text4"
+        },
+        {
+          "ja": "してあげましょう。",
+          "en": "I will take the baby with me.\"",
+          "duration": 4,
+          "audio": "page10_text5"
+        },
+        {
+          "ja": "でも、もし嘘を続けるなら、",
+          "en": "The girl lied again.",
+          "duration": 4,
+          "audio": "page10_text6"
+        },
+        {
+          "ja": "赤ちゃんを連れていきますよ。」",
+          "en": "Then the Virgin Mary took the baby away.",
+          "duration": 5,
+          "audio": "page10_text7"
+        },
+        {
+          "ja": "おんなのこは、また嘘を言いました。",
+          "en": "The next year, another son was born,",
+          "duration": 5,
+          "audio": "page10_text8"
+        },
+        {
+          "ja": "すると、聖母マリアは赤ちゃんを連れていってしまいました。",
+          "en": "but the girl lied again, and the Virgin Mary took the baby away.",
+          "duration": 7,
+          "audio": "page10_text9"
+        },
+        {
+          "ja": "次の年、また男の子が生まれましたが、",
+          "en": "A rumor spread that the girl had eaten her babies,",
+          "duration": 6,
+          "audio": "page10_text10"
+        },
+        {
+          "ja": "おんなのこはまた嘘を言い、",
+          "en": "and the girl was to be put on trial.",
+          "duration": 5,
+          "audio": "page10_text11"
+        },
+        {
+          "ja": "聖母マリアは赤ちゃんを連れていってしまいました。",
+          "en": "The third baby was a cute baby girl.",
+          "duration": 7,
+          "audio": "page10_text12"
+        },
+        {
+          "ja": "昔から、おんなのこが赤ちゃんを食べてしまったと",
+          "en": "The Virgin Mary appeared again and showed the girl two baby boys.",
+          "duration": 8,
+          "audio": "page10_text13"
+        },
+        {
+          "ja": "噂が広まり、おんなのこは裁判にかけられることになりました。",
+          "en": "\"If you tell the truth, I will return the babies to you.\"",
+          "duration": 10,
+          "audio": "page10_text14"
+        },
+        {
+          "ja": "３番目の赤ちゃんは、可愛い女の子でした。",
+          "en": "However, the girl lied three times.",
+          "duration": 7,
+          "audio": "page10_text15"
+        },
+        {
+          "ja": "聖母マリアはまた現れ、おんなのこに",
+          "en": "And the third baby was also taken away.",
+          "duration": 7,
+          "audio": "page10_text16"
+        },
+        {
+          "ja": "２匹の男の子の赤ちゃんを見せました。",
+          "en": "Finally, the girl faced the fire of death.",
+          "duration": 7,
+          "audio": "page10_text17"
+        },
+        {
+          "ja": "「真実を言えば、赤ちゃんを返してあげましょう。」",
+          "en": "As the flames rose, the girl opened her hardened heart and said in a loud voice,",
+          "duration": 10,
+          "audio": "page10_text18"
+        },
+        {
+          "ja": "しかし、おんなのこは３回も嘘を言いました。",
+          "en": "\"Yes, Virgin Mary, I opened the gate!\"",
+          "duration": 7,
+          "audio": "page10_text19"
+        },
+        {
+          "ja": "そして、３番目の赤ちゃんも奪われてしまいました。",
+          "en": "Then, rain fell and extinguished the flames.",
+          "duration": 7,
+          "audio": "page10_text20"
+        },
+        {
+          "ja": "ついに、おんなのこは死につながる火あぶりの刑となりました。",
+          "en": "The Virgin Mary descended with her three children, forgave the girl,",
+          "duration": 10,
+          "audio": "page10_text21"
+        },
+        {
+          "ja": "炎が上がると、おんなのこは",
+          "en": "and restored her voice.",
+          "duration": 5,
+          "audio": "page10_text22"
+        },
+        {
+          "ja": "金剛していた心を、大きな声で言いました。",
+          "en": "And the girl lived happily ever after.",
+          "duration": 7,
+          "audio": "page10_text23"
+        },
+        {
+          "ja": "「はい、聖母マリアさま、わたしが扉を開けました！」",
+          "en": "",
+          "duration": 7,
+          "audio": "page10_text24"
+        },
+        {
+          "ja": "すると、雨が降って炎を消しました。",
+          "en": "",
+          "duration": 5,
+          "audio": "page10_text25"
+        },
+        {
+          "ja": "聖母マリアさまが、３人 の子供たちと",
+          "en": "",
+          "duration": 6,
+          "audio": "page10_text26"
+        },
+        {
+          "ja": "一緒に降りてきて、おんなのこ の",
+          "en": "",
+          "duration": 5,
+          "audio": "page10_text27"
+        },
+        {
+          "ja": "過ち（あやまち）を許し、声 を",
+          "en": "",
+          "duration": 5,
+          "audio": "page10_text28"
+        },
+        {
+          "ja": "返してくれました。",
+          "en": "",
+          "duration": 4,
+          "audio": "page10_text29"
+        },
+        {
+          "ja": "そして、おんなのこは、その後ずっと",
+          "en": "",
+          "duration": 5,
+          "audio": "page10_text30"
+        },
+        {
+          "ja": "幸せに暮らしました。",
+          "en": "",
+          "duration": 4,
+          "audio": "page10_text31"
+        }
+      ],
+      "image": "scene10.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "きこりのおじさんとおかみさんには、何人の子供がいましたか？",
+      "en": "How many children did the woodcutter and his wife have?",
+      "duration": 5,
+      "answerDuration": 3,
+      "audio": "question1",
+      "image": "scene1.png",
+      "choices": [
+        {
+          "ja": "一人",
+          "en": "One",
+          "correct": true,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "二人",
+          "en": "Two",
+          "correct": false,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "三人",
+          "en": "Three",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "聖母マリアは、おんなのこに天国の扉のかぎをいくつ預けましたか？",
+      "en": "How many keys to the gates of heaven did the Virgin Mary entrust to the girl?",
+      "duration": 7,
+      "answerDuration": 3,
+      "audio": "question2",
+      "image": "scene4.png",
+      "choices": [
+        {
+          "ja": "12個",
+          "en": "Twelve",
+          "correct": false,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "13個",
+          "en": "Thirteen",
+          "correct": true,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "14個",
+          "en": "Fourteen",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おんなのこが13番目の扉を開けたとき、指はどうなりましたか？",
+      "en": "What happened to the girl's finger when she opened the thirteenth gate?",
+      "duration": 7,
+      "answerDuration": 3,
+      "audio": "question3",
+      "image": "scene6.png",
+      "choices": [
+        {
+          "ja": "赤くなった",
+          "en": "It turned red.",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "金色になった",
+          "en": "It turned golden.",
+          "correct": true,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "何も変わらなかった",
+          "en": "Nothing happened.",
+          "correct": false,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "王様は、おんなのこに会ってどうしましたか？",
+      "en": "What did the king do when he met the girl?",
+      "duration": 6,
+      "answerDuration": 3,
+      "audio": "question4",
+      "image": "scene9.png",
+      "choices": [
+        {
+          "ja": "森に置いて帰った",
+          "en": "He left her in the forest.",
+          "correct": false,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "お城に連れて帰り、結婚した",
+          "en": "He took her to his castle and married her.",
+          "correct": true,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "聖母マリアに渡した",
+          "en": "He handed her over to the Virgin Mary.",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おんなのこは、最後にどうして声を取り戻しましたか？",
+      "en": "How did the girl finally get her voice back?",
+      "duration": 8,
+      "answerDuration": 4,
+      "audio": "question5",
+      "image": "scene10.png",
+      "choices": [
+        {
+          "ja": "嘘をつき続けたから",
+          "en": "Because she kept lying.",
+          "correct": false,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "真実を話したから",
+          "en": "Because she told the truth.",
+          "correct": true,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "王様が助けてくれたから",
+          "en": "Because the king helped her.",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "聖母マリアの子供"
+}

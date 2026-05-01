@@ -48,11 +48,10 @@ export class BookGenerator {
 
     console.log("\n[3/4] scenes.json → image_prompts.json");
     await this.buildImagePrompts(scenesPath, title, imageStyle);
+    console.log("  Done.");
 
     console.log("\n[4/4] book.json → audio_prompts.json");
     await this.buildAudioPrompts(bookPath);
-    console.log("  Done.");
-
     console.log("  Done.");
   }
 
