@@ -184,13 +184,13 @@
       "audio": "page4_text1_ja",
       "lang": "ja",
       "text": "かえるは池の中に潜って、すぐにきんのボールを持って上がってきました。",
-      "prompt": "[quickly, efficiently]"
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page4_text1_en",
       "lang": "en",
       "text": "The frog dove into the pond and quickly returned with the golden ball.",
-      "prompt": "[quickly, efficiently]"
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page4_text2_ja",
@@ -387,13 +387,13 @@
     {
       "audio": "page7_text4_ja",
       "lang": "ja",
-      "text": "お父さんの王様の言うことを聞かなければなりませんでした。",
+      "text": "お父さんの言うことを聞かなければなりませんでした。",
       "prompt": "[obediently, reluctantly]"
     },
     {
       "audio": "page7_text4_en",
       "lang": "en",
-      "text": "but she had to obey her father, the King.",
+      "text": "but she had to obey her father.",
       "prompt": "[obediently, reluctantly]"
     },
     {
@@ -531,242 +531,62 @@
     {
       "audio": "question1_ja",
       "lang": "ja",
-      "text": "おひめさまが池で落としてしまったものは何ですか？",
+      "text": "おひめさまが池で落としてしまったものは何ですか？ きんのボール おもちゃの人形 えほん",
       "prompt": "[inquiringly, calmly]"
     },
     {
       "audio": "question1_en",
       "lang": "en",
-      "text": "What did the princess drop into the pond?",
+      "text": "What did the princess drop into the pond? A golden ball A toy doll A picture book",
       "prompt": "[inquiringly, calmly]"
-    },
-    {
-      "audio": "question1_choice1_ja",
-      "lang": "ja",
-      "text": "きんのボール",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question1_choice1_en",
-      "lang": "en",
-      "text": "A golden ball",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question1_choice2_ja",
-      "lang": "ja",
-      "text": "おもちゃの人形",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question1_choice2_en",
-      "lang": "en",
-      "text": "A toy doll",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question1_choice3_ja",
-      "lang": "ja",
-      "text": "えほん",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question1_choice3_en",
-      "lang": "en",
-      "text": "A picture book",
-      "prompt": "[uncertainly, doubtfully]"
     },
     {
       "audio": "question2_ja",
       "lang": "ja",
-      "text": "かえるがおひめさまにした約束はなんですか？",
+      "text": "かえるがおひめさまにした約束はなんですか？ いっしょにごはんをたべ、となりにねむること お城の宝物をあげること かえるを友達として遊ぶこと",
       "prompt": "[inquiringly, calmly]"
     },
     {
       "audio": "question2_en",
       "lang": "en",
-      "text": "What did the frog ask the princess to promise?",
+      "text": "What did the frog ask the princess to promise? To eat with him and sleep beside her To give him the castle's treasures To play with the frog as a friend",
       "prompt": "[inquiringly, calmly]"
-    },
-    {
-      "audio": "question2_choice1_ja",
-      "lang": "ja",
-      "text": "いっしょにごはんをたべ、となりにねむること",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question2_choice1_en",
-      "lang": "en",
-      "text": "To eat with him and sleep beside her",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question2_choice2_ja",
-      "lang": "ja",
-      "text": "お城の宝物をあげること",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question2_choice2_en",
-      "lang": "en",
-      "text": "To give him the castle's treasures",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question2_choice3_ja",
-      "lang": "ja",
-      "text": "かえるを友達として遊ぶこと",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question2_choice3_en",
-      "lang": "en",
-      "text": "To play with the frog as a friend",
-      "prompt": "[uncertainly, doubtfully]"
     },
     {
       "audio": "question3_ja",
       "lang": "ja",
-      "text": "おひめさまは、かえるが約束を破ったことに気づき、どうしましたか？",
+      "text": "おひめさまは、かえるが約束を破ったことに気づき、どうしましたか？ かえるを王様に紹介した かえるを中に入れず、ドアを閉めた かえるを城の中に入れた",
       "prompt": "[inquiringly, calmly]"
     },
     {
       "audio": "question3_en",
       "lang": "en",
-      "text": "What did the princess do when she realized the frog kept its promise?",
+      "text": "What did the princess do when she realized the frog kept its promise? She introduced the frog to the King She didn't let the frog in and closed the door She let the frog into the castle",
       "prompt": "[inquiringly, calmly]"
-    },
-    {
-      "audio": "question3_choice1_ja",
-      "lang": "ja",
-      "text": "かえるを王様に紹介した",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question3_choice1_en",
-      "lang": "en",
-      "text": "She introduced the frog to the King",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question3_choice2_ja",
-      "lang": "ja",
-      "text": "かえるを中に入れず、ドアを閉めた",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question3_choice2_en",
-      "lang": "en",
-      "text": "She didn't let the frog in and closed the door",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question3_choice3_ja",
-      "lang": "ja",
-      "text": "かえるを城の中に入れた",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question3_choice3_en",
-      "lang": "en",
-      "text": "She let the frog into the castle",
-      "prompt": "[confidently, clearly]"
     },
     {
       "audio": "question4_ja",
       "lang": "ja",
-      "text": "おひめさまが我慢できずに、かえるにしたことは何ですか？",
+      "text": "おひめさまが我慢できずに、かえるにしたことは何ですか？ かえるにキスをした かえるを壁にたたきつけた かえるに謝った",
       "prompt": "[inquiringly, calmly]"
     },
     {
       "audio": "question4_en",
       "lang": "en",
-      "text": "What did the princess do when she couldn't stand the frog anymore?",
+      "text": "What did the princess do when she couldn't stand the frog anymore? She kissed the frog She threw the frog against the wall She apologized to the frog",
       "prompt": "[inquiringly, calmly]"
-    },
-    {
-      "audio": "question4_choice1_ja",
-      "lang": "ja",
-      "text": "かえるにキスをした",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question4_choice1_en",
-      "lang": "en",
-      "text": "She kissed the frog",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question4_choice2_ja",
-      "lang": "ja",
-      "text": "かえるを壁にたたきつけた",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question4_choice2_en",
-      "lang": "en",
-      "text": "She threw the frog against the wall",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question4_choice3_ja",
-      "lang": "ja",
-      "text": "かえるに謝った",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question4_choice3_en",
-      "lang": "en",
-      "text": "She apologized to the frog",
-      "prompt": "[uncertainly, doubtfully]"
     },
     {
       "audio": "question5_ja",
       "lang": "ja",
-      "text": "かえるの本当の姿は何でしたか？",
+      "text": "かえるの本当の姿は何でしたか？ 魔女 王子さま 王様",
       "prompt": "[inquiringly, calmly]"
     },
     {
       "audio": "question5_en",
       "lang": "en",
-      "text": "What was the frog's true form?",
+      "text": "What was the frog's true form? A witch A prince A king",
       "prompt": "[inquiringly, calmly]"
-    },
-    {
-      "audio": "question5_choice1_ja",
-      "lang": "ja",
-      "text": "魔女",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question5_choice1_en",
-      "lang": "en",
-      "text": "A witch",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question5_choice2_ja",
-      "lang": "ja",
-      "text": "王子さま",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question5_choice2_en",
-      "lang": "en",
-      "text": "A prince",
-      "prompt": "[confidently, clearly]"
-    },
-    {
-      "audio": "question5_choice3_ja",
-      "lang": "ja",
-      "text": "王様",
-      "prompt": "[uncertainly, doubtfully]"
-    },
-    {
-      "audio": "question5_choice3_en",
-      "lang": "en",
-      "text": "A king",
-      "prompt": "[uncertainly, doubtfully]"
     }
   ]
 }

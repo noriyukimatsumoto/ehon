@@ -9,27 +9,246 @@
           "audio": "page1_text1"
         },
         {
-          "ja": "ピカピカのおひげと、ふかふかのけなみで、うっとりするようでした。",
-          "en": "With sparkling whiskers and soft fur, it was enchanting to look at.",
-          "duration": 6,
+          "ja": "ピカピカのおひげとふかふかのけなみで、うっとりするほどでした。",
+          "en": "With shiny whiskers and fluffy fur, it was enchanting to look at.",
+          "duration": 7,
           "audio": "page1_text2"
         },
         {
-          "ja": "でも、ねこなのにねずみさんをいじめない、ふしぎなところがありました。",
-          "en": "But, it had a strange characteristic: though a cat, it didn't bully mice.",
+          "ja": "でも、ねずみをいじめないのが、ふしぎなところでした。",
+          "en": "But, it was strange that it didn't bully mice.",
           "duration": 7,
           "audio": "page1_text3"
         }
       ],
       "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "あるところに、こわがりでちいさなねずみさんがいました。",
+          "en": "There once was a timid and very small mouse.",
+          "duration": 7,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "ふるいこうえんにひそみ、おばあさんねこにそだてられていました。",
+          "en": "It hid in an old park and was raised by an old cat.",
+          "duration": 7,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "おばあさんねこは、ねずみさんをかわいがるやさしいねこでした。",
+          "en": "The old cat was kind and doted on the mouse.",
+          "duration": 7,
+          "audio": "page2_text3"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "あるひ、ねずみさんはねこにそっとちかづきました。",
+          "en": "One day, the mouse quietly approached the cat.",
+          "duration": 7,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "いつもはかくれてしまうのに、このひはゆうきをだしました。",
+          "en": "Usually it would hide, but this day it gathered its courage.",
+          "duration": 7,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "そっと、ねこのおひげにさわってみたのです。",
+          "en": "It gently touched the cat's whiskers.",
+          "duration": 6,
+          "audio": "page3_text3"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "すると、ねこはめをあけましたが、こわがりませんでした。",
+          "en": "Then, the cat opened its eyes, but wasn't scared.",
+          "duration": 7,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "ねこはにっこりわらって、ねずみさんにいいました。",
+          "en": "The cat smiled and said to the mouse:",
+          "duration": 6,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "「おお、こんにちは！こんなところで、なにをしているんだい？」",
+          "en": "\"Oh, hello! What are you doing here?\"",
+          "duration": 7,
+          "audio": "page4_text3"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ねずみさんはびっくりしましたが、ねこはやさしいこえでいいました。",
+          "en": "The mouse was surprised, but the cat said kindly:",
+          "duration": 7,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "「だいじょうぶだよ。ぼくは、ねずみをころしたりしないんだ。",
+          "en": "\"It's okay. I don't kill mice.\"",
+          "duration": 7,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "ほんとうは、みんなとともだちになりたいんだ。」",
+          "en": "\"Actually, I want to be friends with everyone.\"",
+          "duration": 6,
+          "audio": "page5_text3"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ねこは、じぶんのことをはなしました。",
+          "en": "The cat talked about itself.",
+          "duration": 5,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "ひとりぼっちで、せかいをさびしくあるいていたこと。",
+          "en": "It walked alone and sadly in the world.",
+          "duration": 7,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "でも、ほんとうは、やさしいおともだちがほしかったこと。",
+          "en": "But it really wanted kind friends.",
+          "duration": 7,
+          "audio": "page6_text3"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ねずみさんはねこのおはなしをきいて、さびしがりやさんだとしりました。",
+          "en": "The mouse listened to the cat's story and learned it was lonely.",
+          "duration": 8,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "「わたしも、ひとりでいることがおおいから、わかるなあ。」",
+          "en": "\"I understand, because I'm often alone too,\" said the mouse.",
+          "duration": 7,
+          "audio": "page7_text2"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ねこさんとねずみさんは、あっというまにおたがいがだいすきなおともだちになりました。",
+          "en": "The cat and the mouse quickly became best friends.",
+          "duration": 8,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "ふたりはいっしょにおひるねをしたり、そばでみまもったり。",
+          "en": "They napped together, and watched over each other.",
+          "duration": 7,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "いつもいっしょに、たのしくすごしました。",
+          "en": "They always spent their time happily together.",
+          "duration": 6,
+          "audio": "page8_text3"
+        }
+      ],
+      "image": "scene8.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ねこさんは、もうさびしくありませんでした。",
+          "en": "The cat was no longer lonely.",
+          "duration": 5,
+          "audio": "page9_text1"
+        },
+        {
+          "ja": "ねずみさんも、こわがりのきもちがなくなって、げんきいっぱいでした。",
+          "en": "The mouse lost its fear and was full of energy.",
+          "duration": 7,
+          "audio": "page9_text2"
+        }
+      ],
+      "image": "scene9.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "あるひ、おばあさんねこがふたりをさがしにきました。",
+          "en": "One day, the old cat came looking for them.",
+          "duration": 7,
+          "audio": "page10_text1"
+        },
+        {
+          "ja": "みたのは、ねこさんとねずみさんがなかよくならんで、おひるねをしているけしきでした。",
+          "en": "She saw them napping together amicably.",
+          "duration": 8,
+          "audio": "page10_text2"
+        },
+        {
+          "ja": "「ねこさん、いつもありがとう。しあわせだよ。」「ぼくもだよ、ねずみさん。たのしいよ。」",
+          "en": "\"Thank you, cat. I'm so happy.\" \"Me too, mouse. It's so fun.\"",
+          "duration": 9,
+          "audio": "page10_text3"
+        },
+        {
+          "ja": "おばあさんねこは、ふたりがおたがいをだいじにする、だいすきなおともだちになったことをしり、うれしくなりました。",
+          "en": "The old cat was happy to see they had become dear friends who cherished each other.",
+          "duration": 9,
+          "audio": "page10_text4"
+        },
+        {
+          "ja": "これからも、ふたりがなかよくしあわせにすごすことを、そっとみまもることにしました。",
+          "en": "She decided to quietly watch over them as they continued to live happily together.",
+          "duration": 8,
+          "audio": "page10_text5"
+        },
+        {
+          "ja": "それからというもの、ねこさんとねずみさんは、ずっとおともだちとしてすごしましたとさ。",
+          "en": "From then on, the cat and the mouse lived as friends for a very long time.",
+          "duration": 8,
+          "audio": "page10_text6"
+        },
+        {
+          "ja": "めでたし、めでたし。",
+          "en": "The end.",
+          "duration": 3,
+          "audio": "page10_text7"
+        }
+      ],
+      "image": "scene10.png"
     }
   ],
   "questions": [
     {
-      "ja": "ねこさんには、どんなふしぎなところがありましたか？",
-      "en": "What was strange about the cat?",
-      "duration": 5,
-      "answerDuration": 5,
+      "ja": "この物語に出てくる、ふしぎなところがあるねこは、どんなねこだった？",
+      "en": "What was strange about the cat in this story?",
+      "duration": 7,
+      "answerDuration": 7,
       "audio": "question1",
       "image": "scene1.png",
       "choices": [
@@ -40,126 +259,126 @@
           "audio": "question1_choice1"
         },
         {
-          "ja": "ねこが話せた",
-          "en": "It could talk.",
+          "ja": "ねずみさんをたくさん飼っていた",
+          "en": "It kept many mice.",
           "correct": false,
           "audio": "question1_choice2"
         },
         {
-          "ja": "ねずみがおいかけた",
-          "en": "Mice chased it.",
+          "ja": "いつもお腹を空かせていた",
+          "en": "It was always hungry.",
           "correct": false,
           "audio": "question1_choice3"
         }
       ]
     },
     {
-      "ja": "ねずみさんは、いつもどこにひそんでいましたか？",
-      "en": "Where did the mouse usually hide?",
-      "duration": 5,
-      "answerDuration": 5,
+      "ja": "ねずみさんは、どこにひそんで、だれにそだてられていた？",
+      "en": "Where did the mouse hide and who raised it?",
+      "duration": 7,
+      "answerDuration": 7,
       "audio": "question2",
       "image": "scene2.png",
       "choices": [
         {
-          "ja": "ふるいこうえん",
-          "en": "An old park",
+          "ja": "ふるいこうえんで、おばあさんねこに",
+          "en": "In an old park, by an old cat.",
           "correct": true,
           "audio": "question2_choice1"
         },
         {
-          "ja": "ねこさんのいえ",
-          "en": "The cat's house",
+          "ja": "あたたかい家で、やさしい人に",
+          "en": "In a warm house, by a kind person.",
           "correct": false,
           "audio": "question2_choice2"
         },
         {
-          "ja": "おおきなき",
-          "en": "A big tree",
+          "ja": "森の中で、お母さんねずに",
+          "en": "In the forest, by its mother cat.",
           "correct": false,
           "audio": "question2_choice3"
         }
       ]
     },
     {
-      "ja": "ねこさんは、ねずみさんにどんなことをいいましたか？",
-      "en": "What did the cat say to the mouse?",
-      "duration": 6,
-      "answerDuration": 6,
+      "ja": "ねずみさんがねこにさわってみた、ねこのおひげはどんな様子だった？",
+      "en": "What were the cat's whiskers like when the mouse touched them?",
+      "duration": 7,
+      "answerDuration": 7,
       "audio": "question3",
-      "image": "scene5.png",
+      "image": "scene3.png",
       "choices": [
         {
-          "ja": "「ぼくは、ねずみをころしたりしない。ともだちになりたいんだ。」",
-          "en": "'I don't kill mice. I want to be friends.'",
+          "ja": "ピカピカで、きれいだった",
+          "en": "They were shiny and beautiful.",
           "correct": true,
           "audio": "question3_choice1"
         },
         {
-          "ja": "「もうここにはこないで。」",
-          "en": "'Don't come here anymore.'",
+          "ja": "ぼさぼさで、汚れていた",
+          "en": "They were messy and dirty.",
           "correct": false,
           "audio": "question3_choice2"
         },
         {
-          "ja": "「ねずみはこわいよ。」",
-          "en": "'Mice are scary.'",
+          "ja": "短くて、ちぎれていた",
+          "en": "They were short and torn.",
           "correct": false,
           "audio": "question3_choice3"
         }
       ]
     },
     {
-      "ja": "ねこさんとねずみさんは、どうしてなかよくなりましたか？",
-      "en": "Why did the cat and the mouse become friends?",
-      "duration": 6,
-      "answerDuration": 6,
+      "ja": "ねこがねずみさんに言った、本当の気持ちは？",
+      "en": "What was the cat's true feeling that it told the mouse?",
+      "duration": 7,
+      "answerDuration": 7,
       "audio": "question4",
-      "image": "scene8.png",
+      "image": "scene5.png",
       "choices": [
         {
-          "ja": "おたがいがさびしかったから",
-          "en": "Because they were both lonely",
+          "ja": "みんなとともだちになりたい",
+          "en": "I want to be friends with everyone.",
           "correct": true,
           "audio": "question4_choice1"
         },
         {
-          "ja": "ねずみさんがねこをこわがらなくなったから",
-          "en": "Because the mouse stopped being afraid of the cat",
+          "ja": "ねずみはもういらない",
+          "en": "I don't need mice anymore.",
           "correct": false,
           "audio": "question4_choice2"
         },
         {
-          "ja": "おばあさんねこがすすめたから",
-          "en": "Because the old cat encouraged it",
+          "ja": "ひとりぼっちが一番いい",
+          "en": "Being alone is the best.",
           "correct": false,
           "audio": "question4_choice3"
         }
       ]
     },
     {
-      "ja": "さいごに、おばあさんねこはどうしましたか？",
-      "en": "What did the old cat do in the end?",
-      "duration": 6,
-      "answerDuration": 6,
+      "ja": "おばあさんねこがみた、ねこさんとねずみさんの様子は？",
+      "en": "What did the old cat see when she found the cat and the mouse?",
+      "duration": 7,
+      "answerDuration": 7,
       "audio": "question5",
       "image": "scene10.png",
       "choices": [
         {
-          "ja": "ふたりがなかよくすごすのを、そっとみまもることにした。",
-          "en": "She decided to quietly watch over them as they lived happily together.",
+          "ja": "なかよくならんで、おひるねをしていた",
+          "en": "They were napping together amicably.",
           "correct": true,
           "audio": "question5_choice1"
         },
         {
-          "ja": "ねずみさんをうちに連れて帰った。",
-          "en": "She took the mouse home with her.",
+          "ja": "けんかをしていた",
+          "en": "They were fighting.",
           "correct": false,
           "audio": "question5_choice2"
         },
         {
-          "ja": "ねこさんをしかった。",
-          "en": "She scolded the cat.",
+          "ja": "ねこがねずみを追いかけていた",
+          "en": "The cat was chasing the mouse.",
           "correct": false,
           "audio": "question5_choice3"
         }

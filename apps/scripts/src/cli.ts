@@ -42,12 +42,16 @@ function parseInputYml(filePath: string): {
   description: string;
   imageStyle: string;
 } {
-  const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as Record<string, unknown>;
+  const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as Record<
+    string,
+    unknown
+  >;
 
   const id = raw.id as string;
   if (!id) throw new Error(`inputFile に id が見つかりません: ${filePath}`);
   const title = raw.title as string;
-  if (!title) throw new Error(`inputFile に title が見つかりません: ${filePath}`);
+  if (!title)
+    throw new Error(`inputFile に title が見つかりません: ${filePath}`);
 
   const toStr = (v: unknown): string => {
     if (!v) return "";
@@ -56,7 +60,12 @@ function parseInputYml(filePath: string): {
     return String(v);
   };
 
-  return { id, title, description: toStr(raw.description), imageStyle: toStr(raw.imageStyle) };
+  return {
+    id,
+    title,
+    description: toStr(raw.description),
+    imageStyle: toStr(raw.imageStyle),
+  };
 }
 
 async function main(): Promise<void> {
@@ -83,8 +92,8 @@ async function main(): Promise<void> {
         console.error("エラー: scenes コマンドには inputFile が必要です");
         usage();
       }
-      const { id, title } = parseInputYml(inputFile);
-      await new BookGenerator().generateScenes(id, title);
+      const { id, title, imageStyle } = parseInputYml(inputFile);
+      await new BookGenerator().generateScenes(id, title, imageStyle);
       break;
     }
     case "images": {
@@ -93,8 +102,8 @@ async function main(): Promise<void> {
         console.error("エラー: images コマンドには inputFile が必要です");
         usage();
       }
-      const { id, imageStyle } = parseInputYml(inputFile);
-      await new BookGenerator().generateImages(id, imageStyle);
+      const { id } = parseInputYml(inputFile);
+      await new BookGenerator().generateImages(id);
       break;
     }
     case "audio": {

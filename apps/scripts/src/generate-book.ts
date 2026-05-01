@@ -30,38 +30,39 @@ export class BookGenerator {
     console.log("  Done.");
   }
 
-  async generateScenes(bookId: string, title: string): Promise<void> {
+  async generateScenes(
+    bookId: string,
+    title: string,
+    imageStyle: string,
+  ): Promise<void> {
     const bookDir = this.bookDir(bookId);
     const storyPath = path.join(bookDir, "story.txt");
 
-    console.log("\n[1/2] story.txt → scenes.json");
+    console.log("\n[1/4] story.txt → scenes.json");
     const scenesPath = await this.splitScenes(storyPath);
     console.log("  Done.");
 
-    console.log("\n[2/2] scenes.json → book.json");
-    await this.buildBookJson(scenesPath, title);
+    console.log("\n[2/4] scenes.json → book.json");
+    const bookPath = await this.buildBookJson(scenesPath, title);
+    console.log("  Done.");
+
+    console.log("\n[3/4] scenes.json → image_prompts.json");
+    await this.buildImagePrompts(scenesPath, title, imageStyle);
+
+    console.log("\n[4/4] book.json → audio_prompts.json");
+    await this.buildAudioPrompts(bookPath);
+    console.log("  Done.");
+
     console.log("  Done.");
   }
 
-  async generateImages(bookId: string, imageStyle: string): Promise<void> {
+  async generateImages(bookId: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(path.join(bookDir, "images"), { recursive: true });
 
-    const bookPath = path.join(bookDir, "book.json");
-    const { title } = JSON.parse(
-      fs.readFileSync(bookPath, "utf-8"),
-    ) as BookData;
+    const promptsPath = path.join(bookDir, "image_prompts.json");
 
-    console.log("\n[1/2] scenes.json → image_prompts.json");
-    const scenesPath = path.join(bookDir, "scenes.json");
-    const promptsPath = await this.buildImagePrompts(
-      scenesPath,
-      title,
-      imageStyle,
-    );
-    console.log("  Done.");
-
-    console.log("\n[2/2] image_prompts.json → cover.png + images/scene*.png");
+    console.log("\n[1/1] image_prompts.json → cover.png + images/scene*.png");
     await this.renderImages(promptsPath);
     console.log("  Done.");
   }
@@ -70,12 +71,7 @@ export class BookGenerator {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(path.join(bookDir, "audios"), { recursive: true });
 
-    console.log("\n[1/2] book.json → audio_prompts.json");
-    const bookPath = path.join(bookDir, "book.json");
-    await this.buildAudioPrompts(bookPath);
-    console.log("  Done.");
-
-    console.log("\n[2/2] audio_prompts.json → audios/");
+    console.log("\n[1/1] audio_prompts.json → audios/");
     await this.audio.generateForBook(bookDir);
     console.log("  Done.");
   }

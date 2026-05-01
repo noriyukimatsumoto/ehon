@@ -250,7 +250,9 @@ ${scenesText}`;
 ${JSON.stringify(bookData, null, 2)}
 
 ルール：
-- pages の texts（ja/en）、questions の本文（ja/en）、questions の choices（ja/en）をすべて entries に含める
+- pages の texts（ja/en）は、全てのテキストを読み上げる必要があります。テキストを省略せず、全てentriesに含めてください。
+- questions の choices（ja/en）は、questionsと結合して読み上げるます。例えば、question1 と question1_choice1, question1_choice2, question1_choice3 を連結してください。
+- questions の choices（ja/en）は、entriesに含めないでください。
 - audio は book.json の audio フィールドに "_ja" または "_en" を付けた値（例: "page1_text1_ja"）
 - lang は "ja" または "en"
 - text は実際に読み上げるテキスト。データを変更しないこと。

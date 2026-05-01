@@ -1,0 +1,226 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "むかしむかし、とってもきれいなねこがいました。",
+      "prompt": "[slowly, gently]"
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "ピカピカのおひげとふかふかのけなみで、うっとりするほどでした。",
+      "prompt": "[calmly, admiringly]"
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "でも、ねずみをいじめないのが、ふしぎなところでした。",
+      "prompt": "[curiously, slightly puzzled]"
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "あるところに、こわがりでちいさなねずみさんがいました。",
+      "prompt": "[fearfully, timidly]"
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "ふるいこうえんにひそみ、おばあさんねこにそだてられていました。",
+      "prompt": "[quietly, sadly]"
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "おばあさんねこは、ねずみさんをかわいがるやさしいねこでした。",
+      "prompt": "[warmly, kindly]"
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "あるひ、ねずみさんはねこにそっとちかづきました。",
+      "prompt": "[hesitantly, bravely]"
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "いつもはかくれてしまうのに、このひはゆうきをだしました。",
+      "prompt": "[gathering courage, determinedly]"
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "そっと、ねこのおひげにさわってみたのです。",
+      "prompt": "[gently, carefully]"
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "すると、ねこはめをあけましたが、こわがりませんでした。",
+      "prompt": "[surprised, then calm]"
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "ねこはにっこりわらって、ねずみさんにいいました。",
+      "prompt": "[smiling warmly, friendly]"
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "「おお、こんにちは！こんなところで、なにをしているんだい？」",
+      "prompt": "[cheerfully, welcoming]"
+    },
+    {
+      "audio": "page5_text1_ja",
+      "lang": "ja",
+      "text": "ねずみさんはびっくりしましたが、ねこはやさしいこえでいいました。",
+      "prompt": "[surprised, then reassured]"
+    },
+    {
+      "audio": "page5_text2_ja",
+      "lang": "ja",
+      "text": "「だいじょうぶだよ。ぼくは、ねずみをころしたりしないんだ。",
+      "prompt": "[reassuringly, kindly]"
+    },
+    {
+      "audio": "page5_text3_ja",
+      "lang": "ja",
+      "text": "ほんとうは、みんなとともだちになりたいんだ。」",
+      "prompt": "[sincerely, wistfully]"
+    },
+    {
+      "audio": "page6_text1_ja",
+      "lang": "ja",
+      "text": "ねこは、じぶんのことをはなしました。",
+      "prompt": "[calmly, introspectively]"
+    },
+    {
+      "audio": "page6_text2_ja",
+      "lang": "ja",
+      "text": "ひとりぼっちで、せかいをさびしくあるいていたこと。",
+      "prompt": "[sadly, reflectively]"
+    },
+    {
+      "audio": "page6_text3_ja",
+      "lang": "ja",
+      "text": "でも、ほんとうは、やさしいおともだちがほしかったこと。",
+      "prompt": "[longingly, wistfully]"
+    },
+    {
+      "audio": "page7_text1_ja",
+      "lang": "ja",
+      "text": "ねずみさんはねこのおはなしをきいて、さびしがりやさんだとしりました。",
+      "prompt": "[empathizing, understandingly]"
+    },
+    {
+      "audio": "page7_text2_ja",
+      "lang": "ja",
+      "text": "「わたしも、ひとりでいることがおおいから、わかるなあ。」",
+      "prompt": "[empathetically, softly]"
+    },
+    {
+      "audio": "page8_text1_ja",
+      "lang": "ja",
+      "text": "ねこさんとねずみさんは、あっというまにおたがいがだいすきなおともだちになりました。",
+      "prompt": "[happily, quickly]"
+    },
+    {
+      "audio": "page8_text2_ja",
+      "lang": "ja",
+      "text": "ふたりはいっしょにおひるねをしたり、そばでみまもったり。",
+      "prompt": "[contentedly, peacefully]"
+    },
+    {
+      "audio": "page8_text3_ja",
+      "lang": "ja",
+      "text": "いつもいっしょに、たのしくすごしました。",
+      "prompt": "[joyfully, companionably]"
+    },
+    {
+      "audio": "page9_text1_ja",
+      "lang": "ja",
+      "text": "ねこさんは、もうさびしくありませんでした。",
+      "prompt": "[happily, relieved]"
+    },
+    {
+      "audio": "page9_text2_ja",
+      "lang": "ja",
+      "text": "ねずみさんも、こわがりのきもちがなくなって、げんきいっぱいでした。",
+      "prompt": "[cheerfully, energetically]"
+    },
+    {
+      "audio": "page10_text1_ja",
+      "lang": "ja",
+      "text": "あるひ、おばあさんねこがふたりをさがしにきました。",
+      "prompt": "[searching, with gentle concern]"
+    },
+    {
+      "audio": "page10_text2_ja",
+      "lang": "ja",
+      "text": "みたのは、ねこさんとねずみさんがなかよくならんで、おひるねをしているけしきでした。",
+      "prompt": "[observing, with warmth]"
+    },
+    {
+      "audio": "page10_text3_ja",
+      "lang": "ja",
+      "text": "「ねこさん、いつもありがとう。しあわせだよ。」「ぼくもだよ、ねずみさん。たのしいよ。」",
+      "prompt": "[happily, contentedly]"
+    },
+    {
+      "audio": "page10_text4_ja",
+      "lang": "ja",
+      "text": "おばあさんねこは、ふたりがおたがいをだいじにする、だいすきなおともだちになったことをしり、うれしくなりました。",
+      "prompt": "[happily, touched]"
+    },
+    {
+      "audio": "page10_text5_ja",
+      "lang": "ja",
+      "text": "これからも、ふたりがなかよくしあわせにすごすことを、そっとみまもることにしました。",
+      "prompt": "[watchfully, with a gentle smile]"
+    },
+    {
+      "audio": "page10_text6_ja",
+      "lang": "ja",
+      "text": "それからというもの、ねこさんとねずみさんは、ずっとおともだちとしてすごしましたとさ。",
+      "prompt": "[contentedly, for a long time]"
+    },
+    {
+      "audio": "page10_text7_ja",
+      "lang": "ja",
+      "text": "めでたし、めでたし。",
+      "prompt": "[calmly, concluding]"
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "この物語に出てくる、ふしぎなところがあるねこは、どんなねこだった？ねずみさんをいじめなかった",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "ねずみさんは、どこにひそんで、だれにそだてられていた？ふるいこうえんで、おばあさんねこに",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "ねずみさんがねこにさわってみた、ねこのおひげはどんな様子だった？ピカピカで、きれいだった",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "ねこがねずみさんに言った、本当の気持ちは？みんなとともだちになりたい",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
+      "audio": "question5_ja",
+      "lang": "ja",
+      "text": "おばあさんねこがみた、ねこさんとねずみさんの様子は？なかよくならんで、おひるねをしていた",
+      "prompt": "[narrating, questioningly]"
+    }
+  ]
+}
