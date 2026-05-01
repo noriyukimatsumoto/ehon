@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、とってもきれいなねこがいました。",
+          "en": "Once upon a time, there was a very beautiful cat.",
+          "duration": 5,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "ピカピカのおひげと、ふかふかのけなみで、うっとりするようでした。",
+          "en": "With sparkling whiskers and soft fur, it was enchanting to look at.",
+          "duration": 6,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "でも、ねこなのにねずみさんをいじめない、ふしぎなところがありました。",
+          "en": "But, it had a strange characteristic: though a cat, it didn't bully mice.",
+          "duration": 7,
+          "audio": "page1_text3"
+        }
+      ],
+      "image": "scene1.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "ねこさんには、どんなふしぎなところがありましたか？",
+      "en": "What was strange about the cat?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question1",
+      "image": "scene1.png",
+      "choices": [
+        {
+          "ja": "ねずみさんをいじめなかった",
+          "en": "It didn't bully mice.",
+          "correct": true,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "ねこが話せた",
+          "en": "It could talk.",
+          "correct": false,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "ねずみがおいかけた",
+          "en": "Mice chased it.",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "ねずみさんは、いつもどこにひそんでいましたか？",
+      "en": "Where did the mouse usually hide?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question2",
+      "image": "scene2.png",
+      "choices": [
+        {
+          "ja": "ふるいこうえん",
+          "en": "An old park",
+          "correct": true,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "ねこさんのいえ",
+          "en": "The cat's house",
+          "correct": false,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "おおきなき",
+          "en": "A big tree",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "ねこさんは、ねずみさんにどんなことをいいましたか？",
+      "en": "What did the cat say to the mouse?",
+      "duration": 6,
+      "answerDuration": 6,
+      "audio": "question3",
+      "image": "scene5.png",
+      "choices": [
+        {
+          "ja": "「ぼくは、ねずみをころしたりしない。ともだちになりたいんだ。」",
+          "en": "'I don't kill mice. I want to be friends.'",
+          "correct": true,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "「もうここにはこないで。」",
+          "en": "'Don't come here anymore.'",
+          "correct": false,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "「ねずみはこわいよ。」",
+          "en": "'Mice are scary.'",
+          "correct": false,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "ねこさんとねずみさんは、どうしてなかよくなりましたか？",
+      "en": "Why did the cat and the mouse become friends?",
+      "duration": 6,
+      "answerDuration": 6,
+      "audio": "question4",
+      "image": "scene8.png",
+      "choices": [
+        {
+          "ja": "おたがいがさびしかったから",
+          "en": "Because they were both lonely",
+          "correct": true,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "ねずみさんがねこをこわがらなくなったから",
+          "en": "Because the mouse stopped being afraid of the cat",
+          "correct": false,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "おばあさんねこがすすめたから",
+          "en": "Because the old cat encouraged it",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "さいごに、おばあさんねこはどうしましたか？",
+      "en": "What did the old cat do in the end?",
+      "duration": 6,
+      "answerDuration": 6,
+      "audio": "question5",
+      "image": "scene10.png",
+      "choices": [
+        {
+          "ja": "ふたりがなかよくすごすのを、そっとみまもることにした。",
+          "en": "She decided to quietly watch over them as they lived happily together.",
+          "correct": true,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "ねずみさんをうちに連れて帰った。",
+          "en": "She took the mouse home with her.",
+          "correct": false,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "ねこさんをしかった。",
+          "en": "She scolded the cat.",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "猫とねずみとお友だち"
+}

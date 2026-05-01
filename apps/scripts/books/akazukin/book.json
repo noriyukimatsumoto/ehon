@@ -1,0 +1,379 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、あるところに、かわいい「あかずきんちゃん」がいました。",
+          "en": "Once upon a time, there was a cute girl named Little Red Riding Hood.",
+          "duration": 5,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "おかあさんに、あかいずきんをもらって、いつもかぶっていました。",
+          "en": "She received a red hood from her mother and always wore it.",
+          "duration": 5,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "だから、みんなに「あかずきんちゃん」とよばれていました。",
+          "en": "That's why everyone called her Little Red Riding Hood.",
+          "duration": 5,
+          "audio": "page1_text3"
+        }
+      ],
+      "image": "scene1.jpg"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ある日、お母さんがあかずきんちゃんに言いました。",
+          "en": "One day, her mother said to Little Red Riding Hood,",
+          "duration": 5,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "「おばあちゃんが病気なの。このケーキとお酒を持って、お見舞いに行ってね。」",
+          "en": "\"Grandma is sick. Please take this cake and wine to visit her.\"",
+          "duration": 7,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "「はい、お母さん。」あかずきんちゃんは、ケーキとお酒を持って、おばあちゃんの家に行きました。",
+          "en": "\"Yes, Mother.\" Little Red Riding Hood took the cake and wine and went to her grandmother's house.",
+          "duration": 8,
+          "audio": "page2_text3"
+        }
+      ],
+      "image": "scene2.jpg"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おばあちゃんの家へ行く道に、大きな森がありました。",
+          "en": "On the way to her grandmother's house, there was a big forest.",
+          "duration": 5,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "森には、こわーい「おおかみ」がいました。",
+          "en": "In the forest lived a scary wolf.",
+          "duration": 5,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "おおかみは、あかずきんちゃんを見つけて、にっこり笑いました。",
+          "en": "The wolf saw Little Red Riding Hood and smiled sweetly.",
+          "duration": 5,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "「こんにちは、あかずきんちゃん。どこへ行くの？」",
+          "en": "\"Hello, Little Red Riding Hood. Where are you going?\"",
+          "duration": 5,
+          "audio": "page3_text4"
+        },
+        {
+          "ja": "「おばあちゃんのところへ行くの。病気だから。」",
+          "en": "\"To my grandmother's. She is sick.\"",
+          "duration": 5,
+          "audio": "page3_text5"
+        },
+        {
+          "ja": "おおかみは、またにっこり笑いました。「ほうほう。おばあちゃんの家は、この森を抜けた先だよ。」",
+          "en": "The wolf smiled sweetly again. \"Oh, I see. Your grandmother's house is just beyond this forest.\"",
+          "duration": 8,
+          "audio": "page3_text6"
+        },
+        {
+          "ja": "あかずきんちゃんは、おおかみに「ありがとう」と言って、森を進んでいきました。",
+          "en": "Little Red Riding Hood said, \"Thank you\" to the wolf and went into the forest.",
+          "duration": 7,
+          "audio": "page3_text7"
+        }
+      ],
+      "image": "scene3.jpg"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おおかみは、あかずきんちゃんよりも先に、おばあちゃんの家へ飛び込みました。",
+          "en": "The wolf rushed to the grandmother's house before Little Red Riding Hood.",
+          "duration": 7,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "そして、おばあちゃんをぱくっと食べてしまいました。",
+          "en": "And then, he gobbled up the grandmother.",
+          "duration": 5,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "そして、おばあちゃんの服を着て、ベッドの中で寝ていました。",
+          "en": "Then, he put on the grandmother's clothes and lay down in the bed.",
+          "duration": 7,
+          "audio": "page4_text3"
+        }
+      ],
+      "image": "scene4.jpg"
+    },
+    {
+      "texts": [
+        {
+          "ja": "あかずきんちゃんがおばあちゃんの家に着くと、ドアが開いていました。",
+          "en": "When Little Red Riding Hood arrived at her grandmother's house, the door was open.",
+          "duration": 7,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "「おばあちゃん、こんにちは。」「おーい、おはいり。」",
+          "en": "\"Hello, Grandma.\" \"Oh, come in.\"",
+          "duration": 5,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "あかずきんちゃんは、ベッドのところへ行きました。",
+          "en": "Little Red Riding Hood went to the bedside.",
+          "duration": 5,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "「おばあちゃん、目がこーいね。」「おまえをよく見るためだよ。」",
+          "en": "\"Grandma, your eyes are so big.\" \"All the better to see you with, my dear.\"",
+          "duration": 7,
+          "audio": "page5_text4"
+        },
+        {
+          "ja": "「おばあちゃん、耳がこーいね。」「おまえの声をもっとよく聞くためだよ。」",
+          "en": "\"Grandma, your ears are so big.\" \"All the better to hear you with, my dear.\"",
+          "duration": 7,
+          "audio": "page5_text5"
+        },
+        {
+          "ja": "「おばあちゃん、手がこーいね。」「おまえをぎゅっと抱きしめるためだよ。」",
+          "en": "\"Grandma, your hands are so big.\" \"All the better to hug you with, my dear.\"",
+          "duration": 7,
+          "audio": "page5_text6"
+        },
+        {
+          "ja": "「おばあちゃん、口がこーいね！」「おまえをぱくっと食べるためだよー！」",
+          "en": "\"Grandma, what a big mouth you have!\" \"All the better to eat you with!\"",
+          "duration": 7,
+          "audio": "page5_text7"
+        },
+        {
+          "ja": "おおかみは、あかずきんちゃんをぱくっと食べてしまいました。",
+          "en": "The wolf gobbled up Little Red Riding Hood.",
+          "duration": 5,
+          "audio": "page5_text8"
+        }
+      ],
+      "image": "scene5.jpg"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ちょうどそこに、おじいさんがやってきました。",
+          "en": "Just then, a woodsman arrived.",
+          "duration": 5,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "「おや、おおかみが寝ているぞ。」",
+          "en": "\"Oh, look, the wolf is sleeping.\"",
+          "duration": 5,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "おじいさんは、おなかをさいて、あかずきんちゃんと、おばあちゃんを助け出しました。",
+          "en": "The woodsman cut open the wolf's belly and rescued Little Red Riding Hood and her grandmother.",
+          "duration": 8,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "あかずきんちゃんと、おばあちゃんは、とっても喜んで、おじいさんにありがとうと言いました。",
+          "en": "Little Red Riding Hood and her grandmother were overjoyed and thanked the woodsman.",
+          "duration": 8,
+          "audio": "page6_text4"
+        },
+        {
+          "ja": "それから、あかずきんちゃんは、もうおおかみに使いを頼まなくなりました。",
+          "en": "From then on, Little Red Riding Hood never sent messages by wolf again.",
+          "duration": 8,
+          "audio": "page6_text5"
+        }
+      ],
+      "image": "scene6.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "あかずきんちゃんは、いつも何をかぶっていましたか？",
+      "en": "What did Little Red Riding Hood always wear?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question1",
+      "image": "scene1.jpg",
+      "choices": [
+        {
+          "ja": "あかいぼうし",
+          "en": "A red hat",
+          "correct": false,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "あかいずきん",
+          "en": "A red hood",
+          "correct": true,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "あおいぼうし",
+          "en": "A blue hat",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "お母さんは、あかずきんちゃんに何を持っていくように言いましたか？",
+      "en": "What did the mother ask Little Red Riding Hood to take?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question2",
+      "image": "scene2.jpg",
+      "choices": [
+        {
+          "ja": "ケーキとおさけ",
+          "en": "Cake and wine",
+          "correct": true,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "パンとおちゃ",
+          "en": "Bread and tea",
+          "correct": false,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "くだものとみず",
+          "en": "Fruits and water",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "森にいたのは誰でしたか？",
+      "en": "Who was in the forest?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question3",
+      "image": "scene3.jpg",
+      "choices": [
+        {
+          "ja": "くま",
+          "en": "A bear",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "うさぎ",
+          "en": "A rabbit",
+          "correct": false,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "おおかみ",
+          "en": "A wolf",
+          "correct": true,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おおかみは、あかずきんちゃんに会った後、どうしましたか？",
+      "en": "What did the wolf do after meeting Little Red Riding Hood?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question4",
+      "image": "scene4.jpg",
+      "choices": [
+        {
+          "ja": "おばあちゃんを先に食べた",
+          "en": "Ate the grandmother first",
+          "correct": true,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "あかずきんちゃんを待った",
+          "en": "Waited for Little Red Riding Hood",
+          "correct": false,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "森に帰った",
+          "en": "Went back to the forest",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おばあちゃんの目が大きくなったのはなぜ？",
+      "en": "Why did the grandmother's eyes become big?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question5",
+      "image": "scene5.jpg",
+      "choices": [
+        {
+          "ja": "よく見るため",
+          "en": "To see better",
+          "correct": true,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "驚いたから",
+          "en": "Because she was surprised",
+          "correct": false,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "病気だから",
+          "en": "Because she was sick",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "誰が、おおかみのからあかずきんちゃんと、おばあちゃんを助け出しましたか？",
+      "en": "Who rescued Little Red Riding Hood and her grandmother from the wolf?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question6",
+      "image": "scene6.jpg",
+      "choices": [
+        {
+          "ja": "お母さん",
+          "en": "The mother",
+          "correct": false,
+          "audio": "question6_choice1"
+        },
+        {
+          "ja": "おじいさん",
+          "en": "The woodsman",
+          "correct": true,
+          "audio": "question6_choice2"
+        },
+        {
+          "ja": "警察",
+          "en": "The police",
+          "correct": false,
+          "audio": "question6_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "赤ずきん"
+}

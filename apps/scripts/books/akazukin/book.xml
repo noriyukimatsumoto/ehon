@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehon>
+  <page>
+    <text duration="5" audio="page1_text1">
+      <ja>むかしむかし、あるところに、かわいい「あかずきんちゃん」がいました。</ja>
+      <en>Once upon a time, there was a cute girl named Little Red Riding Hood.</en>
+    </text>
+    <text duration="5" audio="page1_text2">
+      <ja>おかあさんに、あかいずきんをもらって、いつもかぶっていました。</ja>
+      <en>She received a red hood from her mother and always wore it.</en>
+    </text>
+    <text duration="5" audio="page1_text3">
+      <ja>だから、みんなに「あかずきんちゃん」とよばれていました。</ja>
+      <en>That's why everyone called her Little Red Riding Hood.</en>
+    </text>
+    <image>scene1.jpg</image>
+  </page>
+  <page>
+    <text duration="5" audio="page2_text1">
+      <ja>ある日、お母さんがあかずきんちゃんに言いました。</ja>
+      <en>One day, her mother said to Little Red Riding Hood,</en>
+    </text>
+    <text duration="7" audio="page2_text2">
+      <ja>「おばあちゃんが病気なの。このケーキとお酒を持って、お見舞いに行ってね。」</ja>
+      <en>&quot;Grandma is sick. Please take this cake and wine to visit her.&quot;</en>
+    </text>
+    <text duration="8" audio="page2_text3">
+      <ja>「はい、お母さん。」あかずきんちゃんは、ケーキとお酒を持って、おばあちゃんの家に行きました。</ja>
+      <en>&quot;Yes, Mother.&quot; Little Red Riding Hood took the cake and wine and went to her grandmother's house.</en>
+    </text>
+    <image>scene2.jpg</image>
+  </page>
+  <page>
+    <text duration="5" audio="page3_text1">
+      <ja>おばあちゃんの家へ行く道に、大きな森がありました。</ja>
+      <en>On the way to her grandmother's house, there was a big forest.</en>
+    </text>
+    <text duration="5" audio="page3_text2">
+      <ja>森には、こわーい「おおかみ」がいました。</ja>
+      <en>In the forest lived a scary wolf.</en>
+    </text>
+    <text duration="5" audio="page3_text3">
+      <ja>おおかみは、あかずきんちゃんを見つけて、にっこり笑いました。</ja>
+      <en>The wolf saw Little Red Riding Hood and smiled sweetly.</en>
+    </text>
+    <text duration="5" audio="page3_text4">
+      <ja>「こんにちは、あかずきんちゃん。どこへ行くの？」</ja>
+      <en>&quot;Hello, Little Red Riding Hood. Where are you going?&quot;</en>
+    </text>
+    <text duration="5" audio="page3_text5">
+      <ja>「おばあちゃんのところへ行くの。病気だから。」</ja>
+      <en>&quot;To my grandmother's. She is sick.&quot;</en>
+    </text>
+    <text duration="8" audio="page3_text6">
+      <ja>おおかみは、またにっこり笑いました。「ほうほう。おばあちゃんの家は、この森を抜けた先だよ。」</ja>
+      <en>The wolf smiled sweetly again. &quot;Oh, I see. Your grandmother's house is just beyond this forest.&quot;</en>
+    </text>
+    <text duration="7" audio="page3_text7">
+      <ja>あかずきんちゃんは、おおかみに「ありがとう」と言って、森を進んでいきました。</ja>
+      <en>Little Red Riding Hood said, &quot;Thank you&quot; to the wolf and went into the forest.</en>
+    </text>
+    <image>scene3.jpg</image>
+  </page>
+  <page>
+    <text duration="7" audio="page4_text1">
+      <ja>おおかみは、あかずきんちゃんよりも先に、おばあちゃんの家へ飛び込みました。</ja>
+      <en>The wolf rushed to the grandmother's house before Little Red Riding Hood.</en>
+    </text>
+    <text duration="5" audio="page4_text2">
+      <ja>そして、おばあちゃんをぱくっと食べてしまいました。</ja>
+      <en>And then, he gobbled up the grandmother.</en>
+    </text>
+    <text duration="7" audio="page4_text3">
+      <ja>そして、おばあちゃんの服を着て、ベッドの中で寝ていました。</ja>
+      <en>Then, he put on the grandmother's clothes and lay down in the bed.</en>
+    </text>
+    <image>scene4.jpg</image>
+  </page>
+  <page>
+    <text duration="7" audio="page5_text1">
+      <ja>あかずきんちゃんがおばあちゃんの家に着くと、ドアが開いていました。</ja>
+      <en>When Little Red Riding Hood arrived at her grandmother's house, the door was open.</en>
+    </text>
+    <text duration="5" audio="page5_text2">
+      <ja>「おばあちゃん、こんにちは。」「おーい、おはいり。」</ja>
+      <en>&quot;Hello, Grandma.&quot; &quot;Oh, come in.&quot;</en>
+    </text>
+    <text duration="5" audio="page5_text3">
+      <ja>あかずきんちゃんは、ベッドのところへ行きました。</ja>
+      <en>Little Red Riding Hood went to the bedside.</en>
+    </text>
+    <text duration="7" audio="page5_text4">
+      <ja>「おばあちゃん、目がこーいね。」「おまえをよく見るためだよ。」</ja>
+      <en>&quot;Grandma, your eyes are so big.&quot; &quot;All the better to see you with, my dear.&quot;</en>
+    </text>
+    <text duration="7" audio="page5_text5">
+      <ja>「おばあちゃん、耳がこーいね。」「おまえの声をもっとよく聞くためだよ。」</ja>
+      <en>&quot;Grandma, your ears are so big.&quot; &quot;All the better to hear you with, my dear.&quot;</en>
+    </text>
+    <text duration="7" audio="page5_text6">
+      <ja>「おばあちゃん、手がこーいね。」「おまえをぎゅっと抱きしめるためだよ。」</ja>
+      <en>&quot;Grandma, your hands are so big.&quot; &quot;All the better to hug you with, my dear.&quot;</en>
+    </text>
+    <text duration="7" audio="page5_text7">
+      <ja>「おばあちゃん、口がこーいね！」「おまえをぱくっと食べるためだよー！」</ja>
+      <en>&quot;Grandma, what a big mouth you have!&quot; &quot;All the better to eat you with!&quot;</en>
+    </text>
+    <text duration="5" audio="page5_text8">
+      <ja>おおかみは、あかずきんちゃんをぱくっと食べてしまいました。</ja>
+      <en>The wolf gobbled up Little Red Riding Hood.</en>
+    </text>
+    <image>scene5.jpg</image>
+  </page>
+  <page>
+    <text duration="5" audio="page6_text1">
+      <ja>ちょうどそこに、おじいさんがやってきました。</ja>
+      <en>Just then, a woodsman arrived.</en>
+    </text>
+    <text duration="5" audio="page6_text2">
+      <ja>「おや、おおかみが寝ているぞ。」</ja>
+      <en>&quot;Oh, look, the wolf is sleeping.&quot;</en>
+    </text>
+    <text duration="8" audio="page6_text3">
+      <ja>おじいさんは、おなかをさいて、あかずきんちゃんと、おばあちゃんを助け出しました。</ja>
+      <en>The woodsman cut open the wolf's belly and rescued Little Red Riding Hood and her grandmother.</en>
+    </text>
+    <text duration="8" audio="page6_text4">
+      <ja>あかずきんちゃんと、おばあちゃんは、とっても喜んで、おじいさんにありがとうと言いました。</ja>
+      <en>Little Red Riding Hood and her grandmother were overjoyed and thanked the woodsman.</en>
+    </text>
+    <text duration="8" audio="page6_text5">
+      <ja>それから、あかずきんちゃんは、もうおおかみに使いを頼まなくなりました。</ja>
+      <en>From then on, Little Red Riding Hood never sent messages by wolf again.</en>
+    </text>
+    <image>scene6.jpg</image>
+  </page>
+  <questions>
+    <question duration="5" answer_duration="5" audio="question1">
+      <text>
+        <ja>あかずきんちゃんは、いつも何をかぶっていましたか？</ja>
+        <en>What did Little Red Riding Hood always wear?</en>
+      </text>
+      <image>scene1.jpg</image>
+      <choices>
+        <choice audio="question1_choice1">
+          <ja>あかいぼうし</ja>
+          <en>A red hat</en>
+        </choice>
+        <choice correct="true" audio="question1_choice2">
+          <ja>あかいずきん</ja>
+          <en>A red hood</en>
+        </choice>
+        <choice audio="question1_choice3">
+          <ja>あおいぼうし</ja>
+          <en>A blue hat</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="5" answer_duration="5" audio="question2">
+      <text>
+        <ja>お母さんは、あかずきんちゃんに何を持っていくように言いましたか？</ja>
+        <en>What did the mother ask Little Red Riding Hood to take?</en>
+      </text>
+      <image>scene2.jpg</image>
+      <choices>
+        <choice correct="true" audio="question2_choice1">
+          <ja>ケーキとおさけ</ja>
+          <en>Cake and wine</en>
+        </choice>
+        <choice audio="question2_choice2">
+          <ja>パンとおちゃ</ja>
+          <en>Bread and tea</en>
+        </choice>
+        <choice audio="question2_choice3">
+          <ja>くだものとみず</ja>
+          <en>Fruits and water</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="5" answer_duration="5" audio="question3">
+      <text>
+        <ja>森にいたのは誰でしたか？</ja>
+        <en>Who was in the forest?</en>
+      </text>
+      <image>scene3.jpg</image>
+      <choices>
+        <choice audio="question3_choice1">
+          <ja>くま</ja>
+          <en>A bear</en>
+        </choice>
+        <choice audio="question3_choice2">
+          <ja>うさぎ</ja>
+          <en>A rabbit</en>
+        </choice>
+        <choice correct="true" audio="question3_choice3">
+          <ja>おおかみ</ja>
+          <en>A wolf</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="5" answer_duration="5" audio="question4">
+      <text>
+        <ja>おおかみは、あかずきんちゃんに会った後、どうしましたか？</ja>
+        <en>What did the wolf do after meeting Little Red Riding Hood?</en>
+      </text>
+      <image>scene4.jpg</image>
+      <choices>
+        <choice correct="true" audio="question4_choice1">
+          <ja>おばあちゃんを先に食べた</ja>
+          <en>Ate the grandmother first</en>
+        </choice>
+        <choice audio="question4_choice2">
+          <ja>あかずきんちゃんを待った</ja>
+          <en>Waited for Little Red Riding Hood</en>
+        </choice>
+        <choice audio="question4_choice3">
+          <ja>森に帰った</ja>
+          <en>Went back to the forest</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="5" answer_duration="5" audio="question5">
+      <text>
+        <ja>おばあちゃんの目が大きくなったのはなぜ？</ja>
+        <en>Why did the grandmother's eyes become big?</en>
+      </text>
+      <image>scene5.jpg</image>
+      <choices>
+        <choice correct="true" audio="question5_choice1">
+          <ja>よく見るため</ja>
+          <en>To see better</en>
+        </choice>
+        <choice audio="question5_choice2">
+          <ja>驚いたから</ja>
+          <en>Because she was surprised</en>
+        </choice>
+        <choice audio="question5_choice3">
+          <ja>病気だから</ja>
+          <en>Because she was sick</en>
+        </choice>
+      </choices>
+    </question>
+    <question duration="5" answer_duration="5" audio="question6">
+      <text>
+        <ja>誰が、おおかみのからあかずきんちゃんと、おばあちゃんを助け出しましたか？</ja>
+        <en>Who rescued Little Red Riding Hood and her grandmother from the wolf?</en>
+      </text>
+      <image>scene6.jpg</image>
+      <choices>
+        <choice audio="question6_choice1">
+          <ja>お母さん</ja>
+          <en>The mother</en>
+        </choice>
+        <choice correct="true" audio="question6_choice2">
+          <ja>おじいさん</ja>
+          <en>The woodsman</en>
+        </choice>
+        <choice audio="question6_choice3">
+          <ja>警察</ja>
+          <en>The police</en>
+        </choice>
+      </choices>
+    </question>
+  </questions>
+</ehon>

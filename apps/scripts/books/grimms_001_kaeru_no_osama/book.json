@@ -1,0 +1,461 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、きれいなおひめさまがいました。",
+          "en": "Once upon a time, there was a beautiful princess.",
+          "duration": 3,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "おひめさまは、きんのボールであそぶのがだいすきでした。",
+          "en": "The princess loved to play with her golden ball.",
+          "duration": 4,
+          "audio": "page1_text2"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ある日、お庭の深い池のそばで遊んでいると、",
+          "en": "One day, while playing by the deep pond in the garden,",
+          "duration": 4,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "きんのボールがツルンと池の中に落ちてしまいました。",
+          "en": "her golden ball slipped and fell into the water.",
+          "duration": 5,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "「まあ！どうしよう！」おひめさまは泣いてしまいました。",
+          "en": "\"Oh no! What shall I do?\" The princess started to cry.",
+          "duration": 5,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "すると、池の中から変な声がしました。",
+          "en": "Suddenly, a strange voice came from the pond.",
+          "duration": 4,
+          "audio": "page2_text4"
+        },
+        {
+          "ja": "「どうしたんだい？おひめさま。」",
+          "en": "\"What's wrong, princess?\"",
+          "duration": 3,
+          "audio": "page2_text5"
+        },
+        {
+          "ja": "みると、そこには大きな、みどりいろの、かえるがいました。",
+          "en": "Looking down, she saw a big, green frog.",
+          "duration": 5,
+          "audio": "page2_text6"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "「わたしの、きんのボールが、いけのなかに、おちちゃったの。」",
+          "en": "\"My golden ball fell into the pond.\"",
+          "duration": 5,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "かえるは言いました。「だいじょうぶ。ぼくがとってきてあげるよ。",
+          "en": "The frog said, \"Don't worry. I will get it for you.",
+          "duration": 6,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "でも、ひとつ、やくそくしてほしいことがあるんだ。」",
+          "en": "But I want you to promise me something.\"",
+          "duration": 5,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "「どんな、やくそく？」",
+          "en": "\"What promise?\"",
+          "duration": 2,
+          "audio": "page3_text4"
+        },
+        {
+          "ja": "「いっしょにごはんをたべたり、ねむるときはとなりにねむらせてほしいんだ。」",
+          "en": "\"I want to eat with you, and sleep beside you when you go to sleep.\"",
+          "duration": 7,
+          "audio": "page3_text5"
+        },
+        {
+          "ja": "おひめさまは、きんのボールがほしくてしかたなかったので、",
+          "en": "The princess wanted her golden ball so badly,",
+          "duration": 6,
+          "audio": "page3_text6"
+        },
+        {
+          "ja": "「うん、やくそくするわ！」と言いました。",
+          "en": "so she said, \"Yes, I promise!\"",
+          "duration": 4,
+          "audio": "page3_text7"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "かえるは池の中に潜って、すぐにきんのボールを持って上がってきました。",
+          "en": "The frog dove into the pond and quickly returned with the golden ball.",
+          "duration": 7,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "おひめさまはボールを受け取ると、うれしくなって、",
+          "en": "When the princess received the ball, she was so happy",
+          "duration": 5,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "そのままお城に帰ってしまいました。",
+          "en": "that she ran back to the castle.",
+          "duration": 4,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "かえるのことをすっかり忘れてしまいました。",
+          "en": "She completely forgot about the frog.",
+          "duration": 5,
+          "audio": "page4_text4"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "でも、その日の夕食のとき、ドン！ドン！と、",
+          "en": "But that evening, at dinnertime, there was a loud knock, knock!",
+          "duration": 6,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "お城の大きなドアがたたかれました。",
+          "en": "The castle's big door was being knocked on.",
+          "duration": 4,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "「だれだ？」王様がきくと、",
+          "en": "\"Who is it?\" the King asked.",
+          "duration": 4,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "ドアのむこうから、「わたくしは池のかえるです。",
+          "en": "From beyond the door, a voice said, \"I am the frog from the pond.",
+          "duration": 7,
+          "audio": "page5_text4"
+        },
+        {
+          "ja": "おひめさまがわたくしに約束したことを忘れてしまったのです。」",
+          "en": "The princess forgot what she promised me.\"",
+          "duration": 7,
+          "audio": "page5_text5"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おひめさまは、かえるの声だとわかり、こわくて泣いてしまいました。",
+          "en": "The princess recognized the frog's voice and started crying in fear.",
+          "duration": 7,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "「いやだ！こわい！」",
+          "en": "\"No! It's scary!\"",
+          "duration": 3,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "でも、王様は言いました。「ふむ。約束は約束だ。",
+          "en": "But the King said, \"Hmm. A promise is a promise.",
+          "duration": 5,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "かえるを中にいれてやらねばならない。」",
+          "en": "We must let the frog in.\"",
+          "duration": 5,
+          "audio": "page6_text4"
+        },
+        {
+          "ja": "しかたなく、おひめさまはかえるをお城の中へ入れてやりました。",
+          "en": "Reluctantly, the princess let the frog into the castle.",
+          "duration": 7,
+          "audio": "page6_text5"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "かえるはおひめさまのお皿からごはんを食べたり、",
+          "en": "The frog ate from the princess's plate,",
+          "duration": 5,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "おひめさまのベッドのそばにねむったりしました。",
+          "en": "and slept beside her bed.",
+          "duration": 5,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "おひめさまはかえるが嫌で嫌でしかたありませんでしたが、",
+          "en": "The princess couldn't stand the frog,",
+          "duration": 6,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "お父さんの王様の言うことを聞かなければなりませんでした。",
+          "en": "but she had to obey her father, the King.",
+          "duration": 7,
+          "audio": "page7_text4"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "眠る前に、おひめさまはもう我慢できなくて、",
+          "en": "Before sleeping, the princess couldn't bear it any longer,",
+          "duration": 6,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "かえるを壁にたたきつけました。",
+          "en": "and threw the frog against the wall.",
+          "duration": 5,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "「キャー！」",
+          "en": "\"Aaaah!\"",
+          "duration": 2,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "ところが、かえるはたたきつけられたはずなのに、",
+          "en": "However, even though the frog was thrown against the wall,",
+          "duration": 6,
+          "audio": "page8_text4"
+        },
+        {
+          "ja": "けがひとつありません。",
+          "en": "it wasn't hurt at all.",
+          "duration": 4,
+          "audio": "page8_text5"
+        }
+      ],
+      "image": "scene8.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "すると、どうでしょう。かえるはたちまち姿を変えて、",
+          "en": "Then, what do you know? The frog suddenly changed its form,",
+          "duration": 7,
+          "audio": "page9_text1"
+        },
+        {
+          "ja": "なんと、かっこいい王子さまになったのです！",
+          "en": "and turned into a handsome prince!",
+          "duration": 5,
+          "audio": "page9_text2"
+        },
+        {
+          "ja": "かえるの正体は、わるい魔女にかえられてしまった王子さまだったのです。",
+          "en": "The frog's true identity was a prince, transformed by an evil witch.",
+          "duration": 8,
+          "audio": "page9_text3"
+        }
+      ],
+      "image": "scene9.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おひめさまはびっくりしましたが、王子さまのやさしい心にひかれて、",
+          "en": "The princess was surprised, but she was drawn to the prince's kind heart,",
+          "duration": 8,
+          "audio": "page10_text1"
+        },
+        {
+          "ja": "ふたりはむすばれて、しあわせにくらしましたとさ。",
+          "en": "and the two were married and lived happily ever after.",
+          "duration": 7,
+          "audio": "page10_text2"
+        },
+        {
+          "ja": "めでたし、めでたし。",
+          "en": "And they lived happily ever after.",
+          "duration": 4,
+          "audio": "page10_text3"
+        }
+      ],
+      "image": "scene10.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "おひめさまが池で落としてしまったものは何ですか？",
+      "en": "What did the princess drop into the pond?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question1",
+      "image": "scene2.png",
+      "choices": [
+        {
+          "ja": "きんのボール",
+          "en": "A golden ball",
+          "correct": true,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "おもちゃの人形",
+          "en": "A toy doll",
+          "correct": false,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "えほん",
+          "en": "A picture book",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "かえるがおひめさまにした約束はなんですか？",
+      "en": "What did the frog ask the princess to promise?",
+      "duration": 6,
+      "answerDuration": 10,
+      "audio": "question2",
+      "image": "scene3.png",
+      "choices": [
+        {
+          "ja": "いっしょにごはんをたべ、となりにねむること",
+          "en": "To eat with him and sleep beside her",
+          "correct": true,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "お城の宝物をあげること",
+          "en": "To give him the castle's treasures",
+          "correct": false,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "かえるを友達として遊ぶこと",
+          "en": "To play with the frog as a friend",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おひめさまは、かえるが約束を破ったことに気づき、どうしましたか？",
+      "en": "What did the princess do when she realized the frog kept its promise?",
+      "duration": 7,
+      "answerDuration": 10,
+      "audio": "question3",
+      "image": "scene5.png",
+      "choices": [
+        {
+          "ja": "かえるを王様に紹介した",
+          "en": "She introduced the frog to the King",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "かえるを中に入れず、ドアを閉めた",
+          "en": "She didn't let the frog in and closed the door",
+          "correct": false,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "かえるを城の中に入れた",
+          "en": "She let the frog into the castle",
+          "correct": true,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おひめさまが我慢できずに、かえるにしたことは何ですか？",
+      "en": "What did the princess do when she couldn't stand the frog anymore?",
+      "duration": 7,
+      "answerDuration": 8,
+      "audio": "question4",
+      "image": "scene8.png",
+      "choices": [
+        {
+          "ja": "かえるにキスをした",
+          "en": "She kissed the frog",
+          "correct": false,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "かえるを壁にたたきつけた",
+          "en": "She threw the frog against the wall",
+          "correct": true,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "かえるに謝った",
+          "en": "She apologized to the frog",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "かえるの本当の姿は何でしたか？",
+      "en": "What was the frog's true form?",
+      "duration": 5,
+      "answerDuration": 8,
+      "audio": "question5",
+      "image": "scene9.png",
+      "choices": [
+        {
+          "ja": "魔女",
+          "en": "A witch",
+          "correct": false,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "王子さま",
+          "en": "A prince",
+          "correct": true,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "王様",
+          "en": "A king",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "かえるの王さま、あるいは鉄のハインリヒ"
+}
