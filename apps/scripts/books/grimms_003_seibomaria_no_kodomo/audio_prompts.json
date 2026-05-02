@@ -3,1136 +3,326 @@
     {
       "audio": "page1_text1_ja",
       "lang": "ja",
-      "text": "むかしむかし、森の近くに",
-      "prompt": "[slowly, warmly]"
-    },
-    {
-      "audio": "page1_text1_en",
-      "lang": "en",
-      "text": "Once upon a time, near a large forest,",
-      "prompt": "[slowly, warmly]"
+      "text": "むかしむかし、森の近くに、きこりのおじさんとおかみさんが住んでいました。",
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page1_text2_ja",
       "lang": "ja",
-      "text": "きこりのおじさんとおかみさんが住んでいました。",
-      "prompt": "[calmly, gently]"
-    },
-    {
-      "audio": "page1_text2_en",
-      "lang": "en",
-      "text": "lived a woodcutter and his wife.",
+      "text": "ふたりには、３さいの可愛い女の子がひとりだけいました。",
       "prompt": "[calmly, gently]"
     },
     {
       "audio": "page1_text3_ja",
       "lang": "ja",
-      "text": "ふたりには、3歳の可愛いおんなのこが",
-      "prompt": "[tenderly, warmly]"
-    },
-    {
-      "audio": "page1_text3_en",
-      "lang": "en",
-      "text": "They had only one lovely daughter,",
-      "prompt": "[tenderly, warmly]"
+      "text": "でも、ふたりはとても貧乏で、毎日食べるパンも無くなるほどでした。",
+      "prompt": "[sadly, gently]"
     },
     {
       "audio": "page1_text4_ja",
       "lang": "ja",
-      "text": "ひとりだけいましたが、とても貧乏でした。",
+      "text": "どうしたら女の子にご飯をあげられるか、困っていました。",
       "prompt": "[sadly, gently]"
-    },
-    {
-      "audio": "page1_text4_en",
-      "lang": "en",
-      "text": "who was three years old, but they were very poor.",
-      "prompt": "[sadly, gently]"
-    },
-    {
-      "audio": "page1_text5_ja",
-      "lang": "ja",
-      "text": "毎日のパンもなくなりそうで、困っていました。",
-      "prompt": "[worriedly, sadly]"
-    },
-    {
-      "audio": "page1_text5_en",
-      "lang": "en",
-      "text": "They were worried they would run out of bread to eat each day.",
-      "prompt": "[worriedly, sadly]"
     },
     {
       "audio": "page2_text1_ja",
       "lang": "ja",
-      "text": "ある朝、おじさんは悲しい気持ちで森へ",
-      "prompt": "[sadly, slowly]"
-    },
-    {
-      "audio": "page2_text1_en",
-      "lang": "en",
-      "text": "One morning, the woodcutter went to the forest with a heavy heart.",
-      "prompt": "[sadly, slowly]"
+      "text": "ある朝、おじさんは悲しい気持ちで森へ仕事に行きました。",
+      "prompt": "[sadly, gently]"
     },
     {
       "audio": "page2_text2_ja",
       "lang": "ja",
-      "text": "仕事に行きました。木を切っていると、",
-      "prompt": "[calmly, steadily]"
-    },
-    {
-      "audio": "page2_text2_en",
-      "lang": "en",
-      "text": "As he was cutting a tree, suddenly a beautiful woman appeared,",
-      "prompt": "[calmly, steadily]"
+      "text": "木を切っていると、突然、頭にキラキラ光る星の冠をつけた、美しい女性が現れました。",
+      "prompt": "[dramatically, gently]"
     },
     {
       "audio": "page2_text3_ja",
       "lang": "ja",
-      "text": "突然、頭にキラキラ光る星の冠をつけた、",
-      "prompt": "[magically, gently]"
-    },
-    {
-      "audio": "page2_text3_en",
-      "lang": "en",
-      "text": "wearing a sparkling star crown on her head.",
-      "prompt": "[magically, gently]"
+      "text": "「私は聖母マリア、イエス・キリストの母です。",
+      "prompt": "[warmly, gently]"
     },
     {
       "audio": "page2_text4_ja",
       "lang": "ja",
-      "text": "美しいおんなの人が現れました。",
-      "prompt": "[wonderingly, gently]"
-    },
-    {
-      "audio": "page2_text4_en",
-      "lang": "en",
-      "text": "\"I am the Virgin Mary, the mother of Jesus Christ.",
-      "prompt": "[reverently, calmly]"
-    },
-    {
-      "audio": "page2_text5_ja",
-      "lang": "ja",
-      "text": "「わたしは聖母マリア、イエス・キリストの母です。",
-      "prompt": "[reverently, calmly]"
-    },
-    {
-      "audio": "page2_text5_en",
-      "lang": "en",
-      "text": "Send your child to me. I will take care of her and raise her happily.\"",
-      "prompt": "[warmly, reassuringly]"
-    },
-    {
-      "audio": "page2_text6_ja",
-      "lang": "ja",
-      "text": "あなたが思う、子供を私のところに",
-      "prompt": "[gently, invitingly]"
-    },
-    {
-      "audio": "page2_text7_ja",
-      "lang": "ja",
-      "text": "つかわしなさい。わたしが預かり、",
-      "prompt": "[gently, reassuringly]"
-    },
-    {
-      "audio": "page2_text8_ja",
-      "lang": "ja",
-      "text": "幸せに育てましょう。」",
-      "prompt": "[warmly, lovingly]"
+      "text": "あなたが思っている、子供を私のところに使いなさい。私が預かり、幸せに育てましょう。」",
+      "prompt": "[warmly, gently]"
     },
     {
       "audio": "page3_text1_ja",
       "lang": "ja",
-      "text": "おじさんは、そのとおりにして、",
-      "prompt": "[obediently, sadly]"
-    },
-    {
-      "audio": "page3_text1_en",
-      "lang": "en",
-      "text": "The woodcutter did as he was told and handed his daughter over to the Virgin Mary.",
-      "prompt": "[obediently, sadly]"
+      "text": "おじさんは、そのとおりにして、女の子を聖母マリアに渡しました。",
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page3_text2_ja",
       "lang": "ja",
-      "text": "おんなのこを聖母マリアに渡しました。",
-      "prompt": "[sadly, gently]"
-    },
-    {
-      "audio": "page3_text2_en",
-      "lang": "en",
-      "text": "The Virgin Mary took the girl to heaven.",
-      "prompt": "[gently, reassuringly]"
+      "text": "聖母マリアは、女の子を天国へ連れて行きました。",
+      "prompt": "[gently, tenderly]"
     },
     {
       "audio": "page3_text3_ja",
       "lang": "ja",
-      "text": "聖母マリアは、おんなのこを天国へ",
-      "prompt": "[gently, lovingly]"
-    },
-    {
-      "audio": "page3_text3_en",
-      "lang": "en",
-      "text": "There, the girl lived happily.",
-      "prompt": "[happily, cheerfully]"
+      "text": "天国では、女の子は幸せに暮らせました。",
+      "prompt": "[cheerfully, gently]"
     },
     {
       "audio": "page3_text4_ja",
       "lang": "ja",
-      "text": "連れていきました。",
-      "prompt": "[gently, lovingly]"
-    },
-    {
-      "audio": "page3_text4_en",
-      "lang": "en",
-      "text": "She ate sweet candies, drank delicious milk, wore golden clothes,",
-      "prompt": "[happily, joyfully]"
-    },
-    {
-      "audio": "page3_text5_ja",
-      "lang": "ja",
-      "text": "天国では、おんなのこは幸せに",
-      "prompt": "[happily, cheerfully]"
-    },
-    {
-      "audio": "page3_text5_en",
-      "lang": "en",
-      "text": "and played with the angels.",
-      "prompt": "[joyfully, playfully]"
-    },
-    {
-      "audio": "page3_text6_ja",
-      "lang": "ja",
-      "text": "暮らせました。",
-      "prompt": "[happily, contentedly]"
-    },
-    {
-      "audio": "page3_text7_ja",
-      "lang": "ja",
-      "text": "甘いお菓子を食べ、美味しいミルクを飲み、",
-      "prompt": "[happily, joyfully]"
-    },
-    {
-      "audio": "page3_text8_ja",
-      "lang": "ja",
-      "text": "金色（きんいろ）の服を着て、天使たちと遊びました。",
-      "prompt": "[happily, joyfully]"
+      "text": "甘いお菓子を食べ、美味しいミルクを飲み、金色の服を着て、天使たちと遊びました。",
+      "prompt": "[cheerfully, gently]"
     },
     {
       "audio": "page4_text1_ja",
       "lang": "ja",
-      "text": "おんなのこが14歳になったある日、",
-      "prompt": "[calmly, reflectively]"
-    },
-    {
-      "audio": "page4_text1_en",
-      "lang": "en",
-      "text": "One day, when the girl turned fourteen,",
-      "prompt": "[calmly, reflectively]"
+      "text": "女の子が１４歳になったある日、聖母マリアは言いました。",
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page4_text2_ja",
       "lang": "ja",
-      "text": "聖母マリアは言いました。",
-      "prompt": "[calmly, solemnly]"
-    },
-    {
-      "audio": "page4_text2_en",
-      "lang": "en",
-      "text": "the Virgin Mary said,",
-      "prompt": "[calmly, solemnly]"
+      "text": "「子供よ、私は長い旅に出かけます。だから、あなたに天国の１３個の扉の鍵を預けましょう。",
+      "prompt": "[gently, tenderly]"
     },
     {
       "audio": "page4_text3_ja",
       "lang": "ja",
-      "text": "「子よ、私は長い旅に出かけます。",
-      "prompt": "[solemnly, gently]"
-    },
-    {
-      "audio": "page4_text3_en",
-      "lang": "en",
-      "text": "\"Child, I am going on a long journey.",
-      "prompt": "[solemnly, gently]"
+      "text": "１２個の扉は開けてもいいけれど、１３番目の扉は、絶対に開けてはいけません。",
+      "prompt": "[warningly, gently]"
     },
     {
       "audio": "page4_text4_ja",
       "lang": "ja",
-      "text": "だから、あなたに天国の13個の",
-      "prompt": "[seriously, carefully]"
-    },
-    {
-      "audio": "page4_text4_en",
-      "lang": "en",
-      "text": "So I will entrust you with the keys to the thirteen gates of heaven.",
-      "prompt": "[seriously, carefully]"
+      "text": "小さな鍵があります。開けると、不幸が訪れます。」",
+      "prompt": "[warningly, fearfully]"
     },
     {
       "audio": "page4_text5_ja",
       "lang": "ja",
-      "text": "扉（と）のかぎを預けましょう。",
-      "prompt": "[seriously, carefully]"
-    },
-    {
-      "audio": "page4_text5_en",
-      "lang": "en",
-      "text": "You may open twelve of the gates,",
-      "prompt": "[calmly, with instruction]"
-    },
-    {
-      "audio": "page4_text6_ja",
-      "lang": "ja",
-      "text": "12個の扉は開けてもいいけれど、",
-      "prompt": "[calmly, with instruction]"
-    },
-    {
-      "audio": "page4_text6_en",
-      "lang": "en",
-      "text": "but you must never open the thirteenth gate.",
-      "prompt": "[sternly, warningly]"
-    },
-    {
-      "audio": "page4_text7_ja",
-      "lang": "ja",
-      "text": "13番目の扉は、絶対に開けてはいけません。",
-      "prompt": "[sternly, warningly]"
-    },
-    {
-      "audio": "page4_text7_en",
-      "lang": "en",
-      "text": "There is a small key. If you open it, misfortune will befall you.\"",
-      "prompt": "[ominously, gravely]"
-    },
-    {
-      "audio": "page4_text8_ja",
-      "lang": "ja",
-      "text": "開けると、不幸が訪れます。」",
-      "prompt": "[ominously, gravely]"
-    },
-    {
-      "audio": "page4_text9_ja",
-      "lang": "ja",
-      "text": "おんなのこは、絶対に開けないと約束しました。",
-      "prompt": "[promiseingly, earnestly]"
-    },
-    {
-      "audio": "page4_text9_en",
-      "lang": "en",
-      "text": "The girl promised she would never open it.",
-      "prompt": "[promiseingly, earnestly]"
+      "text": "女の子は、絶対に開けないと約束しました。",
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page5_text1_ja",
       "lang": "ja",
-      "text": "聖母マリアがいなくなったあと、",
-      "prompt": "[calmly, after a pause]"
-    },
-    {
-      "audio": "page5_text1_en",
-      "lang": "en",
-      "text": "After the Virgin Mary left,",
-      "prompt": "[calmly, after a pause]"
+      "text": "聖母マリアがいなくなったあと、女の子は天国の部屋を見て回りました。",
+      "prompt": "[curiously, gently]"
     },
     {
       "audio": "page5_text2_ja",
       "lang": "ja",
-      "text": "おんなのこは天国の部屋を見て回りました。",
-      "prompt": "[curiously, exploring]"
-    },
-    {
-      "audio": "page5_text2_en",
-      "lang": "en",
-      "text": "the girl looked around the rooms of heaven.",
-      "prompt": "[curiously, exploring]"
+      "text": "１２個の部屋を見て、どの部屋もとてもキラキラしていて、幸せな気持ちになりました。",
+      "prompt": "[cheerfully, gently]"
     },
     {
       "audio": "page5_text3_ja",
       "lang": "ja",
-      "text": "12個の部屋を見て、どの部屋も",
-      "prompt": "[amazed, delighted]"
-    },
-    {
-      "audio": "page5_text3_en",
-      "lang": "en",
-      "text": "She looked at the twelve rooms and felt happy,",
-      "prompt": "[amazed, delighted]"
+      "text": "でも、残った１３番目の扉が、気になって仕方ありません。",
+      "prompt": "[curiously, fearfully]"
     },
     {
       "audio": "page5_text4_ja",
       "lang": "ja",
-      "text": "とてもキラキラしていて、幸せな気持ちになりました。",
-      "prompt": "[happily, contentedly]"
-    },
-    {
-      "audio": "page5_text4_en",
-      "lang": "en",
-      "text": "as each room was very dazzling.",
-      "prompt": "[happily, contentedly]"
+      "text": "「ほんの少しだけ、覗いてみよう。」女の子はそう思いました。",
+      "prompt": "[curiously, whispering]"
     },
     {
       "audio": "page5_text5_ja",
       "lang": "ja",
-      "text": "でも、残った13番目の扉が、",
-      "prompt": "[hesitantly, curious]"
-    },
-    {
-      "audio": "page5_text5_en",
-      "lang": "en",
-      "text": "But the remaining thirteenth gate bothered her.",
-      "prompt": "[hesitantly, curious]"
-    },
-    {
-      "audio": "page5_text6_ja",
-      "lang": "ja",
-      "text": "気になって仕方ありません。",
-      "prompt": "[curiously, persistently]"
-    },
-    {
-      "audio": "page5_text6_en",
-      "lang": "en",
-      "text": "\"I'll just peek a little bit.\"",
-      "prompt": "[whispering, mischievously]"
-    },
-    {
-      "audio": "page5_text7_ja",
-      "lang": "ja",
-      "text": "「ほんの少しだけ、覗いてみよう。」",
-      "prompt": "[whispering, mischievously]"
-    },
-    {
-      "audio": "page5_text7_en",
-      "lang": "en",
-      "text": "she thought.",
-      "prompt": "[thinking, internally]"
-    },
-    {
-      "audio": "page5_text8_ja",
-      "lang": "ja",
-      "text": "おんなのこはそう思いました。",
-      "prompt": "[thinking, internally]"
-    },
-    {
-      "audio": "page5_text8_en",
-      "lang": "en",
-      "text": "The angels said, \"No, that would be a sin.\"",
-      "prompt": "[warningly, gently]"
-    },
-    {
-      "audio": "page5_text9_ja",
-      "lang": "ja",
-      "text": "天使たちは「だめですよ。それは罪になります。」",
-      "prompt": "[warningly, gently]"
-    },
-    {
-      "audio": "page5_text9_en",
-      "lang": "en",
-      "text": "But the girl did not listen.",
-      "prompt": "[disobediently, ignoring]"
-    },
-    {
-      "audio": "page5_text10_ja",
-      "lang": "ja",
-      "text": "と言いましたが、おんなのこは聞きませんでした。",
-      "prompt": "[disobediently, ignoring]"
+      "text": "天使たちは「だめですよ。それは罪になります。」と言いましたが、女の子は聞きませんでした。",
+      "prompt": "[warningly, fearfully]"
     },
     {
       "audio": "page6_text1_ja",
       "lang": "ja",
-      "text": "かぎを開けて、扉を少し開けると、",
-      "prompt": "[tentatively, fearfully]"
-    },
-    {
-      "audio": "page6_text1_en",
-      "lang": "en",
-      "text": "She opened the lock and slightly opened the gate.",
-      "prompt": "[tentatively, fearfully]"
+      "text": "鍵を開けて、扉を少し開けると、まぶしい光の中に、３つのかみが座っていました。",
+      "prompt": "[dramatically, fearfully]"
     },
     {
       "audio": "page6_text2_ja",
       "lang": "ja",
-      "text": "まぶしい光の中に、三つの髪が",
-      "prompt": "[amazed, wondrous]"
-    },
-    {
-      "audio": "page6_text2_en",
-      "lang": "en",
-      "text": "In the dazzling light, three gods were sitting.",
-      "prompt": "[amazed, wondrous]"
+      "text": "女の子はびっくりして、光に指を触れると、指が金色になってしまいました！",
+      "prompt": "[fearfully, dramatically]"
     },
     {
       "audio": "page6_text3_ja",
       "lang": "ja",
-      "text": "座っていました。",
-      "prompt": "[amazed, wondrous]"
-    },
-    {
-      "audio": "page6_text3_en",
-      "lang": "en",
-      "text": "The girl was surprised.",
-      "prompt": "[surprised, shocked]"
-    },
-    {
-      "audio": "page6_text4_ja",
-      "lang": "ja",
-      "text": "おんなのこはびっくりして、",
-      "prompt": "[surprised, shocked]"
-    },
-    {
-      "audio": "page6_text4_en",
-      "lang": "en",
-      "text": "When she touched the light with her finger,",
-      "prompt": "[fearfully, hesitantly]"
-    },
-    {
-      "audio": "page6_text5_ja",
-      "lang": "ja",
-      "text": "光に指を触れると、指が金色に",
-      "prompt": "[fearfully, hesitantly]"
-    },
-    {
-      "audio": "page6_text5_en",
-      "lang": "en",
-      "text": "her finger turned golden!",
-      "prompt": "[shocked, fearfully]"
-    },
-    {
-      "audio": "page6_text6_ja",
-      "lang": "ja",
-      "text": "なってしまいました！",
-      "prompt": "[shocked, fearfully]"
-    },
-    {
-      "audio": "page6_text6_en",
-      "lang": "en",
-      "text": "Frightened, the girl quickly closed the gate and fled.",
-      "prompt": "[fearfully, running]"
-    },
-    {
-      "audio": "page6_text7_ja",
-      "lang": "ja",
-      "text": "怖くなって、おんなのこは扉をけして逃げました。",
-      "prompt": "[fearfully, running]"
+      "text": "怖くなって、女の子は扉を閉めて逃げました。",
+      "prompt": "[fearfully, quickly]"
     },
     {
       "audio": "page7_text1_ja",
       "lang": "ja",
-      "text": "しばらくして、聖母マリアが帰ってきました。",
-      "prompt": "[calmly, returning]"
-    },
-    {
-      "audio": "page7_text1_en",
-      "lang": "en",
-      "text": "After a while, the Virgin Mary returned.",
-      "prompt": "[calmly, returning]"
+      "text": "しばらくして、聖母マリアが帰ってきました。「１３番目の扉を開けましたか？」と聖母マリアは聞きました。",
+      "prompt": "[calmly, sternly]"
     },
     {
       "audio": "page7_text2_ja",
       "lang": "ja",
-      "text": "「13番目の扉を開けましたか？」",
-      "prompt": "[questioningly, seriously]"
-    },
-    {
-      "audio": "page7_text2_en",
-      "lang": "en",
-      "text": "\"Did you open the thirteenth gate?\" asked the Virgin Mary.",
-      "prompt": "[questioningly, seriously]"
+      "text": "女の子は、いいえ、と嘘をつきました。",
+      "prompt": "[fearfully, whispering]"
     },
     {
       "audio": "page7_text3_ja",
       "lang": "ja",
-      "text": "と聖母マリアは聞きました。",
-      "prompt": "[questioningly, seriously]"
-    },
-    {
-      "audio": "page7_text3_en",
-      "lang": "en",
-      "text": "The girl said no, but the Virgin Mary knew she was lying,",
-      "prompt": "[discerningly, knowingly]"
+      "text": "でも、聖母マリアは、女の子のドキドキする心に触れて、嘘だとわかりました。",
+      "prompt": "[calmly, sadly]"
     },
     {
       "audio": "page7_text4_ja",
       "lang": "ja",
-      "text": "おんなのこは、いいえ、とうそを言いました。",
-      "prompt": "[lying, nervously]"
-    },
-    {
-      "audio": "page7_text4_en",
-      "lang": "en",
-      "text": "by touching the girl's pounding heart.",
-      "prompt": "[knowing, sensing]"
+      "text": "そして、金色になった指を見て、ついに真実を知りました。",
+      "prompt": "[calmly, sadly]"
     },
     {
       "audio": "page7_text5_ja",
       "lang": "ja",
-      "text": "でも、聖母マリアは、おんなのこ",
-      "prompt": "[knowing, sensing]"
-    },
-    {
-      "audio": "page7_text5_en",
-      "lang": "en",
-      "text": "And seeing the golden finger, she finally knew the truth.",
-      "prompt": "[realizing, sadly]"
-    },
-    {
-      "audio": "page7_text6_ja",
-      "lang": "ja",
-      "text": "のドキドキする心臓（こころ）を触って、",
-      "prompt": "[realizing, sadly]"
-    },
-    {
-      "audio": "page7_text6_en",
-      "lang": "en",
-      "text": "\"You lied. You are no longer worthy of being in heaven.\"",
-      "prompt": "[sternly, sadly]"
-    },
-    {
-      "audio": "page7_text7_ja",
-      "lang": "ja",
-      "text": "うそだとわかりました。",
-      "prompt": "[realizing, sadly]"
-    },
-    {
-      "audio": "page7_text8_ja",
-      "lang": "ja",
-      "text": "そして、金色になった指を見て、",
-      "prompt": "[realizing, sadly]"
-    },
-    {
-      "audio": "page7_text9_ja",
-      "lang": "ja",
-      "text": "ついに真実を知りました。",
-      "prompt": "[realizing, sadly]"
-    },
-    {
-      "audio": "page7_text10_ja",
-      "lang": "ja",
-      "text": "「あなたはうそをつきましたね。",
-      "prompt": "[sternly, sadly]"
-    },
-    {
-      "audio": "page7_text11_ja",
-      "lang": "ja",
-      "text": "もう天国にいる資格はありません。」",
-      "prompt": "[sternly, sadly]"
+      "text": "「あなたは嘘をつきましたね。もう天国にいる資格はありません。」",
+      "prompt": "[sadly, sternly]"
     },
     {
       "audio": "page8_text1_ja",
       "lang": "ja",
-      "text": "おんなのこが目を覚ますと、",
-      "prompt": "[waking, confused]"
-    },
-    {
-      "audio": "page8_text1_en",
-      "lang": "en",
-      "text": "When the girl woke up, she was in the middle of a wilderness.",
-      "prompt": "[waking, confused]"
+      "text": "女の子が目を覚ますと、そこは荒野の真ん中でした。",
+      "prompt": "[sadly, fearfully]"
     },
     {
       "audio": "page8_text2_ja",
       "lang": "ja",
-      "text": "そこは荒野（こうや）の真ん中でした。",
-      "prompt": "[disoriented, sadly]"
-    },
-    {
-      "audio": "page8_text2_en",
-      "lang": "en",
-      "text": "She could not utter a sound and was blocked by thorny hedges,",
-      "prompt": "[despairingly, trapped]"
+      "text": "声も出せず、茨の垣根にさえぎられ、どこにも逃げられません。",
+      "prompt": "[fearfully, sadly]"
     },
     {
       "audio": "page8_text3_ja",
       "lang": "ja",
-      "text": "声も出せず、いばらの垣根にさえぎられ、",
-      "prompt": "[despairingly, trapped]"
-    },
-    {
-      "audio": "page8_text3_en",
-      "lang": "en",
-      "text": "unable to escape anywhere.",
-      "prompt": "[hopelessly, lost]"
+      "text": "木の洞をすみかに、木の実や野性のいちごを食べて、寂しく暮らしました。",
+      "prompt": "[sadly, gently]"
     },
     {
       "audio": "page8_text4_ja",
       "lang": "ja",
-      "text": "どこにも逃げられません。",
-      "prompt": "[hopelessly, lost]"
-    },
-    {
-      "audio": "page8_text4_en",
-      "lang": "en",
-      "text": "She lived miserably in a hollow tree,",
-      "prompt": "[miserably, lonely]"
+      "text": "ある日、その国のお王様が森で狩をしていました。",
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page8_text5_ja",
       "lang": "ja",
-      "text": "木の窪みをすみかに、木のの実や",
-      "prompt": "[lonely, surviving]"
-    },
-    {
-      "audio": "page8_text5_en",
-      "lang": "en",
-      "text": "eating berries and wild strawberries.",
-      "prompt": "[barely surviving, sadly]"
+      "text": "お王様は、女の子の美しさにびっくりして、お城に連れて帰り、素敵な服を着せました。",
+      "prompt": "[excitedly, gently]"
     },
     {
       "audio": "page8_text6_ja",
       "lang": "ja",
-      "text": "野性のいちごを食べて、寂しく暮らしました。",
-      "prompt": "[miserably, lonely]"
+      "text": "女の子は声を出せませんでしたが、お王様は女の子を心から愛し、結婚しました。",
+      "prompt": "[tenderly, gently]"
     },
     {
       "audio": "page9_text1_ja",
       "lang": "ja",
-      "text": "ある日、その国の王様が森で狩をしていました。",
-      "prompt": "[casually, hunting]"
-    },
-    {
-      "audio": "page9_text1_en",
-      "lang": "en",
-      "text": "One day, the king of that land was hunting in the forest.",
-      "prompt": "[casually, hunting]"
+      "text": "やがて、女の子はおとこのこの赤ちゃんを産みました。",
+      "prompt": "[calmly, gently]"
     },
     {
       "audio": "page9_text2_ja",
       "lang": "ja",
-      "text": "王様は、おんなのこ の美しさにびっくりして、",
-      "prompt": "[surprised, admiringly]"
-    },
-    {
-      "audio": "page9_text2_en",
-      "lang": "en",
-      "text": "The king was surprised by the girl's beauty,",
-      "prompt": "[surprised, admiringly]"
+      "text": "その夜、聖母マリアが現れて言いました。",
+      "prompt": "[dramatically, gently]"
     },
     {
       "audio": "page9_text3_ja",
       "lang": "ja",
-      "text": "お城に連れて帰り、素敵な服を着せました。",
-      "prompt": "[kindly, generously]"
-    },
-    {
-      "audio": "page9_text3_en",
-      "lang": "en",
-      "text": "took her to the castle, and dressed her in beautiful clothes.",
-      "prompt": "[kindly, generously]"
+      "text": "「もし、あなたが扉を開けたことを真実に言うなら、声を出すようにしてあげましょう。",
+      "prompt": "[sternly, gently]"
     },
     {
       "audio": "page9_text4_ja",
       "lang": "ja",
-      "text": "おんなのこは声を出せませんでしたが、",
-      "prompt": "[silently, sadly]"
-    },
-    {
-      "audio": "page9_text4_en",
-      "lang": "en",
-      "text": "The girl could not speak,",
-      "prompt": "[silently, sadly]"
+      "text": "でも、もし嘘を続けるなら、赤ちゃんを連れて行きますよ。」",
+      "prompt": "[sternly, warningly]"
     },
     {
       "audio": "page9_text5_ja",
       "lang": "ja",
-      "text": "王様は、おんなのこを心から愛し、",
-      "prompt": "[lovingly, deeply]"
-    },
-    {
-      "audio": "page9_text5_en",
-      "lang": "en",
-      "text": "but the king loved her dearly from the bottom of his heart,",
-      "prompt": "[lovingly, deeply]"
+      "text": "女の子は、また嘘をつきました。すると、聖母マリアは赤ちゃんを連れて行ってしまいました。",
+      "prompt": "[sadly, fearfully]"
     },
     {
       "audio": "page9_text6_ja",
       "lang": "ja",
-      "text": "結婚しました。",
-      "prompt": "[happily, joyfully]"
+      "text": "次の年、また男の子が生まれましたが、女の子はまた嘘を言い、聖母マリアは赤ちゃんを連れて行ってしまいました。",
+      "prompt": "[sadly, fearfully]"
     },
     {
-      "audio": "page9_text6_en",
-      "lang": "en",
-      "text": "and they got married.",
-      "prompt": "[happily, joyfully]"
+      "audio": "page9_text7_ja",
+      "lang": "ja",
+      "text": "女の子が赤ちゃんを食べてしまったとうわさが広まり、女の子は裁判にかけられることになりました。",
+      "prompt": "[dramatically, sadly]"
     },
     {
       "audio": "page10_text1_ja",
       "lang": "ja",
-      "text": "やがて、おんなのこは男の子の赤ちゃんを産みました。",
-      "prompt": "[joyfully, with anticipation]"
-    },
-    {
-      "audio": "page10_text1_en",
-      "lang": "en",
-      "text": "Soon, the girl gave birth to a baby boy.",
-      "prompt": "[joyfully, with anticipation]"
+      "text": "３番目の赤ちゃんは、可愛い女の子でした。聖母マリアはまた現れ、女の子に２匹の男の子の赤ちゃんを見せました。",
+      "prompt": "[dramatically, gently]"
     },
     {
       "audio": "page10_text2_ja",
       "lang": "ja",
-      "text": "その夜、聖母マリアが現れて言いました。",
-      "prompt": "[mysterious, solemn]"
-    },
-    {
-      "audio": "page10_text2_en",
-      "lang": "en",
-      "text": "That night, the Virgin Mary appeared and said,",
-      "prompt": "[mysterious, solemn]"
+      "text": "「真実を言えば、赤ちゃんを返してあげましょう。」しかし、女の子は３回も嘘を言いました。",
+      "prompt": "[sternly, gently]"
     },
     {
       "audio": "page10_text3_ja",
       "lang": "ja",
-      "text": "「もし、あなたが扉を開けたことを",
-      "prompt": "[questioningly, seriously]"
-    },
-    {
-      "audio": "page10_text3_en",
-      "lang": "en",
-      "text": "\"If you honestly tell me that you opened the gate,",
-      "prompt": "[questioningly, seriously]"
+      "text": "そして、３番目の赤ちゃんも奪われてしまいました。ついに、女の子は死につながる火あぶりの刑となりました。",
+      "prompt": "[dramatically, fearfully]"
     },
     {
       "audio": "page10_text4_ja",
       "lang": "ja",
-      "text": "真実（しんじつ）に言うなら、声を出せるように",
-      "prompt": "[offering, conditionally]"
-    },
-    {
-      "audio": "page10_text4_en",
-      "lang": "en",
-      "text": "I will let you speak again. But if you continue to lie,",
-      "prompt": "[offering, conditionally]"
+      "text": "炎が上がると、女の子はかたく閉じていた心をひらき、大きな声で言いました。",
+      "prompt": "[dramatically, fearfully]"
     },
     {
       "audio": "page10_text5_ja",
       "lang": "ja",
-      "text": "してあげましょう。",
-      "prompt": "[offering, conditionally]"
-    },
-    {
-      "audio": "page10_text5_en",
-      "lang": "en",
-      "text": "I will take the baby with me.\"",
-      "prompt": "[threateningly, gravely]"
+      "text": "「はい、聖母マリアさま、私が扉を開けました！」",
+      "prompt": "[confessing, dramatically]"
     },
     {
       "audio": "page10_text6_ja",
       "lang": "ja",
-      "text": "でも、もし嘘を続けるなら、",
-      "prompt": "[threateningly, gravely]"
-    },
-    {
-      "audio": "page10_text6_en",
-      "lang": "en",
-      "text": "The girl lied again.",
-      "prompt": "[lying, fearfully]"
+      "text": "すると、雨が降って炎を消しました。聖母マリアさまが、３人の子供たちと一緒におりてきて、女の子の過ちを許し、声を返してくれました。",
+      "prompt": "[miraculously, gently]"
     },
     {
       "audio": "page10_text7_ja",
       "lang": "ja",
-      "text": "赤ちゃんを連れていきますよ。」",
-      "prompt": "[threateningly, gravely]"
-    },
-    {
-      "audio": "page10_text7_en",
-      "lang": "en",
-      "text": "Then the Virgin Mary took the baby away.",
-      "prompt": "[sternly, taking]"
-    },
-    {
-      "audio": "page10_text8_ja",
-      "lang": "ja",
-      "text": "おんなのこは、また嘘を言いました。",
-      "prompt": "[lying, fearfully]"
-    },
-    {
-      "audio": "page10_text8_en",
-      "lang": "en",
-      "text": "The next year, another son was born,",
-      "prompt": "[with hope, then despair]"
-    },
-    {
-      "audio": "page10_text9_ja",
-      "lang": "ja",
-      "text": "すると、聖母マリアは赤ちゃんを連れていってしまいました。",
-      "prompt": "[sternly, taking]"
-    },
-    {
-      "audio": "page10_text9_en",
-      "lang": "en",
-      "text": "but the girl lied again, and the Virgin Mary took the baby away.",
-      "prompt": "[sternly, taking]"
-    },
-    {
-      "audio": "page10_text10_ja",
-      "lang": "ja",
-      "text": "次の年、また男の子が生まれましたが、",
-      "prompt": "[with hope, then despair]"
-    },
-    {
-      "audio": "page10_text10_en",
-      "lang": "en",
-      "text": "A rumor spread that the girl had eaten her babies,",
-      "prompt": "[ominously, whispering]"
-    },
-    {
-      "audio": "page10_text11_ja",
-      "lang": "ja",
-      "text": "おんなのこはまた嘘を言い、",
-      "prompt": "[lying, fearfully]"
-    },
-    {
-      "audio": "page10_text11_en",
-      "lang": "en",
-      "text": "and the girl was to be put on trial.",
-      "prompt": "[ominously, dramatically]"
-    },
-    {
-      "audio": "page10_text12_ja",
-      "lang": "ja",
-      "text": "聖母マリアは赤ちゃんを連れていってしまいました。",
-      "prompt": "[sternly, taking]"
-    },
-    {
-      "audio": "page10_text12_en",
-      "lang": "en",
-      "text": "The third baby was a cute baby girl.",
-      "prompt": "[with fleeting hope]"
-    },
-    {
-      "audio": "page10_text13_ja",
-      "lang": "ja",
-      "text": "昔から、おんなのこが赤ちゃんを食べてしまったと",
-      "prompt": "[ominously, whispering]"
-    },
-    {
-      "audio": "page10_text13_en",
-      "lang": "en",
-      "text": "The Virgin Mary appeared again and showed the girl two baby boys.",
-      "prompt": "[solemnly, presenting]"
-    },
-    {
-      "audio": "page10_text14_ja",
-      "lang": "ja",
-      "text": "噂が広まり、おんなのこは裁判にかけられることになりました。",
-      "prompt": "[ominously, dramatically]"
-    },
-    {
-      "audio": "page10_text14_en",
-      "lang": "en",
-      "text": "\"If you tell the truth, I will return the babies to you.\"",
-      "prompt": "[offering, conditionally]"
-    },
-    {
-      "audio": "page10_text15_ja",
-      "lang": "ja",
-      "text": "３番目の赤ちゃんは、可愛い女の子でした。",
-      "prompt": "[with fleeting hope]"
-    },
-    {
-      "audio": "page10_text15_en",
-      "lang": "en",
-      "text": "However, the girl lied three times.",
-      "prompt": "[tragically, repeatedly lying]"
-    },
-    {
-      "audio": "page10_text16_ja",
-      "lang": "ja",
-      "text": "聖母マリアはまた現れ、おんなのこに",
-      "prompt": "[solemnly, presenting]"
-    },
-    {
-      "audio": "page10_text16_en",
-      "lang": "en",
-      "text": "And the third baby was also taken away.",
-      "prompt": "[sternly, taking]"
-    },
-    {
-      "audio": "page10_text17_ja",
-      "lang": "ja",
-      "text": "２匹の男の子の赤ちゃんを見せました。",
-      "prompt": "[solemnly, presenting]"
-    },
-    {
-      "audio": "page10_text17_en",
-      "lang": "en",
-      "text": "Finally, the girl faced the fire of death.",
-      "prompt": "[dramatically, fearfully]"
-    },
-    {
-      "audio": "page10_text18_ja",
-      "lang": "ja",
-      "text": "「もし、あなたが扉を開けたことを",
-      "prompt": "[offering, conditionally]"
-    },
-    {
-      "audio": "page10_text18_en",
-      "lang": "en",
-      "text": "As the flames rose, the girl opened her hardened heart and said in a loud voice,",
-      "prompt": "[dramatically, confessing]"
-    },
-    {
-      "audio": "page10_text19_ja",
-      "lang": "ja",
-      "text": "「もし、あなたが扉を開けたことを",
-      "prompt": "[offering, conditionally]"
-    },
-    {
-      "audio": "page10_text19_en",
-      "lang": "en",
-      "text": "\"Yes, Virgin Mary, I opened the gate!\"",
-      "prompt": "[confessing, loudly]"
-    },
-    {
-      "audio": "page10_text20_ja",
-      "lang": "ja",
-      "text": "しかし、おんなのこは３回も嘘を言いました。",
-      "prompt": "[tragically, repeatedly lying]"
-    },
-    {
-      "audio": "page10_text20_en",
-      "lang": "en",
-      "text": "Then, rain fell and extinguished the flames.",
-      "prompt": "[miraculously, soothingly]"
-    },
-    {
-      "audio": "page10_text21_ja",
-      "lang": "ja",
-      "text": "そして、３番目の赤ちゃんも奪われてしまいました。",
-      "prompt": "[sternly, taking]"
-    },
-    {
-      "audio": "page10_text21_en",
-      "lang": "en",
-      "text": "The Virgin Mary descended with her three children, forgave the girl,",
-      "prompt": "[graciously, forgivingly]"
-    },
-    {
-      "audio": "page10_text22_ja",
-      "lang": "ja",
-      "text": "ついに、おんなのこは死につながる火あぶりの刑となりました。",
-      "prompt": "[dramatically, fearfully]"
-    },
-    {
-      "audio": "page10_text22_en",
-      "lang": "en",
-      "text": "and restored her voice.",
-      "prompt": "[graciously, restoring]"
-    },
-    {
-      "audio": "page10_text23_ja",
-      "lang": "ja",
-      "text": "炎が上がると、おんなのこは",
-      "prompt": "[dramatically, fearfully]"
-    },
-    {
-      "audio": "page10_text23_en",
-      "lang": "en",
-      "text": "And the girl lived happily ever after.",
-      "prompt": "[happily, contentedly]"
-    },
-    {
-      "audio": "page10_text24_ja",
-      "lang": "ja",
-      "text": "金剛していた心を、大きな声で言いました。",
-      "prompt": "[dramatically, confessing]"
-    },
-    {
-      "audio": "page10_text25_ja",
-      "lang": "ja",
-      "text": "「はい、聖母マリアさま、わたしが扉を開けました！」",
-      "prompt": "[confessing, loudly]"
-    },
-    {
-      "audio": "page10_text26_ja",
-      "lang": "ja",
-      "text": "すると、雨が降って炎を消しました。",
-      "prompt": "[miraculously, soothingly]"
-    },
-    {
-      "audio": "page10_text27_ja",
-      "lang": "ja",
-      "text": "聖母マリアさまが、３人 の子供たちと",
-      "prompt": "[graciously, forgivingly]"
-    },
-    {
-      "audio": "page10_text28_ja",
-      "lang": "ja",
-      "text": "一緒に降りてきて、おんなのこ の",
-      "prompt": "[graciously, forgivingly]"
-    },
-    {
-      "audio": "page10_text29_ja",
-      "lang": "ja",
-      "text": "過ち（あやまち）を許し、声 を",
-      "prompt": "[graciously, forgivingly]"
-    },
-    {
-      "audio": "page10_text30_ja",
-      "lang": "ja",
-      "text": "返してくれました。",
-      "prompt": "[graciously, restoring]"
-    },
-    {
-      "audio": "page10_text31_ja",
-      "lang": "ja",
-      "text": "そして、おんなのこは、その後ずっと",
-      "prompt": "[happily, contentedly]"
+      "text": "そして、女の子は、その後ずっと幸せに暮らしました。",
+      "prompt": "[happily, gently]"
     },
     {
       "audio": "question1_ja",
       "lang": "ja",
-      "text": "きこりのおじさんとおかみさんには、何人の子供がいましたか？一人",
-      "prompt": "[questioning, clearly]"
-    },
-    {
-      "audio": "question1_en",
-      "lang": "en",
-      "text": "How many children did the woodcutter and his wife have? One",
-      "prompt": "[questioning, clearly]"
+      "text": "きこりの女の子は、何番目の扉を絶対に開けてはいけないと言われましたか？ １０番目 １３番目 １２番目",
+      "prompt": "[calmly, clearly]"
     },
     {
       "audio": "question2_ja",
       "lang": "ja",
-      "text": "聖母マリアは、おんなのこに天国の扉のかぎをいくつ預けましたか？13個",
-      "prompt": "[questioning, clearly]"
-    },
-    {
-      "audio": "question2_en",
-      "lang": "en",
-      "text": "How many keys to the gates of heaven did the Virgin Mary entrust to the girl? Thirteen",
-      "prompt": "[questioning, clearly]"
+      "text": "女の子が１３番目の扉を開けたとき、指はどうなりましたか？ 金色になった 赤くなった 黒くなった",
+      "prompt": "[calmly, clearly]"
     },
     {
       "audio": "question3_ja",
       "lang": "ja",
-      "text": "おんなのこが13番目の扉を開けたとき、指はどうなりましたか？金色になった",
-      "prompt": "[questioning, clearly]"
-    },
-    {
-      "audio": "question3_en",
-      "lang": "en",
-      "text": "What happened to the girl's finger when she opened the thirteenth gate? It turned golden.",
-      "prompt": "[questioning, clearly]"
+      "text": "聖母マリアは、女の子が嘘をついていることがどうしてわかりましたか？ 女の子の顔を見て 女の子のドキドキする心に触れて 天使が教えたから",
+      "prompt": "[calmly, clearly]"
     },
     {
       "audio": "question4_ja",
       "lang": "ja",
-      "text": "王様は、おんなのこに会ってどうしましたか？お城に連れて帰り、結婚した",
-      "prompt": "[questioning, clearly]"
-    },
-    {
-      "audio": "question4_en",
-      "lang": "en",
-      "text": "What did the king do when he met the girl? He took her to his castle and married her.",
-      "prompt": "[questioning, clearly]"
-    },
-    {
-      "audio": "question5_ja",
-      "lang": "ja",
-      "text": "おんなのこは、最後にどうして声を取り戻しましたか？真実を話したから",
-      "prompt": "[questioning, clearly]"
-    },
-    {
-      "audio": "question5_en",
-      "lang": "en",
-      "text": "How did the girl finally get her voice back? Because she told the truth.",
-      "prompt": "[questioning, clearly]"
+      "text": "お城に連れてこられた後、女の子は何ができませんでしたか？ 話すこと 食べること 歩くこと",
+      "prompt": "[calmly, clearly]"
     }
   ]
 }

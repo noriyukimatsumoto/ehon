@@ -7,9 +7,21 @@
       "prompt": "[slowly, gently]"
     },
     {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "Once upon a time, there was a very beautiful cat.",
+      "prompt": "[slowly, gently]"
+    },
+    {
       "audio": "page1_text2_ja",
       "lang": "ja",
       "text": "ピカピカのおひげとふかふかのけなみで、うっとりするほどでした。",
+      "prompt": "[calmly, admiringly]"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "With shiny whiskers and fluffy fur, it was enchanting to look at.",
       "prompt": "[calmly, admiringly]"
     },
     {
@@ -19,9 +31,21 @@
       "prompt": "[curiously, slightly puzzled]"
     },
     {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "But, it was strange that it didn't bully mice.",
+      "prompt": "[curiously, slightly puzzled]"
+    },
+    {
       "audio": "page2_text1_ja",
       "lang": "ja",
       "text": "あるところに、こわがりでちいさなねずみさんがいました。",
+      "prompt": "[fearfully, timidly]"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "There once was a timid and very small mouse.",
       "prompt": "[fearfully, timidly]"
     },
     {
@@ -31,9 +55,21 @@
       "prompt": "[quietly, sadly]"
     },
     {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "It hid in an old park and was raised by an old cat.",
+      "prompt": "[quietly, sadly]"
+    },
+    {
       "audio": "page2_text3_ja",
       "lang": "ja",
       "text": "おばあさんねこは、ねずみさんをかわいがるやさしいねこでした。",
+      "prompt": "[warmly, kindly]"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "The old cat was kind and doted on the mouse.",
       "prompt": "[warmly, kindly]"
     },
     {
@@ -43,9 +79,21 @@
       "prompt": "[hesitantly, bravely]"
     },
     {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "One day, the mouse quietly approached the cat.",
+      "prompt": "[hesitantly, bravely]"
+    },
+    {
       "audio": "page3_text2_ja",
       "lang": "ja",
       "text": "いつもはかくれてしまうのに、このひはゆうきをだしました。",
+      "prompt": "[gathering courage, determinedly]"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "Usually it would hide, but this day it gathered its courage.",
       "prompt": "[gathering courage, determinedly]"
     },
     {
@@ -55,9 +103,21 @@
       "prompt": "[gently, carefully]"
     },
     {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "It gently touched the cat's whiskers.",
+      "prompt": "[gently, carefully]"
+    },
+    {
       "audio": "page4_text1_ja",
       "lang": "ja",
       "text": "すると、ねこはめをあけましたが、こわがりませんでした。",
+      "prompt": "[surprised, then calm]"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "Then, the cat opened its eyes, but wasn't scared.",
       "prompt": "[surprised, then calm]"
     },
     {
@@ -67,9 +127,21 @@
       "prompt": "[smiling warmly, friendly]"
     },
     {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "The cat smiled and said to the mouse:",
+      "prompt": "[smiling warmly, friendly]"
+    },
+    {
       "audio": "page4_text3_ja",
       "lang": "ja",
       "text": "「おお、こんにちは！こんなところで、なにをしているんだい？」",
+      "prompt": "[cheerfully, welcoming]"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "\"Oh, hello! What are you doing here?\"",
       "prompt": "[cheerfully, welcoming]"
     },
     {
@@ -79,9 +151,21 @@
       "prompt": "[surprised, then reassured]"
     },
     {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "The mouse was surprised, but the cat said kindly:",
+      "prompt": "[surprised, then reassured]"
+    },
+    {
       "audio": "page5_text2_ja",
       "lang": "ja",
       "text": "「だいじょうぶだよ。ぼくは、ねずみをころしたりしないんだ。",
+      "prompt": "[reassuringly, kindly]"
+    },
+    {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "\"It's okay. I don't kill mice.\"",
       "prompt": "[reassuringly, kindly]"
     },
     {
@@ -91,9 +175,21 @@
       "prompt": "[sincerely, wistfully]"
     },
     {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "\"Actually, I want to be friends with everyone.\"",
+      "prompt": "[sincerely, wistfully]"
+    },
+    {
       "audio": "page6_text1_ja",
       "lang": "ja",
       "text": "ねこは、じぶんのことをはなしました。",
+      "prompt": "[calmly, introspectively]"
+    },
+    {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "The cat talked about itself.",
       "prompt": "[calmly, introspectively]"
     },
     {
@@ -103,9 +199,21 @@
       "prompt": "[sadly, reflectively]"
     },
     {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "It walked alone and sadly in the world.",
+      "prompt": "[sadly, reflectively]"
+    },
+    {
       "audio": "page6_text3_ja",
       "lang": "ja",
       "text": "でも、ほんとうは、やさしいおともだちがほしかったこと。",
+      "prompt": "[longingly, wistfully]"
+    },
+    {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "But it really wanted kind friends.",
       "prompt": "[longingly, wistfully]"
     },
     {
@@ -115,9 +223,21 @@
       "prompt": "[empathizing, understandingly]"
     },
     {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "The mouse listened to the cat's story and learned it was lonely.",
+      "prompt": "[empathizing, understandingly]"
+    },
+    {
       "audio": "page7_text2_ja",
       "lang": "ja",
       "text": "「わたしも、ひとりでいることがおおいから、わかるなあ。」",
+      "prompt": "[empathetically, softly]"
+    },
+    {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "\"I understand, because I'm often alone too,\" said the mouse.",
       "prompt": "[empathetically, softly]"
     },
     {
@@ -127,9 +247,21 @@
       "prompt": "[happily, quickly]"
     },
     {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "The cat and the mouse quickly became best friends.",
+      "prompt": "[happily, quickly]"
+    },
+    {
       "audio": "page8_text2_ja",
       "lang": "ja",
       "text": "ふたりはいっしょにおひるねをしたり、そばでみまもったり。",
+      "prompt": "[contentedly, peacefully]"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "They napped together, and watched over each other.",
       "prompt": "[contentedly, peacefully]"
     },
     {
@@ -139,9 +271,21 @@
       "prompt": "[joyfully, companionably]"
     },
     {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "They always spent their time happily together.",
+      "prompt": "[joyfully, companionably]"
+    },
+    {
       "audio": "page9_text1_ja",
       "lang": "ja",
       "text": "ねこさんは、もうさびしくありませんでした。",
+      "prompt": "[happily, relieved]"
+    },
+    {
+      "audio": "page9_text1_en",
+      "lang": "en",
+      "text": "The cat was no longer lonely.",
       "prompt": "[happily, relieved]"
     },
     {
@@ -151,9 +295,21 @@
       "prompt": "[cheerfully, energetically]"
     },
     {
+      "audio": "page9_text2_en",
+      "lang": "en",
+      "text": "The mouse lost its fear and was full of energy.",
+      "prompt": "[cheerfully, energetically]"
+    },
+    {
       "audio": "page10_text1_ja",
       "lang": "ja",
       "text": "あるひ、おばあさんねこがふたりをさがしにきました。",
+      "prompt": "[searching, with gentle concern]"
+    },
+    {
+      "audio": "page10_text1_en",
+      "lang": "en",
+      "text": "One day, the old cat came looking for them.",
       "prompt": "[searching, with gentle concern]"
     },
     {
@@ -163,9 +319,21 @@
       "prompt": "[observing, with warmth]"
     },
     {
+      "audio": "page10_text2_en",
+      "lang": "en",
+      "text": "She saw them napping together amicably.",
+      "prompt": "[observing, with warmth]"
+    },
+    {
       "audio": "page10_text3_ja",
       "lang": "ja",
       "text": "「ねこさん、いつもありがとう。しあわせだよ。」「ぼくもだよ、ねずみさん。たのしいよ。」",
+      "prompt": "[happily, contentedly]"
+    },
+    {
+      "audio": "page10_text3_en",
+      "lang": "en",
+      "text": "\"Thank you, cat. I'm so happy.\" \"Me too, mouse. It's so fun.\"",
       "prompt": "[happily, contentedly]"
     },
     {
@@ -175,9 +343,21 @@
       "prompt": "[happily, touched]"
     },
     {
+      "audio": "page10_text4_en",
+      "lang": "en",
+      "text": "The old cat was happy to see they had become dear friends who cherished each other.",
+      "prompt": "[happily, touched]"
+    },
+    {
       "audio": "page10_text5_ja",
       "lang": "ja",
       "text": "これからも、ふたりがなかよくしあわせにすごすことを、そっとみまもることにしました。",
+      "prompt": "[watchfully, with a gentle smile]"
+    },
+    {
+      "audio": "page10_text5_en",
+      "lang": "en",
+      "text": "She decided to quietly watch over them as they continued to live happily together.",
       "prompt": "[watchfully, with a gentle smile]"
     },
     {
@@ -187,9 +367,21 @@
       "prompt": "[contentedly, for a long time]"
     },
     {
+      "audio": "page10_text6_en",
+      "lang": "en",
+      "text": "From then on, the cat and the mouse lived as friends for a very long time.",
+      "prompt": "[contentedly, for a long time]"
+    },
+    {
       "audio": "page10_text7_ja",
       "lang": "ja",
       "text": "めでたし、めでたし。",
+      "prompt": "[calmly, concluding]"
+    },
+    {
+      "audio": "page10_text7_en",
+      "lang": "en",
+      "text": "The end.",
       "prompt": "[calmly, concluding]"
     },
     {
@@ -199,9 +391,21 @@
       "prompt": "[narrating, questioningly]"
     },
     {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "What was strange about the cat in this story? It didn't bully mice.",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
       "audio": "question2_ja",
       "lang": "ja",
       "text": "ねずみさんは、どこにひそんで、だれにそだてられていた？ふるいこうえんで、おばあさんねこに",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "Where did the mouse hide and who raised it? In an old park, by an old cat.",
       "prompt": "[narrating, questioningly]"
     },
     {
@@ -211,15 +415,33 @@
       "prompt": "[narrating, questioningly]"
     },
     {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "What were the cat's whiskers like when the mouse touched them? They were shiny and beautiful.",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
       "audio": "question4_ja",
       "lang": "ja",
       "text": "ねこがねずみさんに言った、本当の気持ちは？みんなとともだちになりたい",
       "prompt": "[narrating, questioningly]"
     },
     {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "What was the cat's true feeling that it told the mouse? I want to be friends with everyone.",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
       "audio": "question5_ja",
       "lang": "ja",
       "text": "おばあさんねこがみた、ねこさんとねずみさんの様子は？なかよくならんで、おひるねをしていた",
+      "prompt": "[narrating, questioningly]"
+    },
+    {
+      "audio": "question5_en",
+      "lang": "en",
+      "text": "What did the old cat see when she found the cat and the mouse? They were napping together amicably.",
       "prompt": "[narrating, questioningly]"
     }
   ]

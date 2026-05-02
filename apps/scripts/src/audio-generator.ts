@@ -72,8 +72,9 @@ export class AudioGenerator {
           err instanceof Error && err.message.includes("429");
         if (!isQuotaError || attempt === retries) throw err;
         const waitSec = Math.pow(2, attempt + 1) * 15;
-        console.log(
+        console.error(
           `  Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/${retries}...`,
+          err.message,
         );
         await new Promise((r) => setTimeout(r, waitSec * 1000));
       }

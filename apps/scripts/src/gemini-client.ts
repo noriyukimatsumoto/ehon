@@ -30,6 +30,17 @@ const AUDIO_PROMPTS_SCHEMA = {
 const IMAGE_PROMPTS_SCHEMA = {
   type: Type.OBJECT,
   properties: {
+    characters: {
+      type: Type.ARRAY,
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          name: { type: Type.STRING },
+          characteristics: { type: Type.STRING },
+        },
+        required: ["name", "characteristics"],
+      },
+    },
     cover: { type: Type.STRING },
     scenes: {
       type: Type.ARRAY,
@@ -39,12 +50,16 @@ const IMAGE_PROMPTS_SCHEMA = {
           scene: { type: Type.INTEGER },
           filename: { type: Type.STRING },
           prompt: { type: Type.STRING },
+          names: {
+            type: Type.ARRAY,
+            items: { type: Type.STRING },
+          },
         },
-        required: ["scene", "filename", "prompt"],
+        required: ["scene", "filename", "prompt", "names"],
       },
     },
   },
-  required: ["cover", "scenes"],
+  required: ["cover", "scenes", "characters"],
 };
 
 const SCENE_JSON_SCHEMA = {
@@ -222,17 +237,16 @@ ${scenesText}
 
 
 
-
+- characters: 物語に登場する全ての人物や動物の外見的特徴を具体的に描写してください。nameには登場人物や動物の名前を使用してください。シーンによって同じ人物であるが、外見的特徴が変化する場合は、別の名前をつけてください。(例：「男」「男(成長後)」)
 - cover：物語「${title}」の表紙にふさわしいプロンプト。文字の記載がない。登場人物や背景の特徴を具体的に描写してください。
 - scenes：各シーンの内容を的確に表現する日本語プロンプト。filename は scene{N}.png（Nはシーン番号）。
   - 以下の順でプロンプトを構成してください。
     1. 主題: 画像の主体となる物体、人物、動物、風景などです。
     2. コンテキストと背景: たとえば、スタジオの白い背景、屋外、屋内の環境などです。
     3. スタイルとムード: 画像スタイルは、${imageStyle} また画像の全体的ムードを指定してください。
-    4. 登場人物: シーンに登場する人物や動物がいる場合は、それらをプロンプトに含めてください。登場人物の特徴や表情、ポーズなども具体的に描写してください。登場人物にはプロンプトを横断しても一致するように固有の名前をつけてください（例: 男の子、女の子、お母さん、カエルなど）。
-
-  - 例 scene1.png のプロンプト：「男の子が大きな心を抱えている様子。夜空の下、星が輝いている。男の子は笑顔で、周りには小さな動物たちが集まっている。全体的に温かみのある色合いで、子ども向けのイラストスタイル。【登場人物】男の子・小さな動物たち」
-
+    4. 登場人物: シーンに登場する人物や動物がいる場合は、それらをプロンプトに含めてください。登場人物の特徴や表情、ポーズなども具体的に描写してください。
+  - 例 scene1.png のプロンプト：「男の子が大きな心を抱えている様子。夜空の下、星が輝いている。男の子は笑顔で、周りには小さな動物たちが集まっている。全体的に温かみのある色合いで、子ども向けのイラストスタイル。」
+- scenes の names: シーン内に登場する、登場人物や動物の名前をリスト形式で記載してください。characters と同じ名前を使用してください。
 
 ${scenesText}`;
 
