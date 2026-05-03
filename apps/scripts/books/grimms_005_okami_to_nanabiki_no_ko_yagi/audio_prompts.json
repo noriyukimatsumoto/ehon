@@ -1,0 +1,652 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "むかしむかし、七匹のかわいい子ヤギと、",
+      "prompt": "[slowly, warmly]"
+    },
+    {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "Once upon a time, there lived seven cute little goats",
+      "prompt": "[slowly, warmly]"
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "とっても優しいお母さんヤギがいました。",
+      "prompt": "[gently, warmly]"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "and a very kind mother goat.",
+      "prompt": "[gently, warmly]"
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "お母さんヤギは森へ食べ物を探しに行きましたが、",
+      "prompt": "[calmly, moving]"
+    },
+    {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "The mother goat went to the forest to find food,",
+      "prompt": "[calmly, moving]"
+    },
+    {
+      "audio": "page1_text4_ja",
+      "lang": "ja",
+      "text": "恐ろしい狼が子ヤギたちを狙っていることを心配していました。",
+      "prompt": "[fearfully, worriedly]"
+    },
+    {
+      "audio": "page1_text4_en",
+      "lang": "en",
+      "text": "but worried about a scary wolf targeting her kids.",
+      "prompt": "[fearfully, worriedly]"
+    },
+    {
+      "audio": "page1_text5_ja",
+      "lang": "ja",
+      "text": "「狼は声が低くて、足が黒いから、気をつけてね。」",
+      "prompt": "[warningly, gently]"
+    },
+    {
+      "audio": "page1_text5_en",
+      "lang": "en",
+      "text": "\"The wolf has a low voice and black feet, so be careful,\"",
+      "prompt": "[warningly, gently]"
+    },
+    {
+      "audio": "page1_text6_ja",
+      "lang": "ja",
+      "text": "とお母さんヤギは子ヤギたちに言い残しました。",
+      "prompt": "[gently, leaving]"
+    },
+    {
+      "audio": "page1_text6_en",
+      "lang": "en",
+      "text": "the mother goat told her kids as she left.",
+      "prompt": "[gently, leaving]"
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "お母さんヤギが出かけた後、さっそく狼がやってきて",
+      "prompt": "[sneakingly, quickly]"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "After the mother goat left, the wolf quickly came",
+      "prompt": "[sneakingly, quickly]"
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "ドアをノックしました。",
+      "prompt": "[knocking]"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "and knocked on the door.",
+      "prompt": "[knocking]"
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "「みんな、ドアを開けて。お母さんだよ。」",
+      "prompt": "[deceptively, low voice]"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "\"Everyone, open the door. It's your mother,\"",
+      "prompt": "[deceptively, low voice]"
+    },
+    {
+      "audio": "page2_text4_ja",
+      "lang": "ja",
+      "text": "と低い声で言いました。",
+      "prompt": "[low voice, deceptively]"
+    },
+    {
+      "audio": "page2_text4_en",
+      "lang": "en",
+      "text": "he said in a low voice.",
+      "prompt": "[low voice, deceptively]"
+    },
+    {
+      "audio": "page2_text5_ja",
+      "lang": "ja",
+      "text": "子ヤギたちは、その声と、窓から見えた黒い足を見て、",
+      "prompt": "[suspiciously, noticing]"
+    },
+    {
+      "audio": "page2_text5_en",
+      "lang": "en",
+      "text": "The little goats, hearing the voice and seeing the black feet",
+      "prompt": "[suspiciously, noticing]"
+    },
+    {
+      "audio": "page2_text6_ja",
+      "lang": "ja",
+      "text": "狼だとすぐにわかりました。",
+      "prompt": "[realizing, fearfully]"
+    },
+    {
+      "audio": "page2_text6_en",
+      "lang": "en",
+      "text": "through the window, immediately knew it was the wolf.",
+      "prompt": "[realizing, fearfully]"
+    },
+    {
+      "audio": "page2_text7_ja",
+      "lang": "ja",
+      "text": "「お母さんの声はもっと優しくて、足は白いはずだよ！」",
+      "prompt": "[realizing, firmly]"
+    },
+    {
+      "audio": "page2_text7_en",
+      "lang": "en",
+      "text": "\"Mother's voice is gentler, and her feet are white!\"",
+      "prompt": "[realizing, firmly]"
+    },
+    {
+      "audio": "page2_text8_ja",
+      "lang": "ja",
+      "text": "と、子ヤギたちはドアを開けませんでした。",
+      "prompt": "[firmly, refusing]"
+    },
+    {
+      "audio": "page2_text8_en",
+      "lang": "en",
+      "text": "the kids said, and did not open the door.",
+      "prompt": "[firmly, refusing]"
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "狼は、自分の声が低すぎることに気づき、",
+      "prompt": "[realizing, frustrated]"
+    },
+    {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "The wolf realized his voice was too low,",
+      "prompt": "[realizing, frustrated]"
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "お店で石灰を食べて声を優しくしました。",
+      "prompt": "[scheming, changing voice]"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "so he ate chalk at a shop to make his voice gentler.",
+      "prompt": "[scheming, changing voice]"
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "さらに、足が黒いのを隠すために、",
+      "prompt": "[scheming, hiding]"
+    },
+    {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "Furthermore, to hide his black feet,",
+      "prompt": "[scheming, hiding]"
+    },
+    {
+      "audio": "page3_text4_ja",
+      "lang": "ja",
+      "text": "パン屋さんで粉をつけ、足も白くしてもらいました。",
+      "prompt": "[deceptively, changing appearance]"
+    },
+    {
+      "audio": "page3_text4_en",
+      "lang": "en",
+      "text": "he went to a bakery and had flour put on them to make them white.",
+      "prompt": "[deceptively, changing appearance]"
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "そして、三度目の訪問。",
+      "prompt": "[returning, determined]"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "Then came the third visit.",
+      "prompt": "[returning, determined]"
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "今度は、優しくなった声と、白い足で",
+      "prompt": "[deceptively, confidently]"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "This time, with his gentler voice and white feet,",
+      "prompt": "[deceptively, confidently]"
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "子ヤギたちを騙そうとしました。",
+      "prompt": "[deceptively, trying]"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "he tried to trick the little goats.",
+      "prompt": "[deceptively, trying]"
+    },
+    {
+      "audio": "page4_text4_ja",
+      "lang": "ja",
+      "text": "子ヤギたちは、お母さんだと信じてドアを開けてしまいましたが、",
+      "prompt": "[naively, opening door]"
+    },
+    {
+      "audio": "page4_text4_en",
+      "lang": "en",
+      "text": "The little goats believed it was their mother and opened the door,",
+      "prompt": "[naively, opening door]"
+    },
+    {
+      "audio": "page4_text5_ja",
+      "lang": "ja",
+      "text": "そこにいたのはやっぱり狼でした。",
+      "prompt": "[shocked, realizing]"
+    },
+    {
+      "audio": "page4_text5_en",
+      "lang": "en",
+      "text": "but it was the wolf after all.",
+      "prompt": "[shocked, realizing]"
+    },
+    {
+      "audio": "page5_text1_ja",
+      "lang": "ja",
+      "text": "子ヤギたちは、テーブルの下、ベッドの中、",
+      "prompt": "[fearfully, hiding]"
+    },
+    {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "The little goats hid under the table, in the bed,",
+      "prompt": "[fearfully, hiding]"
+    },
+    {
+      "audio": "page5_text2_ja",
+      "lang": "ja",
+      "text": "ストーブの中、戸棚、洗い桶、時計箱など、",
+      "prompt": "[fearfully, hiding]"
+    },
+    {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "in the stove, in the cupboard, in the washbasin, in the clock case,",
+      "prompt": "[fearfully, hiding]"
+    },
+    {
+      "audio": "page5_text3_ja",
+      "lang": "ja",
+      "text": "あちこちに隠れました。",
+      "prompt": "[fearfully, hiding]"
+    },
+    {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "and in many other places.",
+      "prompt": "[fearfully, hiding]"
+    },
+    {
+      "audio": "page5_text4_ja",
+      "lang": "ja",
+      "text": "しかし、欲張りな狼は、子ヤギたちを次々と見つけて、",
+      "prompt": "[greedily, hunting]"
+    },
+    {
+      "audio": "page5_text4_en",
+      "lang": "en",
+      "text": "However, the greedy wolf found the kids one by one",
+      "prompt": "[greedily, hunting]"
+    },
+    {
+      "audio": "page5_text5_ja",
+      "lang": "ja",
+      "text": "丸呑みにしてしまいました。",
+      "prompt": "[cruelly, swallowing]"
+    },
+    {
+      "audio": "page5_text5_en",
+      "lang": "en",
+      "text": "and swallowed them whole.",
+      "prompt": "[cruelly, swallowing]"
+    },
+    {
+      "audio": "page5_text6_ja",
+      "lang": "ja",
+      "text": "一番小さかった子ヤギだけが、時計箱に隠れて無事でした。",
+      "prompt": "[safely, hidden]"
+    },
+    {
+      "audio": "page5_text6_en",
+      "lang": "en",
+      "text": "Only the smallest kid, hidden in the clock case, was safe.",
+      "prompt": "[safely, hidden]"
+    },
+    {
+      "audio": "page6_text1_ja",
+      "lang": "ja",
+      "text": "お母さんヤギが帰ってくると、家の中は荒らされ、",
+      "prompt": "[returning, discovering]"
+    },
+    {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "When the mother goat returned, the house was ransacked,",
+      "prompt": "[returning, discovering]"
+    },
+    {
+      "audio": "page6_text2_ja",
+      "lang": "ja",
+      "text": "子ヤギたちの姿はありません。",
+      "prompt": "[sadly, searching]"
+    },
+    {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "and her kids were nowhere to be found.",
+      "prompt": "[sadly, searching]"
+    },
+    {
+      "audio": "page6_text3_ja",
+      "lang": "ja",
+      "text": "時計箱から出てきた一番下の子ヤギが、",
+      "prompt": "[emerging, explaining]"
+    },
+    {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "The youngest kid, emerging from the clock case,",
+      "prompt": "[emerging, explaining]"
+    },
+    {
+      "audio": "page6_text4_ja",
+      "lang": "ja",
+      "text": "何があったのかを話しました。",
+      "prompt": "[explaining, sadly]"
+    },
+    {
+      "audio": "page6_text4_en",
+      "lang": "en",
+      "text": "told her what had happened.",
+      "prompt": "[explaining, sadly]"
+    },
+    {
+      "audio": "page6_text5_ja",
+      "lang": "ja",
+      "text": "お母さんヤギは、悲しみながらも、",
+      "prompt": "[sadly, determined]"
+    },
+    {
+      "audio": "page6_text5_en",
+      "lang": "en",
+      "text": "The mother goat, though saddened,",
+      "prompt": "[sadly, determined]"
+    },
+    {
+      "audio": "page6_text6_ja",
+      "lang": "ja",
+      "text": "外でぐっすり眠っている狼を見つけました。",
+      "prompt": "[finding, determined]"
+    },
+    {
+      "audio": "page6_text6_en",
+      "lang": "en",
+      "text": "found the wolf sleeping soundly outside.",
+      "prompt": "[finding, determined]"
+    },
+    {
+      "audio": "page6_text7_ja",
+      "lang": "ja",
+      "text": "狼のお腹が、子ヤギたちの動きで少し動いているのに気づいたお母さんヤギは、",
+      "prompt": "[noticing, determined]"
+    },
+    {
+      "audio": "page6_text7_en",
+      "lang": "en",
+      "text": "Noticing the wolf's belly moving slightly with the kids' movements,",
+      "prompt": "[noticing, determined]"
+    },
+    {
+      "audio": "page6_text8_ja",
+      "lang": "ja",
+      "text": "ハサミを持ってきて、狼のお腹をそっと開きました。",
+      "prompt": "[bravely, cutting]"
+    },
+    {
+      "audio": "page6_text8_en",
+      "lang": "en",
+      "text": "she brought scissors and gently cut open the wolf's belly.",
+      "prompt": "[bravely, cutting]"
+    },
+    {
+      "audio": "page7_text1_ja",
+      "lang": "ja",
+      "text": "すると、次々と子ヤギたちが元気に出てきました！",
+      "prompt": "[joyfully, emerging]"
+    },
+    {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "To her joy, the little goats came out one after another, alive and well!",
+      "prompt": "[joyfully, emerging]"
+    },
+    {
+      "audio": "page7_text2_ja",
+      "lang": "ja",
+      "text": "みんな無事で、お母さんヤギはとても喜びました。",
+      "prompt": "[rejoicing, happily]"
+    },
+    {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "All were safe, and the mother goat rejoiced greatly.",
+      "prompt": "[rejoicing, happily]"
+    },
+    {
+      "audio": "page7_text3_ja",
+      "lang": "ja",
+      "text": "そして、狼のお腹に石をたくさん詰め込み、",
+      "prompt": "[cleverly, filling]"
+    },
+    {
+      "audio": "page7_text3_en",
+      "lang": "en",
+      "text": "Then, they filled the wolf's belly with many stones,",
+      "prompt": "[cleverly, filling]"
+    },
+    {
+      "audio": "page7_text4_ja",
+      "lang": "ja",
+      "text": "お母さんヤギが、そのお腹を縫い閉じました。",
+      "prompt": "[sewing, resolutely]"
+    },
+    {
+      "audio": "page7_text4_en",
+      "lang": "en",
+      "text": "and the mother goat sewed it shut.",
+      "prompt": "[sewing, resolutely]"
+    },
+    {
+      "audio": "page8_text1_ja",
+      "lang": "ja",
+      "text": "しばらくして目を覚ました狼は、",
+      "prompt": "[waking, confused]"
+    },
+    {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "When the wolf woke up after a while,",
+      "prompt": "[waking, confused]"
+    },
+    {
+      "audio": "page8_text2_ja",
+      "lang": "ja",
+      "text": "お腹の重みにびっくり。",
+      "prompt": "[surprised, heavy]"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "he was surprised by the heaviness in his stomach.",
+      "prompt": "[surprised, heavy]"
+    },
+    {
+      "audio": "page8_text3_ja",
+      "lang": "ja",
+      "text": "水を飲もうと泉にかがみこむと、",
+      "prompt": "[bending, thirsty]"
+    },
+    {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "As he bent over the spring to drink water,",
+      "prompt": "[bending, thirsty]"
+    },
+    {
+      "audio": "page8_text4_ja",
+      "lang": "ja",
+      "text": "石の重さで泉に落ちてしまい、",
+      "prompt": "[falling, heavy]"
+    },
+    {
+      "audio": "page8_text4_en",
+      "lang": "en",
+      "text": "the weight of the stones made him fall into the spring,",
+      "prompt": "[falling, heavy]"
+    },
+    {
+      "audio": "page8_text5_ja",
+      "lang": "ja",
+      "text": "みじめにおぼれてしまいました。",
+      "prompt": "[drowning, tragically]"
+    },
+    {
+      "audio": "page8_text5_en",
+      "lang": "en",
+      "text": "and he tragically drowned.",
+      "prompt": "[drowning, tragically]"
+    },
+    {
+      "audio": "page9_text1_ja",
+      "lang": "ja",
+      "text": "無事に助かった七匹の子ヤギたちは、",
+      "prompt": "[saved, joyful]"
+    },
+    {
+      "audio": "page9_text1_en",
+      "lang": "en",
+      "text": "The seven little goats, who were safely rescued,",
+      "prompt": "[saved, joyful]"
+    },
+    {
+      "audio": "page9_text2_ja",
+      "lang": "ja",
+      "text": "お母さんヤギと一緒に、狼がいなくなったことを喜び、",
+      "prompt": "[celebrating, relieved]"
+    },
+    {
+      "audio": "page9_text2_en",
+      "lang": "en",
+      "text": "rejoiced with their mother goat that the wolf was gone,",
+      "prompt": "[celebrating, relieved]"
+    },
+    {
+      "audio": "page9_text3_ja",
+      "lang": "ja",
+      "text": "泉の周りを跳ね回りました。",
+      "prompt": "[hopping, happily]"
+    },
+    {
+      "audio": "page9_text3_en",
+      "lang": "en",
+      "text": "and hopped around the spring.",
+      "prompt": "[hopping, happily]"
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "狼は最初、どんな声で子ヤギたちを騙そうとしましたか？優しい声、低い声、高い声",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "What kind of voice did the wolf first use to try and trick the goats? A gentle voice, A low voice, A high voice",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "狼は、子ヤギたちを騙すために、どんな工夫をしましたか？石灰を食べて声を優しくし、足に粉をつけた、歌を歌って子ヤギたちを眠らせた、お母さんヤギの真似をして、子ヤギたちを怖がらせた",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "What did the wolf do to trick the goats? Ate chalk to soften his voice and put flour on his feet, Sang a song to make the goats sleep, Imitated the mother goat to scare the kids",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "狼に丸呑みされなかった一番小さかった子ヤギは、どこに隠れていましたか？ストーブの中、戸棚の中、時計箱の中",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "Where did the smallest kid hide to avoid being swallowed by the wolf? Inside the stove, Inside the cupboard, Inside the clock case",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "お母さんヤギは、子ヤギたちを助けるために狼のお腹に何を詰めましたか？パン、石、綿",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "What did the mother goat fill the wolf's belly with to save her kids? Bread, Stones, Cotton",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question5_ja",
+      "lang": "ja",
+      "text": "石でいっぱいになった狼は、どうなりましたか？お腹が空いて、また子ヤギを探しに行った、泉に落ちて溺れてしまった、お母さんヤギに捕まり、反省した",
+      "prompt": "[question, recalling]"
+    },
+    {
+      "audio": "question5_en",
+      "lang": "en",
+      "text": "What happened to the wolf, now full of stones? He became hungry and went to look for the goats again, He fell into the spring and drowned, He was caught by the mother goat and repented",
+      "prompt": "[question, recalling]"
+    }
+  ]
+}

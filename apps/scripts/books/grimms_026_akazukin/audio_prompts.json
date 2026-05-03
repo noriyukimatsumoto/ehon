@@ -231,7 +231,7 @@
     {
       "audio": "page5_text4_ja",
       "lang": "ja",
-      "text": "「おばあちゃん、目がこーいね。」「おまえをよく見るためだよ。」",
+      "text": "「おばあちゃん、目が大きいね。」「おまえをよく見るためだよ。」",
       "prompt": "[observing, then gruffly]"
     },
     {
@@ -243,7 +243,7 @@
     {
       "audio": "page5_text5_ja",
       "lang": "ja",
-      "text": "「おばあちゃん、耳がこーいね。」「おまえの声をもっとよく聞くためだよ。」",
+      "text": "「おばあちゃん、耳が大きいね。」「おまえの声をもっとよく聞くためだよ。」",
       "prompt": "[observing, then gruffly]"
     },
     {
@@ -255,7 +255,7 @@
     {
       "audio": "page5_text6_ja",
       "lang": "ja",
-      "text": "「おばあちゃん、手がこーいね。」「おまえをぎゅっと抱きしめるためだよ。」",
+      "text": "「おばあちゃん、手が大きいね。」「おまえをぎゅっと抱きしめるためだよ。」",
       "prompt": "[observing, then gruffly]"
     },
     {
@@ -267,7 +267,7 @@
     {
       "audio": "page5_text7_ja",
       "lang": "ja",
-      "text": "「おばあちゃん、口がこーいね！」「おまえをぱくっと食べるためだよー！」",
+      "text": "「おばあちゃん、口が大きいね！」「おまえをぱくっと食べるためだよー！」",
       "prompt": "[observing, then dramatically roaring]"
     },
     {
@@ -339,302 +339,86 @@
     {
       "audio": "page6_text5_ja",
       "lang": "ja",
-      "text": "それから、あかずきんちゃんは、もうおおかみに使いを頼まなくなりました。",
+      "text": "それから、あかずきんちゃんは、もうおおかみの言うことを聞かなくなりました。",
       "prompt": "[lesson learned, calmly]"
     },
     {
       "audio": "page6_text5_en",
       "lang": "en",
-      "text": "From then on, Little Red Riding Hood never sent messages by wolf again.",
+      "text": "From then on, Little Red Riding Hood never listened to the wolf again.",
       "prompt": "[lesson learned, calmly]"
     },
     {
       "audio": "question1_ja",
       "lang": "ja",
-      "text": "あかずきんちゃんは、いつも何をかぶっていましたか？",
+      "text": "あかずきんちゃんは、いつも何をかぶっていましたか？ あかいぼうし？ あかいずきん？ あおいぼうし？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question1_en",
       "lang": "en",
-      "text": "What did Little Red Riding Hood always wear?",
+      "text": "What did Little Red Riding Hood always wear? A red hat? A red hood? A blue hat?",
       "prompt": "[questioning, gently]"
-    },
-    {
-      "audio": "question1_choice1_ja",
-      "lang": "ja",
-      "text": "あかいぼうし",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question1_choice1_en",
-      "lang": "en",
-      "text": "A red hat",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question1_choice2_ja",
-      "lang": "ja",
-      "text": "あかいずきん",
-      "prompt": "[correct, cheerfully]"
-    },
-    {
-      "audio": "question1_choice2_en",
-      "lang": "en",
-      "text": "A red hood",
-      "prompt": "[correct, cheerfully]"
-    },
-    {
-      "audio": "question1_choice3_ja",
-      "lang": "ja",
-      "text": "あおいぼうし",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question1_choice3_en",
-      "lang": "en",
-      "text": "A blue hat",
-      "prompt": "[incorrect, sadly]"
     },
     {
       "audio": "question2_ja",
       "lang": "ja",
-      "text": "お母さんは、あかずきんちゃんに何を持っていくように言いましたか？",
+      "text": "お母さんは、あかずきんちゃんに何を持っていくように言いましたか？ ケーキとおさけ？ パンとおちゃ？ くだものとみず？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question2_en",
       "lang": "en",
-      "text": "What did the mother ask Little Red Riding Hood to take?",
+      "text": "What did the mother ask Little Red Riding Hood to take? Cake and wine? Bread and tea? Fruits and water?",
       "prompt": "[questioning, gently]"
-    },
-    {
-      "audio": "question2_choice1_ja",
-      "lang": "ja",
-      "text": "ケーキとおさけ",
-      "prompt": "[correct, cheerfully]"
-    },
-    {
-      "audio": "question2_choice1_en",
-      "lang": "en",
-      "text": "Cake and wine",
-      "prompt": "[correct, cheerfully]"
-    },
-    {
-      "audio": "question2_choice2_ja",
-      "lang": "ja",
-      "text": "パンとおちゃ",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question2_choice2_en",
-      "lang": "en",
-      "text": "Bread and tea",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question2_choice3_ja",
-      "lang": "ja",
-      "text": "くだものとみず",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question2_choice3_en",
-      "lang": "en",
-      "text": "Fruits and water",
-      "prompt": "[incorrect, sadly]"
     },
     {
       "audio": "question3_ja",
       "lang": "ja",
-      "text": "森にいたのは誰でしたか？",
+      "text": "森にいたのは誰でしたか？ くま？ うさぎ？ おおかみ？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question3_en",
       "lang": "en",
-      "text": "Who was in the forest?",
+      "text": "Who was in the forest? A bear? A rabbit? A wolf?",
       "prompt": "[questioning, gently]"
-    },
-    {
-      "audio": "question3_choice1_ja",
-      "lang": "ja",
-      "text": "くま",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question3_choice1_en",
-      "lang": "en",
-      "text": "A bear",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question3_choice2_ja",
-      "lang": "ja",
-      "text": "うさぎ",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question3_choice2_en",
-      "lang": "en",
-      "text": "A rabbit",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question3_choice3_ja",
-      "lang": "ja",
-      "text": "おおかみ",
-      "prompt": "[correct, cheerfully]"
-    },
-    {
-      "audio": "question3_choice3_en",
-      "lang": "en",
-      "text": "A wolf",
-      "prompt": "[correct, cheerfully]"
     },
     {
       "audio": "question4_ja",
       "lang": "ja",
-      "text": "おおかみは、あかずきんちゃんに会った後、どうしましたか？",
+      "text": "おおかみは、あかずきんちゃんに会った後、どうしましたか？ おばあちゃんを先に食べた？ あかずきんちゃんを待った？ 森に帰った？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question4_en",
       "lang": "en",
-      "text": "What did the wolf do after meeting Little Red Riding Hood?",
+      "text": "What did the wolf do after meeting Little Red Riding Hood? Ate the grandmother first? Waited for Little Red Riding Hood? Went back to the forest?",
       "prompt": "[questioning, gently]"
-    },
-    {
-      "audio": "question4_choice1_ja",
-      "lang": "ja",
-      "text": "おばあちゃんを先に食べた",
-      "prompt": "[correct, with a hint of suspense]"
-    },
-    {
-      "audio": "question4_choice1_en",
-      "lang": "en",
-      "text": "Ate the grandmother first",
-      "prompt": "[correct, with a hint of suspense]"
-    },
-    {
-      "audio": "question4_choice2_ja",
-      "lang": "ja",
-      "text": "あかずきんちゃんを待った",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question4_choice2_en",
-      "lang": "en",
-      "text": "Waited for Little Red Riding Hood",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question4_choice3_ja",
-      "lang": "ja",
-      "text": "森に帰った",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question4_choice3_en",
-      "lang": "en",
-      "text": "Went back to the forest",
-      "prompt": "[incorrect, sadly]"
     },
     {
       "audio": "question5_ja",
       "lang": "ja",
-      "text": "おばあちゃんの目が大きくなったのはなぜ？",
+      "text": "おばあちゃんの目が大きくなったのはなぜ？ よく見るため？ 驚いたから？ 病気だから？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question5_en",
       "lang": "en",
-      "text": "Why did the grandmother's eyes become big?",
+      "text": "Why did the grandmother's eyes become big? To see better? Because she was surprised? Because she was sick?",
       "prompt": "[questioning, gently]"
-    },
-    {
-      "audio": "question5_choice1_ja",
-      "lang": "ja",
-      "text": "よく見るため",
-      "prompt": "[correct, with a slight chuckle]"
-    },
-    {
-      "audio": "question5_choice1_en",
-      "lang": "en",
-      "text": "To see better",
-      "prompt": "[correct, with a slight chuckle]"
-    },
-    {
-      "audio": "question5_choice2_ja",
-      "lang": "ja",
-      "text": "驚いたから",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question5_choice2_en",
-      "lang": "en",
-      "text": "Because she was surprised",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question5_choice3_ja",
-      "lang": "ja",
-      "text": "病気だから",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question5_choice3_en",
-      "lang": "en",
-      "text": "Because she was sick",
-      "prompt": "[incorrect, sadly]"
     },
     {
       "audio": "question6_ja",
       "lang": "ja",
-      "text": "誰が、おおかみのからあかずきんちゃんと、おばあちゃんを助け出しましたか？",
+      "text": "誰が、おおかみのからあかずきんちゃんと、おばあちゃんを助け出しましたか？ お母さん？ おじいさん？ 警察？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question6_en",
       "lang": "en",
-      "text": "Who rescued Little Red Riding Hood and her grandmother from the wolf?",
+      "text": "Who rescued Little Red Riding Hood and her grandmother from the wolf? The mother? The woodsman? The police?",
       "prompt": "[questioning, gently]"
-    },
-    {
-      "audio": "question6_choice1_ja",
-      "lang": "ja",
-      "text": "お母さん",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question6_choice1_en",
-      "lang": "en",
-      "text": "The mother",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question6_choice2_ja",
-      "lang": "ja",
-      "text": "おじいさん",
-      "prompt": "[correct, heroically]"
-    },
-    {
-      "audio": "question6_choice2_en",
-      "lang": "en",
-      "text": "The woodsman",
-      "prompt": "[correct, heroically]"
-    },
-    {
-      "audio": "question6_choice3_ja",
-      "lang": "ja",
-      "text": "警察",
-      "prompt": "[incorrect, sadly]"
-    },
-    {
-      "audio": "question6_choice3_en",
-      "lang": "en",
-      "text": "The police",
-      "prompt": "[incorrect, sadly]"
     }
   ]
 }

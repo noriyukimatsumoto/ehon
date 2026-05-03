@@ -22,12 +22,16 @@ export class BookGenerator {
   private readonly imagen = new ImagenClient();
   private readonly audio = new AudioGenerator();
 
-  async generateStory(bookId: string, description: string): Promise<void> {
+  async generateStory(
+    bookId: string,
+    description: string,
+    systemInstruction?: string,
+  ): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(bookDir, { recursive: true });
 
     console.log("\n[1/2] description → story.txt");
-    await this.summarize(description, bookDir);
+    await this.summarize(description, bookDir, systemInstruction);
     console.log("  Done.");
   }
 
@@ -93,8 +97,9 @@ export class BookGenerator {
   private async summarize(
     description: string,
     outputDir: string,
+    systemInstruction?: string,
   ): Promise<string> {
-    const story = await this.gemini.summarize(description);
+    const story = await this.gemini.summarize(description, systemInstruction);
     const outputPath = path.join(outputDir, "story.txt");
     fs.writeFileSync(outputPath, story, "utf-8");
     return outputPath;

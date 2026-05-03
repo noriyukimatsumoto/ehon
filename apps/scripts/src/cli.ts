@@ -42,6 +42,7 @@ function parseInputYml(filePath: string): {
   title: string;
   description: string;
   imageStyle: string;
+  systemInstruction: string | undefined;
 } {
   const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as Record<
     string,
@@ -66,6 +67,7 @@ function parseInputYml(filePath: string): {
     title,
     description: toStr(raw.description),
     imageStyle: toStr(raw.imageStyle),
+    systemInstruction: raw.systemInstruction ? toStr(raw.systemInstruction) : undefined,
   };
 }
 
@@ -83,8 +85,8 @@ async function main(): Promise<void> {
         console.error("エラー: story コマンドには inputFile が必要です");
         usage();
       }
-      const { id, description } = parseInputYml(inputFile);
-      await new BookGenerator().generateStory(id, description);
+      const { id, description, systemInstruction } = parseInputYml(inputFile);
+      await new BookGenerator().generateStory(id, description, systemInstruction);
       break;
     }
     case "scenes": {

@@ -179,13 +179,15 @@ export class GeminiClient {
     this.genAI = new GoogleGenAI({ vertexai: true, project, location });
   }
 
-  async summarize(description: string): Promise<string> {
+  async summarize(description: string, systemInstruction?: string): Promise<string> {
+    const baseInstruction = "物語の登場人物・出来事・結末を指示通りに要約してください。";
     const result = await this.genAI.models.generateContent({
       model: this.model,
       contents: description,
       config: {
-        systemInstruction:
-          "物語の登場人物・出来事・結末を指示通りに要約してください。",
+        systemInstruction: systemInstruction
+          ? `${baseInstruction}\n\n${systemInstruction}`
+          : baseInstruction,
       },
     });
     return result.text ?? "";

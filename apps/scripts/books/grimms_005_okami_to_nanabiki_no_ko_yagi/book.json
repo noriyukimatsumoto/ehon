@@ -1,0 +1,486 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、七匹のかわいい子ヤギと、",
+          "en": "Once upon a time, there lived seven cute little goats",
+          "duration": 5,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "とっても優しいお母さんヤギがいました。",
+          "en": "and a very kind mother goat.",
+          "duration": 5,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "お母さんヤギは森へ食べ物を探しに行きましたが、",
+          "en": "The mother goat went to the forest to find food,",
+          "duration": 6,
+          "audio": "page1_text3"
+        },
+        {
+          "ja": "恐ろしい狼が子ヤギたちを狙っていることを心配していました。",
+          "en": "but worried about a scary wolf targeting her kids.",
+          "duration": 7,
+          "audio": "page1_text4"
+        },
+        {
+          "ja": "「狼は声が低くて、足が黒いから、気をつけてね。」",
+          "en": "\"The wolf has a low voice and black feet, so be careful,\"",
+          "duration": 7,
+          "audio": "page1_text5"
+        },
+        {
+          "ja": "とお母さんヤギは子ヤギたちに言い残しました。",
+          "en": "the mother goat told her kids as she left.",
+          "duration": 6,
+          "audio": "page1_text6"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "お母さんヤギが出かけた後、さっそく狼がやってきて",
+          "en": "After the mother goat left, the wolf quickly came",
+          "duration": 6,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "ドアをノックしました。",
+          "en": "and knocked on the door.",
+          "duration": 3,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "「みんな、ドアを開けて。お母さんだよ。」",
+          "en": "\"Everyone, open the door. It's your mother,\"",
+          "duration": 5,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "と低い声で言いました。",
+          "en": "he said in a low voice.",
+          "duration": 4,
+          "audio": "page2_text4"
+        },
+        {
+          "ja": "子ヤギたちは、その声と、窓から見えた黒い足を見て、",
+          "en": "The little goats, hearing the voice and seeing the black feet",
+          "duration": 6,
+          "audio": "page2_text5"
+        },
+        {
+          "ja": "狼だとすぐにわかりました。",
+          "en": "through the window, immediately knew it was the wolf.",
+          "duration": 5,
+          "audio": "page2_text6"
+        },
+        {
+          "ja": "「お母さんの声はもっと優しくて、足は白いはずだよ！」",
+          "en": "\"Mother's voice is gentler, and her feet are white!\"",
+          "duration": 6,
+          "audio": "page2_text7"
+        },
+        {
+          "ja": "と、子ヤギたちはドアを開けませんでした。",
+          "en": "the kids said, and did not open the door.",
+          "duration": 5,
+          "audio": "page2_text8"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "狼は、自分の声が低すぎることに気づき、",
+          "en": "The wolf realized his voice was too low,",
+          "duration": 5,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "お店で石灰を食べて声を優しくしました。",
+          "en": "so he ate chalk at a shop to make his voice gentler.",
+          "duration": 6,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "さらに、足が黒いのを隠すために、",
+          "en": "Furthermore, to hide his black feet,",
+          "duration": 5,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "パン屋さんで粉をつけ、足も白くしてもらいました。",
+          "en": "he went to a bakery and had flour put on them to make them white.",
+          "duration": 7,
+          "audio": "page3_text4"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "そして、三度目の訪問。",
+          "en": "Then came the third visit.",
+          "duration": 3,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "今度は、優しくなった声と、白い足で",
+          "en": "This time, with his gentler voice and white feet,",
+          "duration": 5,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "子ヤギたちを騙そうとしました。",
+          "en": "he tried to trick the little goats.",
+          "duration": 5,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "子ヤギたちは、お母さんだと信じてドアを開けてしまいましたが、",
+          "en": "The little goats believed it was their mother and opened the door,",
+          "duration": 7,
+          "audio": "page4_text4"
+        },
+        {
+          "ja": "そこにいたのはやっぱり狼でした。",
+          "en": "but it was the wolf after all.",
+          "duration": 5,
+          "audio": "page4_text5"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "子ヤギたちは、テーブルの下、ベッドの中、",
+          "en": "The little goats hid under the table, in the bed,",
+          "duration": 5,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "ストーブの中、戸棚、洗い桶、時計箱など、",
+          "en": "in the stove, in the cupboard, in the washbasin, in the clock case,",
+          "duration": 6,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "あちこちに隠れました。",
+          "en": "and in many other places.",
+          "duration": 4,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "しかし、欲張りな狼は、子ヤギたちを次々と見つけて、",
+          "en": "However, the greedy wolf found the kids one by one",
+          "duration": 7,
+          "audio": "page5_text4"
+        },
+        {
+          "ja": "丸呑みにしてしまいました。",
+          "en": "and swallowed them whole.",
+          "duration": 5,
+          "audio": "page5_text5"
+        },
+        {
+          "ja": "一番小さかった子ヤギだけが、時計箱に隠れて無事でした。",
+          "en": "Only the smallest kid, hidden in the clock case, was safe.",
+          "duration": 7,
+          "audio": "page5_text6"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "お母さんヤギが帰ってくると、家の中は荒らされ、",
+          "en": "When the mother goat returned, the house was ransacked,",
+          "duration": 6,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "子ヤギたちの姿はありません。",
+          "en": "and her kids were nowhere to be found.",
+          "duration": 5,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "時計箱から出てきた一番下の子ヤギが、",
+          "en": "The youngest kid, emerging from the clock case,",
+          "duration": 5,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "何があったのかを話しました。",
+          "en": "told her what had happened.",
+          "duration": 4,
+          "audio": "page6_text4"
+        },
+        {
+          "ja": "お母さんヤギは、悲しみながらも、",
+          "en": "The mother goat, though saddened,",
+          "duration": 5,
+          "audio": "page6_text5"
+        },
+        {
+          "ja": "外でぐっすり眠っている狼を見つけました。",
+          "en": "found the wolf sleeping soundly outside.",
+          "duration": 6,
+          "audio": "page6_text6"
+        },
+        {
+          "ja": "狼のお腹が、子ヤギたちの動きで少し動いているのに気づいたお母さんヤギは、",
+          "en": "Noticing the wolf's belly moving slightly with the kids' movements,",
+          "duration": 8,
+          "audio": "page6_text7"
+        },
+        {
+          "ja": "ハサミを持ってきて、狼のお腹をそっと開きました。",
+          "en": "she brought scissors and gently cut open the wolf's belly.",
+          "duration": 7,
+          "audio": "page6_text8"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "すると、次々と子ヤギたちが元気に出てきました！",
+          "en": "To her joy, the little goats came out one after another, alive and well!",
+          "duration": 7,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "みんな無事で、お母さんヤギはとても喜びました。",
+          "en": "All were safe, and the mother goat rejoiced greatly.",
+          "duration": 6,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "そして、狼のお腹に石をたくさん詰め込み、",
+          "en": "Then, they filled the wolf's belly with many stones,",
+          "duration": 6,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "お母さんヤギが、そのお腹を縫い閉じました。",
+          "en": "and the mother goat sewed it shut.",
+          "duration": 5,
+          "audio": "page7_text4"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "しばらくして目を覚ました狼は、",
+          "en": "When the wolf woke up after a while,",
+          "duration": 5,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "お腹の重みにびっくり。",
+          "en": "he was surprised by the heaviness in his stomach.",
+          "duration": 5,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "水を飲もうと泉にかがみこむと、",
+          "en": "As he bent over the spring to drink water,",
+          "duration": 6,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "石の重さで泉に落ちてしまい、",
+          "en": "the weight of the stones made him fall into the spring,",
+          "duration": 7,
+          "audio": "page8_text4"
+        },
+        {
+          "ja": "みじめにおぼれてしまいました。",
+          "en": "and he tragically drowned.",
+          "duration": 5,
+          "audio": "page8_text5"
+        }
+      ],
+      "image": "scene8.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "無事に助かった七匹の子ヤギたちは、",
+          "en": "The seven little goats, who were safely rescued,",
+          "duration": 6,
+          "audio": "page9_text1"
+        },
+        {
+          "ja": "お母さんヤギと一緒に、狼がいなくなったことを喜び、",
+          "en": "rejoiced with their mother goat that the wolf was gone,",
+          "duration": 7,
+          "audio": "page9_text2"
+        },
+        {
+          "ja": "泉の周りを跳ね回りました。",
+          "en": "and hopped around the spring.",
+          "duration": 5,
+          "audio": "page9_text3"
+        }
+      ],
+      "image": "scene9.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "狼は最初、どんな声で子ヤギたちを騙そうとしましたか？",
+      "en": "What kind of voice did the wolf first use to try and trick the goats?",
+      "duration": 6,
+      "answerDuration": 4,
+      "audio": "question1",
+      "image": "scene2.png",
+      "choices": [
+        {
+          "ja": "優しい声",
+          "en": "A gentle voice",
+          "correct": false,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "低い声",
+          "en": "A low voice",
+          "correct": true,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "高い声",
+          "en": "A high voice",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "狼は、子ヤギたちを騙すために、どんな工夫をしましたか？",
+      "en": "What did the wolf do to trick the goats?",
+      "duration": 6,
+      "answerDuration": 4,
+      "audio": "question2",
+      "image": "scene3.png",
+      "choices": [
+        {
+          "ja": "石灰を食べて声を優しくし、足に粉をつけた",
+          "en": "Ate chalk to soften his voice and put flour on his feet",
+          "correct": true,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "歌を歌って子ヤギたちを眠らせた",
+          "en": "Sang a song to make the goats sleep",
+          "correct": false,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "お母さんヤギの真似をして、子ヤギたちを怖がらせた",
+          "en": "Imitated the mother goat to scare the kids",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "狼に丸呑みされなかった一番小さかった子ヤギは、どこに隠れていましたか？",
+      "en": "Where did the smallest kid hide to avoid being swallowed by the wolf?",
+      "duration": 7,
+      "answerDuration": 4,
+      "audio": "question3",
+      "image": "scene5.png",
+      "choices": [
+        {
+          "ja": "ストーブの中",
+          "en": "Inside the stove",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "戸棚の中",
+          "en": "Inside the cupboard",
+          "correct": false,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "時計箱の中",
+          "en": "Inside the clock case",
+          "correct": true,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "お母さんヤギは、子ヤギたちを助けるために狼のお腹に何を詰めましたか？",
+      "en": "What did the mother goat fill the wolf's belly with to save her kids?",
+      "duration": 7,
+      "answerDuration": 4,
+      "audio": "question4",
+      "image": "scene7.png",
+      "choices": [
+        {
+          "ja": "パン",
+          "en": "Bread",
+          "correct": false,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "石",
+          "en": "Stones",
+          "correct": true,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "綿",
+          "en": "Cotton",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "石でいっぱいになった狼は、どうなりましたか？",
+      "en": "What happened to the wolf, now full of stones?",
+      "duration": 6,
+      "answerDuration": 4,
+      "audio": "question5",
+      "image": "scene8.png",
+      "choices": [
+        {
+          "ja": "お腹が空いて、また子ヤギを探しに行った",
+          "en": "He became hungry and went to look for the goats again",
+          "correct": false,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "泉に落ちて溺れてしまった",
+          "en": "He fell into the spring and drowned",
+          "correct": true,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "お母さんヤギに捕まり、反省した",
+          "en": "He was caught by the mother goat and repented",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "狼と七匹の子ヤギ"
+}
