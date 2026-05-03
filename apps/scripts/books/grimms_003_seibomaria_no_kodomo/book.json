@@ -306,7 +306,7 @@
     {
       "texts": [
         {
-          "ja": "３番目の赤ちゃんは、可愛い女の子でした。聖母マリアはまた現れ、女の子に２匹の男の子の赤ちゃんを見せました。",
+          "ja": "３番目の赤ちゃんは、可愛い女の子でした。聖母マリアはまた現れ、女の子に２人の男の子の赤ちゃんを見せました。",
           "en": "The third baby was a cute baby girl. The Virgin Mary appeared again and showed the girl two baby boys.",
           "duration": 20,
           "audio": "page10_text1"
@@ -336,8 +336,8 @@
           "audio": "page10_text5"
         },
         {
-          "ja": "すると、雨が降って炎を消しました。聖母マリアさまが、３人の子供たちと一緒におりてきて、女の子の過ちを許し、声を返してくれました。",
-          "en": "Then, rain fell and extinguished the flames. The Blessed Mother Mary descended with her three children, forgave the girl's transgression, and returned her voice.",
+          "ja": "すると、雨が降って炎が消え、聖母マリアさまが、３人の子供たちと一緒におりてきて、女の子の過ちを許し、声を返してくれました。",
+          "en": "Then, rain fell and the flames went out, and the Blessed Mother Mary descended with her three children, forgave the girl's transgression, and returned her voice.",
           "duration": 26,
           "audio": "page10_text6"
         },
@@ -358,7 +358,7 @@
       "duration": 8,
       "answerDuration": 8,
       "audio": "question1",
-      "image": "question1.png",
+      "image": "scene4.png",
       "choices": [
         {
           "ja": "１０番目",
@@ -386,7 +386,7 @@
       "duration": 8,
       "answerDuration": 8,
       "audio": "question2",
-      "image": "question2.png",
+      "image": "scene6.png",
       "choices": [
         {
           "ja": "金色になった",
@@ -414,7 +414,7 @@
       "duration": 10,
       "answerDuration": 10,
       "audio": "question3",
-      "image": "question3.png",
+      "image": "scene7.png",
       "choices": [
         {
           "ja": "女の子の顔を見て",
@@ -442,7 +442,7 @@
       "duration": 10,
       "answerDuration": 10,
       "audio": "question4",
-      "image": "question4.png",
+      "image": "scene8.png",
       "choices": [
         {
           "ja": "話すこと",

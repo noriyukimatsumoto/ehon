@@ -183,7 +183,7 @@ class EhonNotifier extends _$EhonNotifier {
       state = AsyncData(
         current.copyWith(phase: ReadingPhase.quizAnswer, remaining: duration),
       );
-      _playAudioOrCountdown(question.correctChoice.audioUrl, duration);
+      _startCountdown(duration);
     });
   }
 

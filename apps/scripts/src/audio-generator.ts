@@ -64,7 +64,10 @@ export class AudioGenerator {
 
         const data =
           response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
-        if (!data) throw new Error(`No audio data for: ${entry.audio}`);
+        if (!data) {
+          console.error("No audio data in response:", response);
+          throw new Error(`No audio data for: ${entry.audio}`);
+        }
 
         return pcmToWav(Buffer.from(data, "base64"));
       } catch (err: unknown) {

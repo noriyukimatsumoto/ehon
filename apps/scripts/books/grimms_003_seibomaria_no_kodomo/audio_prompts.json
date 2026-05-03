@@ -7,9 +7,21 @@
       "prompt": "[calmly, gently]"
     },
     {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "Once upon a time, near a large forest, lived a woodcutter and his wife.",
+      "prompt": "[calmly, gently]"
+    },
+    {
       "audio": "page1_text2_ja",
       "lang": "ja",
       "text": "ふたりには、３さいの可愛い女の子がひとりだけいました。",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "They had only one lovely daughter, who was three years old.",
       "prompt": "[calmly, gently]"
     },
     {
@@ -19,9 +31,21 @@
       "prompt": "[sadly, gently]"
     },
     {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "However, they were very poor, to the point of running out of bread to eat each day.",
+      "prompt": "[sadly, gently]"
+    },
+    {
       "audio": "page1_text4_ja",
       "lang": "ja",
       "text": "どうしたら女の子にご飯をあげられるか、困っていました。",
+      "prompt": "[sadly, gently]"
+    },
+    {
+      "audio": "page1_text4_en",
+      "lang": "en",
+      "text": "They were troubled about how they could feed their daughter.",
       "prompt": "[sadly, gently]"
     },
     {
@@ -31,9 +55,21 @@
       "prompt": "[sadly, gently]"
     },
     {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "One morning, the man went to the forest to work with a heavy heart.",
+      "prompt": "[sadly, gently]"
+    },
+    {
       "audio": "page2_text2_ja",
       "lang": "ja",
       "text": "木を切っていると、突然、頭にキラキラ光る星の冠をつけた、美しい女性が現れました。",
+      "prompt": "[dramatically, gently]"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "As he was cutting wood, suddenly, a beautiful woman appeared with a sparkling star crown on her head.",
       "prompt": "[dramatically, gently]"
     },
     {
@@ -43,9 +79,21 @@
       "prompt": "[warmly, gently]"
     },
     {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "\"I am the Virgin Mary, the mother of Jesus Christ.",
+      "prompt": "[warmly, gently]"
+    },
+    {
       "audio": "page2_text4_ja",
       "lang": "ja",
-      "text": "あなたが思っている、子供を私のところに使いなさい。私が預かり、幸せに育てましょう。」",
+      "text": "子供を私のところに使いなさい。私が預かり、幸せに育てましょう。」",
+      "prompt": "[warmly, gently]"
+    },
+    {
+      "audio": "page2_text4_en",
+      "lang": "en",
+      "text": "Send the child you are thinking of to me. I will take care of her and raise her happily.\"",
       "prompt": "[warmly, gently]"
     },
     {
@@ -55,9 +103,21 @@
       "prompt": "[calmly, gently]"
     },
     {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "The man did as she said and handed the girl over to the Virgin Mary.",
+      "prompt": "[calmly, gently]"
+    },
+    {
       "audio": "page3_text2_ja",
       "lang": "ja",
       "text": "聖母マリアは、女の子を天国へ連れて行きました。",
+      "prompt": "[gently, tenderly]"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "The Virgin Mary took the girl to heaven.",
       "prompt": "[gently, tenderly]"
     },
     {
@@ -67,9 +127,21 @@
       "prompt": "[cheerfully, gently]"
     },
     {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "In heaven, the girl lived happily.",
+      "prompt": "[cheerfully, gently]"
+    },
+    {
       "audio": "page3_text4_ja",
       "lang": "ja",
       "text": "甘いお菓子を食べ、美味しいミルクを飲み、金色の服を着て、天使たちと遊びました。",
+      "prompt": "[cheerfully, gently]"
+    },
+    {
+      "audio": "page3_text4_en",
+      "lang": "en",
+      "text": "She ate sweet candies, drank delicious milk, wore golden clothes, and played with the angels.",
       "prompt": "[cheerfully, gently]"
     },
     {
@@ -79,9 +151,21 @@
       "prompt": "[calmly, gently]"
     },
     {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "One day, when the girl turned fourteen, the Virgin Mary said:",
+      "prompt": "[calmly, gently]"
+    },
+    {
       "audio": "page4_text2_ja",
       "lang": "ja",
       "text": "「子供よ、私は長い旅に出かけます。だから、あなたに天国の１３個の扉の鍵を預けましょう。",
+      "prompt": "[gently, tenderly]"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "\"Child, I am going on a long journey. Therefore, I will entrust you with the keys to the thirteen doors of heaven.",
       "prompt": "[gently, tenderly]"
     },
     {
@@ -91,9 +175,21 @@
       "prompt": "[warningly, gently]"
     },
     {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "You may open twelve of the doors, but you must absolutely never open the thirteenth door.",
+      "prompt": "[warningly, gently]"
+    },
+    {
       "audio": "page4_text4_ja",
       "lang": "ja",
       "text": "小さな鍵があります。開けると、不幸が訪れます。」",
+      "prompt": "[warningly, fearfully]"
+    },
+    {
+      "audio": "page4_text4_en",
+      "lang": "en",
+      "text": "There is a small key. If you open it, misfortune will befall you.\"",
       "prompt": "[warningly, fearfully]"
     },
     {
@@ -103,9 +199,21 @@
       "prompt": "[calmly, gently]"
     },
     {
+      "audio": "page4_text5_en",
+      "lang": "en",
+      "text": "The girl promised she would never open it.",
+      "prompt": "[calmly, gently]"
+    },
+    {
       "audio": "page5_text1_ja",
       "lang": "ja",
       "text": "聖母マリアがいなくなったあと、女の子は天国の部屋を見て回りました。",
+      "prompt": "[curiously, gently]"
+    },
+    {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "After the Virgin Mary left, the girl looked around the rooms of heaven.",
       "prompt": "[curiously, gently]"
     },
     {
@@ -115,9 +223,21 @@
       "prompt": "[cheerfully, gently]"
     },
     {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "She saw twelve rooms, and each room was so radiant that she felt happy.",
+      "prompt": "[cheerfully, gently]"
+    },
+    {
       "audio": "page5_text3_ja",
       "lang": "ja",
       "text": "でも、残った１３番目の扉が、気になって仕方ありません。",
+      "prompt": "[curiously, fearfully]"
+    },
+    {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "But the remaining thirteenth door couldn't stop bothering her.",
       "prompt": "[curiously, fearfully]"
     },
     {
@@ -127,9 +247,21 @@
       "prompt": "[curiously, whispering]"
     },
     {
+      "audio": "page5_text4_en",
+      "lang": "en",
+      "text": "\"I'll just peek a little,\" the girl thought.",
+      "prompt": "[curiously, whispering]"
+    },
+    {
       "audio": "page5_text5_ja",
       "lang": "ja",
       "text": "天使たちは「だめですよ。それは罪になります。」と言いましたが、女の子は聞きませんでした。",
+      "prompt": "[warningly, fearfully]"
+    },
+    {
+      "audio": "page5_text5_en",
+      "lang": "en",
+      "text": "The angels said, \"No, that would be a sin.\" But the girl did not listen.",
       "prompt": "[warningly, fearfully]"
     },
     {
@@ -139,9 +271,21 @@
       "prompt": "[dramatically, fearfully]"
     },
     {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "She opened the lock and slightly opened the door, and in the dazzling light, three gods were seated.",
+      "prompt": "[dramatically, fearfully]"
+    },
+    {
       "audio": "page6_text2_ja",
       "lang": "ja",
       "text": "女の子はびっくりして、光に指を触れると、指が金色になってしまいました！",
+      "prompt": "[fearfully, dramatically]"
+    },
+    {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "The girl was surprised, and when she touched the light with her finger, her finger turned golden!",
       "prompt": "[fearfully, dramatically]"
     },
     {
@@ -151,9 +295,21 @@
       "prompt": "[fearfully, quickly]"
     },
     {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "Becoming frightened, the girl closed the door and ran away.",
+      "prompt": "[fearfully, quickly]"
+    },
+    {
       "audio": "page7_text1_ja",
       "lang": "ja",
       "text": "しばらくして、聖母マリアが帰ってきました。「１３番目の扉を開けましたか？」と聖母マリアは聞きました。",
+      "prompt": "[calmly, sternly]"
+    },
+    {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "After a while, the Virgin Mary returned. \"Did you open the thirteenth door?\" she asked.",
       "prompt": "[calmly, sternly]"
     },
     {
@@ -163,9 +319,21 @@
       "prompt": "[fearfully, whispering]"
     },
     {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "The girl lied and said no.",
+      "prompt": "[fearfully, whispering]"
+    },
+    {
       "audio": "page7_text3_ja",
       "lang": "ja",
       "text": "でも、聖母マリアは、女の子のドキドキする心に触れて、嘘だとわかりました。",
+      "prompt": "[calmly, sadly]"
+    },
+    {
+      "audio": "page7_text3_en",
+      "lang": "en",
+      "text": "But the Virgin Mary touched the girl's thumping heart and knew she was lying.",
       "prompt": "[calmly, sadly]"
     },
     {
@@ -175,9 +343,21 @@
       "prompt": "[calmly, sadly]"
     },
     {
+      "audio": "page7_text4_en",
+      "lang": "en",
+      "text": "Then, seeing the golden finger, she finally knew the truth.",
+      "prompt": "[calmly, sadly]"
+    },
+    {
       "audio": "page7_text5_ja",
       "lang": "ja",
       "text": "「あなたは嘘をつきましたね。もう天国にいる資格はありません。」",
+      "prompt": "[sadly, sternly]"
+    },
+    {
+      "audio": "page7_text5_en",
+      "lang": "en",
+      "text": "\"You have lied. You no longer have the right to be in heaven.\"",
       "prompt": "[sadly, sternly]"
     },
     {
@@ -187,9 +367,21 @@
       "prompt": "[sadly, fearfully]"
     },
     {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "When the girl opened her eyes, she was in the middle of a wilderness.",
+      "prompt": "[sadly, fearfully]"
+    },
+    {
       "audio": "page8_text2_ja",
       "lang": "ja",
       "text": "声も出せず、茨の垣根にさえぎられ、どこにも逃げられません。",
+      "prompt": "[fearfully, sadly]"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "She couldn't make a sound, was blocked by thorny hedges, and could not escape anywhere.",
       "prompt": "[fearfully, sadly]"
     },
     {
@@ -199,9 +391,21 @@
       "prompt": "[sadly, gently]"
     },
     {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "She lived a lonely life, using a hollow tree as her home, eating berries and wild strawberries.",
+      "prompt": "[sadly, gently]"
+    },
+    {
       "audio": "page8_text4_ja",
       "lang": "ja",
       "text": "ある日、その国のお王様が森で狩をしていました。",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page8_text4_en",
+      "lang": "en",
+      "text": "One day, the king of that country was hunting in the forest.",
       "prompt": "[calmly, gently]"
     },
     {
@@ -211,9 +415,21 @@
       "prompt": "[excitedly, gently]"
     },
     {
+      "audio": "page8_text5_en",
+      "lang": "en",
+      "text": "The king was surprised by the girl's beauty, took her to the castle, and dressed her in lovely clothes.",
+      "prompt": "[excitedly, gently]"
+    },
+    {
       "audio": "page8_text6_ja",
       "lang": "ja",
       "text": "女の子は声を出せませんでしたが、お王様は女の子を心から愛し、結婚しました。",
+      "prompt": "[tenderly, gently]"
+    },
+    {
+      "audio": "page8_text6_en",
+      "lang": "en",
+      "text": "The girl couldn't speak, but the king loved her dearly and married her.",
       "prompt": "[tenderly, gently]"
     },
     {
@@ -223,9 +439,21 @@
       "prompt": "[calmly, gently]"
     },
     {
+      "audio": "page9_text1_en",
+      "lang": "en",
+      "text": "Before long, the girl gave birth to a baby boy.",
+      "prompt": "[calmly, gently]"
+    },
+    {
       "audio": "page9_text2_ja",
       "lang": "ja",
       "text": "その夜、聖母マリアが現れて言いました。",
+      "prompt": "[dramatically, gently]"
+    },
+    {
+      "audio": "page9_text2_en",
+      "lang": "en",
+      "text": "That night, the Virgin Mary appeared and said:",
       "prompt": "[dramatically, gently]"
     },
     {
@@ -235,9 +463,21 @@
       "prompt": "[sternly, gently]"
     },
     {
+      "audio": "page9_text3_en",
+      "lang": "en",
+      "text": "\"If you truthfully say that you opened the door, I will allow you to speak again.",
+      "prompt": "[sternly, gently]"
+    },
+    {
       "audio": "page9_text4_ja",
       "lang": "ja",
       "text": "でも、もし嘘を続けるなら、赤ちゃんを連れて行きますよ。」",
+      "prompt": "[sternly, warningly]"
+    },
+    {
+      "audio": "page9_text4_en",
+      "lang": "en",
+      "text": "But if you continue to lie, I will take your baby away.\"",
       "prompt": "[sternly, warningly]"
     },
     {
@@ -247,9 +487,21 @@
       "prompt": "[sadly, fearfully]"
     },
     {
+      "audio": "page9_text5_en",
+      "lang": "en",
+      "text": "The girl lied again. Then, the Virgin Mary took the baby away.",
+      "prompt": "[sadly, fearfully]"
+    },
+    {
       "audio": "page9_text6_ja",
       "lang": "ja",
       "text": "次の年、また男の子が生まれましたが、女の子はまた嘘を言い、聖母マリアは赤ちゃんを連れて行ってしまいました。",
+      "prompt": "[sadly, fearfully]"
+    },
+    {
+      "audio": "page9_text6_en",
+      "lang": "en",
+      "text": "The next year, another boy was born, but the girl lied again, and the Virgin Mary took the baby away.",
       "prompt": "[sadly, fearfully]"
     },
     {
@@ -259,9 +511,21 @@
       "prompt": "[dramatically, sadly]"
     },
     {
+      "audio": "page9_text7_en",
+      "lang": "en",
+      "text": "Since long ago, a rumor spread that the girl had eaten her babies, and she was to be put on trial.",
+      "prompt": "[dramatically, sadly]"
+    },
+    {
       "audio": "page10_text1_ja",
       "lang": "ja",
-      "text": "３番目の赤ちゃんは、可愛い女の子でした。聖母マリアはまた現れ、女の子に２匹の男の子の赤ちゃんを見せました。",
+      "text": "３番目の赤ちゃんは、可愛い女の子でした。聖母マリアはまた現れ、女の子に２人の男の子の赤ちゃんを見せました。",
+      "prompt": "[dramatically, gently]"
+    },
+    {
+      "audio": "page10_text1_en",
+      "lang": "en",
+      "text": "The third baby was a cute baby girl. The Virgin Mary appeared again and showed the girl two baby boys.",
       "prompt": "[dramatically, gently]"
     },
     {
@@ -271,9 +535,21 @@
       "prompt": "[sternly, gently]"
     },
     {
+      "audio": "page10_text2_en",
+      "lang": "en",
+      "text": "\"If you tell the truth, I will return the babies.\" However, the girl lied three times.",
+      "prompt": "[sternly, gently]"
+    },
+    {
       "audio": "page10_text3_ja",
       "lang": "ja",
       "text": "そして、３番目の赤ちゃんも奪われてしまいました。ついに、女の子は死につながる火あぶりの刑となりました。",
+      "prompt": "[dramatically, fearfully]"
+    },
+    {
+      "audio": "page10_text3_en",
+      "lang": "en",
+      "text": "And so, the third baby was also taken away. Finally, the girl was sentenced to be burned at the stake, leading to her death.",
       "prompt": "[dramatically, fearfully]"
     },
     {
@@ -283,15 +559,33 @@
       "prompt": "[dramatically, fearfully]"
     },
     {
+      "audio": "page10_text4_en",
+      "lang": "en",
+      "text": "As the flames rose, the girl opened her hardened heart and said in a loud voice:",
+      "prompt": "[dramatically, fearfully]"
+    },
+    {
       "audio": "page10_text5_ja",
       "lang": "ja",
       "text": "「はい、聖母マリアさま、私が扉を開けました！」",
       "prompt": "[confessing, dramatically]"
     },
     {
+      "audio": "page10_text5_en",
+      "lang": "en",
+      "text": "\"Yes, Blessed Mother Mary, I opened the door!\"",
+      "prompt": "[confessing, dramatically]"
+    },
+    {
       "audio": "page10_text6_ja",
       "lang": "ja",
-      "text": "すると、雨が降って炎を消しました。聖母マリアさまが、３人の子供たちと一緒におりてきて、女の子の過ちを許し、声を返してくれました。",
+      "text": "すると、雨が降って炎が消え、聖母マリアさまが、３人の子供たちと一緒におりてきて、女の子の過ちを許し、声を返してくれました。",
+      "prompt": "[miraculously, gently]"
+    },
+    {
+      "audio": "page10_text6_en",
+      "lang": "en",
+      "text": "Then, rain fell and the flames went out, and the Blessed Mother Mary descended with her three children, forgave the girl's transgression, and returned her voice.",
       "prompt": "[miraculously, gently]"
     },
     {
@@ -301,9 +595,21 @@
       "prompt": "[happily, gently]"
     },
     {
+      "audio": "page10_text7_en",
+      "lang": "en",
+      "text": "And so, the girl lived happily ever after.",
+      "prompt": "[happily, gently]"
+    },
+    {
       "audio": "question1_ja",
       "lang": "ja",
       "text": "きこりの女の子は、何番目の扉を絶対に開けてはいけないと言われましたか？ １０番目 １３番目 １２番目",
+      "prompt": "[calmly, clearly]"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "Which numbered door was the woodcutter's daughter told never to open? The 10th? The 13th? The 12th?",
       "prompt": "[calmly, clearly]"
     },
     {
@@ -313,15 +619,33 @@
       "prompt": "[calmly, clearly]"
     },
     {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "What happened to the girl's finger when she opened the 13th door? It turned golden? It turned red? It turned black?",
+      "prompt": "[calmly, clearly]"
+    },
+    {
       "audio": "question3_ja",
       "lang": "ja",
       "text": "聖母マリアは、女の子が嘘をついていることがどうしてわかりましたか？ 女の子の顔を見て 女の子のドキドキする心に触れて 天使が教えたから",
       "prompt": "[calmly, clearly]"
     },
     {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "How did the Virgin Mary know that the girl was lying? By looking at her face? By touching her thumping heart? Because the angels told her?",
+      "prompt": "[calmly, clearly]"
+    },
+    {
       "audio": "question4_ja",
       "lang": "ja",
       "text": "お城に連れてこられた後、女の子は何ができませんでしたか？ 話すこと 食べること 歩くこと",
+      "prompt": "[calmly, clearly]"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "After being brought to the castle, what could the girl not do? Speak? Eat? Walk?",
       "prompt": "[calmly, clearly]"
     }
   ]

@@ -108,8 +108,8 @@
           "audio": "page4_text2"
         },
         {
-          "ja": "そして、おばあちゃんの服を着て、ベッドの中で寝ていました。",
-          "en": "Then, he put on the grandmother's clothes and lay down in the bed.",
+          "ja": "そして、おおかみは、おばあちゃんの服を着て、ベッドの中で赤ずきんちゃんを待ちました。",
+          "en": "Then, the wolf put on the grandmother's clothes and waited in the bed for Little Red Riding Hood.",
           "duration": 7,
           "audio": "page4_text3"
         }
@@ -327,8 +327,8 @@
       "image": "scene5.jpg",
       "choices": [
         {
-          "ja": "よく見るため",
-          "en": "To see better",
+          "ja": "おおかみがへんそうしていたから",
+          "en": "Because the wolf was in disguise.",
           "correct": true,
           "audio": "question5_choice1"
         },

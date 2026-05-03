@@ -183,13 +183,13 @@
     {
       "audio": "page4_text3_ja",
       "lang": "ja",
-      "text": "そして、おばあちゃんの服を着て、ベッドの中で寝ていました。",
+      "text": "そして、おおかみは、おばあちゃんの服を着て、ベッドの中で赤ずきんちゃんを待ちました。",
       "prompt": "[deceptively, calmly]"
     },
     {
       "audio": "page4_text3_en",
       "lang": "en",
-      "text": "Then, he put on the grandmother's clothes and lay down in the bed.",
+      "text": "Then, the wolf put on the grandmother's clothes and waited in the bed for Little Red Riding Hood.",
       "prompt": "[deceptively, calmly]"
     },
     {
@@ -399,13 +399,13 @@
     {
       "audio": "question5_ja",
       "lang": "ja",
-      "text": "おばあちゃんの目が大きくなったのはなぜ？ よく見るため？ 驚いたから？ 病気だから？",
+      "text": "おばあちゃんの目が大きくなったのはなぜ？ おおかみがへんそうしていたから？ 驚いたから？ 病気だから？",
       "prompt": "[questioning, gently]"
     },
     {
       "audio": "question5_en",
       "lang": "en",
-      "text": "Why did the grandmother's eyes become big? To see better? Because she was surprised? Because she was sick?",
+      "text": "Why did the grandmother's eyes become big? Because the wolf was in disguise? Because she was surprised? Because she was sick?",
       "prompt": "[questioning, gently]"
     },
     {
