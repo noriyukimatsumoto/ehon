@@ -16,6 +16,7 @@ Commands:
   scenes <inputFile>   シーン分割・JSONを生成する (step3~4: scenes.json, book.json)
   images <inputFile>   画像プロンプトと画像を生成する (step5~6)
   audio  <inputFile>   音声ファイルを生成する (step7)
+  meta   <inputFile>   メタ情報を生成する (meta.json)
 
 inputFile (YML形式):
   id: kaeru-no-osama
@@ -115,6 +116,10 @@ async function main(): Promise<void> {
       }
       const { id } = parseInputYml(inputFile);
       await new BookGenerator().generateAudio(id);
+      break;
+    }
+    case "meta": {
+      await new BookGenerator().generateMetaFile();
       break;
     }
     default:

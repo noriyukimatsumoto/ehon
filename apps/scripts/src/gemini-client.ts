@@ -5,7 +5,31 @@ import type {
   SceneData,
   ImagePrompts,
   AudioPromptsData,
+  MetaData,
 } from "./book-parser";
+
+const META_SCHEMA = {
+  type: Type.OBJECT,
+  properties: {
+    title: {
+      type: Type.OBJECT,
+      properties: {
+        en: { type: Type.STRING },
+      },
+      required: ["en"],
+    },
+    categoryId: { type: Type.STRING },
+    categoryName: {
+      type: Type.OBJECT,
+      properties: {
+        ja: { type: Type.STRING },
+        en: { type: Type.STRING },
+      },
+      required: ["ja", "en"],
+    },
+  },
+  required: ["title", "categoryId", "categoryName"],
+};
 
 const AUDIO_PROMPTS_SCHEMA = {
   type: Type.OBJECT,
@@ -260,6 +284,48 @@ ${scenesText}`;
     });
 
     return JSON.parse(result.text ?? "{}") as ImagePrompts;
+  }
+
+  async generateMeta(
+    bookId: string,
+    titleJa: string,
+    story: string,
+  ): Promise<MetaData> {
+    const prompt = `以下の絵本のメタ情報を生成してください。
+
+【絵本ID】${bookId}
+【タイトル（日本語）】${titleJa}
+【物語】
+${story}
+
+以下を生成してください：
+- title.en: タイトルの英訳
+- categoryId: カテゴリID（英数字小文字、ハイフン使用可。例: "grimm", "andersen", "aesop", "japanese-folktale"）
+- categoryName.ja: カテゴリ名（日本語）
+- categoryName.en: カテゴリ名（英語）`;
+
+    const result = await this.genAI.models.generateContent({
+      model: this.model,
+      contents: prompt,
+      config: {
+        responseMimeType: "application/json",
+        responseSchema: META_SCHEMA,
+      },
+    });
+
+    const generated = JSON.parse(result.text ?? "{}") as {
+      title: { en: string };
+      categoryId: string;
+      categoryName: { ja: string; en: string };
+    };
+
+    return {
+      id: bookId,
+      version: "1.0.0",
+      title: { ja: titleJa, en: generated.title.en },
+      categoryId: generated.categoryId,
+      categoryName: generated.categoryName,
+    };
   }
 
   async generateAudioPrompts(bookData: BookData): Promise<AudioPromptsData> {

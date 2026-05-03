@@ -8,6 +8,7 @@ import {
   SceneData,
   ImagePrompts,
   AudioPromptsData,
+  MetaData,
 } from "./book-parser";
 import { AudioGenerator } from "./audio-generator";
 import { Part } from "@google/genai";
@@ -38,20 +39,24 @@ export class BookGenerator {
     const bookDir = this.bookDir(bookId);
     const storyPath = path.join(bookDir, "story.txt");
 
-    console.log("\n[1/4] story.txt → scenes.json");
+    console.log("\n[1/5] story.txt → scenes.json");
     const scenesPath = await this.splitScenes(storyPath);
     console.log("  Done.");
 
-    console.log("\n[2/4] scenes.json → book.json");
+    console.log("\n[2/5] scenes.json → book.json");
     const bookPath = await this.buildBookJson(scenesPath, title);
     console.log("  Done.");
 
-    console.log("\n[3/4] scenes.json → image_prompts.json");
+    console.log("\n[3/5] scenes.json → image_prompts.json");
     await this.buildImagePrompts(scenesPath, title, imageStyle);
     console.log("  Done.");
 
-    console.log("\n[4/4] book.json → audio_prompts.json");
+    console.log("\n[4/5] book.json → audio_prompts.json");
     await this.buildAudioPrompts(bookPath);
+    console.log("  Done.");
+
+    console.log("\n[5/5] story.txt + title → meta.json");
+    await this.buildMeta(bookId, title, bookDir);
     console.log("  Done.");
   }
 
@@ -63,6 +68,12 @@ export class BookGenerator {
 
     console.log("\n[1/1] image_prompts.json → cover.png + images/scene*.png");
     await this.renderImages(promptsPath);
+    console.log("  Done.");
+  }
+
+  async generateMetaFile(): Promise<void> {
+    console.log("\n[1/1] meta.json × all books → books.json");
+    this.updateCatalog();
     console.log("  Done.");
   }
 
@@ -169,5 +180,33 @@ export class BookGenerator {
       "utf-8",
     );
     return outputPath;
+  }
+
+  private async buildMeta(
+    bookId: string,
+    title: string,
+    bookDir: string,
+  ): Promise<string> {
+    const story = fs.readFileSync(path.join(bookDir, "story.txt"), "utf-8");
+    const meta: MetaData = await this.gemini.generateMeta(bookId, title, story);
+    const outputPath = path.join(bookDir, "meta.json");
+    fs.writeFileSync(outputPath, JSON.stringify(meta, null, 2), "utf-8");
+    return outputPath;
+  }
+
+  private updateCatalog(): void {
+    const entries = fs
+      .readdirSync(BOOKS_DIR, { withFileTypes: true })
+      .filter((d) => d.isDirectory())
+      .flatMap((d) => {
+        const metaPath = path.join(BOOKS_DIR, d.name, "meta.json");
+        if (!fs.existsSync(metaPath)) return [];
+        return [JSON.parse(fs.readFileSync(metaPath, "utf-8")) as MetaData];
+      });
+    fs.writeFileSync(
+      path.join(BOOKS_DIR, "books.json"),
+      JSON.stringify(entries, null, 2),
+      "utf-8",
+    );
   }
 }
