@@ -97,14 +97,15 @@ async function main(): Promise<void> {
       break;
     }
     case "images": {
-      const [inputFile] = args;
-      if (!inputFile) {
-        console.error("エラー: images コマンドには inputFile が必要です");
-        usage();
-      }
-      const { id } = parseInputYml(inputFile);
-      await new BookGenerator().generateImages(id);
-      break;
+      throw new Error("images コマンドは現在サポートされていません。");
+      // const [inputFile] = args;
+      // if (!inputFile) {
+      //   console.error("エラー: images コマンドには inputFile が必要です");
+      //   usage();
+      // }
+      // const { id } = parseInputYml(inputFile);
+      // await new BookGenerator().generateImages(id);
+      // break;
     }
     case "audio": {
       const [inputFile] = args;

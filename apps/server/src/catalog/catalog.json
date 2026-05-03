@@ -12,5 +12,12 @@
     "title": { "ja": "かえるの王さま", "en": "The Frog King" },
     "categoryId": "grimm",
     "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
+  },
+  {
+    "id": "grimms_002_neko_to_nezumi_to_o_tomodachi",
+    "version": "1.0.0",
+    "title": { "ja": "猫とねずみとお友だち", "en": "The Cat, the Mouse, and the Friend" },
+    "categoryId": "grimm",
+    "categoryName": { "ja": "グリム童話", "en": "Grimm's Fairy Tales" }
   }
 ]
