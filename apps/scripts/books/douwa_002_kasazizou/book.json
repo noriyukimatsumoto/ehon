@@ -1,0 +1,396 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、あるところに、",
+          "en": "Once upon a time, in a certain place,",
+          "duration": 2,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "とても貧しいおじいさんとおばあさんが住んでいました。",
+          "en": "lived a very poor old man and old woman.",
+          "duration": 3,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "二人はいつも仲が良く、助け合って暮らしていました。",
+          "en": "The two were always on good terms and lived helping each other.",
+          "duration": 4,
+          "audio": "page1_text3"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ある寒い冬の日、おじいさんは町へ行くことにしました。",
+          "en": "One cold winter day, the old man decided to go to town.",
+          "duration": 4,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "おばあさんは、おじいさんのために温かいおやつを作って持たせてあげました。",
+          "en": "The old woman made warm snacks for the old man to take.",
+          "duration": 5,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "町に着いたおじいさんは、自分で作った竹細工を売ろうとしました。",
+          "en": "When the old man arrived in town, he tried to sell the bamboo crafts he made.",
+          "duration": 5,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "でも、その日はとても寒くて、誰も買ってくれる人はいませんでした。",
+          "en": "But, it was very cold that day, and no one bought anything.",
+          "duration": 5,
+          "audio": "page2_text4"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "がっかりしておじいさんが家に帰ろうとしたとき、",
+          "en": "As the disappointed old man was about to go home,",
+          "duration": 4,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "お寺の前に、いくつかのお地蔵さまが立っているのが見えました。",
+          "en": "he saw several Jizo statues standing in front of a temple.",
+          "duration": 5,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "お地蔵さまは、冷たい雪をかぶって、とても寒そうでした。",
+          "en": "The Jizo statues were covered in cold snow and looked very cold.",
+          "duration": 5,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "「かわいそうだなぁ。お地蔵さまも、さぞかし寒いだろう。」",
+          "en": "\"How pitiful. The Jizo must be very cold.\"",
+          "duration": 5,
+          "audio": "page3_text4"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ふと、おじいさんの背中には、おばあさんが作ってくれた、あたたかい笠がいくつかありました。",
+          "en": "Suddenly, the old man remembered the warm hats his wife had made, which were on his back.",
+          "duration": 7,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "「そうだ！この笠をお地蔵さまにかぶせてあげよう。」",
+          "en": "\"That's it! I'll put these hats on the Jizo statues.\"",
+          "duration": 4,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "おじいさんは、持っていた笠を一つずつ、お地蔵さまにかぶせてあげました。",
+          "en": "The old man put the hats one by one onto the Jizo statues.",
+          "duration": 5,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "ところが、笠が一つ足りなくなってしまいました。",
+          "en": "However, they ran out of hats, with one Jizo left uncovered.",
+          "duration": 4,
+          "audio": "page4_text4"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "「どうしよう。一つだけ笠がないのは、かわいそうだ。」",
+          "en": "\"What should I do? It's pitiful for just one Jizo to be without a hat.\"",
+          "duration": 4,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "おじいさんは、困ってしまいました。",
+          "en": "The old man was troubled.",
+          "duration": 3,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "そこで、自分の持っていた手ぬぐいをほどいて、残ったお地蔵さまにかぶせてあげました。",
+          "en": "So, he unraveled his own towel and put it on the remaining Jizo.",
+          "duration": 6,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "そして、おじいさんは、お地蔵さまに「さむくないかい？あたらしい笠だよ」と話しかけながら、家路につきました。",
+          "en": "Then, the old man headed home, talking to the Jizo, \"Aren't you cold? This is a new hat.\"",
+          "duration": 9,
+          "audio": "page5_text4"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "家に帰ったおじいさんから話を聞いたおばあさんは、",
+          "en": "The old woman, after hearing the story from the old man who returned home,",
+          "duration": 4,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "「まあ、なんて優しいおじいさん！お地蔵さまも喜んだだろうね」と、おじいさんの行動を喜びました。",
+          "en": "said, \"Oh, what a kind old man! The Jizo must have been happy too,\" and rejoiced in the old man's actions.",
+          "duration": 8,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "その夜、おじいさんとおばあさんが寝ていると、家の戸がトントンと鳴りました。",
+          "en": "That night, as the old man and woman were sleeping, there was a knock, knock, knock on their door.",
+          "duration": 6,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "「どなたでしょう？」",
+          "en": "\"Who could it be?\"",
+          "duration": 2,
+          "audio": "page6_text4"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おじいさんが戸を開けると、そこにはなんと、",
+          "en": "When the old man opened the door, to his surprise,",
+          "duration": 4,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "おじいさんが笠をかぶせてあげたお地蔵さまたちが、たくさん立っていました。",
+          "en": "there stood many Jizo statues, the ones he had put hats on.",
+          "duration": 5,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "そして、お地蔵さまは、おじいさんとおばあさんに、たくさんの宝物や、おいしい食べ物を運んできてくれたのです。",
+          "en": "And the Jizo statues had brought them lots of treasures and delicious food.",
+          "duration": 8,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "「これはどういうことだろう？」",
+          "en": "\"What could this mean?\"",
+          "duration": 3,
+          "audio": "page7_text4"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おじいさんとおばあさんは、びっくりしました。",
+          "en": "The old man and woman were surprised.",
+          "duration": 3,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "すると、お地蔵さまの中から一体のお地蔵さまが、にっこり笑って言いました。",
+          "en": "Then, one of the Jizo statues smiled and said,",
+          "duration": 5,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "「おじいさんの優しい心のおかげで、私たちもあたたかく過ごすことができました。",
+          "en": "\"Thanks to your kind heart, old man, we were able to stay warm.",
+          "duration": 6,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "そのお礼に、この宝物をおじいさんとおばあさんにあげます。」",
+          "en": "In return, we give these treasures to you and your wife.\"",
+          "duration": 5,
+          "audio": "page8_text4"
+        }
+      ],
+      "image": "scene8.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おじいさんとおばあさんは、お地蔵さまに心から感謝しました。",
+          "en": "The old man and woman thanked the Jizo statues from the bottom of their hearts.",
+          "duration": 5,
+          "audio": "page9_text1"
+        },
+        {
+          "ja": "そして、その宝物のおかげで、貧しい暮らしも楽になり、",
+          "en": "Thanks to those treasures, their poor life became easier,",
+          "duration": 5,
+          "audio": "page9_text2"
+        },
+        {
+          "ja": "その後はずっと幸せに暮らしましたとさ。",
+          "en": "and they lived happily ever after.",
+          "duration": 4,
+          "audio": "page9_text3"
+        }
+      ],
+      "image": "scene9.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "おじいさんが町へ持っていったものは何ですか？",
+      "en": "What did the old man take to town?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question1",
+      "image": "question1.png",
+      "choices": [
+        {
+          "ja": "食べ物",
+          "en": "Food",
+          "correct": false,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "竹細工",
+          "en": "Bamboo crafts",
+          "correct": true,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "お金",
+          "en": "Money",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おじいさんは、お地蔵さまに何をしてあげましたか？",
+      "en": "What did the old man do for the Jizo statues?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question2",
+      "image": "question2.png",
+      "choices": [
+        {
+          "ja": "歌を歌ってあげた",
+          "en": "He sang them a song.",
+          "correct": false,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "笠をかぶせてあげた",
+          "en": "He put hats on them.",
+          "correct": true,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "お菓子をあげた",
+          "en": "He gave them snacks.",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "笠が足りなくなったとき、おじいさんはどうしましたか？",
+      "en": "What did the old man do when he ran out of hats?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question3",
+      "image": "question3.png",
+      "choices": [
+        {
+          "ja": "家に帰った",
+          "en": "He went home.",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "手ぬぐいをほどいてかぶせた",
+          "en": "He unraveled his towel and used it.",
+          "correct": true,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "何もせずにお地蔵さまをそのままにした",
+          "en": "He left the Jizo statues as they were.",
+          "correct": false,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "夜、おじいさんとおばあさんの家の戸を鳴らしたのは誰でしたか？",
+      "en": "Who knocked on the old couple's door at night?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question4",
+      "image": "question4.png",
+      "choices": [
+        {
+          "ja": "隣のおばあさん",
+          "en": "The old woman next door.",
+          "correct": false,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "お地蔵さまたち",
+          "en": "The Jizo statues.",
+          "correct": true,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "町の人々",
+          "en": "People from town.",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "お地蔵さまたちは、おじいさんとおばあさんに何を持ってきてくれましたか？",
+      "en": "What did the Jizo statues bring to the old man and woman?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question5",
+      "image": "question5.png",
+      "choices": [
+        {
+          "ja": "野菜",
+          "en": "Vegetables",
+          "correct": false,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "宝物と食べ物",
+          "en": "Treasures and food.",
+          "correct": true,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "新しい笠",
+          "en": "New hats.",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "かさじぞう"
+}

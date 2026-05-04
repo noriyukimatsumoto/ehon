@@ -1,0 +1,472 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "むかしむかし、あるところに、",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "Once upon a time, in a certain place,",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "とても貧しいおじいさんとおばあさんが住んでいました。",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "lived a very poor old man and old woman.",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "二人はいつも仲が良く、助け合って暮らしていました。",
+      "prompt": "[calmly, warmly]"
+    },
+    {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "The two were always on good terms and lived helping each other.",
+      "prompt": "[calmly, warmly]"
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "ある寒い冬の日、おじいさんは町へ行くことにしました。",
+      "prompt": "[calmly, sadly]"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "One cold winter day, the old man decided to go to town.",
+      "prompt": "[calmly, sadly]"
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "おばあさんは、おじいさんのために温かいおやつを作って持たせてあげました。",
+      "prompt": "[warmly, gently]"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "The old woman made warm snacks for the old man to take.",
+      "prompt": "[warmly, gently]"
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "町に着いたおじいさんは、自分で作った竹細工を売ろうとしました。",
+      "prompt": "[hopeful, slightly disappointed]"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "When the old man arrived in town, he tried to sell the bamboo crafts he made.",
+      "prompt": "[hopeful, slightly disappointed]"
+    },
+    {
+      "audio": "page2_text4_ja",
+      "lang": "ja",
+      "text": "でも、その日はとても寒くて、誰も買ってくれる人はいませんでした。",
+      "prompt": "[sadly, disappointed]"
+    },
+    {
+      "audio": "page2_text4_en",
+      "lang": "en",
+      "text": "But, it was very cold that day, and no one bought anything.",
+      "prompt": "[sadly, disappointed]"
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "がっかりしておじいさんが家に帰ろうとしたとき、",
+      "prompt": "[sadly, disappointed]"
+    },
+    {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "As the disappointed old man was about to go home,",
+      "prompt": "[sadly, disappointed]"
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "お寺の前に、いくつかのお地蔵さまが立っているのが見えました。",
+      "prompt": "[surprised, curious]"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "he saw several Jizo statues standing in front of a temple.",
+      "prompt": "[surprised, curious]"
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "お地蔵さまは、冷たい雪をかぶって、とても寒そうでした。",
+      "prompt": "[sympathetically, sadly]"
+    },
+    {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "The Jizo statues were covered in cold snow and looked very cold.",
+      "prompt": "[sympathetically, sadly]"
+    },
+    {
+      "audio": "page3_text4_ja",
+      "lang": "ja",
+      "text": "「かわいそうだなぁ。お地蔵さまも、さぞかし寒いだろう。」",
+      "prompt": "[sympathetically, sadly]"
+    },
+    {
+      "audio": "page3_text4_en",
+      "lang": "en",
+      "text": "\"How pitiful. The Jizo must be very cold.\"",
+      "prompt": "[sympathetically, sadly]"
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "ふと、おじいさんの背中には、おばあさんが作ってくれた、あたたかい笠がいくつかありました。",
+      "prompt": "[realization, hopeful]"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "Suddenly, the old man remembered the warm hats his wife had made, which were on his back.",
+      "prompt": "[realization, hopeful]"
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "「そうだ！この笠をお地蔵さまにかぶせてあげよう。」",
+      "prompt": "[decided, excited]"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "\"That's it! I'll put these hats on the Jizo statues.\"",
+      "prompt": "[decided, excited]"
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "おじいさんは、持っていた笠を一つずつ、お地蔵さまにかぶせてあげました。",
+      "prompt": "[gently, kindly]"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "The old man put the hats one by one onto the Jizo statues.",
+      "prompt": "[gently, kindly]"
+    },
+    {
+      "audio": "page4_text4_ja",
+      "lang": "ja",
+      "text": "ところが、笠が一つ足りなくなってしまいました。",
+      "prompt": "[worried, concerned]"
+    },
+    {
+      "audio": "page4_text4_en",
+      "lang": "en",
+      "text": "However, they ran out of hats, with one Jizo left uncovered.",
+      "prompt": "[worried, concerned]"
+    },
+    {
+      "audio": "page5_text1_ja",
+      "lang": "ja",
+      "text": "「どうしよう。一つだけ笠がないのは、かわいそうだ。」",
+      "prompt": "[worried, concerned]"
+    },
+    {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "\"What should I do? It's pitiful for just one Jizo to be without a hat.\"",
+      "prompt": "[worried, concerned]"
+    },
+    {
+      "audio": "page5_text2_ja",
+      "lang": "ja",
+      "text": "おじいさんは、困ってしまいました。",
+      "prompt": "[troubled, worried]"
+    },
+    {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "The old man was troubled.",
+      "prompt": "[troubled, worried]"
+    },
+    {
+      "audio": "page5_text3_ja",
+      "lang": "ja",
+      "text": "そこで、自分の持っていた手ぬぐいをほどいて、残ったお地蔵さまにかぶせてあげました。",
+      "prompt": "[resourceful, kind]"
+    },
+    {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "So, he unraveled his own towel and put it on the remaining Jizo.",
+      "prompt": "[resourceful, kind]"
+    },
+    {
+      "audio": "page5_text4_ja",
+      "lang": "ja",
+      "text": "そして、おじいさんは、お地蔵さまに「さむくないかい？あたらしい笠だよ」と話しかけながら、家路につきました。",
+      "prompt": "[tenderly, gently]"
+    },
+    {
+      "audio": "page5_text4_en",
+      "lang": "en",
+      "text": "Then, the old man headed home, talking to the Jizo, \"Aren't you cold? This is a new hat.\"",
+      "prompt": "[tenderly, gently]"
+    },
+    {
+      "audio": "page6_text1_ja",
+      "lang": "ja",
+      "text": "家に帰ったおじいさんから話を聞いたおばあさんは、",
+      "prompt": "[listening, understanding]"
+    },
+    {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "The old woman, after hearing the story from the old man who returned home,",
+      "prompt": "[listening, understanding]"
+    },
+    {
+      "audio": "page6_text2_ja",
+      "lang": "ja",
+      "text": "「まあ、なんて優しいおじいさん！お地蔵さまも喜んだだろうね」と、おじいさんの行動を喜びました。",
+      "prompt": "[praising, happy]"
+    },
+    {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "\"Oh, what a kind old man! The Jizo must have been happy too,\" and rejoiced in the old man's actions.",
+      "prompt": "[praising, happy]"
+    },
+    {
+      "audio": "page6_text3_ja",
+      "lang": "ja",
+      "text": "その夜、おじいさんとおばあさんが寝ていると、家の戸がトントンと鳴りました。",
+      "prompt": "[peaceful, then startled]"
+    },
+    {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "That night, as the old man and woman were sleeping, there was a knock, knock, knock on their door.",
+      "prompt": "[peaceful, then startled]"
+    },
+    {
+      "audio": "page6_text4_ja",
+      "lang": "ja",
+      "text": "「どなたでしょう？」",
+      "prompt": "[curious, slightly fearful]"
+    },
+    {
+      "audio": "page6_text4_en",
+      "lang": "en",
+      "text": "\"Who could it be?\"",
+      "prompt": "[curious, slightly fearful]"
+    },
+    {
+      "audio": "page7_text1_ja",
+      "lang": "ja",
+      "text": "おじいさんが戸を開けると、そこにはなんと、",
+      "prompt": "[surprised, astonished]"
+    },
+    {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "When the old man opened the door, to his surprise,",
+      "prompt": "[surprised, astonished]"
+    },
+    {
+      "audio": "page7_text2_ja",
+      "lang": "ja",
+      "text": "おじいさんが笠をかぶせてあげたお地蔵さまたちが、たくさん立っていました。",
+      "prompt": "[astonished, amazed]"
+    },
+    {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "there stood many Jizo statues, the ones he had put hats on.",
+      "prompt": "[astonished, amazed]"
+    },
+    {
+      "audio": "page7_text3_ja",
+      "lang": "ja",
+      "text": "そして、お地蔵さまは、おじいさんとおばあさんに、たくさんの宝物や、おいしい食べ物を運んできてくれたのです。",
+      "prompt": "[amazed, grateful]"
+    },
+    {
+      "audio": "page7_text3_en",
+      "lang": "en",
+      "text": "And the Jizo statues had brought them lots of treasures and delicious food.",
+      "prompt": "[amazed, grateful]"
+    },
+    {
+      "audio": "page7_text4_ja",
+      "lang": "ja",
+      "text": "「これはどういうことだろう？」",
+      "prompt": "[confused, amazed]"
+    },
+    {
+      "audio": "page7_text4_en",
+      "lang": "en",
+      "text": "\"What could this mean?\"",
+      "prompt": "[confused, amazed]"
+    },
+    {
+      "audio": "page8_text1_ja",
+      "lang": "ja",
+      "text": "おじいさんとおばあさんは、びっくりしました。",
+      "prompt": "[surprised, astonished]"
+    },
+    {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "The old man and woman were surprised.",
+      "prompt": "[surprised, astonished]"
+    },
+    {
+      "audio": "page8_text2_ja",
+      "lang": "ja",
+      "text": "すると、お地蔵さまの中から一体のお地蔵さまが、にっこり笑って言いました。",
+      "prompt": "[gentle, kindly]"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "Then, one of the Jizo statues smiled and said,",
+      "prompt": "[gentle, kindly]"
+    },
+    {
+      "audio": "page8_text3_ja",
+      "lang": "ja",
+      "text": "「おじいさんの優しい心のおかげで、私たちもあたたかく過ごすことができました。",
+      "prompt": "[warmly, gratefully]"
+    },
+    {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "\"Thanks to your kind heart, old man, we were able to stay warm.",
+      "prompt": "[warmly, gratefully]"
+    },
+    {
+      "audio": "page8_text4_ja",
+      "lang": "ja",
+      "text": "そのお礼に、この宝物をおじいさんとおばあさんにあげます。」",
+      "prompt": "[generously, kindly]"
+    },
+    {
+      "audio": "page8_text4_en",
+      "lang": "en",
+      "text": "In return, we give these treasures to you and your wife.\"",
+      "prompt": "[generously, kindly]"
+    },
+    {
+      "audio": "page9_text1_ja",
+      "lang": "ja",
+      "text": "おじいさんとおばあさんは、お地蔵さまに心から感謝しました。",
+      "prompt": "[grateful, joyful]"
+    },
+    {
+      "audio": "page9_text1_en",
+      "lang": "en",
+      "text": "The old man and woman thanked the Jizo statues from the bottom of their hearts.",
+      "prompt": "[grateful, joyful]"
+    },
+    {
+      "audio": "page9_text2_ja",
+      "lang": "ja",
+      "text": "そして、その宝物のおかげで、貧しい暮らしも楽になり、",
+      "prompt": "[happily, relieved]"
+    },
+    {
+      "audio": "page9_text2_en",
+      "lang": "en",
+      "text": "Thanks to those treasures, their poor life became easier,",
+      "prompt": "[happily, relieved]"
+    },
+    {
+      "audio": "page9_text3_ja",
+      "lang": "ja",
+      "text": "その後はずっと幸せに暮らしましたとさ。",
+      "prompt": "[happily, contentedly]"
+    },
+    {
+      "audio": "page9_text3_en",
+      "lang": "en",
+      "text": "and they lived happily ever after.",
+      "prompt": "[happily, contentedly]"
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "おじいさんが町へ持っていったものは何ですか？食べ物、竹細工、お金",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "What did the old man take to town? Food, Bamboo crafts, Money",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "おじいさんは、お地蔵さまに何をしてあげましたか？歌を歌ってあげた、笠をかぶせてあげた、お菓子をあげた",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "What did the old man do for the Jizo statues? He sang them a song., He put hats on them., He gave them snacks.",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "笠が足りなくなったとき、おじいさんはどうしましたか？家に帰った、手ぬぐいをほどいてかぶせた、何もせずにお地蔵さまをそのままにした",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "What did the old man do when he ran out of hats? He went home., He unraveled his towel and used it., He left the Jizo statues as they were.",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "夜、おじいさんとおばあさんの家の戸を鳴らしたのは誰でしたか？隣のおばあさん、お地蔵さまたち、町の人々",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "Who knocked on the old couple's door at night? The old woman next door., The Jizo statues., People from town.",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question5_ja",
+      "lang": "ja",
+      "text": "お地蔵さまたちは、おじいさんとおばあさんに何を持ってきてくれましたか？野菜、宝物と食べ物、新しい笠",
+      "prompt": "[question]"
+    },
+    {
+      "audio": "question5_en",
+      "lang": "en",
+      "text": "What did the Jizo statues bring to the old man and woman? Vegetables, Treasures and food., New hats.",
+      "prompt": "[question]"
+    }
+  ]
+}
