@@ -43,6 +43,7 @@ function parseInputYml(filePath: string): {
   description: string;
   imageStyle: string;
   systemInstruction: string | undefined;
+  voiceName: string | undefined;
 } {
   const raw = parseYaml(fs.readFileSync(filePath, "utf-8")) as Record<
     string,
@@ -68,6 +69,7 @@ function parseInputYml(filePath: string): {
     description: toStr(raw.description),
     imageStyle: toStr(raw.imageStyle),
     systemInstruction: raw.systemInstruction ? toStr(raw.systemInstruction) : undefined,
+    voiceName: raw.voiceName ? String(raw.voiceName) : undefined,
   };
 }
 
@@ -116,8 +118,8 @@ async function main(): Promise<void> {
         console.error("エラー: audio コマンドには inputFile が必要です");
         usage();
       }
-      const { id } = parseInputYml(inputFile);
-      await new BookGenerator().generateAudio(id);
+      const { id, voiceName } = parseInputYml(inputFile);
+      await new BookGenerator().generateAudio(id, voiceName);
       break;
     }
     case "meta": {

@@ -45,6 +45,7 @@ export class AudioGenerator {
 
   private async synthesize(
     entry: AudioPromptEntry,
+    voiceName: string,
     retries = 5,
   ): Promise<Buffer> {
     for (let attempt = 0; attempt <= retries; attempt++) {
@@ -56,7 +57,7 @@ export class AudioGenerator {
             responseModalities: ["AUDIO"],
             speechConfig: {
               voiceConfig: {
-                prebuiltVoiceConfig: { voiceName: "Achernar" },
+                prebuiltVoiceConfig: { voiceName },
               },
             },
           },
@@ -85,7 +86,7 @@ export class AudioGenerator {
     throw new Error("unreachable");
   }
 
-  async generateForBook(bookDir: string): Promise<void> {
+  async generateForBook(bookDir: string, voiceName = "Achernar"): Promise<void> {
     const promptsPath = path.join(bookDir, "audio_prompts.json");
     if (!fs.existsSync(promptsPath)) {
       throw new Error(`audio_prompts.json not found: ${promptsPath}`);
@@ -108,7 +109,7 @@ export class AudioGenerator {
       console.log(
         `  ${entry.audio}: "${entry.text.slice(0, 30)}" — ${entry.prompt}`,
       );
-      fs.writeFileSync(file, await this.synthesize(entry));
+      fs.writeFileSync(file, await this.synthesize(entry, voiceName));
     }
   }
 }

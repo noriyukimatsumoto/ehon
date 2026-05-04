@@ -16,3 +16,5 @@ systemInstruction: |
 
 imageStyle: 
   - 油絵。
+# https://docs.cloud.google.com/text-to-speech/docs/gemini-tts
+voiceName: Callirrhoe

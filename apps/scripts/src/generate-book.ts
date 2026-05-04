@@ -81,12 +81,12 @@ export class BookGenerator {
     console.log("  Done.");
   }
 
-  async generateAudio(bookId: string): Promise<void> {
+  async generateAudio(bookId: string, voiceName?: string): Promise<void> {
     const bookDir = this.bookDir(bookId);
     fs.mkdirSync(path.join(bookDir, "audios"), { recursive: true });
 
     console.log("\n[1/1] audio_prompts.json → audios/");
-    await this.audio.generateForBook(bookDir);
+    await this.audio.generateForBook(bookDir, voiceName);
     console.log("  Done.");
   }
 

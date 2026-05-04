@@ -1,0 +1,208 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "むかしむかし、心優しいおじいさんとおばあさんがいました。",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "Once upon a time, there lived a kind old man and woman.",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "おじいさんは山で、矢に当たった鶴を見つけました。",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "The old man found a crane injured by an arrow in the mountains.",
+      "prompt": "[calmly, gently]"
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "かわいそうに思い、鶴を家に連れ帰り、手当てをしました。",
+      "prompt": "[tenderly, gently]"
+    },
+    {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "Feeling sorry for it, they took the crane home and nursed it.",
+      "prompt": "[tenderly, gently]"
+    },
+    {
+      "audio": "page1_text4_ja",
+      "lang": "ja",
+      "text": "元気になった鶴は、感謝して空へと飛び立っていきました。",
+      "prompt": "[cheerfully, gratefully]"
+    },
+    {
+      "audio": "page1_text4_en",
+      "lang": "en",
+      "text": "The crane, now recovered, flew away gratefully into the sky.",
+      "prompt": "[cheerfully, gratefully]"
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "その晩、美しい娘が訪ねてきて、住み込みで働きたいと頼みました。",
+      "prompt": "[warmly, gently]"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "That evening, a beautiful young woman visited and asked to work and live with them.",
+      "prompt": "[warmly, gently]"
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "娘は一生懸命に機を織り、素晴らしい布を織り上げました。",
+      "prompt": "[diligently, proudly]"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "The young woman worked diligently, weaving beautiful cloth.",
+      "prompt": "[diligently, proudly]"
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "その布は鶴の羽で織られたと噂され、暮らしは豊かになりました。",
+      "prompt": "[calmly, narrating]"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "It was rumored to be woven from crane feathers, and their lives became prosperous.",
+      "prompt": "[calmly, narrating]"
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "娘には一つだけお願いがありました。「機を織っている間は覗かないでください」。",
+      "prompt": "[gently, seriously]"
+    },
+    {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "The young woman had one request: 'Please do not peek while I am weaving.'",
+      "prompt": "[gently, seriously]"
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "おじいさんとおばあさんは約束を守りましたが、おばあさんは気になり始めました。",
+      "prompt": "[calmly, then curiously]"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "The old couple kept their promise, but the old woman grew curious.",
+      "prompt": "[calmly, then curiously]"
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "「一体、中で何をしているのだろう？」おばあさんは約束を破ってしまいました。",
+      "prompt": "[curiously, then regretfully]"
+    },
+    {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "'What could she possibly be doing in there?' The old woman broke her promise.",
+      "prompt": "[curiously, then regretfully]"
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "機織り部屋を覗くと、なんと、あの鶴が自分の羽をむしり取っていました。",
+      "prompt": "[shocked, dramatically]"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "Peeking inside, she saw the very crane, plucking its own feathers!",
+      "prompt": "[shocked, dramatically]"
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "鶴は悲しそうに「もう、あなたたちのために布は織れません」と言いました。",
+      "prompt": "[sadly, softly]"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "The crane said sadly, 'I can no longer weave cloth for you.'",
+      "prompt": "[sadly, softly]"
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "鶴は飛び立ち、おじいさんとおばあさんは、その優しさを忘れることはありませんでした。",
+      "prompt": "[sadly, reflectfully]"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "The crane flew away, and the old couple never forgot its kindness.",
+      "prompt": "[sadly, reflectfully]"
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "おじいさんが山で助けたのは、何の鳥でしたか？鶴、鳩、カラス",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "What kind of bird did the old man save in the mountains? Crane, Pigeon, Crow",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "娘は、機を織る間、どんなお願いをしましたか？部屋を明るくしてほしい、絶対に覗かないでほしい、静かにしてほしい",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "What request did the young woman make while weaving? To make the room brighter, Not to peek at all, To keep quiet",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "おばあさんが約束を破って覗いたとき、何がいましたか？美しい娘、助けた鶴、何もいなかった",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "When the old woman broke her promise and peeked, what did she see? The beautiful young woman, The saved crane, Nothing",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "鶴は、布を織るために何をしていましたか？自分の羽をむしり取っていた、綿を紡いでいた、絹糸を染めていた",
+      "prompt": "[calmly, questioningly]"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "What was the crane doing to weave the cloth? Plucking its own feathers, Spinning cotton, Dyeing silk threads",
+      "prompt": "[calmly, questioningly]"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、心優しいおじいさんとおばあさんがいました。",
+          "en": "Once upon a time, there lived a kind old man and woman.",
+          "duration": 5,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "おじいさんは山で、矢に当たった鶴を見つけました。",
+          "en": "The old man found a crane injured by an arrow in the mountains.",
+          "duration": 5,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "かわいそうに思い、鶴を家に連れ帰り、手当てをしました。",
+          "en": "Feeling sorry for it, they took the crane home and nursed it.",
+          "duration": 5,
+          "audio": "page1_text3"
+        },
+        {
+          "ja": "元気になった鶴は、感謝して空へと飛び立っていきました。",
+          "en": "The crane, now recovered, flew away gratefully into the sky.",
+          "duration": 5,
+          "audio": "page1_text4"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "その晩、美しい娘が訪ねてきて、住み込みで働きたいと頼みました。",
+          "en": "That evening, a beautiful young woman visited and asked to work and live with them.",
+          "duration": 6,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "娘は一生懸命に機を織り、素晴らしい布を織り上げました。",
+          "en": "The young woman worked diligently, weaving beautiful cloth.",
+          "duration": 6,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "その布は鶴の羽で織られたと噂され、暮らしは豊かになりました。",
+          "en": "It was rumored to be woven from crane feathers, and their lives became prosperous.",
+          "duration": 6,
+          "audio": "page2_text3"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "娘には一つだけお願いがありました。「機を織っている間は覗かないでください」。",
+          "en": "The young woman had one request: 'Please do not peek while I am weaving.'",
+          "duration": 6,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "おじいさんとおばあさんは約束を守りましたが、おばあさんは気になり始めました。",
+          "en": "The old couple kept their promise, but the old woman grew curious.",
+          "duration": 6,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "「一体、中で何をしているのだろう？」おばあさんは約束を破ってしまいました。",
+          "en": "'What could she possibly be doing in there?' The old woman broke her promise.",
+          "duration": 6,
+          "audio": "page3_text3"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "機織り部屋を覗くと、なんと、あの鶴が自分の羽をむしり取っていました。",
+          "en": "Peeking inside, she saw the very crane, plucking its own feathers!",
+          "duration": 6,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "鶴は悲しそうに「もう、あなたたちのために布は織れません」と言いました。",
+          "en": "The crane said sadly, 'I can no longer weave cloth for you.'",
+          "duration": 6,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "鶴は飛び立ち、おじいさんとおばあさんは、その優しさを忘れることはありませんでした。",
+          "en": "The crane flew away, and the old couple never forgot its kindness.",
+          "duration": 6,
+          "audio": "page4_text3"
+        }
+      ],
+      "image": "scene4.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "おじいさんが山で助けたのは、何の鳥でしたか？",
+      "en": "What kind of bird did the old man save in the mountains?",
+      "duration": 4,
+      "answerDuration": 6,
+      "audio": "question1",
+      "image": "question1.png",
+      "choices": [
+        {
+          "ja": "鶴",
+          "en": "Crane",
+          "correct": true,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "鳩",
+          "en": "Pigeon",
+          "correct": false,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "カラス",
+          "en": "Crow",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "娘は、機を織る間、どんなお願いをしましたか？",
+      "en": "What request did the young woman make while weaving?",
+      "duration": 4,
+      "answerDuration": 6,
+      "audio": "question2",
+      "image": "question2.png",
+      "choices": [
+        {
+          "ja": "部屋を明るくしてほしい",
+          "en": "To make the room brighter",
+          "correct": false,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "絶対に覗かないでほしい",
+          "en": "Not to peek at all",
+          "correct": true,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "静かにしてほしい",
+          "en": "To keep quiet",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "おばあさんが約束を破って覗いたとき、何がいましたか？",
+      "en": "When the old woman broke her promise and peeked, what did she see?",
+      "duration": 4,
+      "answerDuration": 6,
+      "audio": "question3",
+      "image": "question3.png",
+      "choices": [
+        {
+          "ja": "美しい娘",
+          "en": "The beautiful young woman",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "助けた鶴",
+          "en": "The saved crane",
+          "correct": true,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "何もいなかった",
+          "en": "Nothing",
+          "correct": false,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "鶴は、布を織るために何をしていましたか？",
+      "en": "What was the crane doing to weave the cloth?",
+      "duration": 4,
+      "answerDuration": 6,
+      "audio": "question4",
+      "image": "question4.png",
+      "choices": [
+        {
+          "ja": "自分の羽をむしり取っていた",
+          "en": "Plucking its own feathers",
+          "correct": true,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "綿を紡いでいた",
+          "en": "Spinning cotton",
+          "correct": false,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "絹糸を染めていた",
+          "en": "Dyeing silk threads",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "鶴の恩返し"
+}
