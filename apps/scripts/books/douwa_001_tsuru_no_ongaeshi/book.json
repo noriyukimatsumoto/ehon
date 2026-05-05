@@ -38,7 +38,7 @@
           "audio": "page2_text1"
         },
         {
-          "ja": "娘は一生懸命に機を織り、素晴らしい布を織り上げました。",
+          "ja": "娘は一生懸命に布を織り、素晴らしい布を織り上げました。",
           "en": "The young woman worked diligently, weaving beautiful cloth.",
           "duration": 6,
           "audio": "page2_text2"
@@ -55,7 +55,7 @@
     {
       "texts": [
         {
-          "ja": "娘には一つだけお願いがありました。「機を織っている間は覗かないでください」。",
+          "ja": "娘には一つだけお願いがありました。「布を織っている間は覗かないでください」。",
           "en": "The young woman had one request: 'Please do not peek while I am weaving.'",
           "duration": 6,
           "audio": "page3_text1"
@@ -78,7 +78,7 @@
     {
       "texts": [
         {
-          "ja": "機織り部屋を覗くと、なんと、あの鶴が自分の羽をむしり取っていました。",
+          "ja": "布織り部屋を覗くと、なんと、あの鶴が自分の羽をむしり取っていました。",
           "en": "Peeking inside, she saw the very crane, plucking its own feathers!",
           "duration": 6,
           "audio": "page4_text1"
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "ja": "娘は、機を織る間、どんなお願いをしましたか？",
+      "ja": "娘は、布を織る間、どんなお願いをしましたか？",
       "en": "What request did the young woman make while weaving?",
       "duration": 4,
       "answerDuration": 6,

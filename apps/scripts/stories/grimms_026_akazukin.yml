@@ -1,0 +1,12 @@
+id: grimms_026_akazukin
+title: 赤ずきん
+description: |
+  以下の「赤ずきん」を子ども向けにわかりやすく1000文字程度に要約してください。
+ 
+systemInstruction: |
+  物語の登場人物・出来事・結末を指示通りに要約してください。
+  子供に読み聞かせる文章のため、残虐な描写（処刑・首吊り・暴力など）は省略するか、穏やかな表現に置き換えてください。
+
+imageStyle: 
+  - 油絵。
+# https://docs.cloud.google.com/text-to-speech/docs/gemini-tts
