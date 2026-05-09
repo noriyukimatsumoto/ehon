@@ -1,15 +1,41 @@
 [
   {
-    "id": "akazukin",
+    "id": "douwa_001_tsuru_no_ongaeshi",
     "version": "1.0.0",
     "title": {
-      "ja": "赤ずきん",
-      "en": "Little Red Riding Hood"
+      "ja": "鶴の恩返し",
+      "en": "The Crane's Return of a Favor"
     },
-    "categoryId": "grimm",
+    "categoryId": "japanese-folktale",
     "categoryName": {
-      "ja": "グリム童話",
-      "en": "Grimm's Fairy Tales"
+      "ja": "日本の昔話",
+      "en": "Japanese Folktale"
+    }
+  },
+  {
+    "id": "douwa_002_kasazizou",
+    "version": "1.0.0",
+    "title": {
+      "ja": "かさじぞう",
+      "en": "The Jizo Statues and the Straw Hats"
+    },
+    "categoryId": "japanese-folktale",
+    "categoryName": {
+      "ja": "日本の民話",
+      "en": "Japanese Folktale"
+    }
+  },
+  {
+    "id": "douwa_003_kaguyahime",
+    "version": "1.0.0",
+    "title": {
+      "ja": "かぐや姫",
+      "en": "The Tale of the Bamboo Cutter"
+    },
+    "categoryId": "japanese-folktale",
+    "categoryName": {
+      "ja": "日本の昔話",
+      "en": "Japanese Folktale"
     }
   },
   {
@@ -44,6 +70,32 @@
     "title": {
       "ja": "聖母マリアの子供",
       "en": "The Child of Saint Mary"
+    },
+    "categoryId": "grimm",
+    "categoryName": {
+      "ja": "グリム童話",
+      "en": "Grimm's Fairy Tales"
+    }
+  },
+  {
+    "id": "grimms_005_okami_to_nanabiki_no_ko_yagi",
+    "version": "1.0.0",
+    "title": {
+      "ja": "狼と七匹の子ヤギ",
+      "en": "The Wolf and the Seven Young Goats"
+    },
+    "categoryId": "grimm",
+    "categoryName": {
+      "ja": "グリム童話",
+      "en": "Grimm's Fairy Tales"
+    }
+  },
+  {
+    "id": "grimms_026_akazukin",
+    "version": "1.0.0",
+    "title": {
+      "ja": "赤ずきん",
+      "en": "Little Red Riding Hood"
     },
     "categoryId": "grimm",
     "categoryName": {

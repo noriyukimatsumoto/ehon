@@ -1,0 +1,785 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、あるところに、とても年をとった王様がいました。",
+          "en": "Once upon a time, there was a very old king.",
+          "duration": 5,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "王様は病気になって、もうすぐ死んでしまうかもしれないと思いました。",
+          "en": "The king fell ill and thought he might die soon.",
+          "duration": 5,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "そこで、王様は一番信頼している家来、「忠実なジョン」を呼びました。",
+          "en": "So, the king summoned his most trusted servant, 'Faithful John'.",
+          "duration": 6,
+          "audio": "page1_text3"
+        },
+        {
+          "ja": "ジョンは、昔から王様にとても誠実だったので、そう呼ばれていました。",
+          "en": "John was called so because he had always been very loyal to the king.",
+          "duration": 7,
+          "audio": "page1_text4"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "王様はジョンに、「私の終わりが近づいているようだ。",
+          "en": "The king said to John, 'My end seems to be near.",
+          "duration": 5,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "心配なのは、まだ若い息子のことだけだ。",
+          "en": "My only worry is my young son.",
+          "duration": 4,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "息子が立派な王様になれるように、君が教えてやってほしい。",
+          "en": "I want you to teach him so he can become a great king.",
+          "duration": 6,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "そして、私の死後、息子に城のすべてを見せてあげてほしい。",
+          "en": "And after my death, show my son everything in the castle.",
+          "duration": 6,
+          "audio": "page2_text4"
+        },
+        {
+          "ja": "ただし、一番奥にある部屋だけは絶対に見せてはいけない。",
+          "en": "However, you must never show him the room at the very back.",
+          "duration": 6,
+          "audio": "page2_text5"
+        },
+        {
+          "ja": "そこには、黄金の城の王女様の絵がある。",
+          "en": "In there is a painting of the princess of the golden castle.",
+          "duration": 5,
+          "audio": "page2_text6"
+        },
+        {
+          "ja": "もし息子があの絵を見たら、恋に落ちて危険なことをしてしまうだろう。",
+          "en": "If my son sees that painting, he will fall in love and do something dangerous.",
+          "duration": 7,
+          "audio": "page2_text7"
+        },
+        {
+          "ja": "どうか、息子をあの絵から守ってくれ。",
+          "en": "Please protect my son from that painting.",
+          "duration": 5,
+          "audio": "page2_text8"
+        },
+        {
+          "ja": "ジョンは、「命にかけてお約束します。息子様を必ずお守りします。」と誓いました。",
+          "en": "John vowed, 'I promise on my life. I will surely protect your son.'",
+          "duration": 7,
+          "audio": "page2_text9"
+        },
+        {
+          "ja": "王様は安心して息を引き取りました。",
+          "en": "The king passed away with peace of mind.",
+          "duration": 4,
+          "audio": "page2_text10"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "お葬式が終わって、ジョンは若き王様にお父様との約束を話しました。",
+          "en": "After the funeral, John told the young king about the promise with his father.",
+          "duration": 6,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "「お父様との約束を守ります。命にかけて、あなたにも忠実にお仕えします。」",
+          "en": "'I will keep my promise with your father. I will serve you faithfully, on my life.'",
+          "duration": 7,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "そして、ジョンは王様を連れて、お城の立派なお部屋や宝物を見せました。",
+          "en": "Then, John took the king around, showing him the magnificent rooms and treasures of the castle.",
+          "duration": 7,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "でも、あの絵のある部屋だけは、どうしても開けようとしません。",
+          "en": "But he absolutely refused to open the room with the painting.",
+          "duration": 6,
+          "audio": "page3_text4"
+        },
+        {
+          "ja": "王様は、「どうしてこの部屋だけ見せてくれないのだ？」とジョンに聞きました。",
+          "en": "The king asked John, 'Why won't you show me this room?'",
+          "duration": 6,
+          "audio": "page3_text5"
+        },
+        {
+          "ja": "ジョンは、「お父様との約束ですから。」と答えましたが、王様は納得しません。",
+          "en": "John replied, 'It's a promise with your father.' But the king was not convinced.",
+          "duration": 7,
+          "audio": "page3_text6"
+        },
+        {
+          "ja": "どうしても中を見たいと、ドアをこじ開けようとしました。",
+          "en": "He desperately wanted to see inside and tried to force the door open.",
+          "duration": 6,
+          "audio": "page3_text7"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ジョンは、王様をこれ以上危険な目に遭わせたくなかったので、仕方なくドアを開けました。",
+          "en": "John, not wanting to put the king in further danger, reluctantly opened the door.",
+          "duration": 7,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "しかし、絵はドアを開けるとすぐ正面にあり、ジョンが王様をかばっても、",
+          "en": "However, the painting was directly in front of the door, and even though John tried to shield the king,",
+          "duration": 7,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "王様はジョンの肩越しに絵を見てしまいました。",
+          "en": "the king saw the painting over John's shoulder.",
+          "duration": 5,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "その絵はとても美しく描かれていて、まるで生きているかのようでした。",
+          "en": "The painting was so beautifully rendered, it looked as if it were alive.",
+          "duration": 6,
+          "audio": "page4_text4"
+        },
+        {
+          "ja": "あまりにも美しい王女様の姿に、王様は気を失って倒れてしまいました。",
+          "en": "Overwhelmed by the princess's beauty, the king fainted and fell.",
+          "duration": 6,
+          "audio": "page4_text5"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ジョンは王様をベッドに運び、ワインを飲ませて意識を戻させました。",
+          "en": "John carried the king to his bed and gave him wine to regain consciousness.",
+          "duration": 6,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "王様が最初に言ったのは、「あの絵の王女様はどなたですか？」ということでした。",
+          "en": "The first thing the king said was, 'Who is the princess in that painting?'",
+          "duration": 7,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "ジョンは「黄金の城の王女様です。」と答えました。",
+          "en": "John replied, 'She is the princess of the golden castle.'",
+          "duration": 5,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "王様は、「あの王女様を私の妻にしたい。",
+          "en": "The king said, 'I want to marry that princess.",
+          "duration": 5,
+          "audio": "page5_text4"
+        },
+        {
+          "ja": "そのために、君に手伝ってほしい。」と言いました。",
+          "en": "For that, I need your help.'",
+          "duration": 5,
+          "audio": "page5_text5"
+        },
+        {
+          "ja": "ジョンは考えました。王女様を一目見ることさえ難しいのに、どうすればいいだろうか。",
+          "en": "John pondered. It was difficult enough to catch a glimpse of the princess, how could he arrange a marriage?",
+          "duration": 7,
+          "audio": "page5_text6"
+        },
+        {
+          "ja": "そして、一つの方法を思いつきました。",
+          "en": "Then, he thought of a plan.",
+          "duration": 4,
+          "audio": "page5_text7"
+        },
+        {
+          "ja": "「王女様の周りのものはすべて金でできています。",
+          "en": "'Everything around the princess is made of gold.",
+          "duration": 5,
+          "audio": "page5_text8"
+        },
+        {
+          "ja": "金細工師に、王女様が喜びそうな、鳥や動物の形をした金細工をたくさん作らせ、",
+          "en": "Let's have goldsmiths create many golden ornaments in the shape of birds and animals that the princess would like,",
+          "duration": 8,
+          "audio": "page5_text9"
+        },
+        {
+          "ja": "船に積んで、黄金の城へ行きましょう。」",
+          "en": "load them onto a ship, and go to the golden castle.'",
+          "duration": 5,
+          "audio": "page5_text10"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "王様はすぐに金細工師たちを呼び、夜も昼も働いてもらい、",
+          "en": "The king immediately summoned the goldsmiths and had them work day and night,",
+          "duration": 6,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "見事な金細工の品々を作り上げました。",
+          "en": "producing magnificent golden crafts.",
+          "duration": 5,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "すべてを船に積むと、ジョンと王様は商人に変装して、黄金の城へ向かいました。",
+          "en": "After loading everything onto the ship, John and the king disguised themselves as merchants and headed for the golden castle.",
+          "duration": 8,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "黄金の城の町に着くと、ジョンは王様にお城で待っているように言いました。",
+          "en": "Upon arriving at the town of the golden castle, John told the king to wait at the castle.",
+          "duration": 7,
+          "audio": "page6_text4"
+        },
+        {
+          "ja": "そして、船からたくさんの金細工の品々をエプロンに集め、宮殿へ向かいました。",
+          "en": "Then, he gathered many golden crafts from the ship into his apron and headed to the palace.",
+          "duration": 7,
+          "audio": "page6_text5"
+        },
+        {
+          "ja": "宮殿の庭で、侍女が井戸のそばに立っているのを見かけました。",
+          "en": "In the palace garden, he saw a maid standing by a well.",
+          "duration": 5,
+          "audio": "page6_text6"
+        },
+        {
+          "ja": "ジョンは侍女に話しかけ、金細工の品々を見せました。",
+          "en": "John approached the maid and showed her the golden crafts.",
+          "duration": 6,
+          "audio": "page6_text7"
+        },
+        {
+          "ja": "侍女は「まあ、なんてきれいなの！」と喜び、王女様に見せたいと言って、",
+          "en": "The maid exclaimed, 'Oh, how beautiful!' and said she wanted to show them to the princess,",
+          "duration": 7,
+          "audio": "page6_text8"
+        },
+        {
+          "ja": "ジョンを宮殿へ案内しました。",
+          "en": "leading John into the palace.",
+          "duration": 4,
+          "audio": "page6_text9"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "王女様は金細工の品々を見て大変喜び、全部買いたいと言いました。",
+          "en": "The princess was delighted with the golden crafts and said she wanted to buy them all.",
+          "duration": 6,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "しかしジョンは、「これはほんの一部で、船にはもっとたくさん、",
+          "en": "But John said, 'This is only a small part; there are many more on the ship,",
+          "duration": 6,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "これまで見たことのないほど美しく貴重なものがあります。」と言いました。",
+          "en": "more beautiful and precious than you have ever seen.'",
+          "duration": 7,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "王女様はもっと見たくなり、船へ行くことにしました。",
+          "en": "The princess became eager to see more and decided to go to the ship.",
+          "duration": 6,
+          "audio": "page7_text4"
+        },
+        {
+          "ja": "船に乗った王女様は、王様が金細工の品々を見せるのに夢中になり、",
+          "en": "Once on board, the princess was so engrossed in the king showing her the crafts",
+          "duration": 7,
+          "audio": "page7_text5"
+        },
+        {
+          "ja": "船が海を渡っていることに気づきませんでした。",
+          "en": "that she didn't notice the ship was sailing across the sea.",
+          "duration": 6,
+          "audio": "page7_text6"
+        },
+        {
+          "ja": "すべての品物を見終わり、王女様が帰ろうとしたとき、",
+          "en": "When she had seen everything and tried to return,",
+          "duration": 6,
+          "audio": "page7_text7"
+        },
+        {
+          "ja": "船が陸から遠く離れて進んでいることに気づきました。",
+          "en": "she realized the ship was far from land.",
+          "duration": 6,
+          "audio": "page7_text8"
+        },
+        {
+          "ja": "「ああ、だまされた！」と王女様は叫びました。",
+          "en": "'Oh, I've been tricked!' the princess cried.",
+          "duration": 5,
+          "audio": "page7_text9"
+        },
+        {
+          "ja": "王様は王女様の手を握り、「私は商人ではありません。私は王です。",
+          "en": "The king took the princess's hand and said, 'I am not a merchant. I am a king.",
+          "duration": 7,
+          "audio": "page7_text10"
+        },
+        {
+          "ja": "あなたへの愛が大きすぎて、あなたを連れてきてしまいました。」と言いました。",
+          "en": "My love for you is so great that I brought you here.'",
+          "duration": 6,
+          "audio": "page7_text11"
+        },
+        {
+          "ja": "王女様は王様の言葉を聞き、王様に惹かれ、妻になることを承諾しました。",
+          "en": "Hearing his words, the princess was drawn to the king and agreed to become his wife.",
+          "duration": 7,
+          "audio": "page7_text12"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "船で帰る途中、ジョンは空を飛ぶ３羽のカラスの声を聞きました。",
+          "en": "On the way back by ship, John heard three crows flying overhead.",
+          "duration": 6,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "カラスたちは、王様が黄金の城の王女様を連れて帰ることについて話していました。",
+          "en": "The crows were talking about the king taking the princess of the golden castle home.",
+          "duration": 7,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "しかし、カラスたちは、これから起こる３つの危険について話しました。",
+          "en": "However, the crows spoke of three dangers that lay ahead.",
+          "duration": 7,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "１つ目は、王様が栗毛の馬に乗ろうとすると、馬が逃げ出して王様を空に連れて行き、",
+          "en": "First, when the king tried to ride a chestnut horse, the horse would bolt and carry the king into the sky,",
+          "duration": 8,
+          "audio": "page8_text4"
+        },
+        {
+          "ja": "二度と王女様に会えなくなるということ。",
+          "en": "never to see the princess again.",
+          "duration": 6,
+          "audio": "page8_text5"
+        },
+        {
+          "ja": "２つ目は、たとえ馬が助かっても、婚礼衣装が硫黄とコールタールでできており、",
+          "en": "Second, even if the horse was saved, the wedding clothes would be made of sulfur and tar,",
+          "duration": 8,
+          "audio": "page8_text6"
+        },
+        {
+          "ja": "王様がそれを着ると燃えてしまうということ。",
+          "en": "and the king would burn up if he wore them.",
+          "duration": 6,
+          "audio": "page8_text7"
+        },
+        {
+          "ja": "３つ目は、たとえ衣装が燃えても、結婚式のダンスの最中に王妃様が倒れてしまい、",
+          "en": "Third, even if the clothes didn't burn, the princess would collapse during the wedding dance,",
+          "duration": 8,
+          "audio": "page8_text8"
+        },
+        {
+          "ja": "誰かが王妃様の胸から３滴の血を吸って吐き出さないと死んでしまうということ。",
+          "en": "and die unless someone sucked three drops of blood from her chest and spat them out.",
+          "duration": 8,
+          "audio": "page8_text9"
+        },
+        {
+          "ja": "ジョンは、この話を聞いて、主人を救うために自分が犠牲になることを決心しました。",
+          "en": "Hearing this, John resolved to sacrifice himself to save his master.",
+          "duration": 7,
+          "audio": "page8_text10"
+        }
+      ],
+      "image": "scene8.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "岸に着くと、カラスが予言した通り、栗毛の馬が現れました。",
+          "en": "As they reached the shore, a chestnut horse appeared, just as the crows foretold.",
+          "duration": 6,
+          "audio": "page9_text1"
+        },
+        {
+          "ja": "王様が乗ろうとしたとき、ジョンがいち早く馬に飛び乗り、ピストルで馬を撃ちました。",
+          "en": "As the king was about to mount, John quickly jumped onto the horse and shot it with a pistol.",
+          "duration": 8,
+          "audio": "page9_text2"
+        },
+        {
+          "ja": "王様はジョンの行動に驚きましたが、ジョンが忠実であることを知っていたので、何も言いませんでした。",
+          "en": "The king was surprised by John's actions, but knowing his loyalty, he said nothing.",
+          "duration": 8,
+          "audio": "page9_text3"
+        },
+        {
+          "ja": "次に、婚礼衣装の入った皿がありました。",
+          "en": "Next, there was a platter with the wedding clothes.",
+          "duration": 5,
+          "audio": "page9_text4"
+        },
+        {
+          "ja": "王様が衣装を取ろうとしたとき、ジョンが手袋をして衣装を掴み、暖炉で燃やしました。",
+          "en": "When the king reached for the clothes, John, wearing gloves, grabbed them and burned them in the fireplace.",
+          "duration": 8,
+          "audio": "page9_text5"
+        },
+        {
+          "ja": "そして、結婚式のダンスが始まりました。",
+          "en": "Then, the wedding dance began.",
+          "duration": 4,
+          "audio": "page9_text6"
+        },
+        {
+          "ja": "花嫁が突然倒れ、まるで死んだかのようになりました。",
+          "en": "Suddenly, the bride collapsed, as if dead.",
+          "duration": 6,
+          "audio": "page9_text7"
+        },
+        {
+          "ja": "ジョンはすぐに駆け寄り、花嫁を部屋に運びました。",
+          "en": "John rushed over and carried the bride to a room.",
+          "duration": 5,
+          "audio": "page9_text8"
+        },
+        {
+          "ja": "そして、花嫁の右胸から３滴の血を吸って吐き出すと、花嫁は元気を取り戻しました。",
+          "en": "Then, he sucked three drops of blood from her right chest and spat them out, and the bride revived.",
+          "duration": 8,
+          "audio": "page9_text9"
+        },
+        {
+          "ja": "しかし、王様はジョンの行動を見て、なぜそんなことをしたのか分からず、ジョンを地下牢に入れました。",
+          "en": "However, the king, seeing John's actions and not understanding why, threw John into the dungeon.",
+          "duration": 8,
+          "audio": "page9_text10"
+        },
+        {
+          "ja": "次の日、ジョンは絞首台に送られることになりました。",
+          "en": "The next day, John was to be sent to the gallows.",
+          "duration": 6,
+          "audio": "page9_text11"
+        },
+        {
+          "ja": "死ぬ前に最後に言いたいことがあるかと聞かれ、ジョンは、カラスの話を聞いて、主人を救うために仕方なくやったのだと話しました。",
+          "en": "When asked if he had any last words, John explained that he had heard the crows and acted out of necessity to save his master.",
+          "duration": 10,
+          "audio": "page9_text12"
+        },
+        {
+          "ja": "王様はジョンの忠誠心を知り、すぐに彼を降ろすように命じました。",
+          "en": "The king, realizing John's loyalty, immediately ordered him to be brought down.",
+          "duration": 7,
+          "audio": "page9_text13"
+        },
+        {
+          "ja": "しかし、ジョンはすでに石になって地面に落ちていました。",
+          "en": "But John had already turned to stone and fallen to the ground.",
+          "duration": 6,
+          "audio": "page9_text14"
+        }
+      ],
+      "image": "scene9.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "王様とお妃様は、ジョンの忠誠心にとても心を痛めました。",
+          "en": "The king and queen were deeply saddened by John's loyalty.",
+          "duration": 6,
+          "audio": "page10_text1"
+        },
+        {
+          "ja": "王様は、石になったジョンを自分の部屋に置き、毎日「ああ、ジョンが生き返ってくれたらなあ。」と悲しみました。",
+          "en": "The king kept the stone John in his room and mourned daily, 'Oh, if only John could come back to life.'",
+          "duration": 9,
+          "audio": "page10_text2"
+        },
+        {
+          "ja": "しばらくして、お妃様は双子を出産しました。",
+          "en": "After some time, the queen gave birth to twins.",
+          "duration": 5,
+          "audio": "page10_text3"
+        },
+        {
+          "ja": "ある日、王様がお妃様と子供たちと一緒にいるときに、また石像を見て悲しんでいました。",
+          "en": "One day, while with the queen and their children, the king looked at the stone statue and grieved again.",
+          "duration": 8,
+          "audio": "page10_text4"
+        },
+        {
+          "ja": "すると、石像が話しました。「もし、あなたの一番大切なものを犠牲にしてくれるなら、私は生き返ることができます。」",
+          "en": "Then, the stone statue spoke, 'If you sacrifice your most precious possession, I can come back to life.'",
+          "duration": 9,
+          "audio": "page10_text5"
+        },
+        {
+          "ja": "王様は、「何でもしよう。」と言いました。",
+          "en": "The king said, 'I will do anything.'",
+          "duration": 4,
+          "audio": "page10_text6"
+        },
+        {
+          "ja": "石像は、「あなたの二人の子供たちの頭を自分で切り落とし、その血を私にかけなさい。」と言いました。",
+          "en": "The statue replied, 'You must cut off the heads of your two children yourself and pour their blood on me.'",
+          "duration": 9,
+          "audio": "page10_text7"
+        },
+        {
+          "ja": "王様は、子供を殺さなければならないことにショックを受けました。",
+          "en": "The king was shocked at the thought of killing his children.",
+          "duration": 6,
+          "audio": "page10_text8"
+        },
+        {
+          "ja": "しかし、ジョンの忠誠心を思い出し、刀を抜いて、自分で二人の子供たちの頭を切り落とし、その血を石像にかけました。",
+          "en": "But remembering John's loyalty, he drew his sword, cut off both his children's heads himself, and poured their blood on the statue.",
+          "duration": 10,
+          "audio": "page10_text9"
+        },
+        {
+          "ja": "すると、ジョンは生き返り、元気な姿で現れました。",
+          "en": "Then, John came back to life, appearing healthy and well.",
+          "duration": 7,
+          "audio": "page10_text10"
+        },
+        {
+          "ja": "そして、子供たちの頭を体にのせ、血で傷をこすりつけると、子供たちは元通りに跳ね回って遊び始めました。",
+          "en": "He then placed the children's heads back on their bodies and rubbed the wounds with the blood, and the children began to play and jump around as before.",
+          "duration": 10,
+          "audio": "page10_text11"
+        },
+        {
+          "ja": "王様は大変喜びましたが、お妃様が帰ってくると、ジョンと子供たちを戸棚に隠しました。",
+          "en": "The king was overjoyed, but when the queen returned, he hid John and the children in a cupboard.",
+          "duration": 8,
+          "audio": "page10_text12"
+        },
+        {
+          "ja": "そして、お妃様に尋ねました。「もし、ジョンを生き返らせるために子供たちの命を犠牲にしなければならないとしたら、あなたはそれを承諾できますか？」",
+          "en": "He then asked the queen, 'If you had to sacrifice your children's lives to bring John back to life, would you agree to it?'",
+          "duration": 10,
+          "audio": "page10_text13"
+        },
+        {
+          "ja": "お妃様は顔を青ざめさせながらも、「ジョンの忠誠心に報いるためならば、子供たちを犠牲にする覚悟があります。」と答えました。",
+          "en": "The queen, turning pale, replied, 'To reward John's loyalty, I would be prepared to sacrifice our children.'",
+          "duration": 9,
+          "audio": "page10_text14"
+        },
+        {
+          "ja": "王様はお妃様も同じ気持ちであることを知ると、戸棚からジョンと子供たちを連れ出しました。",
+          "en": "Knowing that the queen felt the same, the king brought John and the children out from the cupboard.",
+          "duration": 8,
+          "audio": "page10_text15"
+        },
+        {
+          "ja": "「実は、ジョンはすでに生き返り、子供たちも元気なのです！」と王様は喜んで言い、起きたことをすべてお妃様に話しました。",
+          "en": "'In fact, John has already come back to life, and the children are fine!' the king exclaimed happily and told the queen everything that had happened.",
+          "duration": 11,
+          "audio": "page10_text16"
+        },
+        {
+          "ja": "それから、王様とお妃様、そして忠実なジョンは、みんなで幸せに暮らしました。",
+          "en": "From then on, the king, the queen, and faithful John all lived happily ever after.",
+          "duration": 8,
+          "audio": "page10_text17"
+        }
+      ],
+      "image": "scene10.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "王様がジョンに、息子に城のすべてを見せるように頼みましたが、ひとつだけ見せてはいけない部屋がありました。その部屋には何がありましたか？",
+      "en": "The king asked John to show his son everything in the castle, but there was one room he must not show. What was in that room?",
+      "duration": 10,
+      "answerDuration": 10,
+      "audio": "question1",
+      "image": "scene2.png",
+      "choices": [
+        {
+          "ja": "宝物",
+          "en": "Treasures",
+          "correct": false,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "黄金の城の王女様の絵",
+          "en": "A painting of the princess of the golden castle",
+          "correct": true,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "王様の書斎",
+          "en": "The king's study",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "王様は、絵の王女様と結婚したいと言いました。ジョンは王女様を連れてくるために、どのような計画を立てましたか？",
+      "en": "The king wanted to marry the princess from the painting. What plan did John devise to bring the princess?",
+      "duration": 10,
+      "answerDuration": 10,
+      "audio": "question2",
+      "image": "scene5.png",
+      "choices": [
+        {
+          "ja": "王女様を誘拐しました。",
+          "en": "He kidnapped the princess.",
+          "correct": false,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "金細工の品々を船に積んで、王女様を黄金の城へ連れて行きました。",
+          "en": "He loaded golden crafts onto a ship and took them to the golden castle to meet the princess.",
+          "correct": true,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "王女様に手紙を書きました。",
+          "en": "He wrote a letter to the princess.",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "ジョンは３羽のカラスから、王様がこれから直面する３つの危険について聞きました。その３つ目の危険は何でしたか？",
+      "en": "John heard from three crows about three dangers the king would face. What was the third danger?",
+      "duration": 10,
+      "answerDuration": 10,
+      "audio": "question3",
+      "image": "scene8.png",
+      "choices": [
+        {
+          "ja": "王様が空を飛んでしまう。",
+          "en": "The king would fly into the sky.",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "婚礼衣装が燃えてしまう。",
+          "en": "The wedding clothes would burn.",
+          "correct": false,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "結婚式のダンス中に王妃様が倒れてしまう。",
+          "en": "The princess would collapse during the wedding dance.",
+          "correct": true,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "ジョンが王様を救うために危険を冒しましたが、王様はジョンを地下牢に入れました。なぜですか？",
+      "en": "John took risks to save the king, but the king put him in the dungeon. Why?",
+      "duration": 10,
+      "answerDuration": 10,
+      "audio": "question4",
+      "image": "scene9.png",
+      "choices": [
+        {
+          "ja": "王様はジョンの行動を理解できなかったからです。",
+          "en": "Because the king didn't understand John's actions.",
+          "correct": true,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "ジョンが王様を騙したと思ったからです。",
+          "en": "Because he thought John had tricked him.",
+          "correct": false,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "ジョンが王様を裏切ったと思ったからです。",
+          "en": "Because he thought John had betrayed him.",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "石像が生き返るために、王様は何を犠牲にしなければなりませんでしたか？",
+      "en": "What did the king have to sacrifice for the stone statue to come back to life?",
+      "duration": 10,
+      "answerDuration": 10,
+      "audio": "question5",
+      "image": "scene10.png",
+      "choices": [
+        {
+          "ja": "自分の王冠",
+          "en": "His crown",
+          "correct": false,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "自分の一番大切なもの（子供たち）",
+          "en": "His most precious possession (his children)",
+          "correct": true,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "城の宝物",
+          "en": "The castle's treasures",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "忠実なジョン"
+}

@@ -103,8 +103,8 @@
           "audio": "page3_text1"
         },
         {
-          "ja": "お店で石灰を食べて声を優しくしました。",
-          "en": "so he ate chalk at a shop to make his voice gentler.",
+          "ja": "お店で石灰を食べて声を高くしました。",
+          "en": "so he ate chalk at a shop to make his voice higher.",
           "duration": 6,
           "audio": "page3_text2"
         },
@@ -115,8 +115,8 @@
           "audio": "page3_text3"
         },
         {
-          "ja": "パン屋さんで粉をつけ、足も白くしてもらいました。",
-          "en": "he went to a bakery and had flour put on them to make them white.",
+          "ja": "パン屋さんで粉をつけ、足も白くしました。",
+          "en": "he went to a bakery and put flour on them to make them white.",
           "duration": 7,
           "audio": "page3_text4"
         }
@@ -132,8 +132,8 @@
           "audio": "page4_text1"
         },
         {
-          "ja": "今度は、優しくなった声と、白い足で",
-          "en": "This time, with his gentler voice and white feet,",
+          "ja": "今度は、高くなった声と、白い足で",
+          "en": "This time, with his higher voice and white feet,",
           "duration": 5,
           "audio": "page4_text2"
         },
@@ -378,8 +378,8 @@
       "image": "scene3.png",
       "choices": [
         {
-          "ja": "石灰を食べて声を優しくし、足に粉をつけた",
-          "en": "Ate chalk to soften his voice and put flour on his feet",
+          "ja": "石灰を食べて声を高くし、足に粉をつけた",
+          "en": "Ate chalk to raise his voice and put flour on his feet",
           "correct": true,
           "audio": "question2_choice1"
         },

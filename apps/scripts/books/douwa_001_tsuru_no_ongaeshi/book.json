@@ -106,7 +106,7 @@
       "duration": 4,
       "answerDuration": 6,
       "audio": "question1",
-      "image": "question1.png",
+      "image": "scene1.png",
       "choices": [
         {
           "ja": "鶴",
@@ -134,7 +134,7 @@
       "duration": 4,
       "answerDuration": 6,
       "audio": "question2",
-      "image": "question2.png",
+      "image": "scene3.png",
       "choices": [
         {
           "ja": "部屋を明るくしてほしい",
@@ -162,7 +162,7 @@
       "duration": 4,
       "answerDuration": 6,
       "audio": "question3",
-      "image": "question3.png",
+      "image": "scene4.png",
       "choices": [
         {
           "ja": "美しい娘",
@@ -190,7 +190,7 @@
       "duration": 4,
       "answerDuration": 6,
       "audio": "question4",
-      "image": "question4.png",
+      "image": "scene4.png",
       "choices": [
         {
           "ja": "自分の羽をむしり取っていた",

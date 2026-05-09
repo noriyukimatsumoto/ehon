@@ -257,7 +257,7 @@
       "duration": 5,
       "answerDuration": 5,
       "audio": "question1",
-      "image": "question1.png",
+      "image": "scene2.png",
       "choices": [
         {
           "ja": "食べ物",
@@ -285,7 +285,7 @@
       "duration": 5,
       "answerDuration": 5,
       "audio": "question2",
-      "image": "question2.png",
+      "image": "scene4.png",
       "choices": [
         {
           "ja": "歌を歌ってあげた",
@@ -313,7 +313,7 @@
       "duration": 5,
       "answerDuration": 5,
       "audio": "question3",
-      "image": "question3.png",
+      "image": "scene5.png",
       "choices": [
         {
           "ja": "家に帰った",
@@ -341,7 +341,7 @@
       "duration": 5,
       "answerDuration": 5,
       "audio": "question4",
-      "image": "question4.png",
+      "image": "scene7.png",
       "choices": [
         {
           "ja": "隣のおばあさん",
@@ -369,7 +369,7 @@
       "duration": 5,
       "answerDuration": 5,
       "audio": "question5",
-      "image": "question5.png",
+      "image": "scene8.png",
       "choices": [
         {
           "ja": "野菜",

@@ -1,0 +1,814 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "[narration,calm]むかしむかし、あるところに、"
+    },
+    {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "[narration,calm]Once upon a time, in a certain place,"
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "[narration,calm]優しいおじいさんとおばあさんが住んでいました。"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "[narration,calm]lived a kind old man and woman."
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "[narration,calm]二人には、シロという名前の"
+    },
+    {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "[narration,calm]They had a dog named Shiro,"
+    },
+    {
+      "audio": "page1_text4_ja",
+      "lang": "ja",
+      "text": "[narration,calm]とても賢い犬がいました。"
+    },
+    {
+      "audio": "page1_text4_en",
+      "lang": "en",
+      "text": "[narration,calm]who was very clever."
+    },
+    {
+      "audio": "page1_text5_ja",
+      "lang": "ja",
+      "text": "[narration,happy]おじいさんはシロをわが子のように可愛がり、"
+    },
+    {
+      "audio": "page1_text5_en",
+      "lang": "en",
+      "text": "[narration,happy]The old man loved Shiro like his own child,"
+    },
+    {
+      "audio": "page1_text6_ja",
+      "lang": "ja",
+      "text": "[narration,happy]毎日一緒に過ごしていました。"
+    },
+    {
+      "audio": "page1_text6_en",
+      "lang": "en",
+      "text": "[narration,happy]and spent every day together."
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "[narration,calm]ある日、おじいさんが畑仕事をしていると、"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "[narration,calm]One day, while the old man was working in the field,"
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "[narration,excited]シロが地面を一生懸命に掘り始めました。"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "[narration,excited]Shiro began to dig hard at the ground."
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "[narration,questioning]「どうしたんだい、シロ？」"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "[narration,questioning]\"What is it, Shiro?\""
+    },
+    {
+      "audio": "page2_text4_ja",
+      "lang": "ja",
+      "text": "[narration,happy]おじいさんが声をかけると、シロはうれしそうに吠えて、"
+    },
+    {
+      "audio": "page2_text4_en",
+      "lang": "en",
+      "text": "[narration,happy]When the old man called out, Shiro barked happily and"
+    },
+    {
+      "audio": "page2_text5_ja",
+      "lang": "ja",
+      "text": "[narration,happy]さらに掘り続けました。"
+    },
+    {
+      "audio": "page2_text5_en",
+      "lang": "en",
+      "text": "[narration,happy]kept digging."
+    },
+    {
+      "audio": "page2_text6_ja",
+      "lang": "ja",
+      "text": "[narration,excited]すると、地面の中からキラキラと輝く金銀財宝が出てきたのです！"
+    },
+    {
+      "audio": "page2_text6_en",
+      "lang": "en",
+      "text": "[narration,excited]Then, glittering gold and silver treasures emerged from the ground!"
+    },
+    {
+      "audio": "page2_text7_ja",
+      "lang": "ja",
+      "text": "[narration,excited]「これはすごい！シロのおかげだ！」"
+    },
+    {
+      "audio": "page2_text7_en",
+      "lang": "en",
+      "text": "[narration,excited]\"This is amazing! Thanks to Shiro!\""
+    },
+    {
+      "audio": "page2_text8_ja",
+      "lang": "ja",
+      "text": "[narration,happy]おじいさんとおばあさんは大喜びで、"
+    },
+    {
+      "audio": "page2_text8_en",
+      "lang": "en",
+      "text": "[narration,happy]The old man and woman were overjoyed,"
+    },
+    {
+      "audio": "page2_text9_ja",
+      "lang": "ja",
+      "text": "[narration,happy]シロにたっぷりご褒美をあげました。"
+    },
+    {
+      "audio": "page2_text9_en",
+      "lang": "en",
+      "text": "[narration,happy]and gave Shiro plenty of rewards."
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "[narration,suspicious]その様子を見ていたのが、欲張りな隣のおじいさんでした。"
+    },
+    {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "[narration,suspicious]Watching this was the greedy old man next door."
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "[narration,greedy]「わしにも宝物を見つけさせてくれ！」"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "[narration,greedy]\"Let me find treasure too!\""
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "[narration,forceful]隣のおじいさんはシロを無理やり連れて行き、"
+    },
+    {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "[narration,forceful]The neighbor old man forcibly took Shiro and"
+    },
+    {
+      "audio": "page3_text4_ja",
+      "lang": "ja",
+      "text": "[narration,forceful]畑を掘らせました。"
+    },
+    {
+      "audio": "page3_text4_en",
+      "lang": "en",
+      "text": "[narration,forceful]made him dig in the field."
+    },
+    {
+      "audio": "page3_text5_ja",
+      "lang": "ja",
+      "text": "[narration,frustrated]しかし、シロには宝物など見つけられません。"
+    },
+    {
+      "audio": "page3_text5_en",
+      "lang": "en",
+      "text": "[narration,frustrated]However, Shiro could not find any treasure."
+    },
+    {
+      "audio": "page3_text6_ja",
+      "lang": "ja",
+      "text": "[narration,angry]怒った隣のおじいさんは、"
+    },
+    {
+      "audio": "page3_text6_en",
+      "lang": "en",
+      "text": "[narration,angry]The angry neighbor old man"
+    },
+    {
+      "audio": "page3_text7_ja",
+      "lang": "ja",
+      "text": "[narration,cruel]シロをひどく傷つけてしまいました。"
+    },
+    {
+      "audio": "page3_text7_en",
+      "lang": "en",
+      "text": "[narration,cruel]severely injured Shiro."
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "[narration,sad]おじいさんはシロのことを聞いて、"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "[narration,sad]Hearing about Shiro, the old man"
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "[narration,sad]とても悲しくなりました。"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "[narration,sad]became very sad."
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "[narration,sad]「シロ、かわいそうに…」"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "[narration,sad]\"Poor Shiro...\""
+    },
+    {
+      "audio": "page4_text4_ja",
+      "lang": "ja",
+      "text": "[narration,calm]おじいさんは丁寧にシロを弔い、"
+    },
+    {
+      "audio": "page4_text4_en",
+      "lang": "en",
+      "text": "[narration,calm]The old man mourned Shiro carefully"
+    },
+    {
+      "audio": "page4_text5_ja",
+      "lang": "ja",
+      "text": "[narration,calm]庭の一角に立派なお墓を作ってあげました。"
+    },
+    {
+      "audio": "page4_text5_en",
+      "lang": "en",
+      "text": "[narration,calm]and built a fine grave in a corner of the garden."
+    },
+    {
+      "audio": "page4_text6_ja",
+      "lang": "ja",
+      "text": "[narration,mysterious]その夜、夢の中にシロが現れました。"
+    },
+    {
+      "audio": "page4_text6_en",
+      "lang": "en",
+      "text": "[narration,mysterious]That night, Shiro appeared in his dream."
+    },
+    {
+      "audio": "page4_text7_ja",
+      "lang": "ja",
+      "text": "[narration,calm]「おじいさん、ありがとうございます。"
+    },
+    {
+      "audio": "page4_text7_en",
+      "lang": "en",
+      "text": "[narration,calm]\"Thank you, old man."
+    },
+    {
+      "audio": "page4_text8_ja",
+      "lang": "ja",
+      "text": "[narration,calm]お墓のそばに木が生えますから、"
+    },
+    {
+      "audio": "page4_text8_en",
+      "lang": "en",
+      "text": "[narration,calm]A tree will grow by the grave,"
+    },
+    {
+      "audio": "page4_text9_ja",
+      "lang": "ja",
+      "text": "[narration,calm]その木で臼を作ってください。」"
+    },
+    {
+      "audio": "page4_text9_en",
+      "lang": "en",
+      "text": "[narration,calm]so please make a millstone from that tree.\""
+    },
+    {
+      "audio": "page4_text10_ja",
+      "lang": "ja",
+      "text": "[narration,calm]シロはそう言って、夢から消えました。"
+    },
+    {
+      "audio": "page4_text10_en",
+      "lang": "en",
+      "text": "[narration,calm]Shiro said this and disappeared from the dream."
+    },
+    {
+      "audio": "page5_text1_ja",
+      "lang": "ja",
+      "text": "[narration,calm]翌朝、シロのお墓のそばに、"
+    },
+    {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "[narration,calm]The next morning, by Shiro's grave,"
+    },
+    {
+      "audio": "page5_text2_ja",
+      "lang": "ja",
+      "text": "[narration,hopeful]一本の若木が芽吹いていました。"
+    },
+    {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "[narration,hopeful]a young sapling had sprouted."
+    },
+    {
+      "audio": "page5_text3_ja",
+      "lang": "ja",
+      "text": "[narration,calm]木はみるみる大きく育ち、"
+    },
+    {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "[narration,calm]The tree grew rapidly and became large,"
+    },
+    {
+      "audio": "page5_text4_ja",
+      "lang": "ja",
+      "text": "[narration,calm]やがて立派な木になりました。"
+    },
+    {
+      "audio": "page5_text4_en",
+      "lang": "en",
+      "text": "[narration,calm]eventually growing into a magnificent tree."
+    },
+    {
+      "audio": "page5_text5_ja",
+      "lang": "ja",
+      "text": "[narration,calm]おじいさんはその木で大きな臼を作りました。"
+    },
+    {
+      "audio": "page5_text5_en",
+      "lang": "en",
+      "text": "[narration,calm]The old man made a large millstone from that tree."
+    },
+    {
+      "audio": "page5_text6_ja",
+      "lang": "ja",
+      "text": "[narration,calm]お正月の餅つきに、おじいさんが"
+    },
+    {
+      "audio": "page5_text6_en",
+      "lang": "en",
+      "text": "[narration,calm]During New Year's mochi pounding, when the old man"
+    },
+    {
+      "audio": "page5_text7_ja",
+      "lang": "ja",
+      "text": "[narration,magical]その臼でお餅をつくと、不思議なことが起こりました。"
+    },
+    {
+      "audio": "page5_text7_en",
+      "lang": "en",
+      "text": "[narration,magical]pounded mochi with that millstone, something strange happened."
+    },
+    {
+      "audio": "page5_text8_ja",
+      "lang": "ja",
+      "text": "[narration,magical]臼の中から、次々と金銀財宝が湧き出てきたのです！"
+    },
+    {
+      "audio": "page5_text8_en",
+      "lang": "en",
+      "text": "[narration,magical]Gold and silver treasures gushed out one after another from the millstone!"
+    },
+    {
+      "audio": "page5_text9_ja",
+      "lang": "ja",
+      "text": "[narration,grateful]「これはシロのおかげだ。ありがたいことじゃ。」"
+    },
+    {
+      "audio": "page5_text9_en",
+      "lang": "en",
+      "text": "[narration,grateful]\"This is thanks to Shiro. How fortunate.\""
+    },
+    {
+      "audio": "page5_text10_ja",
+      "lang": "ja",
+      "text": "[narration,grateful]おじいさんとおばあさんは、心から感謝しました。"
+    },
+    {
+      "audio": "page5_text10_en",
+      "lang": "en",
+      "text": "[narration,grateful]The old man and woman were truly grateful."
+    },
+    {
+      "audio": "page6_text1_ja",
+      "lang": "ja",
+      "text": "[narration,suspicious]それを聞いた隣のおじいさんは、"
+    },
+    {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "[narration,suspicious]Hearing this, the greedy neighbor old man"
+    },
+    {
+      "audio": "page6_text2_ja",
+      "lang": "ja",
+      "text": "[narration,greedy]またしても欲が出ました。"
+    },
+    {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "[narration,greedy]became greedy again."
+    },
+    {
+      "audio": "page6_text3_ja",
+      "lang": "ja",
+      "text": "[narration,greedy]「わしにも、その臼を貸してくれ！」"
+    },
+    {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "[narration,greedy]\"Lend me that millstone too!\""
+    },
+    {
+      "audio": "page6_text4_ja",
+      "lang": "ja",
+      "text": "[narration,reluctant]仕方なく臼を貸してあげると、"
+    },
+    {
+      "audio": "page6_text4_en",
+      "lang": "en",
+      "text": "[narration,reluctant]Reluctantly, the old man lent him the millstone,"
+    },
+    {
+      "audio": "page6_text5_ja",
+      "lang": "ja",
+      "text": "[narration,greedy]隣のおじいさんがお餅をつき始めました。"
+    },
+    {
+      "audio": "page6_text5_en",
+      "lang": "en",
+      "text": "[narration,greedy]and the neighbor old man started pounding mochi."
+    },
+    {
+      "audio": "page6_text6_ja",
+      "lang": "ja",
+      "text": "[narration,disappointed]しかし、臼から出てきたのは、石や砂ばかりでした。"
+    },
+    {
+      "audio": "page6_text6_en",
+      "lang": "en",
+      "text": "[narration,disappointed]However, only stones and sand came out of the millstone."
+    },
+    {
+      "audio": "page6_text7_ja",
+      "lang": "ja",
+      "text": "[narration,angry]「なんだ、このつまらない臼は！」"
+    },
+    {
+      "audio": "page6_text7_en",
+      "lang": "en",
+      "text": "[narration,angry]\"What is this useless millstone?!\""
+    },
+    {
+      "audio": "page6_text8_ja",
+      "lang": "ja",
+      "text": "[narration,angry]怒った隣のおじいさんは、"
+    },
+    {
+      "audio": "page6_text8_en",
+      "lang": "en",
+      "text": "[narration,angry]The angry neighbor old man"
+    },
+    {
+      "audio": "page6_text9_ja",
+      "lang": "ja",
+      "text": "[narration,destructive]臼を燃やしてしまいました。"
+    },
+    {
+      "audio": "page6_text9_en",
+      "lang": "en",
+      "text": "[narration,destructive]burned the millstone."
+    },
+    {
+      "audio": "page7_text1_ja",
+      "lang": "ja",
+      "text": "[narration,sad]おじいさんはとても悲しくなりました。"
+    },
+    {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "[narration,sad]The old man was very sad."
+    },
+    {
+      "audio": "page7_text2_ja",
+      "lang": "ja",
+      "text": "[narration,sad]「シロの宿った臼が…」"
+    },
+    {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "[narration,sad]\"Shiro's spirit in the millstone...\""
+    },
+    {
+      "audio": "page7_text3_ja",
+      "lang": "ja",
+      "text": "[narration,calm]しかし、燃えた臼の灰をそっと集めていると、"
+    },
+    {
+      "audio": "page7_text3_en",
+      "lang": "en",
+      "text": "[narration,calm]However, as he gently gathered the ashes of the burned millstone,"
+    },
+    {
+      "audio": "page7_text4_ja",
+      "lang": "ja",
+      "text": "[narration,mysterious]またシロが夢に現れました。"
+    },
+    {
+      "audio": "page7_text4_en",
+      "lang": "en",
+      "text": "[narration,mysterious]Shiro appeared in his dream again."
+    },
+    {
+      "audio": "page7_text5_ja",
+      "lang": "ja",
+      "text": "[narration,calm]「おじいさん、その灰を枯れ木にまいてください。"
+    },
+    {
+      "audio": "page7_text5_en",
+      "lang": "en",
+      "text": "[narration,calm]\"Old man, please sprinkle that ash on a withered tree."
+    },
+    {
+      "audio": "page7_text6_ja",
+      "lang": "ja",
+      "text": "[narration,calm]きっとよいことがありますよ。」"
+    },
+    {
+      "audio": "page7_text6_en",
+      "lang": "en",
+      "text": "[narration,calm]Something good will surely happen.\""
+    },
+    {
+      "audio": "page8_text1_ja",
+      "lang": "ja",
+      "text": "[narration,calm]翌朝、おじいさんは灰を持って村を歩きました。"
+    },
+    {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "[narration,calm]The next morning, the old man walked through the village with the ashes."
+    },
+    {
+      "audio": "page8_text2_ja",
+      "lang": "ja",
+      "text": "[narration,magical]枯れた桜の木に灰をひとつかみまくと、"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "[narration,magical]When he sprinkled a handful of ash on a withered cherry tree,"
+    },
+    {
+      "audio": "page8_text3_ja",
+      "lang": "ja",
+      "text": "[narration,magical]なんとたちまち美しい花が咲き乱れたのです！"
+    },
+    {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "[narration,magical]lo and behold, beautiful flowers bloomed profusely in an instant!"
+    },
+    {
+      "audio": "page8_text4_ja",
+      "lang": "ja",
+      "text": "[narration,excited]「おお！枯れ木に花が咲いた！」"
+    },
+    {
+      "audio": "page8_text4_en",
+      "lang": "en",
+      "text": "[narration,excited]\"Oh! Flowers bloomed on a withered tree!\""
+    },
+    {
+      "audio": "page8_text5_ja",
+      "lang": "ja",
+      "text": "[narration,happy]村の人たちは驚き、大喜びしました。"
+    },
+    {
+      "audio": "page8_text5_en",
+      "lang": "en",
+      "text": "[narration,happy]The villagers were surprised and overjoyed."
+    },
+    {
+      "audio": "page8_text6_ja",
+      "lang": "ja",
+      "text": "[narration,calm]ちょうどそこへ、殿様の行列が通りかかりました。"
+    },
+    {
+      "audio": "page8_text6_en",
+      "lang": "en",
+      "text": "[narration,calm]Just then, the lord's procession passed by."
+    },
+    {
+      "audio": "page8_text7_ja",
+      "lang": "ja",
+      "text": "[narration,impressed]「おい、あれは何だ！枯れ木に花を咲かせるとは、見事じゃ！」"
+    },
+    {
+      "audio": "page8_text7_en",
+      "lang": "en",
+      "text": "[narration,impressed]\"Hey, what is that! Blooming flowers on a withered tree, how splendid!\""
+    },
+    {
+      "audio": "page8_text8_ja",
+      "lang": "ja",
+      "text": "[narration,generous]殿様はたいそう喜び、おじいさんにたくさんのご褒美を与えました。"
+    },
+    {
+      "audio": "page8_text8_en",
+      "lang": "en",
+      "text": "[narration,generous]The lord was greatly pleased and gave the old man many rewards."
+    },
+    {
+      "audio": "page8_text9_ja",
+      "lang": "ja",
+      "text": "[narration,happy]「花咲か爺さんじゃ！」"
+    },
+    {
+      "audio": "page8_text9_en",
+      "lang": "en",
+      "text": "[narration,happy]\"He is the Flower-Blooming Old Man!\""
+    },
+    {
+      "audio": "page8_text10_ja",
+      "lang": "ja",
+      "text": "[narration,happy]と、村の人たちはおじいさんをそう呼ぶようになりました。"
+    },
+    {
+      "audio": "page8_text10_en",
+      "lang": "en",
+      "text": "[narration,happy]the villagers began to call the old man."
+    },
+    {
+      "audio": "page9_text1_ja",
+      "lang": "ja",
+      "text": "[narration,suspicious]それを知った隣のおじいさんも、"
+    },
+    {
+      "audio": "page9_text1_en",
+      "lang": "en",
+      "text": "[narration,suspicious]The greedy neighbor old man, having heard this,"
+    },
+    {
+      "audio": "page9_text2_ja",
+      "lang": "ja",
+      "text": "[narration,greedy]残った灰を持って、殿様の前で"
+    },
+    {
+      "audio": "page9_text2_en",
+      "lang": "en",
+      "text": "[narration,greedy]took the remaining ashes and, in front of the lord,"
+    },
+    {
+      "audio": "page9_text3_ja",
+      "lang": "ja",
+      "text": "[narration,greedy]枯れ木にまきました。"
+    },
+    {
+      "audio": "page9_text3_en",
+      "lang": "en",
+      "text": "[narration,greedy]sprinkled them on a withered tree."
+    },
+    {
+      "audio": "page9_text4_ja",
+      "lang": "ja",
+      "text": "[narration,disappointed]しかし、灰はただ舞い上がるだけで、"
+    },
+    {
+      "audio": "page9_text4_en",
+      "lang": "en",
+      "text": "[narration,disappointed]However, the ashes merely blew away,"
+    },
+    {
+      "audio": "page9_text5_ja",
+      "lang": "ja",
+      "text": "[narration,disappointed]花など一輪も咲きませんでした。"
+    },
+    {
+      "audio": "page9_text5_en",
+      "lang": "en",
+      "text": "[narration,disappointed]and not a single flower bloomed."
+    },
+    {
+      "audio": "page9_text6_ja",
+      "lang": "ja",
+      "text": "[narration,punished]灰が殿様の目に入り、"
+    },
+    {
+      "audio": "page9_text6_en",
+      "lang": "en",
+      "text": "[narration,punished]The ashes blew into the lord's eyes,"
+    },
+    {
+      "audio": "page9_text7_ja",
+      "lang": "ja",
+      "text": "[narration,punished]隣のおじいさんはひどく叱られてしまいました。"
+    },
+    {
+      "audio": "page9_text7_en",
+      "lang": "en",
+      "text": "[narration,punished]and the neighbor old man was severely scolded."
+    },
+    {
+      "audio": "page10_text1_ja",
+      "lang": "ja",
+      "text": "[narration,happy]こうして、優しいおじいさんとおばあさんは、"
+    },
+    {
+      "audio": "page10_text1_en",
+      "lang": "en",
+      "text": "[narration,happy]And so, the kind old man and woman,"
+    },
+    {
+      "audio": "page10_text2_ja",
+      "lang": "ja",
+      "text": "[narration,happy]その後もずっと幸せに暮らしましたとさ。"
+    },
+    {
+      "audio": "page10_text2_en",
+      "lang": "en",
+      "text": "[narration,happy]lived happily ever after."
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "[questioning]おじいさんとおばあさんが飼っていた賢い犬の名前は何でしたか？ポチ、シロ、タロウ"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "[questioning]What was the name of the clever dog the old man and woman had? Pochi, Shiro, Taro"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "[questioning]シロが地面を掘って見つけたものは何でしたか？おいしい骨、キラキラ輝く金銀財宝、大きなカブ"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "[questioning]What did Shiro find when he dug the ground? A tasty bone, Glittering gold and silver treasures, A large turnip"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "[questioning]シロの夢の中での頼みは何でしたか？お墓のそばの木で臼を作ってほしい、たくさんのおいしいご飯をほしい、新しいおもちゃを買ってほしい"
+    },
+    {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "[questioning]What was Shiro's request in the dream? To make a millstone from the tree by the grave, To be given lots of delicious food, To be bought a new toy"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "[questioning]おじいさんが枯れ木に灰をまくと、何が起こりましたか？美しい花が咲き乱れた、木が枯れてしまった、虹が出た"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "[questioning]What happened when the old man sprinkled ash on the withered tree? Beautiful flowers bloomed profusely, The tree withered away, A rainbow appeared"
+    },
+    {
+      "audio": "question5_ja",
+      "lang": "ja",
+      "text": "[questioning]隣のおじいさんが灰をまいたら、どうなりましたか？花が咲き、殿様に褒められた、灰が舞い上がり、殿様の目を汚して叱られた、何も起こらなかった"
+    },
+    {
+      "audio": "question5_en",
+      "lang": "en",
+      "text": "[questioning]What happened when the greedy neighbor old man sprinkled the ashes? Flowers bloomed and he was praised by the lord, The ashes blew away, got into the lord's eyes, and he was scolded, Nothing happened"
+    }
+  ]
+}

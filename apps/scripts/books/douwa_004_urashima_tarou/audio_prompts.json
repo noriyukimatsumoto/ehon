@@ -1,0 +1,814 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "[calmly, gently]むかしむかし、海辺の村に\n浦島太郎という若者が住んでいました。"
+    },
+    {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "[calmly, gently]Once upon a time, in a seaside village, lived a kind young man named Urashima Taro."
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "[warmly, gently]困っている人を見ると、\nいつも助けてあげる良い子でした。"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "[warmly, gently]He was a good boy who always helped those in need."
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "[curiously, observed]ある日、浜辺で子供たちが、\n一匹のカメさんをいじめているのを見かけました。"
+    },
+    {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "[curiously, observed]One day, he saw some children bullying a turtle on the beach."
+    },
+    {
+      "audio": "page1_text4_ja",
+      "lang": "ja",
+      "text": "[descriptively, slightly concerned]子供たちは石を投げたり、\n棒でつっついたりしていました。"
+    },
+    {
+      "audio": "page1_text4_en",
+      "lang": "en",
+      "text": "[descriptively, slightly concerned]The children were throwing stones and poking it with sticks."
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "[firmly, admonishingly]「やめておくれ！カメさんを\nいじめるのは、いけないことだよ！」"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "[firmly, admonishingly]\"Stop it! Bullying the turtle is wrong!\""
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "[calmly, narrative]太郎にたしなめられて、\n子供たちはカメさんを放してあげました。"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "[calmly, narrative]Taro admonished the children, and they let the turtle go."
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "[gratefully, thankfully]「ありがとう、太郎さん。\n助けてくれて、本当にありがとう！」"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "[gratefully, thankfully]\"Thank you, Taro. Thank you so much for saving me!\""
+    },
+    {
+      "audio": "page2_text4_ja",
+      "lang": "ja",
+      "text": "[respectfully, gratefully]カメさんは、太郎に深々と\n頭を下げました。"
+    },
+    {
+      "audio": "page2_text4_en",
+      "lang": "en",
+      "text": "[respectfully, gratefully]The turtle bowed deeply to Taro."
+    },
+    {
+      "audio": "page2_text5_ja",
+      "lang": "ja",
+      "text": "[surprised, astonished]太郎は、カメさんが言葉を\n話すことにびっくりしました。"
+    },
+    {
+      "audio": "page2_text5_en",
+      "lang": "en",
+      "text": "[surprised, astonished]Taro was surprised that the turtle could speak."
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "[modestly, kindly]「いいんだよ。困っている人を\n助けるのは、当たり前のことだから。」"
+    },
+    {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "[modestly, kindly]\"It's okay. Helping those in need is the natural thing to do.\""
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "[calmly, narrative]カメさんは言いました。\n[explaining, slightly mysterious]「実は、私、海の底に住む竜宮城から来たのです。"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "[calmly, narrative]The turtle said, [explaining, slightly mysterious]\"Actually, I came from the Dragon Palace under the sea."
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "[inviting, hopeful]お礼に、ぜひ竜宮城へ\nご招待したいのですが、いかがでしょうか？」"
+    },
+    {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "[inviting, hopeful]As a token of my gratitude, I would like to invite you to the Dragon Palace. Would you accept?\""
+    },
+    {
+      "audio": "page3_text4_ja",
+      "lang": "ja",
+      "text": "[excitedly, eagerly]太郎は、竜宮城という言葉に\nわくわくしました。"
+    },
+    {
+      "audio": "page3_text4_en",
+      "lang": "en",
+      "text": "[excitedly, eagerly]Taro was excited by the words \"Dragon Palace.\""
+    },
+    {
+      "audio": "page3_text5_ja",
+      "lang": "ja",
+      "text": "[happily, accepting]太郎は、カメさんの誘いを\n喜んで受けることにしました。"
+    },
+    {
+      "audio": "page3_text5_en",
+      "lang": "en",
+      "text": "[happily, accepting]Taro gladly accepted the turtle's invitation."
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "[inviting, gentle]「では、私の背中に乗ってください。」"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "[inviting, gentle]\"Then, please ride on my back.\""
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "[smoothly, descending]カメさんは、太郎を背中に乗せると、\nスイスイと海の中へと潜っていきました。"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "[smoothly, descending]The turtle let Taro ride on its back and smoothly dived into the sea."
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "[amazed, wide-eyed]太郎は、初めて見る海の中の世界に、\n目を丸くしました。"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "[amazed, wide-eyed]Taro's eyes widened at the underwater world he saw for the first time."
+    },
+    {
+      "audio": "page4_text4_ja",
+      "lang": "ja",
+      "text": "[vividly, sparkling]色とりどりの魚たちが、キラキラと\n泳ぎ回り、きれいなサンゴ礁が広がっています。"
+    },
+    {
+      "audio": "page4_text4_en",
+      "lang": "en",
+      "text": "[vividly, sparkling]Colorful fish swam around sparkling, and beautiful coral reefs spread out."
+    },
+    {
+      "audio": "page4_text5_ja",
+      "lang": "ja",
+      "text": "[wonderfully, fairytale-like]まるで、おとぎ話の世界のようです。"
+    },
+    {
+      "audio": "page4_text5_en",
+      "lang": "en",
+      "text": "[wonderfully, fairytale-like]It was like a world from a fairy tale."
+    },
+    {
+      "audio": "page5_text1_ja",
+      "lang": "ja",
+      "text": "[awe-struck, dazzlingly]しばらく進むと、そこには、まばゆい\nばかりに光り輝く、大きなお城が見えてきました。"
+    },
+    {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "[awe-struck, dazzlingly]After swimming for a while, they saw a magnificent, dazzlingly shining castle."
+    },
+    {
+      "audio": "page5_text2_ja",
+      "lang": "ja",
+      "text": "[revealing, grandly]これが、竜宮城です。"
+    },
+    {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "[revealing, grandly]This was the Dragon Palace."
+    },
+    {
+      "audio": "page5_text3_ja",
+      "lang": "ja",
+      "text": "[entering, welcoming]太郎がカメさんと一緒に城の中へ\n入ると、そこには、美しいお姫様や、"
+    },
+    {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "[entering, welcoming]When Taro entered the castle with the turtle, a beautiful princess and..."
+    },
+    {
+      "audio": "page5_text4_ja",
+      "lang": "ja",
+      "text": "[warmly, kindly]たくさんの魚の姿をした人たちが、\n優しく太郎を迎えてくれました。"
+    },
+    {
+      "audio": "page5_text4_en",
+      "lang": "en",
+      "text": "[warmly, kindly]...many people in the form of fish greeted Taro kindly."
+    },
+    {
+      "audio": "page5_text5_ja",
+      "lang": "ja",
+      "text": "[politely, smilingly]「ようこそ、いらっしゃいました、\n浦島太郎様。」[calmly, narrative]乙姫様と名乗るお姫様は、にこやかに太郎に言いました。"
+    },
+    {
+      "audio": "page5_text5_en",
+      "lang": "en",
+      "text": "[politely, smilingly]\"Welcome, Urashima Taro,\" [calmly, narrative]said the princess, who introduced herself as Otohime, with a smile."
+    },
+    {
+      "audio": "page6_text1_ja",
+      "lang": "ja",
+      "text": "[joyfully, happily]竜宮城での日々は、それはそれは\n楽しいものでした。"
+    },
+    {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "[joyfully, happily]The days at the Dragon Palace were incredibly fun."
+    },
+    {
+      "audio": "page6_text2_ja",
+      "lang": "ja",
+      "text": "[pleasantly, spending time]太郎は、乙姫様と一緒に、きらびやかな\nお部屋で過ごしたり、"
+    },
+    {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "[pleasantly, spending time]Taro spent time with Princess Otohime in splendid rooms,"
+    },
+    {
+      "audio": "page6_text3_ja",
+      "lang": "ja",
+      "text": "[delightfully, enjoying]おいしいごちそうをたくさん食べたり、\nきれいな音楽を聴いたりしました。"
+    },
+    {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "[delightfully, enjoying]ate delicious feasts, and listened to beautiful music."
+    },
+    {
+      "audio": "page6_text4_ja",
+      "lang": "ja",
+      "text": "[cheerfully, dreamily]毎日が、お祭りみたいに賑やかで、\n夢のような時間でした。"
+    },
+    {
+      "audio": "page6_text4_en",
+      "lang": "en",
+      "text": "[cheerfully, dreamily]Every day was lively like a festival, a dreamlike time."
+    },
+    {
+      "audio": "page6_text5_ja",
+      "lang": "ja",
+      "text": "[wistfully, fleetingly]しかし、楽しい時間はあっという間に\n過ぎていきます。"
+    },
+    {
+      "audio": "page6_text5_en",
+      "lang": "en",
+      "text": "[wistfully, fleetingly]However, fun times pass in the blink of an eye."
+    },
+    {
+      "audio": "page6_text6_ja",
+      "lang": "ja",
+      "text": "[thoughtfully, concernedly]数日が経ち、太郎は、村のおじいさん\nやおばあさんのことが、ふと気になり始めました。"
+    },
+    {
+      "audio": "page6_text6_en",
+      "lang": "en",
+      "text": "[thoughtfully, concernedly]After a few days, Taro suddenly began to worry about the old people in his village."
+    },
+    {
+      "audio": "page7_text1_ja",
+      "lang": "ja",
+      "text": "[politely, requesting]「乙姫様、そろそろ村へ\n帰らせていただいてもよろしいでしょうか？」"
+    },
+    {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "[politely, requesting]\"Princess Otohime, may I please return to my village soon?\""
+    },
+    {
+      "audio": "page7_text2_ja",
+      "lang": "ja",
+      "text": "[sadly, understandingly]乙姫様は、少し悲しそうな顔をしましたが、\n「浦島太郎様。"
+    },
+    {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "[sadly, understandingly]Princess Otohime looked a little sad, but said, \"Urashima Taro."
+    },
+    {
+      "audio": "page7_text3_ja",
+      "lang": "ja",
+      "text": "[sentimentally, treasuring]あなた様との楽しい日々は、私にとっても\n宝物でございます。"
+    },
+    {
+      "audio": "page7_text3_en",
+      "lang": "en",
+      "text": "[sentimentally, treasuring]The happy days with you are a treasure to me as well."
+    },
+    {
+      "audio": "page7_text4_ja",
+      "lang": "ja",
+      "text": "[understandingly, accepting]でも、あなたが村へ帰りたいという\nお気持ちも、よくわかります。"
+    },
+    {
+      "audio": "page7_text4_en",
+      "lang": "en",
+      "text": "[understandingly, accepting]But I understand your desire to return to your village."
+    },
+    {
+      "audio": "page7_text5_ja",
+      "lang": "ja",
+      "text": "[solemnly, warningly]お帰りになるなら、この玉手箱を\nお持ちください。ただし、決して開けてはなりませぬ。」"
+    },
+    {
+      "audio": "page7_text5_en",
+      "lang": "en",
+      "text": "[solemnly, warningly]If you must go, please take this Tamatebako (jewel box). However, you must never open it.\""
+    },
+    {
+      "audio": "page7_text6_ja",
+      "lang": "ja",
+      "text": "[giving, beautifully]そう言って、乙姫様は、とてもきれいな、\n宝箱のような箱を太郎に渡しました。"
+    },
+    {
+      "audio": "page7_text6_en",
+      "lang": "en",
+      "text": "[giving, beautifully]Saying this, Princess Otohime gave Taro a beautiful, treasure-box-like container."
+    },
+    {
+      "audio": "page8_text1_ja",
+      "lang": "ja",
+      "text": "[gratefully, promising]「ありがとうございます、乙姫様。\nこの箱は、大切にいたします。」"
+    },
+    {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "[gratefully, promising]\"Thank you, Princess Otohime. I will treasure this box.\""
+    },
+    {
+      "audio": "page8_text2_ja",
+      "lang": "ja",
+      "text": "[resolutely, departing]太郎は、乙姫様にお礼を言い、\nカメさんの背中に乗って、村へと帰ることにしました。"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "[resolutely, departing]Taro thanked Princess Otohime and decided to return to his village on the turtle's back."
+    },
+    {
+      "audio": "page8_text3_ja",
+      "lang": "ja",
+      "text": "[farewelling, kindly]「いってらっしゃいませ、浦島太郎様。\nどうか、お元気で。」"
+    },
+    {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "[farewelling, kindly]\"Farewell, Urashima Taro. Please stay well.\""
+    },
+    {
+      "audio": "page8_text4_ja",
+      "lang": "ja",
+      "text": "[fading, wistfully]乙姫様の声が、遠ざかっていきます。"
+    },
+    {
+      "audio": "page8_text4_en",
+      "lang": "en",
+      "text": "[fading, wistfully]Princess Otohime's voice faded away."
+    },
+    {
+      "audio": "page8_text5_ja",
+      "lang": "ja",
+      "text": "[journeying, returning]太郎は、カメさんに乗って、再び\n海の中を泳ぎました。"
+    },
+    {
+      "audio": "page8_text5_en",
+      "lang": "en",
+      "text": "[journeying, returning]Riding the turtle, Taro swam through the sea once more."
+    },
+    {
+      "audio": "page8_text6_ja",
+      "lang": "ja",
+      "text": "[perplexed, noticing strangeness]太郎は、いつもの浜辺にたどり着きましたが、\nなんだか様子がおかしいのです。"
+    },
+    {
+      "audio": "page8_text6_en",
+      "lang": "en",
+      "text": "[perplexed, noticing strangeness]Taro reached his usual beach, but something seemed strange."
+    },
+    {
+      "audio": "page9_text1_ja",
+      "lang": "ja",
+      "text": "[confused, questioning]「あれ？村は、どこへ行ってしまったんだろう？」"
+    },
+    {
+      "audio": "page9_text1_en",
+      "lang": "en",
+      "text": "[confused, questioning]\"Huh? Where did the village go?\""
+    },
+    {
+      "audio": "page9_text2_ja",
+      "lang": "ja",
+      "text": "[puzzled, walking]太郎は、不思議に思って、村の方へ\n歩いていきました。"
+    },
+    {
+      "audio": "page9_text2_en",
+      "lang": "en",
+      "text": "[puzzled, walking]Puzzled, Taro walked towards where his village should be."
+    },
+    {
+      "audio": "page9_text3_ja",
+      "lang": "ja",
+      "text": "[disoriented, unfamiliar]しかし、そこにあったのは、見慣れない\n景色ばかり。"
+    },
+    {
+      "audio": "page9_text3_en",
+      "lang": "en",
+      "text": "[disoriented, unfamiliar]But all he saw was an unfamiliar landscape."
+    },
+    {
+      "audio": "page9_text4_ja",
+      "lang": "ja",
+      "text": "[shocked, recognizing difference]家も、道も、何もかもが、太郎が\n知っているものとは違っていました。"
+    },
+    {
+      "audio": "page9_text4_en",
+      "lang": "en",
+      "text": "[shocked, recognizing difference]The houses, the roads, everything was different from what Taro knew."
+    },
+    {
+      "audio": "page9_text5_ja",
+      "lang": "ja",
+      "text": "[desperately, searching]「どうしてだろう？村は、どこへ\n行ってしまったんだ？」"
+    },
+    {
+      "audio": "page9_text5_en",
+      "lang": "en",
+      "text": "[desperately, searching]\"Why? Where did the village go?\""
+    },
+    {
+      "audio": "page9_text6_ja",
+      "lang": "ja",
+      "text": "[approaching, encountering]すると、そこへ、一人のおじいさんが\n歩いてきました。"
+    },
+    {
+      "audio": "page9_text6_en",
+      "lang": "en",
+      "text": "[approaching, encountering]Just then, an old man walked by."
+    },
+    {
+      "audio": "page9_text7_ja",
+      "lang": "ja",
+      "text": "[politely, asking]「おじいさん、すみません。この村は、\n昔からこの場所にあったのでしょうか？」"
+    },
+    {
+      "audio": "page9_text7_en",
+      "lang": "en",
+      "text": "[politely, asking]\"Excuse me, old man. Has this village always been here?\""
+    },
+    {
+      "audio": "page9_text8_ja",
+      "lang": "ja",
+      "text": "[calmly, narrative]おじいさんは、怪訝な顔をして、\n[puzzled, explaining]「ほう？わしは、この村に生まれて、もう八十年になるが、"
+    },
+    {
+      "audio": "page9_text8_en",
+      "lang": "en",
+      "text": "[calmly, narrative]The old man looked puzzled and said, [puzzled, explaining]\"Oh? I was born in this village and I'm already eighty years old."
+    },
+    {
+      "audio": "page9_text9_ja",
+      "lang": "ja",
+      "text": "[confidently, stating]そんな話は聞いたことがないがのう。」\nと言いました。"
+    },
+    {
+      "audio": "page9_text9_en",
+      "lang": "en",
+      "text": "[confidently, stating]I've never heard such a story.\""
+    },
+    {
+      "audio": "page10_text1_ja",
+      "lang": "ja",
+      "text": "[shocked, disbelief]「えっ、八十年？そんなはずは…。」"
+    },
+    {
+      "audio": "page10_text1_en",
+      "lang": "en",
+      "text": "[shocked, disbelief]\"Eighty years? That can't be...\""
+    },
+    {
+      "audio": "page10_text2_ja",
+      "lang": "ja",
+      "text": "[confused, overwhelmed]太郎は、ますます混乱してしまいました。"
+    },
+    {
+      "audio": "page10_text2_en",
+      "lang": "en",
+      "text": "[confused, overwhelmed]Taro became even more confused."
+    },
+    {
+      "audio": "page10_text3_ja",
+      "lang": "ja",
+      "text": "[realizing, contrasting]竜宮城での数日は、太郎にとっては\nほんの少しの間だったはずなのに、"
+    },
+    {
+      "audio": "page10_text3_en",
+      "lang": "en",
+      "text": "[realizing, contrasting]The few days at the Dragon Palace should have been a short time for Taro,"
+    },
+    {
+      "audio": "page10_text4_ja",
+      "lang": "ja",
+      "text": "[dawning realization, temporal shift]村では、長い年月が流れていたのです。"
+    },
+    {
+      "audio": "page10_text4_en",
+      "lang": "en",
+      "text": "[dawning realization, temporal shift]but long years had passed in the village."
+    },
+    {
+      "audio": "page10_text5_ja",
+      "lang": "ja",
+      "text": "[dreading, remembering]「まさか…。」太郎は、乙姫様からもらった\n玉手箱のことを思い出しました。"
+    },
+    {
+      "audio": "page10_text5_en",
+      "lang": "en",
+      "text": "[dreading, remembering]\"No way...\" Taro remembered the Tamatebako he received from Princess Otohime."
+    },
+    {
+      "audio": "page10_text6_ja",
+      "lang": "ja",
+      "text": "[recalling, warning]「決して開けてはなりませぬ」と、\n言っていた、あの箱です。"
+    },
+    {
+      "audio": "page10_text6_en",
+      "lang": "en",
+      "text": "[recalling, warning]That was the box she had told him, \"You must never open it.\""
+    },
+    {
+      "audio": "page10_text7_ja",
+      "lang": "ja",
+      "text": "[hopeful, curious]「もしかしたら、この箱を開ければ、\n何かわかるのかもしれない。」"
+    },
+    {
+      "audio": "page10_text7_en",
+      "lang": "en",
+      "text": "[hopeful, curious]\"Perhaps if I open this box, I'll understand something.\""
+    },
+    {
+      "audio": "page10_text8_ja",
+      "lang": "ja",
+      "text": "[decisive, brave]太郎は、そう思い、勇気を出して、\n玉手箱を開けてみることにしました。"
+    },
+    {
+      "audio": "page10_text8_en",
+      "lang": "en",
+      "text": "[decisive, brave]Thinking this, Taro summoned his courage and decided to open the Tamatebako."
+    },
+    {
+      "audio": "page10_text9_ja",
+      "lang": "ja",
+      "text": "[dramatically]「えいっ！」[dramatically, releasing]箱を開けた瞬間、中から、\n煙のようなものが、シューッと勢いよく吹き出しました。"
+    },
+    {
+      "audio": "page10_text9_en",
+      "lang": "en",
+      "text": "[dramatically]\"Hiyah!\" [dramatically, releasing]The moment he opened the box, something like smoke gushed out forcefully."
+    },
+    {
+      "audio": "page10_text10_ja",
+      "lang": "ja",
+      "text": "[transforming, aged]その煙を浴びた太郎の体は、みるみるうちに、\n白髪のおじいさんに変わってしまいました。"
+    },
+    {
+      "audio": "page10_text10_en",
+      "lang": "en",
+      "text": "[transforming, aged]Taro's body, enveloped by the smoke, rapidly transformed into a white-haired old man."
+    },
+    {
+      "audio": "page10_text11_ja",
+      "lang": "ja",
+      "text": "[shocked, horrified]「うわあああ！」太郎は、自分の姿を見て、\nとても驚きました。"
+    },
+    {
+      "audio": "page10_text11_en",
+      "lang": "en",
+      "text": "[shocked, horrified]\"Waaah!\" Taro was shocked to see his own reflection."
+    },
+    {
+      "audio": "page10_text12_ja",
+      "lang": "ja",
+      "text": "[aging, consequence]玉手箱を開けたことで、太郎の体は、\n外の世界の時間の流れに合わせて、"
+    },
+    {
+      "audio": "page10_text12_en",
+      "lang": "en",
+      "text": "[aging, consequence]By opening the Tamatebako, Taro's body rapidly aged to match the flow of time in the outside world."
+    },
+    {
+      "audio": "page10_text13_ja",
+      "lang": "ja",
+      "text": "[finality, aged]急激に年を取ってしまったのでした。"
+    },
+    {
+      "audio": "page10_text13_en",
+      "lang": "en",
+      "text": "[finality, aged]He could no longer return to his youthful self."
+    },
+    {
+      "audio": "page10_text14_ja",
+      "lang": "ja",
+      "text": "[resigned, old]太郎は、もう元の若者には戻れませんでした。"
+    },
+    {
+      "audio": "page10_text14_en",
+      "lang": "en",
+      "text": "[resigned, old]Having become an old man, Taro could only stand on the beach, stunned."
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "[questioning, clear]浦島太郎が浜辺で助けた生き物は何ですか？"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "[questioning, clear]What creature did Urashima Taro save on the beach?"
+    },
+    {
+      "audio": "question1_choice1_ja",
+      "lang": "ja",
+      "text": "[questioning, clear, choice]浦島太郎が浜辺で助けた生き物は何ですか？カメ"
+    },
+    {
+      "audio": "question1_choice1_en",
+      "lang": "en",
+      "text": "[questioning, clear, choice]What creature did Urashima Taro save on the beach? Turtle"
+    },
+    {
+      "audio": "question1_choice2_ja",
+      "lang": "ja",
+      "text": "[questioning, clear, choice]浦島太郎が浜辺で助けた生き物は何ですか？魚"
+    },
+    {
+      "audio": "question1_choice2_en",
+      "lang": "en",
+      "text": "[questioning, clear, choice]What creature did Urashima Taro save on the beach? Fish"
+    },
+    {
+      "audio": "question1_choice3_ja",
+      "lang": "ja",
+      "text": "[questioning, clear, choice]浦島太郎が浜辺で助けた生き物は何ですか？カニ"
+    },
+    {
+      "audio": "question1_choice3_en",
+      "lang": "en",
+      "text": "[questioning, clear, choice]What creature did Urashima Taro save on the beach? Crab"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "[questioning, curious]カメさんが太郎を招待したのはどこですか？"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "[questioning, curious]Where did the turtle invite Taro to?"
+    },
+    {
+      "audio": "question2_choice1_ja",
+      "lang": "ja",
+      "text": "[questioning, curious, choice]カメさんが太郎を招待したのはどこですか？竜宮城"
+    },
+    {
+      "audio": "question2_choice1_en",
+      "lang": "en",
+      "text": "[questioning, curious, choice]Where did the turtle invite Taro to? Dragon Palace"
+    },
+    {
+      "audio": "question2_choice2_ja",
+      "lang": "ja",
+      "text": "[questioning, curious, choice]カメさんが太郎を招待したのはどこですか？海の底の洞窟"
+    },
+    {
+      "audio": "question2_choice2_en",
+      "lang": "en",
+      "text": "[questioning, curious, choice]Where did the turtle invite Taro to? A cave at the bottom of the sea"
+    },
+    {
+      "audio": "question2_choice3_ja",
+      "lang": "ja",
+      "text": "[questioning, curious, choice]カメさんが太郎を招待したのはどこですか？サンゴ礁"
+    },
+    {
+      "audio": "question2_choice3_en",
+      "lang": "en",
+      "text": "[questioning, curious, choice]Where did the turtle invite Taro to? Coral reef"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "[questioning, recalling]乙姫様が太郎に渡した、開けてはならない箱は何ですか？"
+    },
+    {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "[questioning, recalling]What was the box that Princess Otohime gave Taro and told him not to open?"
+    },
+    {
+      "audio": "question3_choice1_ja",
+      "lang": "ja",
+      "text": "[questioning, recalling, choice]乙姫様が太郎に渡した、開けてはならない箱は何ですか？玉手箱"
+    },
+    {
+      "audio": "question3_choice1_en",
+      "lang": "en",
+      "text": "[questioning, recalling, choice]What was the box that Princess Otohime gave Taro and told him not to open? Tamatebako (jewel box)"
+    },
+    {
+      "audio": "question3_choice2_ja",
+      "lang": "ja",
+      "text": "[questioning, recalling, choice]乙姫様が太郎に渡した、開けてはならない箱は何ですか？宝箱"
+    },
+    {
+      "audio": "question3_choice2_en",
+      "lang": "en",
+      "text": "[questioning, recalling, choice]What was the box that Princess Otohime gave Taro and told him not to open? Treasure chest"
+    },
+    {
+      "audio": "question3_choice3_ja",
+      "lang": "ja",
+      "text": "[questioning, recalling, choice]乙姫様が太郎に渡した、開けてはならない箱は何ですか？お土産の箱"
+    },
+    {
+      "audio": "question3_choice3_en",
+      "lang": "en",
+      "text": "[questioning, recalling, choice]What was the box that Princess Otohime gave Taro and told him not to open? Souvenir box"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "[questioning, consequence]太郎が玉手箱を開けた結果、どうなりましたか？"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "[questioning, consequence]What happened when Taro opened the Tamatebako?"
+    },
+    {
+      "audio": "question4_choice1_ja",
+      "lang": "ja",
+      "text": "[questioning, consequence, choice]太郎が玉手箱を開けた結果、どうなりましたか？若者に戻った"
+    },
+    {
+      "audio": "question4_choice1_en",
+      "lang": "en",
+      "text": "[questioning, consequence, choice]What happened when Taro opened the Tamatebako? He became young again"
+    },
+    {
+      "audio": "question4_choice2_ja",
+      "lang": "ja",
+      "text": "[questioning, consequence, choice]太郎が玉手箱を開けた結果、どうなりましたか？白髪のおじいさんになった"
+    },
+    {
+      "audio": "question4_choice2_en",
+      "lang": "en",
+      "text": "[questioning, consequence, choice]What happened when Taro opened the Tamatebako? He became a white-haired old man"
+    },
+    {
+      "audio": "question4_choice3_ja",
+      "lang": "ja",
+      "text": "[questioning, consequence, choice]太郎が玉手箱を開けた結果、どうなりましたか？体が消えてしまった"
+    },
+    {
+      "audio": "question4_choice3_en",
+      "lang": "en",
+      "text": "[questioning, consequence, choice]What happened when Taro opened the Tamatebako? His body disappeared"
+    }
+  ]
+}

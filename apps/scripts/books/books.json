@@ -1,5 +1,44 @@
 [
   {
+    "id": "douwa_001_tsuru_no_ongaeshi",
+    "version": "1.0.0",
+    "title": {
+      "ja": "鶴の恩返し",
+      "en": "The Crane's Return of a Favor"
+    },
+    "categoryId": "japanese-folktale",
+    "categoryName": {
+      "ja": "日本の昔話",
+      "en": "Japanese Folktale"
+    }
+  },
+  {
+    "id": "douwa_002_kasazizou",
+    "version": "1.0.0",
+    "title": {
+      "ja": "かさじぞう",
+      "en": "The Jizo Statues and the Straw Hats"
+    },
+    "categoryId": "japanese-folktale",
+    "categoryName": {
+      "ja": "日本の民話",
+      "en": "Japanese Folktale"
+    }
+  },
+  {
+    "id": "douwa_003_kaguyahime",
+    "version": "1.0.0",
+    "title": {
+      "ja": "かぐや姫",
+      "en": "The Tale of the Bamboo Cutter"
+    },
+    "categoryId": "japanese-folktale",
+    "categoryName": {
+      "ja": "日本の昔話",
+      "en": "Japanese Folktale"
+    }
+  },
+  {
     "id": "grimms_001_kaeru_no_osama",
     "version": "1.0.0",
     "title": {

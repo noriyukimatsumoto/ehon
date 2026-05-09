@@ -2,7 +2,7 @@ export interface AudioPromptEntry {
   audio: string;
   lang: "ja" | "en";
   text: string;
-  prompt: string;
+  prompt?: string;
 }
 
 export interface AudioPromptsData {

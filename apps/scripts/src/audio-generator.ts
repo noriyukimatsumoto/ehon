@@ -52,7 +52,9 @@ export class AudioGenerator {
       try {
         const response = await this.genAI.models.generateContent({
           model: TTS_MODEL,
-          contents: [{ parts: [{ text: `${entry.prompt}\n${entry.text}` }] }],
+          contents: [
+            { parts: [{ text: `${entry.prompt ?? ""}${entry.text}` }] },
+          ],
           config: {
             responseModalities: ["AUDIO"],
             speechConfig: {
@@ -86,7 +88,10 @@ export class AudioGenerator {
     throw new Error("unreachable");
   }
 
-  async generateForBook(bookDir: string, voiceName = "Achernar"): Promise<void> {
+  async generateForBook(
+    bookDir: string,
+    voiceName = "Achernar",
+  ): Promise<void> {
     const promptsPath = path.join(bookDir, "audio_prompts.json");
     if (!fs.existsSync(promptsPath)) {
       throw new Error(`audio_prompts.json not found: ${promptsPath}`);

@@ -88,7 +88,10 @@ export async function upload(bookId?: string): Promise<void> {
   const bookIds = fs
     .readdirSync(BOOKS_DIR, { withFileTypes: true })
     .filter((e) => e.isDirectory())
-    .map((e) => e.name);
+    .map((e) => e.name)
+    .filter((name) =>
+      fs.existsSync(path.join(BOOKS_DIR, name, "meta.json"))
+    );
 
   if (bookIds.length === 0) {
     console.log("No books found.");

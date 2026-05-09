@@ -1,0 +1,574 @@
+{
+  "entries": [
+    {
+      "audio": "page1_text1_ja",
+      "lang": "ja",
+      "text": "[calmly, warmly]むかしむかし、あるところに"
+    },
+    {
+      "audio": "page1_text1_en",
+      "lang": "en",
+      "text": "[calmly, warmly]Once upon a time, in a certain place,"
+    },
+    {
+      "audio": "page1_text2_ja",
+      "lang": "ja",
+      "text": "[calmly, warmly]おじいさんとおばあさんが住んでいました。"
+    },
+    {
+      "audio": "page1_text2_en",
+      "lang": "en",
+      "text": "[calmly, warmly]lived an old man and an old woman."
+    },
+    {
+      "audio": "page1_text3_ja",
+      "lang": "ja",
+      "text": "[calmly, diligently]おじいさんは山へ行き、毎日一生懸命竹を切っていました。"
+    },
+    {
+      "audio": "page1_text3_en",
+      "lang": "en",
+      "text": "[calmly, diligently]The old man went to the mountain and cut bamboo diligently every day."
+    },
+    {
+      "audio": "page1_text4_ja",
+      "lang": "ja",
+      "text": "[calmly]ある日、いつものように竹を切っていると、"
+    },
+    {
+      "audio": "page1_text4_en",
+      "lang": "en",
+      "text": "[calmly]One day, while cutting bamboo as usual,"
+    },
+    {
+      "audio": "page1_text5_ja",
+      "lang": "ja",
+      "text": "[excitedly, wonderingly]ピカピカ光る不思議な竹を見つけました。"
+    },
+    {
+      "audio": "page1_text5_en",
+      "lang": "en",
+      "text": "[excitedly, wonderingly]he found a mysterious, sparkling bamboo."
+    },
+    {
+      "audio": "page1_text6_ja",
+      "lang": "ja",
+      "text": "[excitedly, thoughtfully]「これは珍しい！」[calmly, warmly]おじいさんはその竹を家に持ち帰りました。"
+    },
+    {
+      "audio": "page1_text6_en",
+      "lang": "en",
+      "text": "[excitedly, thoughtfully]\"How unusual!\" [calmly, warmly]The old man took the bamboo home."
+    },
+    {
+      "audio": "page2_text1_ja",
+      "lang": "ja",
+      "text": "[curiously]おばあさんがその竹を割ってみると、"
+    },
+    {
+      "audio": "page2_text1_en",
+      "lang": "en",
+      "text": "[curiously]When the old woman split the bamboo,"
+    },
+    {
+      "audio": "page2_text2_ja",
+      "lang": "ja",
+      "text": "[amazed, joyfully]なんと中から小さな女の子が出てきました。"
+    },
+    {
+      "audio": "page2_text2_en",
+      "lang": "en",
+      "text": "[amazed, joyfully]a tiny girl came out from inside."
+    },
+    {
+      "audio": "page2_text3_ja",
+      "lang": "ja",
+      "text": "[amazed, delightedly]「まあ！なんて可愛らしい！」"
+    },
+    {
+      "audio": "page2_text3_en",
+      "lang": "en",
+      "text": "[amazed, delightedly]\"Oh! How lovely!\""
+    },
+    {
+      "audio": "page2_text4_ja",
+      "lang": "ja",
+      "text": "[joyfully, warmly]おばあさんはびっくりしましたが、とても嬉しくなって、"
+    },
+    {
+      "audio": "page2_text4_en",
+      "lang": "en",
+      "text": "[joyfully, warmly]The old woman was surprised, but very happy,"
+    },
+    {
+      "audio": "page2_text5_ja",
+      "lang": "ja",
+      "text": "[lovingly, tenderly]その子を「かぐや姫」と名付けて、大切に育てることにしました。"
+    },
+    {
+      "audio": "page2_text5_en",
+      "lang": "en",
+      "text": "[lovingly, tenderly]named the child \"Princess Kaguya\", and decided to raise her with care."
+    },
+    {
+      "audio": "page2_text6_ja",
+      "lang": "ja",
+      "text": "[warmly, admiringly]かぐや姫は、みるみるうちに美しく、賢い女の子に成長しました。"
+    },
+    {
+      "audio": "page2_text6_en",
+      "lang": "en",
+      "text": "[warmly, admiringly]Princess Kaguya quickly grew into a beautiful and wise girl."
+    },
+    {
+      "audio": "page2_text7_ja",
+      "lang": "ja",
+      "text": "[ethereally, beautifully]その美しさは、まるで月の光のように輝いていました。"
+    },
+    {
+      "audio": "page2_text7_en",
+      "lang": "en",
+      "text": "[ethereally, beautifully]Her beauty shone like the moonlight,"
+    },
+    {
+      "audio": "page3_text1_ja",
+      "lang": "ja",
+      "text": "[calmly, narrating]さて、かぐや姫が大人になると、その美しさは国中に知れ渡り、"
+    },
+    {
+      "audio": "page3_text1_en",
+      "lang": "en",
+      "text": "[calmly, narrating]When Princess Kaguya grew up, her beauty became known throughout the land,"
+    },
+    {
+      "audio": "page3_text2_ja",
+      "lang": "ja",
+      "text": "[politely, formally]たくさんの偉い人たちが結婚を申し込んできました。"
+    },
+    {
+      "audio": "page3_text2_en",
+      "lang": "en",
+      "text": "[politely, formally]and many noble men came to propose marriage."
+    },
+    {
+      "audio": "page3_text3_ja",
+      "lang": "ja",
+      "text": "[calmly, narrating]でも、かぐや姫は[resolutely, firmly]「私にふさわしい宝物を持ってこられた方としか結婚しません」"
+    },
+    {
+      "audio": "page3_text3_en",
+      "lang": "en",
+      "text": "[calmly, narrating]But Princess Kaguya said, [resolutely, firmly]\"I will only marry one who brings me a treasure worthy of me.\""
+    },
+    {
+      "audio": "page3_text4_ja",
+      "lang": "ja",
+      "text": "[calmly, with a hint of mischief]と言って、皆を困らせました。"
+    },
+    {
+      "audio": "page3_text4_en",
+      "lang": "en",
+      "text": "[calmly, with a hint of mischief]and puzzled everyone."
+    },
+    {
+      "audio": "page3_text5_ja",
+      "lang": "ja",
+      "text": "[dramatically]ある人は、お釈迦様が持つという、石の鉢を持ってきました。"
+    },
+    {
+      "audio": "page3_text5_en",
+      "lang": "en",
+      "text": "[dramatically]One brought a stone bowl said to be possessed by Buddha."
+    },
+    {
+      "audio": "page3_text6_ja",
+      "lang": "ja",
+      "text": "[dramatically]またある人は、蓬莱山にあるという、金と銀と玉でできた枝を持ってきました。"
+    },
+    {
+      "audio": "page3_text6_en",
+      "lang": "en",
+      "text": "[dramatically]Another brought a branch made of gold, silver, and jewels from Mount Hōrai."
+    },
+    {
+      "audio": "page3_text7_ja",
+      "lang": "ja",
+      "text": "[calmly, narrating]でも、みんな、かぐや姫がお見通しで、[calmly, with finality]「これは本物ではありません」[calmly, narrating]と断られてしまいました。"
+    },
+    {
+      "audio": "page3_text7_en",
+      "lang": "en",
+      "text": "[calmly, narrating]But Princess Kaguya saw through them all and rejected them, saying, [calmly, with finality]\"These are not real.\""
+    },
+    {
+      "audio": "page4_text1_ja",
+      "lang": "ja",
+      "text": "[dramatically, solemnly]とうとう、みかど様までかぐや姫に会いに来られ、結婚を申し込まれました。"
+    },
+    {
+      "audio": "page4_text1_en",
+      "lang": "en",
+      "text": "[dramatically, solemnly]Finally, even the Emperor came to meet Princess Kaguya and proposed marriage."
+    },
+    {
+      "audio": "page4_text2_ja",
+      "lang": "ja",
+      "text": "[calmly, narrating]みかど様はとても立派な方でしたが、かぐや姫は[politely but firmly]「お断りします」[calmly, narrating]とお返事しました。"
+    },
+    {
+      "audio": "page4_text2_en",
+      "lang": "en",
+      "text": "[calmly, narrating]The Emperor was a very fine person, but Princess Kaguya replied, [politely but firmly]\"I refuse.\""
+    },
+    {
+      "audio": "page4_text3_ja",
+      "lang": "ja",
+      "text": "[persistently, sadly]みかど様はかぐや姫のことが忘れられず、それからも何度も会いに来られましたが、"
+    },
+    {
+      "audio": "page4_text3_en",
+      "lang": "en",
+      "text": "[persistently, sadly]The Emperor could not forget Princess Kaguya and visited her many times afterward,"
+    },
+    {
+      "audio": "page4_text4_ja",
+      "lang": "ja",
+      "text": "[calmly, unwavering]かぐや姫の心は動きませんでした。"
+    },
+    {
+      "audio": "page4_text4_en",
+      "lang": "en",
+      "text": "[calmly, unwavering]but Princess Kaguya's heart was not moved."
+    },
+    {
+      "audio": "page4_text5_ja",
+      "lang": "ja",
+      "text": "[sadly, tenderly]そんなある日、かぐや姫は、おじいさんとおばあさんに、悲しい顔でこう言いました。"
+    },
+    {
+      "audio": "page4_text5_en",
+      "lang": "en",
+      "text": "[sadly, tenderly]Then one day, Princess Kaguya said to the old man and woman with a sad face:"
+    },
+    {
+      "audio": "page4_text6_ja",
+      "lang": "ja",
+      "text": "[sadly, explaining]「私は、月の都から来た者なのです。"
+    },
+    {
+      "audio": "page4_text6_en",
+      "lang": "en",
+      "text": "[sadly, explaining]\"I am from the Moon Capital."
+    },
+    {
+      "audio": "page4_text7_ja",
+      "lang": "ja",
+      "text": "[sadly, resignedly]もうすぐ、月の都へ帰らなければなりません。」"
+    },
+    {
+      "audio": "page4_text7_en",
+      "lang": "en",
+      "text": "[sadly, resignedly]Soon, I must return to the Moon Capital.\""
+    },
+    {
+      "audio": "page5_text1_ja",
+      "lang": "ja",
+      "text": "[sadly, crying]おじいさんとおばあさんは、びっくりして泣き出してしまいました。"
+    },
+    {
+      "audio": "page5_text1_en",
+      "lang": "en",
+      "text": "[sadly, crying]The old man and woman were surprised and started to cry."
+    },
+    {
+      "audio": "page5_text2_ja",
+      "lang": "ja",
+      "text": "[pleadingly, sadly]「かぐや姫、どうしてなの？"
+    },
+    {
+      "audio": "page5_text2_en",
+      "lang": "en",
+      "text": "[pleadingly, sadly]\"Princess Kaguya, why?"
+    },
+    {
+      "audio": "page5_text3_ja",
+      "lang": "ja",
+      "text": "[pleadingly, sadly]私たちとずっと一緒にいてほしいのに！」"
+    },
+    {
+      "audio": "page5_text3_en",
+      "lang": "en",
+      "text": "[pleadingly, sadly]We want you to be with us forever!\""
+    },
+    {
+      "audio": "page5_text4_ja",
+      "lang": "ja",
+      "text": "[sadly, tenderly]かぐや姫も悲しそうに言いました。"
+    },
+    {
+      "audio": "page5_text4_en",
+      "lang": "en",
+      "text": "[sadly, tenderly]Princess Kaguya also said sadly,"
+    },
+    {
+      "audio": "page5_text5_ja",
+      "lang": "ja",
+      "text": "[sadly, regretfully]「私も、おじいさんとおばあさんと離れるのはつらいです。"
+    },
+    {
+      "audio": "page5_text5_en",
+      "lang": "en",
+      "text": "[sadly, regretfully]\"It is painful for me too to be separated from you,"
+    },
+    {
+      "audio": "page5_text6_ja",
+      "lang": "ja",
+      "text": "[sadly, resignedly]でも、私は月の都に帰らなければならないのです。」"
+    },
+    {
+      "audio": "page5_text6_en",
+      "lang": "en",
+      "text": "[sadly, resignedly]but I must return to the Moon Capital.\""
+    },
+    {
+      "audio": "page6_text1_ja",
+      "lang": "ja",
+      "text": "[solemnly, dramatically]いよいよ、月の都から迎えが来る日がやってきました。"
+    },
+    {
+      "audio": "page6_text1_en",
+      "lang": "en",
+      "text": "[solemnly, dramatically]Finally, the day came when escorts arrived from the Moon Capital."
+    },
+    {
+      "audio": "page6_text2_ja",
+      "lang": "ja",
+      "text": "[awe-inspiringly, mysteriously]空には、たくさんの不思議な乗り物が現れ、"
+    },
+    {
+      "audio": "page6_text2_en",
+      "lang": "en",
+      "text": "[awe-inspiringly, mysteriously]Many mysterious vehicles appeared in the sky,"
+    },
+    {
+      "audio": "page6_text3_ja",
+      "lang": "ja",
+      "text": "[magically, beautifully]色とりどりの光が辺りを照らしました。"
+    },
+    {
+      "audio": "page6_text3_en",
+      "lang": "en",
+      "text": "[magically, beautifully]and colorful lights illuminated the surroundings."
+    },
+    {
+      "audio": "page6_text4_ja",
+      "lang": "ja",
+      "text": "[gently, kindly]月の都の人たちは、とても優しく、"
+    },
+    {
+      "audio": "page6_text4_en",
+      "lang": "en",
+      "text": "[gently, kindly]The people from the Moon Capital were very kind,"
+    },
+    {
+      "audio": "page6_text5_ja",
+      "lang": "ja",
+      "text": "[gently, kindly]かぐや姫に[gently, invitingly]「さあ、帰りましょう」[gently, kindly]と誘いました。"
+    },
+    {
+      "audio": "page6_text5_en",
+      "lang": "en",
+      "text": "[gently, kindly]and invited Princess Kaguya, saying, [gently, invitingly]\"Now, let's go home.\""
+    },
+    {
+      "audio": "page6_text6_ja",
+      "lang": "ja",
+      "text": "[sadly, tenderly]かぐや姫は、おじいさんとおばあさんに別れを告げ、"
+    },
+    {
+      "audio": "page6_text6_en",
+      "lang": "en",
+      "text": "[sadly, tenderly]Princess Kaguya bid farewell to the old man and woman,"
+    },
+    {
+      "audio": "page6_text7_ja",
+      "lang": "ja",
+      "text": "[thoughtfully, solemnly]みかど様への手紙と不老不死の薬を残していきました。"
+    },
+    {
+      "audio": "page6_text7_en",
+      "lang": "en",
+      "text": "[thoughtfully, solemnly]and left a letter for the Emperor and the elixir of immortality."
+    },
+    {
+      "audio": "page7_text1_ja",
+      "lang": "ja",
+      "text": "[calmly, transitioning]そして、かぐや姫は、月の都から来た人たちと一緒に、"
+    },
+    {
+      "audio": "page7_text1_en",
+      "lang": "en",
+      "text": "[calmly, transitioning]And so, Princess Kaguya, together with the people from the Moon Capital,"
+    },
+    {
+      "audio": "page7_text2_ja",
+      "lang": "ja",
+      "text": "[ethereally, ascending]光り輝く空へと昇っていきました。"
+    },
+    {
+      "audio": "page7_text2_en",
+      "lang": "en",
+      "text": "[ethereally, ascending] she ascended into the radiant sky."
+    },
+    {
+      "audio": "page7_text3_ja",
+      "lang": "ja",
+      "text": "[sadly, watching]おじいさんとおばあさんは、いつまでも見えなくなるまで、"
+    },
+    {
+      "audio": "page7_text3_en",
+      "lang": "en",
+      "text": "[sadly, watching]The old man and woman watched her retreating figure until she disappeared from view,"
+    },
+    {
+      "audio": "page7_text4_ja",
+      "lang": "ja",
+      "text": "[sadly, watching]かぐや姫の後ろ姿を見送っていました。"
+    },
+    {
+      "audio": "page7_text4_en",
+      "lang": "en",
+      "text": "[sadly, watching]always watching."
+    },
+    {
+      "audio": "page7_text5_ja",
+      "lang": "ja",
+      "text": "[sadly, reflecting]みかど様も、かぐや姫が昇っていくのを見て、とても悲しみました。"
+    },
+    {
+      "audio": "page7_text5_en",
+      "lang": "en",
+      "text": "[sadly, reflecting]The Emperor also saw Princess Kaguya ascending and was deeply saddened."
+    },
+    {
+      "audio": "page7_text6_ja",
+      "lang": "ja",
+      "text": "[despairingly, dramatically]「かぐや姫のいない世界で、長生きしても意味がない」[calmly, narrating]と言い、"
+    },
+    {
+      "audio": "page7_text6_en",
+      "lang": "en",
+      "text": "[calmly, narrating]He said, [despairingly, dramatically]\"What is the meaning of living long in a world without Princess Kaguya?\""
+    },
+    {
+      "audio": "page7_text7_ja",
+      "lang": "ja",
+      "text": "[dramatically, solemnly]日本一高い山の頂上で、残された薬を燃やさせました。"
+    },
+    {
+      "audio": "page7_text7_en",
+      "lang": "en",
+      "text": "[dramatically, solemnly]and had the remaining elixir burned on the summit of Japan's tallest mountain."
+    },
+    {
+      "audio": "page8_text1_ja",
+      "lang": "ja",
+      "text": "[narrating, mythically]ふし の薬の煙が天へと昇り続けたことから、"
+    },
+    {
+      "audio": "page8_text1_en",
+      "lang": "en",
+      "text": "[narrating, mythically]Because the smoke from the elixir of immortality continued to rise to the heavens,"
+    },
+    {
+      "audio": "page8_text2_ja",
+      "lang": "ja",
+      "text": "[narrating, mythically]その山を「富士山」と呼ぶようになったそうです。"
+    },
+    {
+      "audio": "page8_text2_en",
+      "lang": "en",
+      "text": "[narrating, mythically]that mountain came to be called \"Mount Fuji\"."
+    },
+    {
+      "audio": "page8_text3_ja",
+      "lang": "ja",
+      "text": "[calmly, concluding]こうして、かぐや姫は月の都へ帰っていきましたが、"
+    },
+    {
+      "audio": "page8_text3_en",
+      "lang": "en",
+      "text": "[calmly, concluding]And so, Princess Kaguya returned to the Moon Capital,"
+    },
+    {
+      "audio": "page8_text4_ja",
+      "lang": "ja",
+      "text": "[nostalgically, sadly]おじいさんとおばあさんは、いつまでも、"
+    },
+    {
+      "audio": "page8_text4_en",
+      "lang": "en",
+      "text": "[nostalgically, sadly]but the old man and woman never forgot"
+    },
+    {
+      "audio": "page8_text5_ja",
+      "lang": "ja",
+      "text": "[nostalgically, sadly]かぐや姫のことを忘れることはありませんでした。"
+    },
+    {
+      "audio": "page8_text5_en",
+      "lang": "en",
+      "text": "[nostalgically, sadly]about Princess Kaguya."
+    },
+    {
+      "audio": "question1_ja",
+      "lang": "ja",
+      "text": "[questioning, calmly]おじいさんは山で何を見つけましたか？ 光る石、不思議な竹、珍しい花"
+    },
+    {
+      "audio": "question1_en",
+      "lang": "en",
+      "text": "[questioning, calmly]What did the old man find in the mountain? A shining stone, A mysterious bamboo, An unusual flower"
+    },
+    {
+      "audio": "question2_ja",
+      "lang": "ja",
+      "text": "[questioning, calmly]竹の中から出てきたのは誰でしたか？ 小さなおサル、小さなお姫様、小さな男の子"
+    },
+    {
+      "audio": "question2_en",
+      "lang": "en",
+      "text": "[questioning, calmly]Who came out from the bamboo? A little monkey, A little princess, A little boy"
+    },
+    {
+      "audio": "question3_ja",
+      "lang": "ja",
+      "text": "[questioning, calmly]かぐや姫は、結婚の条件として何を求めましたか？ たくさんの宝物、世界一の笛、自分にふさわしい宝物"
+    },
+    {
+      "audio": "question3_en",
+      "lang": "en",
+      "text": "[questioning, calmly]What did Princess Kaguya demand as a condition for marriage? Lots of treasure, The world's best flute, A treasure worthy of her"
+    },
+    {
+      "audio": "question4_ja",
+      "lang": "ja",
+      "text": "[questioning, calmly]かぐや姫は、どこから来たと言いましたか？ 月の都、海の底、遠い外国"
+    },
+    {
+      "audio": "question4_en",
+      "lang": "en",
+      "text": "[questioning, calmly]Where did Princess Kaguya say she came from? The Moon Capital, The bottom of the sea, A faraway foreign country"
+    },
+    {
+      "audio": "question5_ja",
+      "lang": "ja",
+      "text": "[questioning, calmly]不死の薬を燃やした山は、何と呼ばれるようになりましたか？ 立山、富士山、白山"
+    },
+    {
+      "audio": "question5_en",
+      "lang": "en",
+      "text": "[questioning, calmly]What did the mountain where the elixir was burned come to be called? Mount Tate, Mount Fuji, Mount Haku"
+    }
+  ]
+}

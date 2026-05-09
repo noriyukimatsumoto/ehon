@@ -183,13 +183,13 @@
     {
       "audio": "page3_text2_ja",
       "lang": "ja",
-      "text": "お店で石灰を食べて声を優しくしました。",
+      "text": "お店で石灰を食べて声を高くしました。",
       "prompt": "[scheming, changing voice]"
     },
     {
       "audio": "page3_text2_en",
       "lang": "en",
-      "text": "so he ate chalk at a shop to make his voice gentler.",
+      "text": "so he ate chalk at a shop to make his voice higher.",
       "prompt": "[scheming, changing voice]"
     },
     {
@@ -207,13 +207,13 @@
     {
       "audio": "page3_text4_ja",
       "lang": "ja",
-      "text": "パン屋さんで粉をつけ、足も白くしてもらいました。",
+      "text": "パン屋さんで粉をつけ、足も白くしました。",
       "prompt": "[deceptively, changing appearance]"
     },
     {
       "audio": "page3_text4_en",
       "lang": "en",
-      "text": "he went to a bakery and had flour put on them to make them white.",
+      "text": "he went to a bakery and put flour on them to make them white.",
       "prompt": "[deceptively, changing appearance]"
     },
     {
@@ -231,13 +231,13 @@
     {
       "audio": "page4_text2_ja",
       "lang": "ja",
-      "text": "今度は、優しくなった声と、白い足で",
+      "text": "今度は、高くなった声と、白い足で",
       "prompt": "[deceptively, confidently]"
     },
     {
       "audio": "page4_text2_en",
       "lang": "en",
-      "text": "This time, with his gentler voice and white feet,",
+      "text": "This time, with his higher voice and white feet,",
       "prompt": "[deceptively, confidently]"
     },
     {
@@ -603,13 +603,13 @@
     {
       "audio": "question2_ja",
       "lang": "ja",
-      "text": "狼は、子ヤギたちを騙すために、どんな工夫をしましたか？石灰を食べて声を優しくし、足に粉をつけた、歌を歌って子ヤギたちを眠らせた、お母さんヤギの真似をして、子ヤギたちを怖がらせた",
+      "text": "狼は、子ヤギたちを騙すために、どんな工夫をしましたか？石灰を食べて声を高くし、足に粉をつけた、歌を歌って子ヤギたちを眠らせた、お母さんヤギの真似をして、子ヤギたちを怖がらせた",
       "prompt": "[question, recalling]"
     },
     {
       "audio": "question2_en",
       "lang": "en",
-      "text": "What did the wolf do to trick the goats? Ate chalk to soften his voice and put flour on his feet, Sang a song to make the goats sleep, Imitated the mother goat to scare the kids",
+      "text": "What did the wolf do to trick the goats? Ate chalk to raise his voice and put flour on his feet, Sang a song to make the goats sleep, Imitated the mother goat to scare the kids",
       "prompt": "[question, recalling]"
     },
     {

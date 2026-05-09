@@ -1,0 +1,409 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、あるところに、おじいさんとおばあさんが住んでいました。",
+          "en": "Once upon a time, there lived an old man and an old woman.",
+          "duration": 5,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "おじいさんは山へ芝刈りに、おばあさんは川へ洗濯に行きました。",
+          "en": "The old man went to the mountains to cut grass, and the old woman went to the river to wash clothes.",
+          "duration": 5,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "川から大きな桃がどんぶらこ、どんぶらこと流れてきました。",
+          "en": "A large peach came floating down the river, bobbing along.",
+          "duration": 5,
+          "audio": "page1_text3"
+        },
+        {
+          "ja": "「あら、不思議！こんな大きな桃、見たことないわ。」",
+          "en": "\"Oh, how strange! I've never seen such a big peach.\"",
+          "duration": 4,
+          "audio": "page1_text4"
+        },
+        {
+          "ja": "おばあさんは桃を家に持ち帰り、割ってみると、中から元気な男の子が飛び出してきました！",
+          "en": "The old woman took the peach home, and when they cut it open, a healthy baby boy popped out!",
+          "duration": 7,
+          "audio": "page1_text5"
+        },
+        {
+          "ja": "「わあ！元気な赤ちゃん！この子は桃から生まれたから『桃太郎』と名付けましょう。」",
+          "en": "\"Wow! A healthy baby! Since this child was born from a peach, let's name him 'Momotaro'.\"",
+          "duration": 7,
+          "audio": "page1_text6"
+        },
+        {
+          "ja": "桃太郎はすくすくと大きくなり、力持ちで、優しくて、正義感のある立派な若者になりました。",
+          "en": "Momotaro grew up quickly, becoming a fine young man who was strong, kind, and righteous.",
+          "duration": 7,
+          "audio": "page1_text7"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "ある日、桃太郎はおじいさんとおばあさんに言いました。「僕、鬼ヶ島に行って、悪い鬼たちを退治してきたいんです。」",
+          "en": "One day, Momotaro said to his grandparents, \"I want to go to Onigashima and defeat the evil ogres.\"",
+          "duration": 8,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "昔から、鬼ヶ島には恐ろしい鬼たちが住んでいて、村人たちを困らせていました。",
+          "en": "For a long time, terrible ogres had lived on Onigashima, troubling the villagers.",
+          "duration": 7,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "おじいさんとおばあさんは心配しましたが、桃太郎の強い決意を知り、送り出してあげることにしました。",
+          "en": "The old couple was worried, but knowing Momotaro's strong resolve, they decided to let him go.",
+          "duration": 7,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "おばあさんは、桃太郎のために、日本一おいしいきびだんごをたくさん作ってくれました。",
+          "en": "The old woman made many of the best millet dumplings in Japan for Momotaro.",
+          "duration": 7,
+          "audio": "page2_text4"
+        },
+        {
+          "ja": "「このきびだんごを持っていきなさい。きっと役に立つでしょう。」",
+          "en": "\"Take these millet dumplings with you. They will surely be useful.\"",
+          "duration": 5,
+          "audio": "page2_text5"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "桃太郎は、きびだんごを持って、鬼ヶ島へ出発しました。",
+          "en": "Momotaro set off for Onigashima with the millet dumplings.",
+          "duration": 5,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "道中、一匹の犬に出会いました。「桃太郎さん、どこへ行くのですか？」",
+          "en": "Along the way, he met a dog. \"Where are you going, Momotaro?\"",
+          "duration": 6,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "「鬼ヶ島へ鬼退治に行くんだ。このきびだんごを一つあげよう。」",
+          "en": "\"I'm going to Onigashima to defeat the ogres. Here, have a millet dumpling.\"",
+          "duration": 6,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "犬は桃太郎のきびだんごをもらい、桃太郎のお供になることを決めました。",
+          "en": "The dog accepted the millet dumpling and decided to become Momotaro's companion.",
+          "duration": 6,
+          "audio": "page3_text4"
+        },
+        {
+          "ja": "「わんわん！桃太郎さんのために、一生懸命お手伝いします！」",
+          "en": "\"Woof woof! I will help you with all my might, Momotaro!\"",
+          "duration": 5,
+          "audio": "page3_text5"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "しばらく歩くと、今度は一匹の猿に出会いました。「桃太郎さん、どこへ行くのですか？」",
+          "en": "After walking for a while, he met a monkey. \"Where are you going, Momotaro?\"",
+          "duration": 6,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "「鬼ヶ島へ鬼退治に行くんだ。このきびだんごを一つあげよう。」",
+          "en": "\"I'm going to Onigashima to defeat the ogres. Here, have a millet dumpling.\"",
+          "duration": 6,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "猿は桃太郎のきびだんごをもらい、桃太郎のお供になることを決めました。",
+          "en": "The monkey accepted the millet dumpling and decided to become Momotaro's companion.",
+          "duration": 6,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "「キーキー！桃太郎さんのために、一生懸命お手伝いします！」",
+          "en": "\"Screech screech! I will help you with all my might, Momotaro!\"",
+          "duration": 5,
+          "audio": "page4_text4"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "さらに歩くと、今度は一羽の雉に出会いました。「桃太郎さん、どこへ行くのですか？」",
+          "en": "Walking further, he then met a pheasant. \"Where are you going, Momotaro?\"",
+          "duration": 6,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "「鬼ヶ島へ鬼退治に行くんだ。このきびだんごを一つあげよう。」",
+          "en": "\"I'm going to Onigashima to defeat the ogres. Here, have a millet dumpling.\"",
+          "duration": 6,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "雉は桃太郎のきびだんごをもらい、桃太郎のお供になることを決めました。",
+          "en": "The pheasant accepted the millet dumpling and decided to become Momotaro's companion.",
+          "duration": 6,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "「けーん、けーん！桃太郎さんのために、一生懸命お手伝いします！」",
+          "en": "\"Keeeenn, keeeenn! I will help you with all my might, Momotaro!\"",
+          "duration": 5,
+          "audio": "page5_text4"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "こうして、桃太郎は犬と猿と雉と鬼ヶ島へ向かいました。",
+          "en": "And so, Momotaro headed to Onigashima with the dog, monkey, and pheasant.",
+          "duration": 6,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "鬼ヶ島に着くと、桃太郎たちは鬼の城に乗り込みました。",
+          "en": "Upon arriving at Onigashima, Momotaro and his companions infiltrated the ogres' castle.",
+          "duration": 6,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "鬼たちは、桃太郎たちが来たことに驚き、襲いかかってきました。",
+          "en": "The ogres were surprised by Momotaro's arrival and attacked.",
+          "duration": 6,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "しかし、桃太郎は刀を振りかざし、犬は鋭い歯で、猿は賢い頭で、雉は鋭いくちばしで、それぞれの力で鬼たちに立ち向かいました。",
+          "en": "However, Momotaro brandished his sword, the dog with its sharp teeth, the monkey with its cleverness, and the pheasant with its sharp beak, each fought the ogres with their respective strengths.",
+          "duration": 12,
+          "audio": "page6_text4"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "桃太郎の勇気と、お供たちの活躍により、鬼たちは次々と降参しました。",
+          "en": "Thanks to Momotaro's courage and his companions' efforts, the ogres surrendered one after another.",
+          "duration": 7,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "「もう、二度と悪いことはしません！どうか、私たちを許してください！」",
+          "en": "\"We will never do evil things again! Please, forgive us!\"",
+          "duration": 7,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "桃太郎は、鬼たちが改心したことを喜び、彼らが村人たちから奪った宝物をすべて返してくれるように約束させました。",
+          "en": "Momotaro was pleased that the ogres had reformed and made them promise to return all the treasures they had stolen from the villagers.",
+          "duration": 9,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "そして、二度と悪いことをしないようにと鬼たちに約束させ、鬼ヶ島を後にしました。",
+          "en": "Then, making the ogres promise never to do evil again, Momotaro left Onigashima.",
+          "duration": 8,
+          "audio": "page7_text4"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "桃太郎は、たくさんの宝物を持って、おじいさんとおばあさんの元へ帰りました。",
+          "en": "Momotaro returned to his grandparents with many treasures.",
+          "duration": 7,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "おじいさんとおばあさんは、無事に帰ってきた桃太郎を心から喜びました。",
+          "en": "The old man and old woman were overjoyed that Momotaro had returned safely.",
+          "duration": 7,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "桃太郎は、鬼退治の功績を称えられ、村人たちからも感謝されました。",
+          "en": "Momotaro was praised for his heroic deed of defeating the ogres and was thanked by the villagers.",
+          "duration": 8,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "そして、桃太郎はおじいさんとおばあさんと一緒に、いつまでも幸せに暮らしました。",
+          "en": "And Momotaro lived happily ever after with his grandparents.",
+          "duration": 7,
+          "audio": "page8_text4"
+        }
+      ],
+      "image": "scene8.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "桃太郎は、何から生まれたと言っていましたか？",
+      "en": "What was Momotaro said to be born from?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question1",
+      "image": "question1.png",
+      "choices": [
+        {
+          "ja": "桃",
+          "en": "A peach",
+          "correct": true,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "おむすび",
+          "en": "A rice ball",
+          "correct": false,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "きびだんご",
+          "en": "A millet dumpling",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "桃太郎がお供にするためにあげたものは何ですか？",
+      "en": "What did Momotaro give to make companions?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question2",
+      "image": "question2.png",
+      "choices": [
+        {
+          "ja": "刀",
+          "en": "A sword",
+          "correct": false,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "きびだんご",
+          "en": "A millet dumpling",
+          "correct": true,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "宝物",
+          "en": "Treasure",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "桃太郎のお供になった動物は何匹いましたか？",
+      "en": "How many animals became Momotaro's companions?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question3",
+      "image": "question3.png",
+      "choices": [
+        {
+          "ja": "2匹",
+          "en": "Two",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "3匹",
+          "en": "Three",
+          "correct": true,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "4匹",
+          "en": "Four",
+          "correct": false,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "桃太郎はどこへ鬼退治に行きましたか？",
+      "en": "Where did Momotaro go to defeat the ogres?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question4",
+      "image": "question4.png",
+      "choices": [
+        {
+          "ja": "山",
+          "en": "The mountains",
+          "correct": false,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "川",
+          "en": "The river",
+          "correct": false,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "鬼ヶ島",
+          "en": "Onigashima",
+          "correct": true,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "桃太郎は鬼たちから何を取り返しましたか？",
+      "en": "What did Momotaro get back from the ogres?",
+      "duration": 5,
+      "answerDuration": 5,
+      "audio": "question5",
+      "image": "question5.png",
+      "choices": [
+        {
+          "ja": "宝物",
+          "en": "Treasure",
+          "correct": true,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "きびだんご",
+          "en": "Millet dumplings",
+          "correct": false,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "桃",
+          "en": "Peaches",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "桃太郎"
+}

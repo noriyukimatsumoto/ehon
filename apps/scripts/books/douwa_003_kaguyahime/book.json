@@ -1,0 +1,499 @@
+{
+  "pages": [
+    {
+      "texts": [
+        {
+          "ja": "むかしむかし、あるところに",
+          "en": "Once upon a time, in a certain place,",
+          "duration": 2,
+          "audio": "page1_text1"
+        },
+        {
+          "ja": "おじいさんとおばあさんが住んでいました。",
+          "en": "lived an old man and an old woman.",
+          "duration": 3,
+          "audio": "page1_text2"
+        },
+        {
+          "ja": "おじいさんは山へ行き、毎日一生懸命竹を切っていました。",
+          "en": "The old man went to the mountain and cut bamboo diligently every day.",
+          "duration": 6,
+          "audio": "page1_text3"
+        },
+        {
+          "ja": "ある日、いつものように竹を切っていると、",
+          "en": "One day, while cutting bamboo as usual,",
+          "duration": 4,
+          "audio": "page1_text4"
+        },
+        {
+          "ja": "ピカピカ光る不思議な竹を見つけました。",
+          "en": "he found a mysterious, sparkling bamboo.",
+          "duration": 4,
+          "audio": "page1_text5"
+        },
+        {
+          "ja": "「これは珍しい！」おじいさんはその竹を家に持ち帰りました。",
+          "en": "\"How unusual!\" The old man took the bamboo home.",
+          "duration": 6,
+          "audio": "page1_text6"
+        }
+      ],
+      "image": "scene1.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おばあさんがその竹を割ってみると、",
+          "en": "When the old woman split the bamboo,",
+          "duration": 4,
+          "audio": "page2_text1"
+        },
+        {
+          "ja": "なんと中から小さな女の子が出てきました。",
+          "en": "a tiny girl came out from inside.",
+          "duration": 4,
+          "audio": "page2_text2"
+        },
+        {
+          "ja": "「まあ！なんて可愛らしい！」",
+          "en": "\"Oh! How lovely!\"",
+          "duration": 3,
+          "audio": "page2_text3"
+        },
+        {
+          "ja": "おばあさんはびっくりしましたが、とても嬉しくなって、",
+          "en": "The old woman was surprised, but very happy,",
+          "duration": 5,
+          "audio": "page2_text4"
+        },
+        {
+          "ja": "その子を「かぐや姫」と名付けて、大切に育てることにしました。",
+          "en": "named the child \"Princess Kaguya\", and decided to raise her with care.",
+          "duration": 7,
+          "audio": "page2_text5"
+        },
+        {
+          "ja": "かぐや姫は、みるみるうちに美しく、賢い女の子に成長しました。",
+          "en": "Princess Kaguya quickly grew into a beautiful and wise girl.",
+          "duration": 7,
+          "audio": "page2_text6"
+        },
+        {
+          "ja": "その美しさは、まるで月の光のように輝いていました。",
+          "en": "Her beauty shone like the moonlight,",
+          "duration": 6,
+          "audio": "page2_text7"
+        }
+      ],
+      "image": "scene2.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "さて、かぐや姫が大人になると、その美しさは国中に知れ渡り、",
+          "en": "When Princess Kaguya grew up, her beauty became known throughout the land,",
+          "duration": 7,
+          "audio": "page3_text1"
+        },
+        {
+          "ja": "たくさんの偉い人たちが結婚を申し込んできました。",
+          "en": "and many noble men came to propose marriage.",
+          "duration": 6,
+          "audio": "page3_text2"
+        },
+        {
+          "ja": "でも、かぐや姫は「私にふさわしい宝物を持ってこられた方としか結婚しません」",
+          "en": "But Princess Kaguya said, \"I will only marry one who brings me a treasure worthy of me.\"",
+          "duration": 9,
+          "audio": "page3_text3"
+        },
+        {
+          "ja": "と言って、皆を困らせました。",
+          "en": "and puzzled everyone.",
+          "duration": 3,
+          "audio": "page3_text4"
+        },
+        {
+          "ja": "ある人は、お釈迦様が持つという、石の鉢を持ってきました。",
+          "en": "One brought a stone bowl said to be possessed by Buddha.",
+          "duration": 7,
+          "audio": "page3_text5"
+        },
+        {
+          "ja": "またある人は、蓬莱山にあるという、金と銀と玉でできた枝を持ってきました。",
+          "en": "Another brought a branch made of gold, silver, and jewels from Mount Hōrai.",
+          "duration": 10,
+          "audio": "page3_text6"
+        },
+        {
+          "ja": "でも、みんな、かぐや姫がお見通しで、「これは本物ではありません」と断られてしまいました。",
+          "en": "But Princess Kaguya saw through them all and rejected them, saying, \"These are not real.\"",
+          "duration": 11,
+          "audio": "page3_text7"
+        }
+      ],
+      "image": "scene3.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "とうとう、帝様までかぐや姫に会いに来られ、結婚を申し込まれました。",
+          "en": "Finally, even the Emperor came to meet Princess Kaguya and proposed marriage.",
+          "duration": 8,
+          "audio": "page4_text1"
+        },
+        {
+          "ja": "帝様はとても立派な方でしたが、かぐや姫は「お断りします」とお返事しました。",
+          "en": "The Emperor was a very fine person, but Princess Kaguya replied, \"I refuse.\"",
+          "duration": 10,
+          "audio": "page4_text2"
+        },
+        {
+          "ja": "帝様はかぐや姫のことが忘れられず、それからも何度も会いに来られましたが、",
+          "en": "The Emperor could not forget Princess Kaguya and visited her many times afterward,",
+          "duration": 9,
+          "audio": "page4_text3"
+        },
+        {
+          "ja": "かぐや姫の心は動きませんでした。",
+          "en": "but Princess Kaguya's heart was not moved.",
+          "duration": 5,
+          "audio": "page4_text4"
+        },
+        {
+          "ja": "そんなある日、かぐや姫は、おじいさんとおばあさんに、悲しい顔でこう言いました。",
+          "en": "Then one day, Princess Kaguya said to the old man and woman with a sad face:",
+          "duration": 10,
+          "audio": "page4_text5"
+        },
+        {
+          "ja": "「私は、月の都から来た者なのです。",
+          "en": "\"I am from the Moon Capital.",
+          "duration": 4,
+          "audio": "page4_text6"
+        },
+        {
+          "ja": "もうすぐ、月の都へ帰らなければなりません。」",
+          "en": "Soon, I must return to the Moon Capital.\"",
+          "duration": 6,
+          "audio": "page4_text7"
+        }
+      ],
+      "image": "scene4.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "おじいさんとおばあさんは、びっくりして泣き出してしまいました。",
+          "en": "The old man and woman were surprised and started to cry.",
+          "duration": 6,
+          "audio": "page5_text1"
+        },
+        {
+          "ja": "「かぐや姫、どうしてなの？",
+          "en": "\"Princess Kaguya, why?",
+          "duration": 3,
+          "audio": "page5_text2"
+        },
+        {
+          "ja": "私たちとずっと一緒にいてほしいのに！」",
+          "en": "We want you to be with us forever!\"",
+          "duration": 5,
+          "audio": "page5_text3"
+        },
+        {
+          "ja": "かぐや姫も悲しそうに言いました。",
+          "en": "Princess Kaguya also said sadly,",
+          "duration": 4,
+          "audio": "page5_text4"
+        },
+        {
+          "ja": "「私も、おじいさんとおばあさんと離れるのはつらいです。",
+          "en": "\"It is painful for me too to be separated from you,",
+          "duration": 6,
+          "audio": "page5_text5"
+        },
+        {
+          "ja": "でも、私は月の都に帰らなければならないのです。」",
+          "en": "but I must return to the Moon Capital.\"",
+          "duration": 7,
+          "audio": "page5_text6"
+        }
+      ],
+      "image": "scene5.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "いよいよ、月の都から迎えが来る日がやってきました。",
+          "en": "Finally, the day came when escorts arrived from the Moon Capital.",
+          "duration": 7,
+          "audio": "page6_text1"
+        },
+        {
+          "ja": "空には、たくさんの不思議な乗り物が現れ、",
+          "en": "Many mysterious vehicles appeared in the sky,",
+          "duration": 5,
+          "audio": "page6_text2"
+        },
+        {
+          "ja": "色とりどりの光が辺りを照らしました。",
+          "en": "and colorful lights illuminated the surroundings.",
+          "duration": 5,
+          "audio": "page6_text3"
+        },
+        {
+          "ja": "月の都の人たちは、とても優しく、",
+          "en": "The people from the Moon Capital were very kind,",
+          "duration": 4,
+          "audio": "page6_text4"
+        },
+        {
+          "ja": "かぐや姫に「さあ、帰りましょう」と誘いました。",
+          "en": "and invited Princess Kaguya, saying, \"Now, let's go home.\"",
+          "duration": 6,
+          "audio": "page6_text5"
+        },
+        {
+          "ja": "かぐや姫は、おじいさんとおばあさんに別れを告げ、",
+          "en": "Princess Kaguya bid farewell to the old man and woman,",
+          "duration": 6,
+          "audio": "page6_text6"
+        },
+        {
+          "ja": "帝様への手紙と不老不死の薬を残していきました。",
+          "en": "and left a letter for the Emperor and the elixir of immortality.",
+          "duration": 7,
+          "audio": "page6_text7"
+        }
+      ],
+      "image": "scene6.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "そして、かぐや姫は、月の都から来た人たちと一緒に、",
+          "en": "And so, Princess Kaguya, together with the people from the Moon Capital,",
+          "duration": 7,
+          "audio": "page7_text1"
+        },
+        {
+          "ja": "光り輝く空へと昇っていきました。",
+          "en": "she ascended into the radiant sky.",
+          "duration": 5,
+          "audio": "page7_text2"
+        },
+        {
+          "ja": "おじいさんとおばあさんは、いつまでも見えなくなるまで、",
+          "en": "The old man and woman watched her retreating figure until she disappeared from view,",
+          "duration": 8,
+          "audio": "page7_text3"
+        },
+        {
+          "ja": "かぐや姫の後ろ姿を見送っていました。",
+          "en": "always watching.",
+          "duration": 4,
+          "audio": "page7_text4"
+        },
+        {
+          "ja": "帝様も、かぐや姫が昇っていくのを見て、とても悲しみました。",
+          "en": "The Emperor also saw Princess Kaguya ascending and was deeply saddened.",
+          "duration": 9,
+          "audio": "page7_text5"
+        },
+        {
+          "ja": "「かぐや姫のいない世界で、長生きしても意味がない」と言い、",
+          "en": "He said, \"What is the meaning of living long in a world without Princess Kaguya?\"",
+          "duration": 8,
+          "audio": "page7_text6"
+        },
+        {
+          "ja": "日本一高い山の頂上で、残された薬を燃やさせました。",
+          "en": "and had the remaining elixir burned on the summit of Japan's tallest mountain.",
+          "duration": 9,
+          "audio": "page7_text7"
+        }
+      ],
+      "image": "scene7.png"
+    },
+    {
+      "texts": [
+        {
+          "ja": "の薬の煙が天へと昇り続けたことから、",
+          "en": "Because the smoke from the elixir of immortality continued to rise to the heavens,",
+          "duration": 8,
+          "audio": "page8_text1"
+        },
+        {
+          "ja": "その山を「富士山」と呼ぶようになったそうです。",
+          "en": "that mountain came to be called \"Mount Fuji\".",
+          "duration": 6,
+          "audio": "page8_text2"
+        },
+        {
+          "ja": "こうして、かぐや姫は月の都へ帰っていきましたが、",
+          "en": "And so, Princess Kaguya returned to the Moon Capital,",
+          "duration": 7,
+          "audio": "page8_text3"
+        },
+        {
+          "ja": "おじいさんとおばあさんは、いつまでも、",
+          "en": "but the old man and woman never forgot",
+          "duration": 5,
+          "audio": "page8_text4"
+        },
+        {
+          "ja": "かぐや姫のことを忘れることはありませんでした。",
+          "en": "about Princess Kaguya.",
+          "duration": 5,
+          "audio": "page8_text5"
+        }
+      ],
+      "image": "scene8.png"
+    }
+  ],
+  "questions": [
+    {
+      "ja": "おじいさんは山で何を見つけましたか？",
+      "en": "What did the old man find in the mountain?",
+      "duration": 4,
+      "answerDuration": 3,
+      "audio": "question1",
+      "image": "scene1.png",
+      "choices": [
+        {
+          "ja": "光る石",
+          "en": "A shining stone",
+          "correct": false,
+          "audio": "question1_choice1"
+        },
+        {
+          "ja": "不思議な竹",
+          "en": "A mysterious bamboo",
+          "correct": true,
+          "audio": "question1_choice2"
+        },
+        {
+          "ja": "珍しい花",
+          "en": "An unusual flower",
+          "correct": false,
+          "audio": "question1_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "竹の中から出てきたのは誰でしたか？",
+      "en": "Who came out from the bamboo?",
+      "duration": 4,
+      "answerDuration": 3,
+      "audio": "question2",
+      "image": "scene2.png",
+      "choices": [
+        {
+          "ja": "小さなおサル",
+          "en": "A little monkey",
+          "correct": false,
+          "audio": "question2_choice1"
+        },
+        {
+          "ja": "小さなお姫様",
+          "en": "A little princess",
+          "correct": true,
+          "audio": "question2_choice2"
+        },
+        {
+          "ja": "小さな男の子",
+          "en": "A little boy",
+          "correct": false,
+          "audio": "question2_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "かぐや姫は、結婚の条件として何を求めましたか？",
+      "en": "What did Princess Kaguya demand as a condition for marriage?",
+      "duration": 6,
+      "answerDuration": 5,
+      "audio": "question3",
+      "image": "scene3.png",
+      "choices": [
+        {
+          "ja": "たくさんの宝物",
+          "en": "Lots of treasure",
+          "correct": false,
+          "audio": "question3_choice1"
+        },
+        {
+          "ja": "世界一の笛",
+          "en": "The world's best flute",
+          "correct": false,
+          "audio": "question3_choice2"
+        },
+        {
+          "ja": "自分にふさわしい宝物",
+          "en": "A treasure worthy of her",
+          "correct": true,
+          "audio": "question3_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "かぐや姫は、どこから来たと言いましたか？",
+      "en": "Where did Princess Kaguya say she came from?",
+      "duration": 5,
+      "answerDuration": 4,
+      "audio": "question4",
+      "image": "scene4.png",
+      "choices": [
+        {
+          "ja": "月の都",
+          "en": "The Moon Capital",
+          "correct": true,
+          "audio": "question4_choice1"
+        },
+        {
+          "ja": "海の底",
+          "en": "The bottom of the sea",
+          "correct": false,
+          "audio": "question4_choice2"
+        },
+        {
+          "ja": "遠い外国",
+          "en": "A faraway foreign country",
+          "correct": false,
+          "audio": "question4_choice3"
+        }
+      ]
+    },
+    {
+      "ja": "不死の薬を燃やした山は、何と呼ばれるようになりましたか？",
+      "en": "What did the mountain where the elixir was burned come to be called?",
+      "duration": 6,
+      "answerDuration": 4,
+      "audio": "question5",
+      "image": "scene8.png",
+      "choices": [
+        {
+          "ja": "立山",
+          "en": "Mount Tate",
+          "correct": false,
+          "audio": "question5_choice1"
+        },
+        {
+          "ja": "富士山",
+          "en": "Mount Fuji",
+          "correct": true,
+          "audio": "question5_choice2"
+        },
+        {
+          "ja": "白山",
+          "en": "Mount Haku",
+          "correct": false,
+          "audio": "question5_choice3"
+        }
+      ]
+    }
+  ],
+  "title": "かぐや姫"
+}

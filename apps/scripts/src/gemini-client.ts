@@ -42,9 +42,8 @@ const AUDIO_PROMPTS_SCHEMA = {
           audio: { type: Type.STRING },
           lang: { type: Type.STRING },
           text: { type: Type.STRING },
-          prompt: { type: Type.STRING },
         },
-        required: ["audio", "lang", "text", "prompt"],
+        required: ["audio", "lang", "text"],
       },
     },
   },
@@ -179,8 +178,12 @@ export class GeminiClient {
     this.genAI = new GoogleGenAI({ vertexai: true, project, location });
   }
 
-  async summarize(description: string, systemInstruction?: string): Promise<string> {
-    const baseInstruction = "物語の登場人物・出来事・結末を指示通りに要約してください。";
+  async summarize(
+    description: string,
+    systemInstruction?: string,
+  ): Promise<string> {
+    const baseInstruction =
+      "物語の登場人物・出来事・結末を指示通りに要約してください。";
     const result = await this.genAI.models.generateContent({
       model: this.model,
       contents: description,
@@ -269,9 +272,8 @@ ${scenesText}
   - 以下の順でプロンプトを構成してください。
     1. 主題: 画像の主体となる物体、人物、動物、風景などです。
     2. コンテキストと背景: たとえば、スタジオの白い背景、屋外、屋内の環境などです。
-    3. スタイルとムード: 画像スタイルは、${imageStyle} また画像の全体的ムードを指定してください。
-    4. 登場人物: シーンに登場する人物や動物がいる場合は、それらをプロンプトに含めてください。登場人物の特徴や表情、ポーズなども具体的に描写してください。
-  - 例 scene1.png のプロンプト：「男の子が大きな心を抱えている様子。夜空の下、星が輝いている。男の子は笑顔で、周りには小さな動物たちが集まっている。全体的に温かみのある色合いで、子ども向けのイラストスタイル。」
+    3. 登場人物: シーンに登場する人物や動物がいる場合は、それらをプロンプトに含めてください。登場人物の特徴や表情、ポーズなども具体的に描写してください。
+  - 例 scene1.png のプロンプト：「男の子が大きな心を抱えている様子。夜空の下、星が輝いている。男の子は笑顔で、周りには小さな動物たちが集まっている。全体的に温かみのある色合い。」
 - scenes の names: シーン内に登場する、登場人物や動物の名前をリスト形式で記載してください。characters と同じ名前を使用してください。
 
 ${scenesText}`;
@@ -338,15 +340,47 @@ ${JSON.stringify(bookData, null, 2)}
 
 ルール：
 - pages の texts（ja/en）は、全てのテキストを読み上げる必要があります。テキストを省略せず、全てentriesに含めてください。
-- questions の choices（ja/en）は、questionsと結合して読み上げるます。例えば、question1 と question1_choice1, question1_choice2, question1_choice3 を連結してください。
-- questions の choices（ja/en）は、entriesに含めないでください。
+- questions は、質問文と全ての選択肢を結合した1エントリのみ作成してください（ja・enそれぞれ）。
+  - choices の各エントリは個別にentriesへ含めないでください。
+  - audio は question の audio フィールドに "_ja" または "_en" を付けた値（例: "question1_ja"）
+  - 日本語は選択肢を「、」で区切り、英語は「, 」で区切って結合してください。
 - audio は book.json の audio フィールドに "_ja" または "_en" を付けた値（例: "page1_text1_ja"）
 - lang は "ja" または "en"
-- text は実際に読み上げるテキスト。データを変更しないこと。
-- prompt は物語の文脈に合ったスタイルをブラケットタグ形式の英語で記述する
-  - 形式: "[tag1, tag2]" のように複数指定可能
-  - 使用できるタグ例: slowly, quickly, warmly, gently, excitedly, sadly, fearfully, cheerfully, whispering, dramatically, calmly, tenderly
-  - 例: "[slowly, warmly]", "[excitedly, quickly]", "[sadly, gently]"`;
+- text は実際に読み上げるテキスト。データを変更しないこと。物語の文脈に合ったブランケットタグを英語で追加すること。
+  - ブランケットタグは、"[tag1, tag2]" のように複数指定可能。タグの例は以下の通りです。
+    - [happy], [sad], [angry], [calm], [excited], [scared], [narration], [questioning] など、テキストの感情やスタイルを表すタグ
+    - [soft], [loud], [whisper], [shout] など、音量や話し方を表すタグ
+  - ブランケットタグは、必ずテキストの前に含めてください。
+  - 台詞と地の文が混在する箇所は、ブランケットタグを使用して区別してください。例えば、台詞には [happy]、地の文には [narration] を使用するなどしてください。
+  - questions には必ず [questioning] タグを使用してください。
+
+【pages の例】
+book.json の page1 の texts に { ja: "ある日、桃太郎はおじいさんとおばあさんに言いました。「僕、鬼ヶ島に行って、悪い鬼たちを退治してきたいんです。」", en: "One day, Momotaro told his grandparents, 'I want to go to Onigashima and defeat the wicked ogres.'" } があれば、entriesには以下の2つを含める必要があります。
+  {
+    "audio": "page1_text1_ja",
+    "lang": "ja",
+    "text": "[narration,soft]ある日、桃太郎はおじいさんとおばあさんに言いました。[determined]「僕、鬼ヶ島に行って、悪い鬼たちを退治してきたいんです。」"
+  },
+  {
+    "audio": "page1_text1_en",
+    "lang": "en",
+    "text": "[narration,soft]One day, Momotaro told his grandparents, [determined]'I want to go to Onigashima and defeat the wicked ogres.'"
+  }
+
+【questions の例】
+question1 の ja が "桃太郎はどこから生まれましたか？" で choices が ["木", "桃", "岩"] であれば、entriesには以下の2つを含める必要があります（choicesの個別エントリは不要）。
+  {
+    "audio": "question1_ja",
+    "lang": "ja",
+    "text": "[questioning]桃太郎はどこから生まれましたか？木、桃、岩"
+  },
+  {
+    "audio": "question1_en",
+    "lang": "en",
+    "text": "[questioning]Where was Momotaro born? A tree, A peach, A rock"
+  }
+
+`;
 
     const result = await this.genAI.models.generateContent({
       model: this.model,
